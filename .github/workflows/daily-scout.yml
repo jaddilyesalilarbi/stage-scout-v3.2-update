@@ -1,0 +1,59 @@
+name: Daily stage scout
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '27 8 * * *'
+      timezone: "Europe/Paris"
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: daily-stage-scout
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install dependencies
+        run: python -m pip install -r requirements.txt
+      - name: Validate integration with offline unit tests
+        run: python -m unittest discover -s tests -v
+      - name: Search public listings
+        timeout-minutes: 22
+        env:
+          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
+          ADZUNA_APP_ID: ${{ secrets.ADZUNA_APP_ID }}
+          ADZUNA_APP_KEY: ${{ secrets.ADZUNA_APP_KEY }}
+        run: python -u run_safe.py
+      - name: Commit searchable results
+        if: ${{ !cancelled() }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A data/jobs.csv data/latest.md data/last_run.json || true
+          if ! git diff --cached --quiet; then
+            git commit -m "Update published internship findings"
+            git push
+          fi
+      - name: Create an issue with new opportunities
+        if: success()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ -s data/new.md ]; then
+            gh issue create --title "New internships - $(date -u +%Y-%m-%d)" --body-file data/new.md
+          else
+            echo "No new relevant internships."
+          fi

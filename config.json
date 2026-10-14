@@ -1,0 +1,534 @@
+{
+  "profile": "EPFL Mechanical Engineering MSc: 5-6 month engineering internships / industrial Master thesis (PDM). Mechanical design, system integration, structural FEA, composites, testing, manufacturing, robotics, space, medical, energy.",
+  "minimum_score": 32,
+  "preferred_locations": [
+    "switzerland",
+    "suisse",
+    "schweiz",
+    "france",
+    "lausanne",
+    "geneva",
+    "geneve",
+    "zurich",
+    "bern",
+    "paris",
+    "grenoble",
+    "toulouse",
+    "lyon",
+    "netherlands",
+    "belgium",
+    "luxembourg",
+    "united kingdom",
+    "uk",
+    "ireland",
+    "germany",
+    "deutschland",
+    "austria",
+    "italy",
+    "spain",
+    "sweden",
+    "denmark",
+    "norway",
+    "finland",
+    "canada",
+    "united states",
+    "usa",
+    "singapore"
+  ],
+  "priority_companies": [
+    "Airbus",
+    "Airbus Defence and Space",
+    "Safran",
+    "Safran Landing Systems",
+    "CEA",
+    "ABB",
+    "VAT Group",
+    "Hitachi Energy",
+    "KeriMedical",
+    "Dassault Aviation",
+    "ClearSpace",
+    "Hydromea",
+    "Flybotix",
+    "Ecorobotix",
+    "Bobst",
+    "ANYbotics",
+    "Swiss Solar Boat",
+    "Navier",
+    "Harmattan AI",
+    "Aerospec",
+    "Alpion CryoSolutions",
+    "Anaconda Biomed",
+    "ANAVIA",
+    "APCO Technologies",
+    "apheros",
+    "Audemars Piguet",
+    "Audi F1 Team",
+    "Axpo",
+    "B&R",
+    "Buhler",
+    "CaptuREE",
+    "Clean Horizon",
+    "Destinus",
+    "EMS Electro Medical Systems",
+    "GraphEnergyTech",
+    "Hexagon",
+    "Liebherr",
+    "Mettler Toledo",
+    "Parker Meggitt",
+    "Pilatus",
+    "Primeo Energie",
+    "Rea Diagnostics",
+    "Richemont",
+    "Rollomatic",
+    "Romande Energie",
+    "Saab",
+    "Rolls-Royce",
+    "Thales",
+    "Schaeffler",
+    "Bosch",
+    "Dornier",
+    "OHB",
+    "Beyond Gravity",
+    "Sonceboz",
+    "Wandercraft",
+    "Lilium",
+    "Joby Aviation",
+    "ArianeGroup",
+    "Alstom",
+    "Siemens Energy",
+    "GE Vernova",
+    "Northvolt"
+  ],
+  "boards": [],
+  "arbeitnow_enabled": false,
+  "arbeitnow_pages": 2,
+  "serpapi_searches_per_day": 0,
+  "google_jobs_queries": [],
+  "adzuna_queries": [],
+  "ats_direct_enabled": true,
+  "company_careers": [
+    {
+      "name": "Harmattan AI",
+      "url": "https://jobs.ashbyhq.com/harmattan-ai"
+    },
+    {
+      "name": "Planet Labs",
+      "url": "https://job-boards.greenhouse.io/planetlabs"
+    }
+  ],
+  "ats_dataset": {
+    "enabled": true,
+    "providers": [
+      "greenhouse",
+      "workday",
+      "lever",
+      "ashby",
+      "smartrecruiters",
+      "successfactors",
+      "oracle",
+      "icims",
+      "workable",
+      "personio",
+      "softgarden",
+      "eures"
+    ],
+    "scan_mode": "source_sweep",
+    "providers_per_day": 4,
+    "max_candidates_per_provider": 1200
+  },
+  "jobspy": {
+    "enabled": true,
+    "sites": [
+      "indeed"
+    ],
+    "searches_per_day": 6,
+    "queries": [
+      {
+        "search_term": "stage ingénieur mécanique",
+        "location": "France",
+        "country_indeed": "France",
+        "results_wanted": 35
+      },
+      {
+        "search_term": "stage conception mécanique",
+        "location": "Paris",
+        "country_indeed": "France",
+        "results_wanted": 35
+      },
+      {
+        "search_term": "stage calcul de structures",
+        "location": "Toulouse",
+        "country_indeed": "France",
+        "results_wanted": 35
+      },
+      {
+        "search_term": "stage intégration systèmes",
+        "location": "Lyon",
+        "country_indeed": "France",
+        "results_wanted": 35
+      },
+      {
+        "search_term": "stage simulation éléments finis",
+        "location": "Grenoble",
+        "country_indeed": "France",
+        "results_wanted": 35
+      },
+      {
+        "search_term": "stage ingénieur essais",
+        "location": "Nantes",
+        "country_indeed": "France",
+        "results_wanted": 35
+      },
+      {
+        "search_term": "stage R&D mécanique",
+        "location": "Bordeaux",
+        "country_indeed": "France",
+        "results_wanted": 35
+      },
+      {
+        "search_term": "stage matériaux composites",
+        "location": "France",
+        "country_indeed": "France",
+        "results_wanted": 35
+      },
+      {
+        "search_term": "stage ingénieur production",
+        "location": "Lille",
+        "country_indeed": "France",
+        "results_wanted": 35
+      },
+      {
+        "search_term": "stage mécanique robotique",
+        "location": "France",
+        "country_indeed": "France",
+        "results_wanted": 35
+      },
+      {
+        "search_term": "stage thermique CFD",
+        "location": "France",
+        "country_indeed": "France",
+        "results_wanted": 35
+      },
+      {
+        "search_term": "stage ingénieur aéronautique",
+        "location": "Toulouse",
+        "country_indeed": "France",
+        "results_wanted": 35
+      },
+      {
+        "search_term": "stage conception mécanique",
+        "location": "Marseille",
+        "country_indeed": "France",
+        "results_wanted": 35
+      },
+      {
+        "search_term": "stage ingénieur industrialisation",
+        "location": "France",
+        "country_indeed": "France",
+        "results_wanted": 35
+      },
+      {
+        "search_term": "PFE ingénieur mécanique",
+        "location": "France",
+        "country_indeed": "France",
+        "results_wanted": 35
+      },
+      {
+        "search_term": "mechanical engineering intern",
+        "location": "Switzerland",
+        "country_indeed": "Switzerland",
+        "results_wanted": 35
+      },
+      {
+        "search_term": "master thesis mechanical engineering",
+        "location": "Lausanne",
+        "country_indeed": "Switzerland",
+        "results_wanted": 35
+      },
+      {
+        "search_term": "systems engineering internship",
+        "location": "Geneva",
+        "country_indeed": "Switzerland",
+        "results_wanted": 35
+      },
+      {
+        "search_term": "mechanical design intern",
+        "location": "Zurich",
+        "country_indeed": "Switzerland",
+        "results_wanted": 35
+      },
+      {
+        "search_term": "structural engineering internship",
+        "location": "Basel",
+        "country_indeed": "Switzerland",
+        "results_wanted": 35
+      },
+      {
+        "search_term": "mechatronics internship",
+        "location": "Neuchatel",
+        "country_indeed": "Switzerland",
+        "results_wanted": 35
+      },
+      {
+        "search_term": "engineering master thesis",
+        "location": "Switzerland",
+        "country_indeed": "Switzerland",
+        "results_wanted": 35
+      },
+      {
+        "search_term": "mechanical internship",
+        "location": "Bern",
+        "country_indeed": "Switzerland",
+        "results_wanted": 35
+      },
+      {
+        "search_term": "mechanical design internship",
+        "location": "Eindhoven",
+        "country_indeed": "Netherlands",
+        "results_wanted": 35
+      },
+      {
+        "search_term": "mechanical engineering internship",
+        "location": "Delft",
+        "country_indeed": "Netherlands",
+        "results_wanted": 35
+      },
+      {
+        "search_term": "master thesis engineering",
+        "location": "Netherlands",
+        "country_indeed": "Netherlands",
+        "results_wanted": 35
+      },
+      {
+        "search_term": "mechatronics internship",
+        "location": "Netherlands",
+        "country_indeed": "Netherlands",
+        "results_wanted": 35
+      },
+      {
+        "search_term": "mechanical intern",
+        "location": "Leuven",
+        "country_indeed": "Belgium",
+        "results_wanted": 35
+      },
+      {
+        "search_term": "mechanical engineering internship",
+        "location": "Brussels",
+        "country_indeed": "Belgium",
+        "results_wanted": 35
+      },
+      {
+        "search_term": "industrial engineering intern",
+        "location": "Luxembourg",
+        "country_indeed": "Luxembourg",
+        "results_wanted": 35
+      },
+      {
+        "search_term": "mechanical engineering intern",
+        "location": "London",
+        "country_indeed": "UK",
+        "results_wanted": 35
+      },
+      {
+        "search_term": "aerospace engineering intern",
+        "location": "Bristol",
+        "country_indeed": "UK",
+        "results_wanted": 35
+      },
+      {
+        "search_term": "mechanical engineering internship",
+        "location": "Oxford",
+        "country_indeed": "UK",
+        "results_wanted": 35
+      },
+      {
+        "search_term": "engineering internship",
+        "location": "Dublin",
+        "country_indeed": "Ireland",
+        "results_wanted": 35
+      },
+      {
+        "search_term": "mechanical design intern",
+        "location": "Munich",
+        "country_indeed": "Germany",
+        "results_wanted": 35
+      },
+      {
+        "search_term": "mechanical engineering internship english",
+        "location": "Berlin",
+        "country_indeed": "Germany",
+        "results_wanted": 35
+      },
+      {
+        "search_term": "master thesis mechanical english",
+        "location": "Germany",
+        "country_indeed": "Germany",
+        "results_wanted": 35
+      },
+      {
+        "search_term": "mechanical engineering intern",
+        "location": "Vienna",
+        "country_indeed": "Austria",
+        "results_wanted": 35
+      },
+      {
+        "search_term": "mechanical engineering internship",
+        "location": "Milan",
+        "country_indeed": "Italy",
+        "results_wanted": 35
+      },
+      {
+        "search_term": "mechanical design intern",
+        "location": "Turin",
+        "country_indeed": "Italy",
+        "results_wanted": 35
+      },
+      {
+        "search_term": "aerospace internship",
+        "location": "Rome",
+        "country_indeed": "Italy",
+        "results_wanted": 35
+      },
+      {
+        "search_term": "mechanical engineering internship",
+        "location": "Barcelona",
+        "country_indeed": "Spain",
+        "results_wanted": 35
+      },
+      {
+        "search_term": "mechanical intern",
+        "location": "Stockholm",
+        "country_indeed": "Sweden",
+        "results_wanted": 35
+      },
+      {
+        "search_term": "master thesis engineering",
+        "location": "Gothenburg",
+        "country_indeed": "Sweden",
+        "results_wanted": 35
+      },
+      {
+        "search_term": "robotics internship",
+        "location": "Copenhagen",
+        "country_indeed": "Denmark",
+        "results_wanted": 35
+      },
+      {
+        "search_term": "mechanical engineering internship",
+        "location": "Oslo",
+        "country_indeed": "Norway",
+        "results_wanted": 35
+      },
+      {
+        "search_term": "mechanical engineering intern",
+        "location": "Helsinki",
+        "country_indeed": "Finland",
+        "results_wanted": 35
+      },
+      {
+        "search_term": "mechanical intern",
+        "location": "Montreal",
+        "country_indeed": "Canada",
+        "results_wanted": 35
+      },
+      {
+        "search_term": "engineering internship",
+        "location": "Toronto",
+        "country_indeed": "Canada",
+        "results_wanted": 35
+      },
+      {
+        "search_term": "mechanical design intern",
+        "location": "Vancouver",
+        "country_indeed": "Canada",
+        "results_wanted": 35
+      },
+      {
+        "search_term": "mechanical engineering intern",
+        "location": "San Francisco, CA",
+        "country_indeed": "USA",
+        "results_wanted": 35
+      },
+      {
+        "search_term": "structural engineering intern",
+        "location": "Boston, MA",
+        "country_indeed": "USA",
+        "results_wanted": 35
+      },
+      {
+        "search_term": "mechanical design intern",
+        "location": "Seattle, WA",
+        "country_indeed": "USA",
+        "results_wanted": 35
+      },
+      {
+        "search_term": "robotics engineering intern",
+        "location": "New York, NY",
+        "country_indeed": "USA",
+        "results_wanted": 35
+      },
+      {
+        "search_term": "aerospace intern",
+        "location": "Los Angeles, CA",
+        "country_indeed": "USA",
+        "results_wanted": 35
+      },
+      {
+        "search_term": "energy engineering intern",
+        "location": "Houston, TX",
+        "country_indeed": "USA",
+        "results_wanted": 35
+      },
+      {
+        "search_term": "systems integration intern",
+        "location": "Austin, TX",
+        "country_indeed": "USA",
+        "results_wanted": 35
+      },
+      {
+        "search_term": "mechanical engineering internship",
+        "location": "Singapore",
+        "country_indeed": "Singapore",
+        "results_wanted": 35
+      },
+      {
+        "search_term": "mechanical engineering intern",
+        "location": "Sydney",
+        "country_indeed": "Australia",
+        "results_wanted": 35
+      }
+    ]
+  },
+  "excluded_languages": [
+    "de"
+  ],
+  "exclude_required_german": true,
+  "company_discovery": {
+    "enabled": true,
+    "companies_per_day": 8,
+    "max_exact_matches_per_company": 2
+  },
+  "scan_limits": {
+    "max_runtime_seconds": 960,
+    "per_source_timeout_seconds": {
+      "direct": 40,
+      "jobspy": 50,
+      "discovery": 25,
+      "ats": 80,
+      "boards": 35,
+      "arbeitnow": 40,
+      "serpapi": 45,
+      "adzuna": 45
+    },
+    "stage_budgets_seconds": {
+      "direct": 90,
+      "jobspy": 310,
+      "discovery": 210,
+      "ats": 330,
+      "boards": 90,
+      "arbeitnow": 45,
+      "serpapi": 50,
+      "adzuna": 50
+    }
+  }
+}

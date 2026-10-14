@@ -1,0 +1,46 @@
+[
+  {
+    "company": "Harmattan AI",
+    "title": "Mechanical Design Intern",
+    "location": "Paris, France",
+    "url": "https://jobs.ashbyhq.com/harmattan-ai/example",
+    "description": "Six months mechanical internship: CAD, prototyping, structural FEA, validation and tests. Start January 2027.",
+    "source": "Ashby",
+    "posted_at": "",
+    "kind_hint": "Full time",
+    "verification": "published_board"
+  },
+  {
+    "company": "ABB",
+    "title": "Master Thesis - Mechanical Systems Integration",
+    "location": "Zurich, Switzerland",
+    "url": "https://jobs.example.org/abb/mechanical-thesis",
+    "description": "Six months project integrating mechanical systems with structural simulations and manufacturing testing.",
+    "source": "Greenhouse",
+    "posted_at": "",
+    "kind_hint": "Intern",
+    "verification": "published_board"
+  },
+  {
+    "company": "Example Business",
+    "title": "Marketing Intern",
+    "location": "Paris, France",
+    "url": "https://example.org/marketing",
+    "description": "Marketing campaigns and sales analytics.",
+    "source": "Ashby",
+    "posted_at": "",
+    "kind_hint": "Intern",
+    "verification": "published_board"
+  },
+  {
+    "company": "Example Business",
+    "title": "Software Developer Intern",
+    "location": "Paris, France",
+    "url": "https://example.org/software",
+    "description": "Frontend web software development and Python testing.",
+    "source": "Ashby",
+    "posted_at": "",
+    "kind_hint": "Intern",
+    "verification": "published_board"
+  }
+]
