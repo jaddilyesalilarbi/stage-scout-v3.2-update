@@ -16,7 +16,7 @@ EUROPE_ALPHA2 = frozenset({
     "AD", "AL", "AT", "BA", "BE", "BG", "BY", "CH", "CY", "CZ", "DE",
     "DK", "EE", "ES", "FI", "FR", "GB", "GR", "HR", "HU", "IE", "IS",
     "IT", "LI", "LT", "LU", "LV", "MC", "MD", "ME", "MK", "MT", "NL",
-    "NO", "PL", "PT", "RO", "RS", "SE", "SI", "SK", "SM", "UA", "VA",
+    "NO", "PL", "PT", "RO", "RS", "SE", "SI", "SK", "SM", "UA", "VA", "XK",
 })
 UNCERTAIN_BORDER_COUNTRIES = {"AM", "AZ", "GE", "KZ", "RU", "TR"}
 
@@ -90,6 +90,17 @@ OUTSIDE_CITIES = {
     "shanghai", "shenzhen", "seoul", "busan", "taipei", "hong kong",
     "cairo", "cape town", "johannesburg", "casablanca", "rabat",
     "algiers", "nairobi", "lagos", "shanghai", "shenyang",
+    # Asia-Pacific cities frequently published without a country field.
+    "ho chi minh city", "ho chi minh", "saigon", "hanoi", "ha noi",
+    "rayong", "bangkok", "chonburi", "pattaya", "samud prakan",
+    "ayutthaya", "da nang", "danang", "hai phong", "bien hoa",
+    "kuala lumpur", "penang", "johor bahru", "kulim", "ipoh",
+    "manila", "makati", "quezon city", "cebu", "jakarta", "surabaya",
+    "bandung", "batam", "yogyakarta", "phnom penh", "siem reap",
+    "dhaka", "chittagong", "kolkata", "chennai", "pune", "noida",
+    "gurugram", "gurgaon", "ahmedabad", "nagoya", "yokohama",
+    "fukuoka", "kyoto", "sapporo", "taichung", "kaohsiung",
+    "guangzhou", "dongguan", "suzhou", "chengdu", "wuhan", "qingdao",
 }
 # Most common North American state/province suffixes. These take precedence
 # over shared city names such as Paris (TX), London (ON), Berlin (CT).
@@ -160,27 +171,49 @@ def classify_location(location: str) -> str:
     eu_city = has_phrase(text, EUROPE_CITIES)
     other_city = has_phrase(text, OUTSIDE_CITIES)
 
-    # e.g. 'Geneva, IL' or 'London, ON' is in North America, not Europe.
-    # Avoid assuming 'Berlin, DE' is the US state of Delaware.
-    region_codes = set(re.findall(r"(?:[,(/]|\s+-\s+)\s*([A-Z]{2})(?=\b|\s|$)", raw))
-    north_american_region = bool((region_codes & NORTH_AMERICAN_REGION_CODES) - AMBIGUOUS_REGION_CODES)
-    if region_codes & NORTH_AMERICAN_REGION_CODES and other_city:
+    # The ATS datasets frequently use lower-case ISO suffixes like
+    # "Ho Chi Minh City, vn" or "Rayong, th". The old parser recognized ONLY
+    # uppercase suffixes; this caused non-European jobs to be marked unknown
+    # and retained. Accept upper/lower/mixed case for ISO-2 and ISO-3 codes.
+    #
+    # Only treat an abbreviation as a code if it appears AFTER a location
+    # delimiter (comma, slash, semicolon, parenthesis, or spaced hyphen).
+    # That avoids reading normal words like "in" as India or "it" as Italy.
+    region_codes = {
+        token.upper() for token in re.findall(
+            r"(?:[,(/;|\[]|\s+-\s+)\s*([a-z]{2,3})\b", raw, flags=re.I
+        )
+    }
+    # Also accept locations consisting solely of an ISO code (e.g. "VN").
+    if re.fullmatch(r"[a-z]{2,3}", raw.strip(), flags=re.I):
+        region_codes.add(raw.strip().upper())
+
+    alpha2 = {code for code in region_codes if len(code) == 2}
+    alpha3 = {code for code in region_codes if len(code) == 3}
+    north_american_region = bool((alpha2 & NORTH_AMERICAN_REGION_CODES) - AMBIGUOUS_REGION_CODES)
+    if alpha2 & NORTH_AMERICAN_REGION_CODES and other_city:
         north_american_region = True
     if north_american_region:
         other_country = True
-    # Employer boards often use e.g. 'Paris, FR' or 'Zurich, CH'.
-    for code in region_codes:
+
+    # Country code alone is more authoritative than a city name, which may
+    # be shared by multiple countries (e.g. Paris, Texas; London, Ontario).
+    import pycountry
+    for code in alpha2:
         if code in EUROPE_ALPHA2 and not (north_american_region and not eu_country):
             eu_country = True
-    # Other ISO codes appear as country suffixes on global ATS listings.
-    for code in region_codes:
-        if code not in EUROPE_ALPHA2 and len(code) == 2 and code not in UNCERTAIN_BORDER_COUNTRIES:
-            try:
-                import pycountry
-                if pycountry.countries.get(alpha_2=code):
-                    other_country = True
-            except ImportError:
-                pass
+        elif code not in EUROPE_ALPHA2 and code not in UNCERTAIN_BORDER_COUNTRIES:
+            if pycountry.countries.get(alpha_2=code):
+                other_country = True
+    for code in alpha3:
+        country = pycountry.countries.get(alpha_3=code)
+        if country:
+            country_code = country.alpha_2
+            if country_code in EUROPE_ALPHA2:
+                if not (north_american_region and not eu_country):
+                    eu_country = True
+            elif country_code not in UNCERTAIN_BORDER_COUNTRIES:
+                other_country = True
     has_europe = eu_country or eu_city
     has_outside = other_country or other_city
     if has_europe and has_outside:
