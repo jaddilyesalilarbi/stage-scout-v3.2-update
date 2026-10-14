@@ -1,16 +1,16 @@
 {
   "date": "2026-10-14",
-  "observed": 5183,
-  "matches": 687,
-  "new": 687,
+  "observed": 5180,
+  "matches": 569,
+  "new": 12,
   "excluded_by_language": 385,
-  "excluded_by_summer": 983,
-  "excluded_outside_europe": 1557,
-  "location_unknown_or_mixed": 688,
+  "excluded_by_summer": 984,
+  "excluded_outside_europe": 1791,
+  "location_unknown_or_mixed": 174,
   "history_removed": {
     "language": 0,
     "summer": 0,
-    "geography": 0
+    "geography": 129
   },
   "source_counts": {
     "ATS company discovery": 16,
@@ -18,8 +18,8 @@
     "ATS dataset / oracle": 1200,
     "ATS dataset / smartrecruiters": 1200,
     "ATS dataset / successfactors": 1200,
-    "ATS direct": 275,
-    "JobSpy / indeed": 92
+    "ATS direct": 273,
+    "JobSpy / indeed": 91
   },
   "source_health": {
     "attempted": 20,
@@ -34,14 +34,14 @@
         "name": "Harmattan AI",
         "status": "completed",
         "count": 152,
-        "duration_seconds": 1.1
+        "duration_seconds": 1.0
       },
       {
         "stage": "direct",
         "name": "Planet Labs",
         "status": "completed",
-        "count": 123,
-        "duration_seconds": 0.9
+        "count": 121,
+        "duration_seconds": 1.0
       },
       {
         "stage": "jobspy",
@@ -54,22 +54,22 @@
         "stage": "jobspy",
         "name": "mechanical design intern @ Munich",
         "status": "completed",
-        "count": 12,
-        "duration_seconds": 0.9
+        "count": 13,
+        "duration_seconds": 1.0
       },
       {
         "stage": "jobspy",
         "name": "mechanical engineering internship english @ Berlin",
         "status": "completed",
         "count": 10,
-        "duration_seconds": 1.4
+        "duration_seconds": 1.0
       },
       {
         "stage": "jobspy",
         "name": "master thesis mechanical english @ Germany",
         "status": "completed",
-        "count": 33,
-        "duration_seconds": 1.1
+        "count": 31,
+        "duration_seconds": 1.2
       },
       {
         "stage": "jobspy",
@@ -90,7 +90,7 @@
         "name": "ANAVIA",
         "status": "completed",
         "count": 16,
-        "duration_seconds": 4.4
+        "duration_seconds": 4.7
       },
       {
         "stage": "discovery",
@@ -104,21 +104,21 @@
         "name": "apheros",
         "status": "error",
         "count": 0,
-        "duration_seconds": 1.7
+        "duration_seconds": 2.0
       },
       {
         "stage": "discovery",
         "name": "Audemars Piguet",
         "status": "completed",
         "count": 0,
-        "duration_seconds": 1.2
+        "duration_seconds": 1.1
       },
       {
         "stage": "discovery",
         "name": "Audi F1 Team",
         "status": "completed",
         "count": 0,
-        "duration_seconds": 1.0
+        "duration_seconds": 1.3
       },
       {
         "stage": "discovery",
@@ -139,35 +139,35 @@
         "name": "Buhler",
         "status": "completed",
         "count": 0,
-        "duration_seconds": 1.0
+        "duration_seconds": 1.1
       },
       {
         "stage": "ats",
         "name": "ATS provider: smartrecruiters",
         "status": "completed",
         "count": 1200,
-        "duration_seconds": 39.0
+        "duration_seconds": 46.7
       },
       {
         "stage": "ats",
         "name": "ATS provider: successfactors",
         "status": "completed",
         "count": 1200,
-        "duration_seconds": 48.2
+        "duration_seconds": 51.5
       },
       {
         "stage": "ats",
         "name": "ATS provider: oracle",
         "status": "completed",
         "count": 1200,
-        "duration_seconds": 36.7
+        "duration_seconds": 25.3
       },
       {
         "stage": "ats",
         "name": "ATS provider: icims",
         "status": "completed",
         "count": 1200,
-        "duration_seconds": 9.1
+        "duration_seconds": 10.7
       }
     ]
   },
