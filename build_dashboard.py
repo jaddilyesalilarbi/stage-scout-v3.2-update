@@ -10,6 +10,7 @@ import csv
 from datetime import datetime, timezone
 import json
 from pathlib import Path
+from coverage_report import load_coverage, merge_coverage
 import re
 
 ROOT = Path(__file__).resolve().parent
@@ -131,7 +132,26 @@ def build(root: Path = ROOT) -> Path:
             meta['observed'] = run.get('observed')
         except (ValueError, OSError):
             pass
-    payload = json.dumps({'meta': meta, 'jobs': jobs}, ensure_ascii=False, separators=(',', ':'))
+    # The coverage report keeps confirmed scans separate from unverified
+    # company directory lookups; CSV edits appear after a dashboard-only build.
+    config_path = root / 'config.json'
+    config = json.loads(config_path.read_text(encoding='utf-8')) if config_path.exists() else {}
+    previous = load_coverage(root)
+    # One-time bootstrap from the previous 3.x run; it includes direct scans
+    # but must not label empty directory lookups as completed board scans.
+    bootstrap = None
+    stamp = None
+    if not previous and report.exists():
+        try:
+            last = json.loads(report.read_text(encoding='utf-8'))
+            bootstrap = (last.get('source_health') or {}).get('sources', [])
+            stamp = last.get('date')
+        except (OSError, ValueError):
+            pass
+    coverage = merge_coverage(config, root / 'companies.csv', previous,
+                              source_statuses=bootstrap, today=stamp)
+    meta['company_targets'] = len(coverage['companies'])
+    payload = json.dumps({'meta': meta, 'jobs': jobs, 'coverage': coverage['companies']}, ensure_ascii=False, separators=(',', ':'))
     payload = payload.replace('</', '<\\/').replace('<!--', '<\\!--')
     output = template.replace('/*__CSS__*/', style).replace('/*__JS__*/', script).replace('__JOB_DATA_JSON__', payload)
     dest = root / 'dashboard' / 'index.html'

@@ -207,6 +207,96 @@
   }
   function closePanels() { $('detail-pane').classList.remove('open'); $('filter-pane').classList.remove('open'); $('mobile-scrim').hidden = true; }
   function showDetail(id) { selectedId = id; renderList(); renderDetail(); if (window.matchMedia('(max-width:1190px)').matches) { $('detail-pane').classList.add('open'); $('mobile-scrim').hidden = false; } }
+
+  // -------- Verified employer coverage, independent from job aggregates --------
+  const coverageCompanies = Array.isArray(payload.coverage) ? payload.coverage : [];
+  function coverageState(row) {
+    if (row.enabled === false) return 'pending';
+    const status = row.last_outcome || '';
+    if (['scanned', 'directory_result'].includes(status)) return 'scanned';
+    if (['directory_result', 'lookup_only', 'not_found'].includes(status)) return 'lookup';
+    if (['error', 'timeout', 'unsupported_url', 'invalid_url', 'failed'].includes(status)) return 'error';
+    return 'pending';
+  }
+  function coverageLabel(row) {
+    if (row.enabled === false) return 'Désactivée';
+    const status = row.last_outcome || '';
+    const labels = {
+      scanned: 'Site scanné', directory_result: 'Scannée via annuaire', lookup_only: 'Annuaire seulement',
+      not_found: 'Non trouvée', timeout: 'Délai dépassé', error: 'Erreur de scan',
+      unsupported_url: 'URL non compatible', invalid_url: 'URL invalide'
+    };
+    return labels[status] || 'Pas encore scannée';
+  }
+  function countryLabel(code) {
+    return ({FR:'France',CH:'Suisse',DE:'Allemagne',NL:'Pays-Bas',BE:'Belgique',UK:'Royaume-Uni',GB:'Royaume-Uni'})[code] || code || 'Non renseigné';
+  }
+  function isRecentSuccessfulScan(row) {
+    const d = daysAgo(row.last_success);
+    return d >= 0 && d <= 14;
+  }
+  function renderCoverage() {
+    const all = coverageCompanies;
+    const q = norm($('cov-search').value.trim());
+    const country = $('cov-country').value;
+    const state = $('cov-state').value;
+    const rows = all.filter(row => {
+      const matchesTerm = !q || norm([row.name, row.country, row.careers_url, row.notes, row.last_resolved_url].join(' ')).includes(q);
+      const matchesCountry = !country || (country === 'other' ? !['FR','CH'].includes(row.country) : row.country === country);
+      return matchesTerm && matchesCountry && (!state || coverageState(row) === state);
+    });
+    $('cov-all').textContent = all.filter(r => r.enabled !== false).length.toLocaleString('fr-FR');
+    $('cov-scanned').textContent = all.filter(r => r.enabled !== false && isRecentSuccessfulScan(r)).length.toLocaleString('fr-FR');
+    $('cov-urls').textContent = all.filter(r => r.enabled !== false && /^https?:\/\//i.test(r.careers_url || '')).length.toLocaleString('fr-FR');
+    $('cov-missing').textContent = all.filter(r => r.enabled !== false && !r.careers_url).length.toLocaleString('fr-FR');
+    $('cov-count').textContent = `${rows.length.toLocaleString('fr-FR')} entreprises affichées · Un « scan » = le connecteur a effectivement consulté la page ATS`;
+    $('coverage-rows').innerHTML = rows.length ? rows.map(row => {
+      const state = coverageState(row);
+      const url = /^https?:\/\//i.test(row.careers_url || '') ? row.careers_url : '';
+      const resolved = /^https?:\/\//i.test(row.last_resolved_url || '') ? row.last_resolved_url : '';
+      const urlText = url ? `<a href="${esc(url)}" target="_blank" rel="noopener noreferrer" class="cov-url" title="${esc(url)}">${esc(url)}</a>` : '<span class="cov-blank">URL à compléter</span>';
+      const resolvedText = resolved && resolved !== url ? `<a class="cov-url cov-small" href="${esc(resolved)}" target="_blank" rel="noopener noreferrer">ATS découvert ↗</a>` : '';
+      const originLabel = row.origin === 'csv_watchlist' ? 'Liste CSV' : row.origin === 'config_direct' ? 'Configuration directe' : 'Recherche annuaire (config)';
+      return `<tr>
+        <td><div class="cov-name">${esc(row.name)}</div><div class="cov-origin">${esc(originLabel)}${row.notes ? ' · ' + esc(row.notes) : ''}</div></td>
+        <td>${esc(countryLabel(row.country))}</td>
+        <td>${urlText}${resolvedText}</td>
+        <td><span class="cov-tag ${state}">${esc(coverageLabel(row))}</span>${row.last_message ? `<div class="cov-small">${esc(row.last_message)}</div>` : ''}</td>
+        <td>${esc(prettifyDate(row.last_attempt || ''))}${row.last_success && row.last_success !== row.last_attempt ? `<div class="cov-small">Dernier succès : ${esc(prettifyDate(row.last_success))}</div>` : ''}</td>
+        <td>${row.last_jobs === undefined ? '—' : Number(row.last_jobs).toLocaleString('fr-FR')}</td>
+      </tr>`;
+    }).join('') : '<tr><td colspan="6" style="padding:28px;text-align:center;color:#8a97a5">Aucune entreprise pour ces filtres.</td></tr>';
+  }
+  function exportCoverageCSV() {
+    const watched = coverageCompanies;
+    const header = ['name','country','careers_url','enabled','notes'];
+    const quote = s => `"${String(s ?? '').replaceAll('"','""')}"`;
+    const rows = [header.join(','), ...watched.map(r => [r.name,r.country,r.careers_url,r.enabled===false?'no':'yes',r.notes].map(quote).join(','))];
+    downloadFile('companies.csv', '\ufeff' + rows.join('\r\n'), 'text/csv;charset=utf-8');
+    toast(`${watched.length} entreprises exportées. Remplace companies.csv dans GitHub pour modifier la surveillance.`);
+  }
+  function showView(view) {
+    const jobsView = view === 'jobs';
+    $('coverage-page').hidden = jobsView;
+    document.querySelector('.workspace').hidden = !jobsView;
+    document.querySelector('.summary').hidden = !jobsView;
+    $('tab-jobs').classList.toggle('active', jobsView);
+    $('tab-coverage').classList.toggle('active', !jobsView);
+    $('tab-jobs').setAttribute('aria-pressed', String(jobsView));
+    $('tab-coverage').setAttribute('aria-pressed', String(!jobsView));
+    closePanels();
+    if (!jobsView) renderCoverage();
+  }
+  function initCoverage() {
+    $('tab-jobs').addEventListener('click', () => showView('jobs'));
+    $('tab-coverage').addEventListener('click', () => showView('coverage'));
+    for (const id of ['cov-search','cov-country','cov-state']) {
+      $(id).addEventListener(id === 'cov-search' ? 'input' : 'change', renderCoverage);
+    }
+    $('coverage-export').addEventListener('click', exportCoverageCSV);
+    renderCoverage();
+  }
+
   function init() {
     loadTracking();
     const countries = [...new Set(jobs.map(j => j.country))].sort((a,b)=>a.localeCompare(b,'fr'));
@@ -236,6 +326,7 @@
     $('mobile-scrim').addEventListener('click', closePanels);
     document.addEventListener('keydown', e => { if(e.key === 'Escape') closePanels(); if (e.key === '/' && !['INPUT','TEXTAREA','SELECT'].includes(document.activeElement?.tagName)) { e.preventDefault(); $('search').focus(); } });
     refresh(true);
+    initCoverage();
   }
   init();
 })();

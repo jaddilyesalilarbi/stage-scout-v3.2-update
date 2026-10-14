@@ -19,15 +19,17 @@ import tempfile
 import time
 
 import scout
+from company_watchlist import load_watchlist, selected_targets, scan_target
+from coverage_report import write_coverage
 
 ROOT = Path(__file__).resolve().parent
 DEFAULT_TIMEOUTS = {
     "direct": 40, "jobspy": 50, "discovery": 25, "ats": 80,
-    "boards": 35, "arbeitnow": 40, "serpapi": 45, "adzuna": 45,
+    "boards": 35, "arbeitnow": 40, "serpapi": 45, "adzuna": 45, "watchlist": 40,
 }
 DEFAULT_STAGE_BUDGETS = {
     "direct": 90, "jobspy": 310, "discovery": 210, "ats": 330,
-    "boards": 90, "arbeitnow": 45, "serpapi": 50, "adzuna": 50,
+    "boards": 90, "arbeitnow": 45, "serpapi": 50, "adzuna": 50, "watchlist": 240,
 }
 
 
@@ -35,12 +37,29 @@ def selected(config: dict, items: list, n: int) -> list:
     return scout.chosen_searches({"google_jobs_queries": items}, max(0, n))
 
 
-def make_tasks(config: dict) -> list[tuple[str, str, object]]:
+def make_tasks(config: dict, registry_path: Path = ROOT / "companies.csv") -> list[tuple[str, str, object]]:
     """Create bounded tasks with predictable rotation across days."""
     tasks = []
-    if config.get("ats_direct_enabled", True):
-        for item in config.get("company_careers", []):
+    watchlist = load_watchlist(registry_path)
+    registry_names = {r["key"] for r in watchlist}
+    config_direct = config.get("company_careers", [])
+    directly_configured = {scout.company_key(item.get("name", "")) for item in config_direct}
+    # A user-supplied URL takes precedence over a legacy config URL. Blank CSV
+    # URLs retain the working legacy direct scraper, without double-fetching.
+    for item in config_direct:
+        key = scout.company_key(item.get("name", ""))
+        row = next((r for r in watchlist if r["key"] == key), None)
+        if row and (not row["enabled"] or row["careers_url"]):
+            continue
+        if config.get("ats_direct_enabled", True):
             tasks.append(("direct", str(item.get("name") or item.get("url")), item))
+    limit = max(0, int((config.get("watchlist") or {}).get("companies_per_day", 10)))
+    active = [r for r in watchlist if not (r["key"] in directly_configured and not r["careers_url"])]
+    for item in selected_targets(active, max_per_day=limit):
+        tasks.append(("watchlist", item["name"], item))
+    scheduled_company_keys = {scout.company_key(label) for stage, label, _ in tasks
+                              if stage in {"watchlist", "direct"}}
+    registry_by_key = {r["key"]: r for r in watchlist}
     for item in config.get("boards", []):
         tasks.append(("boards", str(item.get("name") or item.get("id")), item))
     settings = config.get("jobspy", {})
@@ -51,7 +70,15 @@ def make_tasks(config: dict) -> list[tuple[str, str, object]]:
             tasks.append(("jobspy", f"{spec.get('search_term', '')} @ {spec.get('location', '')}", spec))
     settings = config.get("company_discovery", {})
     if settings.get("enabled", False):
-        q = selected(config, config.get("priority_companies", []), int(settings.get("companies_per_day", 10)))
+        # Keep broad directory discovery even when users export all companies
+        # into the CSV. Avoid same-day duplicates, disabled companies and those
+        # already carrying a user-verified ATS URL.
+        unscheduled = [name for name in config.get("priority_companies", [])
+                       if scout.company_key(name) not in scheduled_company_keys
+                       and (scout.company_key(name) not in registry_by_key or
+                            (registry_by_key[scout.company_key(name)]["enabled"] and
+                             not registry_by_key[scout.company_key(name)]["careers_url"]))]
+        q = selected(config, unscheduled, int(settings.get("companies_per_day", 10)))
         for name in q:
             tasks.append(("discovery", str(name), name))
     settings = config.get("ats_dataset", {})
@@ -77,6 +104,9 @@ def perform_worker(kind: str, spec: object, config: dict) -> tuple[list[dict], l
     """One source per process so per-source timeouts and memory limits work."""
     if kind == "direct":
         return scout.fetch_ats_direct([spec])
+    if kind == "watchlist":
+        jobs, errors, _ = scan_target(spec)
+        return jobs, errors
     if kind == "boards":
         board = spec
         methods = {"ashby": scout.fetch_ashby, "greenhouse": scout.fetch_greenhouse, "lever": scout.fetch_lever}
@@ -176,8 +206,14 @@ def run_all(config_path: Path, output_dir: Path) -> int:
             stage_elapsed[kind] += duration
             jobs.extend(batch)
             errors.extend(problem)
-            statuses.append({"stage": kind, "name": label, "status": status,
-                             "count": len(batch), "duration_seconds": round(duration, 1)})
+            record = {"stage": kind, "name": label, "status": status,
+                      "count": len(batch), "duration_seconds": round(duration, 1)}
+            if kind == "watchlist" and (scratch / f"part-{index}.json").exists():
+                try:
+                    record["scan_info"] = json.loads((scratch / f"part-{index}.json").read_text(encoding="utf-8")).get("scan_info", {})
+                except (OSError, ValueError):
+                    pass
+            statuses.append(record)
             print(f"[RESULT] {kind}: {label} => {status}, {len(batch)} offers ({duration:.1f}s)", flush=True)
         health = {
             "attempted": sum(x["status"] != "skipped_budget" for x in statuses),
@@ -196,6 +232,11 @@ def run_all(config_path: Path, output_dir: Path) -> int:
                "--output", str(output_dir), "--raw-input", str(raw)]
         print(f"[REPORT] Consolidating {len(jobs)} postings from {len(tasks)} planned sources", flush=True)
         result = subprocess.run(cmd, cwd=ROOT, check=False)
+        try:
+            path = write_coverage(config_path.parent, output_dir, config, statuses)
+            print(f"[COVERAGE] Wrote {path} ({len(statuses)} source statuses)", flush=True)
+        except Exception as exc:
+            print(f"[WARN] Could not build company coverage: {type(exc).__name__}: {exc}", flush=True)
     if not jobs and errors:
         print("[WARN] No sources returned offers; check last_run.json and logs", flush=True)
     return result.returncode
@@ -214,11 +255,17 @@ def main() -> int:
         if args.result is None:
             parser.error("--result required for --worker")
         config = json.loads(args.config.read_text(encoding="utf-8"))
+        scan_info = {}
         try:
-            jobs, errors = perform_worker(args.worker, json.loads(args.spec), config)
+            if args.worker == "watchlist":
+                jobs, errors, scan_info = scan_target(json.loads(args.spec))
+            else:
+                jobs, errors = perform_worker(args.worker, json.loads(args.spec), config)
         except Exception as exc:
             jobs, errors = [], [f"{args.worker}: {type(exc).__name__}: {exc}"]
-        args.result.write_text(json.dumps({"jobs": jobs, "errors": errors}, ensure_ascii=False),
+            scan_info = {"outcome": "error", "message": str(exc)[:180]}
+        args.result.write_text(json.dumps({"jobs": jobs, "errors": errors,
+                                           "scan_info": scan_info}, ensure_ascii=False),
                                encoding="utf-8")
         return 0
     if args.show_plan:

@@ -14,6 +14,10 @@
       <div class="logo" aria-hidden="true"><span class="logo-arrow">↗</span></div>
       <div class="brand-copy"><span class="brand">STAGE SCOUT</span><span class="brand-sub">Tableau de bord des opportunités</span></div>
     </div>
+    <nav class="view-tabs" aria-label="Vues Stage Scout">
+      <button class="view-tab active" id="tab-jobs" type="button" aria-pressed="true">Offres</button>
+      <button class="view-tab" id="tab-coverage" type="button" aria-pressed="false">Couverture</button>
+    </nav>
     <div class="top-actions">
       <span id="update-date" class="last-updated"></span>
       <button id="export-track" type="button" class="button button-light" title="Télécharger les statuts, favoris et notes">↓ <span class="hide-small">Sauvegarder le suivi</span></button>
@@ -61,6 +65,33 @@
       <div id="job-detail" class="job-detail"><div class="empty-detail"><div class="empty-icon">↗</div><h3>Choisissez une offre</h3><p>Vous retrouverez ici ses informations, son lien et vos notes.</p></div></div>
     </section>
   </main>
+  <section id="coverage-page" class="coverage-page" aria-label="Couverture des entreprises" hidden>
+    <div class="coverage-heading">
+      <div><span class="coverage-eyebrow">TRANSPARENCE DES RECHERCHES</span><h1>Entreprises surveillées</h1>
+        <p>Une recherche dans un annuaire n'est pas un scan du site carrière. Les offres agrégées ATS restent comptées séparément.</p>
+      </div>
+      <button type="button" id="coverage-export" class="button button-light">↓ Exporter toutes les entreprises (.csv)</button>
+    </div>
+    <div class="coverage-stats" aria-label="Statistiques de couverture">
+      <div class="coverage-stat"><strong id="cov-all">—</strong><span>Entreprises ciblées</span></div>
+      <div class="coverage-stat"><strong id="cov-scanned">—</strong><span>Scannées (14 jours)</span></div>
+      <div class="coverage-stat"><strong id="cov-urls">—</strong><span>URL renseignées</span></div>
+      <div class="coverage-stat"><strong id="cov-missing">—</strong><span>URL à compléter</span></div>
+    </div>
+    <div class="coverage-board">
+      <div class="coverage-controls">
+        <label><span>Rechercher une entreprise</span><input type="search" id="cov-search" placeholder="Entreprise ou URL carrière…"></label>
+        <label><span>Pays ciblé</span><select id="cov-country"><option value="">Tous</option><option value="FR">France</option><option value="CH">Suisse</option><option value="other">Autres / non précisé</option></select></label>
+        <label><span>État du dernier contrôle</span><select id="cov-state"><option value="">Tous</option><option value="scanned">Scannée</option><option value="lookup">Annuaire seulement</option><option value="error">Échec / URL non compatible</option><option value="pending">Pas encore scannée</option></select></label>
+      </div>
+      <p class="coverage-count" id="cov-count" aria-live="polite"></p>
+      <div class="coverage-table-wrap"><table class="coverage-table">
+        <thead><tr><th>Entreprise</th><th>Pays</th><th>Page carrière / URL</th><th>Dernier contrôle</th><th>Quand</th><th>Offres brutes</th></tr></thead>
+        <tbody id="coverage-rows"></tbody>
+      </table></div>
+      <p class="coverage-footnote">Une URL seule ne prouve pas qu'un site est surveillé. Seul un retour réussi du connecteur ATS vaut « Scannée ». Pour ajouter ou corriger des URL : éditez <code>companies.csv</code> à la racine du dépôt, puis relancez <strong>Daily stage scout</strong>. Le tableau conserve l'historique des scans précédents.</p>
+    </div>
+  </section>
   <div class="mobile-scrim" id="mobile-scrim" hidden></div>
   <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
   <script type="application/json" id="job-data">__JOB_DATA_JSON__</script>
