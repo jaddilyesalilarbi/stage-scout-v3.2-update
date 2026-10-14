@@ -25,12 +25,20 @@ class RegistryTests(unittest.TestCase):
     def tearDown(self): self.tmp.cleanup()
     def write(self, text): self.path.write_text(text, encoding="utf-8-sig")
 
-    def test_real_template_and_fr_ch_targets(self):
+    def test_real_registry_accepts_european_targets_and_disabled_rows(self):
+        """The user CSV can expand beyond FR/CH and contain disabled targets."""
         rows = load_watchlist(ROOT / "companies.csv")
         self.assertGreaterEqual(len(rows), 35)
-        self.assertTrue(all(item["country"] in {"FR", "CH"} for item in rows))
-        self.assertTrue(all(item["enabled"] for item in rows))
-        self.assertIn("ABB", [x["name"] for x in rows])
+        self.assertIn("ABB", [row["name"] for row in rows])
+        self.assertEqual(len({row["key"] for row in rows}), len(rows))
+        self.assertTrue(any(row["country"] == "FR" and row["enabled"] for row in rows))
+        self.assertTrue(any(row["country"] == "CH" and row["enabled"] for row in rows))
+        # Blank countries are allowed when still being researched, and
+        # international companies can be disabled until reviewed.
+        self.assertTrue(all(not row["country"] or
+                            (len(row["country"]) == 2 and row["country"].isalpha())
+                            for row in rows))
+        self.assertTrue(all(row["url_valid"] for row in rows))
 
     def test_french_excel_csv_delimiter_and_unicode(self):
         self.write("name;country;careers_url;enabled;notes\nBühler;CH;https://jobs.example.com/buhler;oui;Check site\n")
@@ -52,13 +60,19 @@ class RegistryTests(unittest.TestCase):
             self.assertFalse(valid_public_url(url), url)
         self.assertTrue(valid_public_url("https://jobs.ashbyhq.com/company"))
 
-    def test_rotation_covers_whole_registry(self):
+    def test_rotation_covers_enabled_registry_in_actual_cycle_length(self):
+        """With 386 targets, ten checks a day cannot cover the list in 14 days."""
         rows = load_watchlist(ROOT / "companies.csv")
+        enabled = {row["name"] for row in rows if row["enabled"]}
+        per_day = 10
+        days = (len(enabled) + per_day - 1) // per_day
         visited = set()
-        for i in range(14):
-            for row in selected_targets(rows, today=date(2026, 10, 14) + timedelta(days=i), max_per_day=10):
-                visited.add(row["name"])
-        self.assertEqual(visited, {row["name"] for row in rows})
+        for i in range(days):
+            daily = selected_targets(rows, today=date(2026, 10, 14) + timedelta(days=i),
+                                     max_per_day=per_day)
+            self.assertLessEqual(len(daily), per_day)
+            visited.update(row["name"] for row in daily)
+        self.assertEqual(visited, enabled)
 
     def test_disabled_not_scheduled(self):
         rows = [{"name":"One","country":"FR","enabled":True}, {"name":"Two","country":"CH","enabled":False}]
