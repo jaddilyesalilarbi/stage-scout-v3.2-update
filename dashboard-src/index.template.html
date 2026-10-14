@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>Stage Scout — Tableau de bord</title>
+  <style>/*__CSS__*/</style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand-block">
+      <button id="mobile-filters" type="button" class="mobile-toggle icon-btn" title="Afficher les filtres" aria-label="Afficher les filtres">☰</button>
+      <div class="logo" aria-hidden="true"><span class="logo-arrow">↗</span></div>
+      <div class="brand-copy"><span class="brand">STAGE SCOUT</span><span class="brand-sub">Tableau de bord des opportunités</span></div>
+    </div>
+    <div class="top-actions">
+      <span id="update-date" class="last-updated"></span>
+      <button id="export-track" type="button" class="button button-light" title="Télécharger les statuts, favoris et notes">↓ <span class="hide-small">Sauvegarder le suivi</span></button>
+      <button id="import-track" type="button" class="button button-light" title="Restaurer un suivi sauvegardé">↑ <span class="hide-small">Restaurer</span></button>
+      <input type="file" id="import-file" accept="application/json,.json" hidden>
+    </div>
+  </header>
+
+  <section class="summary" aria-label="Vue générale">
+    <div class="summary-heading"><h1>Vos opportunités</h1><p>Recherchez, comparez et avancez sur les offres qui comptent.</p></div>
+    <div class="stat-row">
+      <div class="stat"><span class="stat-number" id="total-stat">—</span><span class="stat-label">Offres en base</span></div>
+      <div class="stat"><span class="stat-number" id="new-stat">—</span><span class="stat-label">Nouvelles (7 j)</span></div>
+      <div class="stat"><span class="stat-number" id="favorite-stat">—</span><span class="stat-label">Favoris</span></div>
+      <div class="stat"><span class="stat-number" id="applied-stat">—</span><span class="stat-label">Candidatures</span></div>
+    </div>
+  </section>
+
+  <main class="workspace">
+    <aside id="filter-pane" class="filter-pane" aria-label="Filtres de recherche">
+      <div class="pane-title"><h2>Filtres</h2><button id="clear-filters" type="button" class="text-link">Effacer</button></div>
+      <div class="filter-group"><label for="search">Recherche</label><div class="search-wrap"><span class="search-icon">⌕</span><input type="search" id="search" placeholder="Entreprise, poste, ville…" autocomplete="off" aria-label="Recherche dans toutes les offres"></div></div>
+      <div class="filter-group"><label for="country">Pays</label><select id="country"><option value="">Tous les pays</option></select></div>
+      <div class="filter-group"><label for="role">Type d'opportunité</label><select id="role"><option value="">Stages et PDM</option><option value="pdm">Projet de Master / Thesis</option><option value="intern">Stage / Internship</option></select></div>
+      <div class="filter-group"><label for="review-status">État du suivi</label><select id="review-status"><option value="">Tous les statuts</option><option value="to_review">À examiner</option><option value="shortlisted">Intéressant</option><option value="to_apply">À postuler</option><option value="applied">Postulé</option><option value="interview">Entretien</option><option value="rejected">Refusé</option><option value="ignored">Ignoré</option></select></div>
+      <div class="filter-group"><div class="range-head"><label for="min-score">Score minimum</label><output id="score-label" for="min-score">0</output></div><input id="min-score" type="range" min="0" max="100" step="5" value="0" aria-label="Score minimum"><div class="range-markers"><span>0</span><span>50</span><span>100</span></div></div>
+      <div class="filter-group filter-switches">
+        <label class="switch-row"><input id="fave-only" type="checkbox"><span>★ Favoris uniquement</span></label>
+        <label class="switch-row"><input id="new-only" type="checkbox"><span>Nouvelles (7 jours)</span></label>
+        <label class="switch-row"><input id="official-only" type="checkbox"><span>Sources officielles</span></label>
+        <label class="switch-row"><input id="hide-ignored" type="checkbox" checked><span>Masquer les offres ignorées</span></label>
+      </div>
+      <div class="sidebar-hint"><span class="hint-symbol">i</span><p>Les favoris, notes et statuts sont enregistrés <strong>dans ce navigateur</strong>. Utilisez « Sauvegarder le suivi » pour en conserver une copie ou les déplacer vers un autre appareil.</p></div>
+    </aside>
+
+    <section class="results-pane" aria-label="Résultats">
+      <div class="results-header"><div><h2 id="results-title">Annonces</h2><p id="results-subtitle">Chargement…</p></div><select id="sort" aria-label="Trier les offres"><option value="score">Meilleur score</option><option value="newest">Détection récente</option><option value="posted">Publication récente</option><option value="company">Entreprise A-Z</option></select></div>
+      <div id="job-list" class="job-list" role="list"></div>
+      <div class="more-zone"><button id="show-more" type="button" class="button button-light" hidden>Afficher davantage d'offres</button></div>
+      <div class="footer-data"><button id="export-csv" type="button" class="text-link">↓ Exporter les résultats filtrés (.csv)</button></div>
+    </section>
+
+    <section id="detail-pane" class="detail-pane" aria-label="Détail de l'offre">
+      <div class="detail-top"><span class="eyebrow">DÉTAIL DE L'OPPORTUNITÉ</span><button type="button" id="close-detail" class="icon-btn close-detail" title="Fermer">×</button></div>
+      <div id="job-detail" class="job-detail"><div class="empty-detail"><div class="empty-icon">↗</div><h3>Choisissez une offre</h3><p>Vous retrouverez ici ses informations, son lien et vos notes.</p></div></div>
+    </section>
+  </main>
+  <div class="mobile-scrim" id="mobile-scrim" hidden></div>
+  <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+  <script type="application/json" id="job-data">__JOB_DATA_JSON__</script>
+  <script>/*__JS__*/</script>
+</body>
+</html>
