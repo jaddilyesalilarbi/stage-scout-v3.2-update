@@ -101,7 +101,7 @@ def scan_target(target: dict) -> tuple[list[dict], list[str], dict]:
     entered_url = target.get("careers_url") or ""
     info = {"outcome": "not_found", "method": "user_url" if entered_url else "directory",
             "resolved_url": "", "raw_postings": 0,
-            "message": ""}
+            "candidate_urls": [], "message": ""}
     if entered_url and not valid_public_url(entered_url):
         info.update(outcome="invalid_url", message="URL invalide : indiquer une adresse https:// publique")
         return [], [], info
@@ -122,6 +122,9 @@ def scan_target(target: dict) -> tuple[list[dict], list[str], dict]:
             info["message"] = "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
             return [], [], info
 
+    # Persist discovered candidates for the manual follow-up audit, including
+    # boards whose connector is missing. A candidate is not a verified scan.
+    info["candidate_urls"] = list(dict.fromkeys(options))
     # Successful empty fetch counts as a scan with zero open postings.
     errors = []
     for url in options:

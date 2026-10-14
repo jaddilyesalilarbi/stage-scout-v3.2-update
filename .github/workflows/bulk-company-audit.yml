@@ -1,0 +1,97 @@
+name: Scan all companies now
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-stage-scout
+  cancel-in-progress: false
+
+jobs:
+  companies:
+    name: Audit group ${{ matrix.shard }} / 15
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    strategy:
+      fail-fast: false
+      max-parallel: 8
+      matrix:
+        shard: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install ATS dependencies
+        run: python -m pip install 'ats-scrapers[scrapers]==0.3.0' 'requests>=2.32,<3' 'langdetect==1.0.9' 'pycountry==24.6.1'
+      - name: Attempt every company in this group
+        run: python -u bulk_company_audit.py --shard '${{ matrix.shard }}' --shards 16 --timeout 24
+      - name: Save results even if a company failed
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: company-audit-${{ matrix.shard }}
+          path: bulk-parts/part-*.json
+          if-no-files-found: error
+          retention-days: 7
+
+  publish:
+    name: Consolidate all companies and publish dashboard
+    needs: companies
+    if: ${{ success() }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install dependencies
+        run: python -m pip install 'ats-scrapers[scrapers]==0.3.0' 'requests>=2.32,<3' 'langdetect==1.0.9' 'pycountry==24.6.1'
+      - name: Download all company scan results
+        uses: actions/download-artifact@v4
+        with:
+          pattern: company-audit-*
+          path: bulk-parts
+          merge-multiple: true
+      - name: Check tests
+        run: python -m unittest discover -s tests -v
+      - name: Merge all results, update verified URLs and coverage
+        run: python -u bulk_company_audit.py --merge --shards 16 --parts-dir bulk-parts --output data
+      - name: Rebuild dashboard
+        run: python build_dashboard.py
+      - name: Upload downloadable audit
+        uses: actions/upload-artifact@v4
+        with:
+          name: full-company-audit-report
+          path: |
+            data/company-url-audit.csv
+            data/bulk-audit-summary.json
+          if-no-files-found: error
+          retention-days: 30
+      - name: Publish results to repository
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add companies.csv data/company-url-audit.csv data/bulk-audit-summary.json data/coverage.json dashboard/index.html
+          git add -A data/jobs.csv data/latest.md data/last_run.json 2>/dev/null || true
+          if ! git diff --cached --quiet; then
+            git commit -m 'Run full employer ATS audit and refresh opportunities'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          else
+            echo 'No changes detected.'
+          fi
