@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-14",
+  "total": 386,
+  "enabled": 379,
+  "attempted": 379,
+  "disabled": 7,
+  "outcomes": {
+    "error": 7,
+    "not_found": 300,
+    "scanned": 45,
+    "timeout": 9,
+    "unsupported_url": 18
+  },
+  "new_verified_urls_written_to_companies_csv": 35,
+  "raw_jobs_fetched": 2348,
+  "report": "data/company-url-audit.csv"
+}
