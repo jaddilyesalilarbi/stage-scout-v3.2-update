@@ -1,0 +1,178 @@
+{
+  "date": "2026-10-14",
+  "observed": 5183,
+  "matches": 687,
+  "new": 687,
+  "excluded_by_language": 385,
+  "excluded_by_summer": 983,
+  "excluded_outside_europe": 1557,
+  "location_unknown_or_mixed": 688,
+  "history_removed": {
+    "language": 0,
+    "summer": 0,
+    "geography": 0
+  },
+  "source_counts": {
+    "ATS company discovery": 16,
+    "ATS dataset / icims": 1200,
+    "ATS dataset / oracle": 1200,
+    "ATS dataset / smartrecruiters": 1200,
+    "ATS dataset / successfactors": 1200,
+    "ATS direct": 275,
+    "JobSpy / indeed": 92
+  },
+  "source_health": {
+    "attempted": 20,
+    "completed": 19,
+    "timed_out": 0,
+    "failed_or_error": 1,
+    "skipped_budget": 0,
+    "total_sources_planned": 20,
+    "sources": [
+      {
+        "stage": "direct",
+        "name": "Harmattan AI",
+        "status": "completed",
+        "count": 152,
+        "duration_seconds": 1.1
+      },
+      {
+        "stage": "direct",
+        "name": "Planet Labs",
+        "status": "completed",
+        "count": 123,
+        "duration_seconds": 0.9
+      },
+      {
+        "stage": "jobspy",
+        "name": "engineering internship @ Dublin",
+        "status": "completed",
+        "count": 35,
+        "duration_seconds": 1.4
+      },
+      {
+        "stage": "jobspy",
+        "name": "mechanical design intern @ Munich",
+        "status": "completed",
+        "count": 12,
+        "duration_seconds": 0.9
+      },
+      {
+        "stage": "jobspy",
+        "name": "mechanical engineering internship english @ Berlin",
+        "status": "completed",
+        "count": 10,
+        "duration_seconds": 1.4
+      },
+      {
+        "stage": "jobspy",
+        "name": "master thesis mechanical english @ Germany",
+        "status": "completed",
+        "count": 33,
+        "duration_seconds": 1.1
+      },
+      {
+        "stage": "jobspy",
+        "name": "mechanical engineering intern @ Vienna",
+        "status": "completed",
+        "count": 1,
+        "duration_seconds": 0.9
+      },
+      {
+        "stage": "jobspy",
+        "name": "mechanical engineering internship @ Milan",
+        "status": "completed",
+        "count": 1,
+        "duration_seconds": 0.9
+      },
+      {
+        "stage": "discovery",
+        "name": "ANAVIA",
+        "status": "completed",
+        "count": 16,
+        "duration_seconds": 4.4
+      },
+      {
+        "stage": "discovery",
+        "name": "APCO Technologies",
+        "status": "completed",
+        "count": 0,
+        "duration_seconds": 1.2
+      },
+      {
+        "stage": "discovery",
+        "name": "apheros",
+        "status": "error",
+        "count": 0,
+        "duration_seconds": 1.7
+      },
+      {
+        "stage": "discovery",
+        "name": "Audemars Piguet",
+        "status": "completed",
+        "count": 0,
+        "duration_seconds": 1.2
+      },
+      {
+        "stage": "discovery",
+        "name": "Audi F1 Team",
+        "status": "completed",
+        "count": 0,
+        "duration_seconds": 1.0
+      },
+      {
+        "stage": "discovery",
+        "name": "Axpo",
+        "status": "completed",
+        "count": 0,
+        "duration_seconds": 1.1
+      },
+      {
+        "stage": "discovery",
+        "name": "B&R",
+        "status": "completed",
+        "count": 0,
+        "duration_seconds": 1.1
+      },
+      {
+        "stage": "discovery",
+        "name": "Buhler",
+        "status": "completed",
+        "count": 0,
+        "duration_seconds": 1.0
+      },
+      {
+        "stage": "ats",
+        "name": "ATS provider: smartrecruiters",
+        "status": "completed",
+        "count": 1200,
+        "duration_seconds": 39.0
+      },
+      {
+        "stage": "ats",
+        "name": "ATS provider: successfactors",
+        "status": "completed",
+        "count": 1200,
+        "duration_seconds": 48.2
+      },
+      {
+        "stage": "ats",
+        "name": "ATS provider: oracle",
+        "status": "completed",
+        "count": 1200,
+        "duration_seconds": 36.7
+      },
+      {
+        "stage": "ats",
+        "name": "ATS provider: icims",
+        "status": "completed",
+        "count": 1200,
+        "duration_seconds": 9.1
+      }
+    ]
+  },
+  "errors": [
+    "Company discovery apheros: ScraperError: JoinComScraper('apherosch'): https://join.com/api/public/companies/170914/jobs returned 422"
+  ],
+  "notes": "Third-party jobs must be rechecked on the official employer page."
+}
