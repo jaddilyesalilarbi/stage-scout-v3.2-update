@@ -9,6 +9,7 @@ on:
       - Daily stage scout
       - Build dashboard only
       - Scan all companies now
+      - Enrich existing jobs
     types: [completed]
 
 concurrency:

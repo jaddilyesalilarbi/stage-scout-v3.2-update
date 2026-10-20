@@ -1,0 +1,23 @@
+{
+  "total": 780,
+  "processed": 780,
+  "complete_descriptions": 504,
+  "corrected_links": 452,
+  "expired": 45,
+  "not_found": 4,
+  "remaining": 0,
+  "retryable": 208,
+  "outcomes": {
+    "enriched": 527,
+    "expired": 45,
+    "inaccessible": 11,
+    "mismatch": 138,
+    "not_found": 4,
+    "unsupported": 55
+  },
+  "interrupted": false,
+  "run_error": "",
+  "generated_at": "2026-10-20T17:13:13.195045+00:00",
+  "input_sha256": "236ae29f724f589adf66d46c849270d605e812df15d786283364f44ea168c56e",
+  "note": "Complete means verified structured body recovered, not an assumed full legacy excerpt. Remaining means never attempted or source changed; retryable attempts are counted separately."
+}

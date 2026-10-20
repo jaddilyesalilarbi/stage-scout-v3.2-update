@@ -41,6 +41,16 @@
     return titleMatches || /master.{0,12}thesis|thesis|pdm|master.{0,12}project/i.test(kind);
   };
   const isOfficial = job => /published_board|company|direct|official/i.test(`${job.verification} ${job.source}`) || /ats/i.test(job.source);
+  const enrichmentStatus = job => {
+    const identityConfirmed = job.enrichment_outcome === 'enriched' && job.enrichment_confidence === 'high';
+    return {
+      checked: !!job.enrichment_outcome,
+      expired: job.availability === 'expired' || job.enrichment_outcome === 'expired',
+      identityConfirmed,
+      openConfirmed: identityConfirmed && job.availability === 'open',
+      blocked: ['mismatch', 'not_found'].includes(job.enrichment_outcome)
+    };
+  };
   function baseStatus(job) {
     const value = norm(job.status).trim();
     if (['applied','postule','postulee'].includes(value)) return 'applied';
@@ -113,11 +123,14 @@
       $('job-list').innerHTML = filtered.slice(0, visibleLimit).map(job => {
         const s = getStatus(job);
         const scoreClass = job.score >= 70 ? '' : job.score >= 45 ? 'mid' : 'low';
+        const verification = enrichmentStatus(job);
+        const verificationBadge = verification.checked && !verification.openConfirmed
+          ? `<span class="pill status">${verification.expired ? 'Offre expirée' : verification.identityConfirmed ? 'Disponibilité inconnue' : 'Vérification incertaine'}</span>` : '';
         return `<article class="job-card ${job.id === selectedId ? 'selected' : ''}" role="listitem" tabindex="0" data-job-id="${esc(job.id)}" aria-label="${esc(job.title)} chez ${esc(job.company)}">
           <div class="job-main"><div class="job-company"><span class="company-avatar">${esc(initial(job.company))}</span><span>${esc(job.company)}</span></div>
           <div class="job-title">${esc(job.title)}</div>
           <div class="job-meta"><span>⌁ ${esc(job.location || 'Lieu non précisé')}</span><span>· ${esc(job.source || 'Source non précisée')}</span></div>
-          <div class="job-badges"><span class="pill score ${scoreClass}">${job.score}/100</span>${isPdm(job) ? '<span class="pill pdm">Master thesis</span>' : ''}${isNew(job) ? '<span class="pill new">Nouveau</span>' : ''}${s !== 'to_review' ? `<span class="pill status ${statusColors[s]}">${esc(statusLabels[s])}</span>` : ''}</div></div>
+          <div class="job-badges"><span class="pill score ${scoreClass}">${job.score}/100</span>${isPdm(job) ? '<span class="pill pdm">Master thesis</span>' : ''}${isNew(job) ? '<span class="pill new">Nouveau</span>' : ''}${verificationBadge}${s !== 'to_review' ? `<span class="pill status ${statusColors[s]}">${esc(statusLabels[s])}</span>` : ''}</div></div>
           <button class="favorite-btn ${isFavorite(job) ? 'active' : ''}" type="button" data-fav-id="${esc(job.id)}" aria-label="${isFavorite(job) ? 'Retirer des' : 'Ajouter aux'} favoris" title="Favori">${isFavorite(job) ? '★' : '☆'}</button>
         </article>`;
       }).join('');
@@ -137,18 +150,32 @@
     const actionLink = (url, label, style) => /^https?:\/\//i.test(url || '')
       ? `<a class="button ${style}" href="${esc(url)}" target="_blank" rel="noopener noreferrer">${label} ↗</a>`
       : `<button class="button ${style}" disabled>${label}</button>`;
-    const link = actionLink(job.description_url, "Voir l'offre", 'button-dark')
-      + actionLink(job.apply_url, 'Postuler', 'button-quiet')
-      + (!job.description_url && !job.apply_url && job.url ? actionLink(job.url, 'Lien historique', 'button-light') : '');
+    const {checked, expired, identityConfirmed, openConfirmed, blocked} = enrichmentStatus(job);
+    const detailUrl = job.detail_url || job.description_url;
+    const link = checked
+      ? actionLink(blocked ? '' : (identityConfirmed ? detailUrl : job.url || detailUrl), identityConfirmed ? "Voir l'offre" : 'Lien historique', 'button-dark')
+        + actionLink(openConfirmed ? job.apply_url : '', 'Postuler', 'button-quiet')
+      : actionLink(detailUrl, "Voir l'offre", 'button-dark')
+        + actionLink(job.apply_url, 'Postuler', 'button-quiet')
+        + (!detailUrl && !job.apply_url && job.url ? actionLink(job.url, 'Lien historique', 'button-light') : '');
+    const verificationLabel = expired ? 'Offre expirée' : openConfirmed
+      ? 'Disponibilité constatée lors de la vérification' : identityConfirmed
+        ? 'Disponibilité inconnue' : 'Vérification incertaine — disponibilité inconnue';
+    const verification = checked ? `<div class="warning-note">${esc(verificationLabel)}.
+      ${!identityConfirmed && !blocked ? 'Lien non vérifié.' : ''}${blocked ? 'Aucun lien confirmé pour cette offre.' : ''}
+      Vérification : ${esc(job.enrichment_checked_at || 'date non renseignée')}.
+      ${job.enrichment_error ? esc(job.enrichment_error) : ''}</div>` : '';
+    const historicalText = checked && (!identityConfirmed || expired);
     $('job-detail').innerHTML = `
       <div class="detail-company"><span class="company-avatar">${esc(initial(job.company))}</span>${esc(job.company)}</div>
       <h2 class="detail-title">${esc(job.title)}</h2>
       <div class="detail-location"><span>⌁ ${esc(job.location || 'Lieu non précisé')}</span><span class="big-score">${job.score}/100</span>${isNew(job) ? '<span class="pill new">Nouveau</span>' : ''}</div>
       <div class="detail-actions">${link}<button id="detail-fav" type="button" class="button button-light heart-btn">${isFavorite(job) ? '★ Favori' : '☆ Favori'}</button></div>
       <div class="detail-body">
+        ${verification}
         <h3>Pourquoi ce poste correspond</h3><p>${esc(job.why || 'Aucune justification fournie par le moteur de recherche.')}</p>
         <h3>Description de l'offre</h3><p>${esc(job.description || job.description_excerpt || 'Aucune description disponible : consulter directement le site de l’entreprise.')}</p>
-        <p class="description-origin">${job.description ? (job.description_status === 'partial' ? 'Description partielle fournie par la source.' : 'Texte conservé tel que fourni par la source.') : 'Ancien extrait uniquement.'}${job.description_source ? ` Source : ${esc(job.description_source)}.` : ''}</p>
+        <p class="description-origin">${historicalText ? 'Texte conservé d’historique ; disponibilité actuelle non confirmée.' : job.description ? (job.description_status === 'partial' ? 'Description partielle fournie par la source.' : 'Texte conservé tel que fourni par la source.') : 'Ancien extrait uniquement.'}${job.description_source ? ` Source : ${esc(job.description_source)}.` : ''}</p>
         ${job.warnings ? `<div class="warning-note">Attention : ${esc(job.warnings)}</div>` : ''}
         <dl class="facts">${fact('Pays', job.country)}${fact('Type', job.kind)}${fact('Durée', job.duration)}${fact('Source', job.source)}${fact('Première détection', prettifyDate(job.first_seen))}${fact('Date de publication', prettifyDate(job.posted_at))}${fact('Dernière détection', prettifyDate(job.last_seen))}</dl>
       </div>

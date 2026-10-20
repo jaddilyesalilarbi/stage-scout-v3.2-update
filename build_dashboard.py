@@ -13,6 +13,7 @@ from pathlib import Path
 from coverage_report import load_coverage, merge_coverage
 import re
 from job_content import safe_url
+from enrichment_state import overlay
 
 ROOT = Path(__file__).resolve().parent
 DATA = ROOT / 'data' / 'jobs.csv'
@@ -78,6 +79,15 @@ def load_jobs(path: Path) -> list[dict]:
         raise FileNotFoundError(f'Cannot find {path}. Run the scout first to generate data/jobs.csv.')
     with path.open('r', encoding='utf-8-sig', newline='') as stream:
         records = list(csv.DictReader(stream))
+    results = {}
+    sidecar = path.with_name('job-enrichment-state.json')
+    if sidecar.exists():
+        try:
+            state = json.loads(sidecar.read_text(encoding='utf-8'))
+            if isinstance(state, dict) and state.get('version') == 1 and isinstance(state.get('results'), dict):
+                results = state['results']
+        except (OSError, ValueError):
+            pass
     jobs = []
     seen = set()
     for row in records:
@@ -88,6 +98,9 @@ def load_jobs(path: Path) -> list[dict]:
         if job_id in seen:
             continue
         seen.add(job_id)
+        result = results.get(job_id)
+        if isinstance(result, dict):
+            row = overlay(row, result)
         url = safe_url(row.get('url'))
         try:
             score = max(0, min(100, int(float(row.get('score') or 0))))
@@ -110,10 +123,16 @@ def load_jobs(path: Path) -> list[dict]:
             'status': row.get('status') or 'To review',
             'url': url,
             'description_url': safe_url(row.get('description_url')),
+            'detail_url': safe_url(row.get('detail_url') or row.get('description_url')),
             'apply_url': safe_url(row.get('apply_url')),
             'description': row.get('description') or '',
             'description_source': row.get('description_source') or '',
             'description_status': row.get('description_status') or 'legacy_excerpt',
+            'enrichment_outcome': row.get('enrichment_outcome') or '',
+            'availability': row.get('availability') or 'unknown',
+            'enrichment_checked_at': row.get('enrichment_checked_at') or '',
+            'enrichment_error': row.get('enrichment_error') or '',
+            'enrichment_confidence': row.get('enrichment_confidence') or '',
             'why': row.get('why') or '',
             'warnings': row.get('warnings') or '',
             'description_excerpt': row.get('description_excerpt') or '',
