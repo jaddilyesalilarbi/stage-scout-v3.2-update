@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14",
+  "updated_at": "2026-10-20",
   "explanation": "Direct ATS scans are distinct from directory lookups and aggregate-provider searches.",
   "companies": [
     {
@@ -12,8 +12,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -28,8 +28,8 @@
       "notes": "Groupe : ABB Robotics / Motion est suivi séparément.",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "timeout",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Délai de 24 secondes dépassé"
@@ -44,8 +44,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -60,8 +60,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -76,8 +76,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -91,12 +91,12 @@
       "origin": "csv_watchlist",
       "notes": "",
       "url_valid": true,
-      "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
-      "last_outcome": "not_found",
+      "last_attempt": "2026-10-20",
+      "last_outcome": "lookup_only",
+      "last_method": "discovery",
       "last_jobs": 0,
       "last_resolved_url": "",
-      "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
+      "last_message": "Recherche annuaire seulement ; scan non confirmé"
     },
     {
       "key": "agathon",
@@ -108,8 +108,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -124,8 +124,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -140,8 +140,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -155,12 +155,12 @@
       "origin": "csv_watchlist",
       "notes": "",
       "url_valid": true,
-      "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
-      "last_outcome": "not_found",
+      "last_attempt": "2026-10-20",
+      "last_outcome": "lookup_only",
+      "last_method": "discovery",
       "last_jobs": 0,
       "last_resolved_url": "",
-      "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
+      "last_message": "Recherche annuaire seulement ; scan non confirmé"
     },
     {
       "key": "amp it",
@@ -172,8 +172,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -188,8 +188,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -203,13 +203,13 @@
       "origin": "csv_watchlist",
       "notes": "",
       "url_valid": true,
-      "last_message": "Page ATS publique parcourue",
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
+      "last_success": "2026-10-14",
       "last_outcome": "scanned",
+      "last_method": "watchlist",
       "last_jobs": 23,
       "last_resolved_url": "https://jobs.lever.co/anybotics",
-      "last_success": "2026-10-14"
+      "last_message": "Page ATS publique parcourue"
     },
     {
       "key": "apco technologies",
@@ -221,8 +221,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -237,8 +237,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "error",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "https://join.com/companies/apherosch",
       "last_message": "ATS fetch error: ScraperError: JoinComScraper('apherosch'): https://join.com/api/public/companies/170914/jobs returned 422"
@@ -252,13 +252,13 @@
       "origin": "csv_watchlist",
       "notes": "",
       "url_valid": true,
-      "last_message": "Page ATS publique parcourue",
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
+      "last_success": "2026-10-14",
       "last_outcome": "scanned",
+      "last_method": "watchlist",
       "last_jobs": 3,
       "last_resolved_url": "https://ascento-ag.breezy.hr",
-      "last_success": "2026-10-14"
+      "last_message": "Page ATS publique parcourue"
     },
     {
       "key": "astrocast",
@@ -270,8 +270,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -286,8 +286,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -302,8 +302,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -317,13 +317,13 @@
       "origin": "csv_watchlist",
       "notes": "",
       "url_valid": true,
-      "last_message": "Page ATS publique parcourue",
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
+      "last_success": "2026-10-14",
       "last_outcome": "scanned",
+      "last_method": "watchlist",
       "last_jobs": 20,
       "last_resolved_url": "https://job-boards.greenhouse.io/auterion",
-      "last_success": "2026-10-14"
+      "last_message": "Page ATS publique parcourue"
     },
     {
       "key": "autoneum",
@@ -335,8 +335,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -351,8 +351,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -367,8 +367,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -383,8 +383,8 @@
       "notes": "Également connu sous B&R ; vérifier les offres ABB.",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -399,8 +399,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -415,8 +415,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -430,12 +430,12 @@
       "origin": "csv_watchlist",
       "notes": "",
       "url_valid": true,
-      "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
-      "last_outcome": "not_found",
+      "last_attempt": "2026-10-20",
+      "last_outcome": "lookup_only",
+      "last_method": "discovery",
       "last_jobs": 0,
       "last_resolved_url": "",
-      "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
+      "last_message": "Recherche annuaire seulement ; scan non confirmé"
     },
     {
       "key": "burckhardt compression",
@@ -526,13 +526,13 @@
       "origin": "csv_watchlist",
       "notes": "",
       "url_valid": true,
-      "last_message": "Page ATS publique parcourue",
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
+      "last_success": "2026-10-14",
       "last_outcome": "scanned",
+      "last_method": "watchlist",
       "last_jobs": 53,
       "last_resolved_url": "https://careers.smartrecruiters.com/CERN",
-      "last_success": "2026-10-14"
+      "last_message": "Page ATS publique parcourue"
     },
     {
       "key": "clearspace",
@@ -543,13 +543,13 @@
       "origin": "csv_watchlist",
       "notes": "",
       "url_valid": true,
-      "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
-      "last_outcome": "scanned",
-      "last_jobs": 0,
+      "last_attempt": "2026-10-20",
+      "last_success": "2026-10-20",
+      "last_outcome": "directory_result",
+      "last_method": "discovery",
+      "last_jobs": 1,
       "last_resolved_url": "https://clearspace.bamboohr.com/careers",
-      "last_message": "Page ATS publique parcourue",
-      "last_success": "2026-10-14"
+      "last_message": "Offres reçues par découverte ATS"
     },
     {
       "key": "climeworks",
@@ -560,13 +560,13 @@
       "origin": "csv_watchlist",
       "notes": "",
       "url_valid": true,
-      "last_message": "Page ATS publique parcourue",
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
+      "last_success": "2026-10-14",
       "last_outcome": "scanned",
+      "last_method": "watchlist",
       "last_jobs": 3,
       "last_resolved_url": "https://climeworks.recruitee.com",
-      "last_success": "2026-10-14"
+      "last_message": "Page ATS publique parcourue"
     },
     {
       "key": "comppair",
@@ -578,8 +578,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -594,8 +594,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -610,8 +610,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -626,8 +626,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -642,8 +642,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -657,13 +657,13 @@
       "origin": "csv_watchlist",
       "notes": "",
       "url_valid": true,
-      "last_message": "Page ATS publique parcourue",
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
+      "last_success": "2026-10-14",
       "last_outcome": "scanned",
+      "last_method": "watchlist",
       "last_jobs": 122,
       "last_resolved_url": "https://apply.workable.com/destinusgroup",
-      "last_success": "2026-10-14"
+      "last_message": "Page ATS publique parcourue"
     },
     {
       "key": "distalmotion",
@@ -674,13 +674,13 @@
       "origin": "csv_watchlist",
       "notes": "",
       "url_valid": true,
-      "last_message": "Page ATS publique parcourue",
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
+      "last_success": "2026-10-14",
       "last_outcome": "scanned",
+      "last_method": "watchlist",
       "last_jobs": 6,
       "last_resolved_url": "https://apply.workable.com/distalmotion",
-      "last_success": "2026-10-14"
+      "last_message": "Page ATS publique parcourue"
     },
     {
       "key": "dsm firmenich",
@@ -692,8 +692,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "timeout",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Délai de 24 secondes dépassé"
@@ -708,8 +708,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "error",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "https://join.com/companies/dufour",
       "last_message": "ATS fetch error: ScraperError: JoinComScraper('dufour'): https://join.com/api/public/companies/49689/jobs returned 422"
@@ -724,8 +724,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -739,12 +739,12 @@
       "origin": "csv_watchlist",
       "notes": "",
       "url_valid": true,
-      "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
-      "last_outcome": "not_found",
+      "last_attempt": "2026-10-20",
+      "last_outcome": "lookup_only",
+      "last_method": "discovery",
       "last_jobs": 0,
       "last_resolved_url": "",
-      "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
+      "last_message": "Recherche annuaire seulement ; scan non confirmé"
     },
     {
       "key": "embodied ai",
@@ -756,8 +756,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -772,8 +772,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -788,8 +788,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "unsupported_url",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Connecteur ATS indisponible pour cette URL: Could not recognize an ATS from 'https://careers.endress.com'. Custom-domain careers sites can't be resolved from the URL alone — if you kno"
@@ -804,8 +804,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -830,8 +830,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -846,8 +846,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -862,8 +862,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -877,13 +877,13 @@
       "origin": "csv_watchlist",
       "notes": "",
       "url_valid": true,
-      "last_message": "Page ATS publique parcourue",
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
+      "last_success": "2026-10-14",
       "last_outcome": "scanned",
+      "last_method": "watchlist",
       "last_jobs": 4,
       "last_resolved_url": "https://flybotix.jobs.personio.com",
-      "last_success": "2026-10-14"
+      "last_message": "Page ATS publique parcourue"
     },
     {
       "key": "garrett motion",
@@ -895,8 +895,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -911,8 +911,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -927,8 +927,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -943,8 +943,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -959,8 +959,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -974,13 +974,13 @@
       "origin": "csv_watchlist",
       "notes": "",
       "url_valid": true,
-      "last_message": "Page ATS publique parcourue",
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
+      "last_success": "2026-10-14",
       "last_outcome": "scanned",
+      "last_method": "watchlist",
       "last_jobs": 9,
       "last_resolved_url": "https://jobs.lever.co/gravisrobotics",
-      "last_success": "2026-10-14"
+      "last_message": "Page ATS publique parcourue"
     },
     {
       "key": "group of energy materials",
@@ -1002,8 +1002,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -1018,12 +1018,12 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
+      "last_success": "2026-10-14",
       "last_outcome": "scanned",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "https://hamilton.bamboohr.com/careers",
-      "last_message": "Page ATS publique parcourue",
-      "last_success": "2026-10-14"
+      "last_message": "Page ATS publique parcourue"
     },
     {
       "key": "hamilton bonaduz",
@@ -1035,8 +1035,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -1051,8 +1051,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -1067,8 +1067,8 @@
       "notes": "Groupe : marques et divisions suivies séparément.",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -1083,8 +1083,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -1099,8 +1099,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -1115,8 +1115,8 @@
       "notes": "Groupe : Hitachi Energy est suivi séparément.",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "timeout",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Délai de 24 secondes dépassé"
@@ -1130,13 +1130,13 @@
       "origin": "csv_watchlist",
       "notes": "",
       "url_valid": true,
-      "last_message": "Page ATS publique parcourue",
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
+      "last_success": "2026-10-14",
       "last_outcome": "scanned",
+      "last_method": "watchlist",
       "last_jobs": 381,
       "last_resolved_url": "https://hitachienergy.zhiye.com",
-      "last_success": "2026-10-14"
+      "last_message": "Page ATS publique parcourue"
     },
     {
       "key": "honeywell switzerland",
@@ -1148,8 +1148,8 @@
       "notes": "Cibler les bureaux/activités en Suisse.",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -1163,12 +1163,12 @@
       "origin": "csv_watchlist",
       "notes": "",
       "url_valid": true,
-      "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
-      "last_outcome": "not_found",
+      "last_attempt": "2026-10-20",
+      "last_outcome": "lookup_only",
+      "last_method": "discovery",
       "last_jobs": 0,
       "last_resolved_url": "",
-      "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
+      "last_message": "Recherche annuaire seulement ; scan non confirmé"
     },
     {
       "key": "jekta",
@@ -1180,8 +1180,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -1196,8 +1196,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -1212,8 +1212,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -1228,8 +1228,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -1243,13 +1243,13 @@
       "origin": "csv_watchlist",
       "notes": "",
       "url_valid": true,
-      "last_message": "Page ATS publique parcourue",
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
+      "last_success": "2026-10-14",
       "last_outcome": "scanned",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "https://kandou.bamboohr.com/careers",
-      "last_success": "2026-10-14"
+      "last_message": "Page ATS publique parcourue"
     },
     {
       "key": "kerimedical",
@@ -1261,8 +1261,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -1277,8 +1277,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -1293,8 +1293,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -1309,8 +1309,8 @@
       "notes": "Cibler les activités de conception industrielle.",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -1325,8 +1325,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -1341,8 +1341,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -1357,8 +1357,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -1373,8 +1373,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -1389,8 +1389,8 @@
       "notes": "Groupe : Liebherr Machines Bulle est suivi séparément.",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "unsupported_url",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Connecteur ATS indisponible pour cette URL: Could not recognize an ATS from 'https://careers.liebherr.com'. Custom-domain careers sites can't be resolved from the URL alone — if you kn"
@@ -1405,8 +1405,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -1421,12 +1421,12 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
+      "last_success": "2026-10-14",
       "last_outcome": "scanned",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "https://apply.workable.com/logitech",
-      "last_message": "Page ATS publique parcourue",
-      "last_success": "2026-10-14"
+      "last_message": "Page ATS publique parcourue"
     },
     {
       "key": "lonza",
@@ -1438,8 +1438,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "timeout",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Délai de 24 secondes dépassé"
@@ -1454,8 +1454,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -1470,8 +1470,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -1486,8 +1486,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -1501,13 +1501,13 @@
       "origin": "csv_watchlist",
       "notes": "",
       "url_valid": true,
-      "last_message": "Page ATS publique parcourue",
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
+      "last_success": "2026-10-14",
       "last_outcome": "scanned",
+      "last_method": "watchlist",
       "last_jobs": 11,
       "last_resolved_url": "https://mt.avature.net",
-      "last_success": "2026-10-14"
+      "last_message": "Page ATS publique parcourue"
     },
     {
       "key": "mikajaki",
@@ -1519,8 +1519,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -1535,8 +1535,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -1551,8 +1551,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -1567,8 +1567,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -1583,8 +1583,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -1599,8 +1599,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -1615,8 +1615,8 @@
       "notes": "Cibler les activités en Suisse.",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -1634,8 +1634,8 @@
       "last_outcome": "not_found",
       "last_method": "watchlist",
       "last_jobs": 0,
-      "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire",
-      "last_resolved_url": ""
+      "last_resolved_url": "",
+      "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
     },
     {
       "key": "patek philippe",
@@ -1647,8 +1647,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -1663,8 +1663,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -1682,8 +1682,8 @@
       "last_outcome": "not_found",
       "last_method": "watchlist",
       "last_jobs": 0,
-      "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire",
-      "last_resolved_url": ""
+      "last_resolved_url": "",
+      "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
     },
     {
       "key": "psi paul scherrer institute",
@@ -1695,8 +1695,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -1714,8 +1714,8 @@
       "last_outcome": "not_found",
       "last_method": "watchlist",
       "last_jobs": 0,
-      "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire",
-      "last_resolved_url": ""
+      "last_resolved_url": "",
+      "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
     },
     {
       "key": "richemont international",
@@ -1727,8 +1727,8 @@
       "notes": "Groupe : les maisons peuvent recruter séparément.",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -1743,8 +1743,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -1759,8 +1759,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -1775,8 +1775,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -1791,8 +1791,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "unsupported_url",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Connecteur ATS indisponible pour cette URL: Could not recognize an ATS from 'https://www.carrieres-rolex.com'. Custom-domain careers sites can't be resolved from the URL alone — if you"
@@ -1810,8 +1810,8 @@
       "last_outcome": "not_found",
       "last_method": "watchlist",
       "last_jobs": 0,
-      "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire",
-      "last_resolved_url": ""
+      "last_resolved_url": "",
+      "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
     },
     {
       "key": "romande energie",
@@ -1826,8 +1826,8 @@
       "last_outcome": "not_found",
       "last_method": "watchlist",
       "last_jobs": 0,
-      "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire",
-      "last_resolved_url": ""
+      "last_resolved_url": "",
+      "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
     },
     {
       "key": "ruag",
@@ -1839,8 +1839,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -1865,8 +1865,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -1881,8 +1881,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -1897,8 +1897,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "unsupported_url",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Connecteur ATS indisponible pour cette URL: Could not recognize an ATS from 'https://job.schindler.com'. Custom-domain careers sites can't be resolved from the URL alone — if you know "
@@ -1913,8 +1913,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -1929,8 +1929,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -1945,8 +1945,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -1961,8 +1961,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -1976,9 +1976,9 @@
       "origin": "csv_watchlist",
       "notes": "",
       "url_valid": true,
-      "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
+      "last_attempt": "2026-10-20",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -1992,9 +1992,9 @@
       "origin": "csv_watchlist",
       "notes": "",
       "url_valid": true,
-      "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
+      "last_attempt": "2026-10-20",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -2008,9 +2008,9 @@
       "origin": "csv_watchlist",
       "notes": "",
       "url_valid": true,
-      "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
+      "last_attempt": "2026-10-20",
       "last_outcome": "unsupported_url",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Connecteur ATS indisponible pour cette URL: Could not recognize an ATS from 'https://jobs.sonova.com'. Custom-domain careers sites can't be resolved from the URL alone — if you know th"
@@ -2024,9 +2024,9 @@
       "origin": "csv_watchlist",
       "notes": "",
       "url_valid": true,
-      "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
+      "last_attempt": "2026-10-20",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -2040,9 +2040,9 @@
       "origin": "csv_watchlist",
       "notes": "",
       "url_valid": true,
-      "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
+      "last_attempt": "2026-10-20",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -2056,9 +2056,9 @@
       "origin": "csv_watchlist",
       "notes": "",
       "url_valid": true,
-      "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
+      "last_attempt": "2026-10-20",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -2073,8 +2073,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "timeout",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Délai de 24 secondes dépassé"
@@ -2099,8 +2099,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -2114,12 +2114,12 @@
       "origin": "csv_watchlist",
       "notes": "Association étudiante / projet ; pas nécessairement de site ATS.",
       "url_valid": true,
-      "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
-      "last_outcome": "not_found",
+      "last_attempt": "2026-10-20",
+      "last_outcome": "lookup_only",
+      "last_method": "discovery",
       "last_jobs": 0,
       "last_resolved_url": "",
-      "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
+      "last_message": "Recherche annuaire seulement ; scan non confirmé"
     },
     {
       "key": "swissborg",
@@ -2140,13 +2140,13 @@
       "origin": "csv_watchlist",
       "notes": "",
       "url_valid": true,
-      "last_message": "Page ATS publique parcourue",
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
+      "last_success": "2026-10-14",
       "last_outcome": "scanned",
+      "last_method": "watchlist",
       "last_jobs": 3,
       "last_resolved_url": "https://swissdrones.jobs.personio.com",
-      "last_success": "2026-10-14"
+      "last_message": "Page ATS publique parcourue"
     },
     {
       "key": "swissnuclear",
@@ -2158,8 +2158,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -2174,8 +2174,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -2190,8 +2190,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -2206,8 +2206,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -2222,8 +2222,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -2238,8 +2238,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -2254,8 +2254,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -2270,8 +2270,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -2286,8 +2286,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -2302,8 +2302,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -2318,8 +2318,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -2334,8 +2334,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -2350,8 +2350,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -2366,8 +2366,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -2382,8 +2382,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -2398,8 +2398,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -2413,13 +2413,13 @@
       "origin": "csv_watchlist",
       "notes": "",
       "url_valid": true,
-      "last_message": "Page ATS publique parcourue",
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
+      "last_success": "2026-10-14",
       "last_outcome": "scanned",
+      "last_method": "watchlist",
       "last_jobs": 19,
       "last_resolved_url": "https://verity.gupy.io",
-      "last_success": "2026-10-14"
+      "last_message": "Page ATS publique parcourue"
     },
     {
       "key": "vitol",
@@ -2431,8 +2431,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -2447,8 +2447,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -2463,8 +2463,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -2478,13 +2478,13 @@
       "origin": "csv_watchlist",
       "notes": "",
       "url_valid": true,
-      "last_message": "Page ATS publique parcourue",
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
+      "last_success": "2026-10-14",
       "last_outcome": "scanned",
+      "last_method": "watchlist",
       "last_jobs": 7,
       "last_resolved_url": "https://jobs.lever.co/wingtra-2",
-      "last_success": "2026-10-14"
+      "last_message": "Page ATS publique parcourue"
     },
     {
       "key": "ypsomed",
@@ -2496,8 +2496,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -2512,8 +2512,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -2528,8 +2528,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -2544,8 +2544,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "error",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "https://agap2.teamtailor.com",
       "last_message": "ATS fetch error: CompanyNotFoundError: TeamtailorScraper('agap2') not found"
@@ -2560,8 +2560,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -2576,8 +2576,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -2592,8 +2592,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -2607,13 +2607,13 @@
       "origin": "csv_watchlist",
       "notes": "Groupe : certaines divisions et certains pays sont suivis séparément.",
       "url_valid": true,
-      "last_message": "Page ATS publique parcourue",
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
+      "last_success": "2026-10-14",
       "last_outcome": "scanned",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "https://airbus.bamboohr.com/careers",
-      "last_success": "2026-10-14"
+      "last_message": "Page ATS publique parcourue"
     },
     {
       "key": "airbus defence and space",
@@ -2625,8 +2625,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -2641,8 +2641,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -2657,8 +2657,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -2673,8 +2673,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -2689,8 +2689,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "unsupported_url",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Connecteur ATS indisponible pour cette URL: Could not recognize an ATS from 'https://jobsearch.alstom.com'. Custom-domain careers sites can't be resolved from the URL alone — if you kn"
@@ -2705,8 +2705,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -2720,13 +2720,13 @@
       "origin": "csv_watchlist",
       "notes": "",
       "url_valid": true,
-      "last_message": "Page ATS publique parcourue",
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
+      "last_success": "2026-10-14",
       "last_outcome": "scanned",
+      "last_method": "watchlist",
       "last_jobs": 4,
       "last_resolved_url": "https://ampere.jobs.personio.com",
-      "last_success": "2026-10-14"
+      "last_message": "Page ATS publique parcourue"
     },
     {
       "key": "anywaves",
@@ -2738,8 +2738,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -2754,8 +2754,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "error",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "https://apside.recruitee.com",
       "last_message": "ATS fetch error: CompanyNotFoundError: RecruiteeScraper('apside') not found"
@@ -2769,13 +2769,13 @@
       "origin": "csv_watchlist",
       "notes": "",
       "url_valid": true,
-      "last_message": "Page ATS publique parcourue",
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
+      "last_success": "2026-10-14",
       "last_outcome": "scanned",
+      "last_method": "watchlist",
       "last_jobs": 122,
       "last_resolved_url": "https://arianegroup.wd3.myworkdayjobs.com/groupmobility-subsidiaries",
-      "last_success": "2026-10-14"
+      "last_message": "Page ATS publique parcourue"
     },
     {
       "key": "arquus",
@@ -2787,8 +2787,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -2803,8 +2803,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -2819,8 +2819,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "timeout",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Délai de 24 secondes dépassé"
@@ -2835,8 +2835,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -2851,8 +2851,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -2867,8 +2867,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -2893,8 +2893,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -2909,8 +2909,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -2925,8 +2925,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -2941,8 +2941,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -2957,8 +2957,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -2973,8 +2973,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -2989,8 +2989,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -3005,8 +3005,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -3101,8 +3101,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -3117,8 +3117,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -3133,8 +3133,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -3149,8 +3149,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -3165,8 +3165,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -3181,8 +3181,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -3197,8 +3197,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -3213,8 +3213,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -3229,8 +3229,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -3245,8 +3245,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -3261,8 +3261,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -3277,8 +3277,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -3293,8 +3293,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -3309,8 +3309,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -3325,8 +3325,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -3341,8 +3341,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -3357,8 +3357,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -3373,8 +3373,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -3389,8 +3389,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -3405,8 +3405,8 @@
       "notes": "Technologie moteurs : entité/implantation française à vérifier.",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -3421,8 +3421,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -3437,8 +3437,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -3453,8 +3453,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -3469,8 +3469,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -3485,12 +3485,12 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
+      "last_success": "2026-10-14",
       "last_outcome": "scanned",
+      "last_method": "watchlist",
       "last_jobs": 40,
       "last_resolved_url": "https://expleo-jobs-be-en.icims.com",
-      "last_message": "Page ATS publique parcourue",
-      "last_success": "2026-10-14"
+      "last_message": "Page ATS publique parcourue"
     },
     {
       "key": "extia ingenierie",
@@ -3502,8 +3502,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -3518,8 +3518,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -3534,8 +3534,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -3550,8 +3550,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -3566,8 +3566,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -3582,8 +3582,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -3598,8 +3598,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -3613,13 +3613,13 @@
       "origin": "csv_watchlist",
       "notes": "",
       "url_valid": true,
-      "last_message": "Page ATS publique parcourue",
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
+      "last_success": "2026-10-14",
       "last_outcome": "scanned",
+      "last_method": "watchlist",
       "last_jobs": 157,
       "last_resolved_url": "https://careers-framatome.icims.com",
-      "last_success": "2026-10-14"
+      "last_message": "Page ATS publique parcourue"
     },
     {
       "key": "ganymed robotics",
@@ -3631,8 +3631,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -3647,8 +3647,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -3663,8 +3663,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -3695,13 +3695,13 @@
       "origin": "csv_watchlist",
       "notes": "",
       "url_valid": true,
-      "last_message": "Page ATS publique parcourue",
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
+      "last_success": "2026-10-14",
       "last_outcome": "scanned",
+      "last_method": "watchlist",
       "last_jobs": 26,
       "last_resolved_url": "https://hemeriagroup.recruitee.com",
-      "last_success": "2026-10-14"
+      "last_message": "Page ATS publique parcourue"
     },
     {
       "key": "hutchinson",
@@ -3713,8 +3713,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -3729,8 +3729,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -3745,8 +3745,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -3761,8 +3761,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -3777,8 +3777,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -3793,8 +3793,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -3809,8 +3809,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -3825,8 +3825,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -3841,8 +3841,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -3857,12 +3857,12 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
+      "last_success": "2026-10-14",
       "last_outcome": "scanned",
+      "last_method": "watchlist",
       "last_jobs": 314,
       "last_resolved_url": "https://jobs.lever.co/latitudeinc",
-      "last_message": "Page ATS publique parcourue",
-      "last_success": "2026-10-14"
+      "last_message": "Page ATS publique parcourue"
     },
     {
       "key": "lectra",
@@ -3874,8 +3874,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -3890,8 +3890,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -3906,8 +3906,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -3922,8 +3922,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -3938,8 +3938,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -3954,8 +3954,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -3970,8 +3970,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -3985,13 +3985,13 @@
       "origin": "csv_watchlist",
       "notes": "",
       "url_valid": true,
-      "last_message": "Page ATS publique parcourue",
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
+      "last_success": "2026-10-14",
       "last_outcome": "scanned",
+      "last_method": "watchlist",
       "last_jobs": 227,
       "last_resolved_url": "https://mbda.wd3.myworkdayjobs.com/mbda-uk",
-      "last_success": "2026-10-14"
+      "last_message": "Page ATS publique parcourue"
     },
     {
       "key": "mca ingenierie",
@@ -4003,8 +4003,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -4019,8 +4019,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -4035,8 +4035,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -4051,8 +4051,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "timeout",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Délai de 24 secondes dépassé"
@@ -4067,8 +4067,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -4083,8 +4083,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -4099,8 +4099,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -4115,8 +4115,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -4131,8 +4131,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -4147,8 +4147,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -4163,8 +4163,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -4179,8 +4179,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -4195,8 +4195,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -4211,8 +4211,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -4227,8 +4227,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -4243,8 +4243,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -4258,13 +4258,13 @@
       "origin": "csv_watchlist",
       "notes": "",
       "url_valid": true,
-      "last_message": "Page ATS publique parcourue",
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
+      "last_success": "2026-10-14",
       "last_outcome": "scanned",
+      "last_method": "watchlist",
       "last_jobs": 5,
       "last_resolved_url": "https://quantumsurgical.teamtailor.com",
-      "last_success": "2026-10-14"
+      "last_message": "Page ATS publique parcourue"
     },
     {
       "key": "ratp dev ratp infrastructures",
@@ -4276,8 +4276,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -4292,8 +4292,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -4308,8 +4308,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -4324,8 +4324,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -4340,8 +4340,8 @@
       "notes": "Groupe : les sociétés spécialisées sont suivies séparément.",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -4356,8 +4356,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -4372,8 +4372,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -4388,8 +4388,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -4404,8 +4404,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -4420,8 +4420,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -4435,13 +4435,13 @@
       "origin": "csv_watchlist",
       "notes": "",
       "url_valid": true,
-      "last_message": "Page ATS publique parcourue",
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
+      "last_success": "2026-10-14",
       "last_outcome": "scanned",
+      "last_method": "watchlist",
       "last_jobs": 53,
       "last_resolved_url": "https://careers-saft.icims.com",
-      "last_success": "2026-10-14"
+      "last_message": "Page ATS publique parcourue"
     },
     {
       "key": "saint gobain research",
@@ -4453,8 +4453,8 @@
       "notes": "Cibler notamment le centre de recherche de Paris.",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -4468,13 +4468,13 @@
       "origin": "csv_watchlist",
       "notes": "",
       "url_valid": true,
-      "last_message": "Page ATS publique parcourue",
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
+      "last_success": "2026-10-14",
       "last_outcome": "scanned",
+      "last_method": "watchlist",
       "last_jobs": 75,
       "last_resolved_url": "https://careers.smartrecruiters.com/Salomon",
-      "last_success": "2026-10-14"
+      "last_message": "Page ATS publique parcourue"
     },
     {
       "key": "scalian",
@@ -4486,8 +4486,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "unsupported_url",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Connecteur ATS indisponible pour cette URL: Could not recognize an ATS from 'https://scalian.csod.com/ux/ats/careersite/1/home?c=scalian'. Custom-domain careers sites can't be resolved"
@@ -4502,8 +4502,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -4518,8 +4518,8 @@
       "notes": "Groupe européen : Suisse/France/Allemagne selon postes anglophones.",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "unsupported_url",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Connecteur ATS indisponible pour cette URL: Could not recognize an ATS from 'https://jobs.schaeffler.com'. Custom-domain careers sites can't be resolved from the URL alone — if you kno"
@@ -4534,8 +4534,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -4549,13 +4549,13 @@
       "origin": "csv_watchlist",
       "notes": "",
       "url_valid": true,
-      "last_message": "Page ATS publique parcourue",
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
+      "last_success": "2026-10-14",
       "last_outcome": "scanned",
+      "last_method": "watchlist",
       "last_jobs": 1,
       "last_resolved_url": "https://careers.smartrecruiters.com/segulatechnologies",
-      "last_success": "2026-10-14"
+      "last_message": "Page ATS publique parcourue"
     },
     {
       "key": "serma ingenierie",
@@ -4567,8 +4567,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -4583,8 +4583,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -4599,8 +4599,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -4615,8 +4615,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -4631,8 +4631,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -4646,9 +4646,9 @@
       "origin": "csv_watchlist",
       "notes": "",
       "url_valid": true,
-      "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
+      "last_attempt": "2026-10-20",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -4662,9 +4662,9 @@
       "origin": "csv_watchlist",
       "notes": "",
       "url_valid": true,
-      "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
+      "last_attempt": "2026-10-20",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -4678,9 +4678,9 @@
       "origin": "csv_watchlist",
       "notes": "",
       "url_valid": true,
-      "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
+      "last_attempt": "2026-10-20",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -4694,9 +4694,9 @@
       "origin": "csv_watchlist",
       "notes": "",
       "url_valid": true,
-      "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
+      "last_attempt": "2026-10-20",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -4711,12 +4711,12 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
+      "last_success": "2026-10-14",
       "last_outcome": "scanned",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "https://symbio.bamboohr.com/careers",
-      "last_message": "Page ATS publique parcourue",
-      "last_success": "2026-10-14"
+      "last_message": "Page ATS publique parcourue"
     },
     {
       "key": "technip energies",
@@ -4728,8 +4728,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -4743,13 +4743,13 @@
       "origin": "csv_watchlist",
       "notes": "",
       "url_valid": true,
-      "last_message": "Page ATS publique parcourue",
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
+      "last_success": "2026-10-14",
       "last_outcome": "scanned",
+      "last_method": "watchlist",
       "last_jobs": 16,
       "last_resolved_url": "https://thales.wd3.myworkdayjobs.com/careers",
-      "last_success": "2026-10-14"
+      "last_message": "Page ATS publique parcourue"
     },
     {
       "key": "the exploration company",
@@ -4760,13 +4760,13 @@
       "origin": "csv_watchlist",
       "notes": "",
       "url_valid": true,
-      "last_message": "Page ATS publique parcourue",
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
+      "last_success": "2026-10-14",
       "last_outcome": "scanned",
+      "last_method": "watchlist",
       "last_jobs": 101,
       "last_resolved_url": "https://jobs.ashbyhq.com/the-exploration-company",
-      "last_success": "2026-10-14"
+      "last_message": "Page ATS publique parcourue"
     },
     {
       "key": "thrustme",
@@ -4778,8 +4778,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -4794,8 +4794,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -4810,8 +4810,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -4826,8 +4826,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -4842,8 +4842,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "timeout",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Délai de 24 secondes dépassé"
@@ -4858,8 +4858,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -4873,13 +4873,13 @@
       "origin": "csv_watchlist",
       "notes": "",
       "url_valid": true,
-      "last_message": "Page ATS publique parcourue",
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
+      "last_success": "2026-10-14",
       "last_outcome": "scanned",
+      "last_method": "watchlist",
       "last_jobs": 42,
       "last_resolved_url": "https://jobs.lever.co/verkor",
-      "last_success": "2026-10-14"
+      "last_message": "Page ATS publique parcourue"
     },
     {
       "key": "voltaero",
@@ -4891,8 +4891,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -4907,8 +4907,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -4922,13 +4922,13 @@
       "origin": "csv_watchlist",
       "notes": "",
       "url_valid": true,
-      "last_message": "Page ATS publique parcourue",
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
+      "last_success": "2026-10-14",
       "last_outcome": "scanned",
+      "last_method": "watchlist",
       "last_jobs": 28,
       "last_resolved_url": "https://apply.workable.com/withings",
-      "last_success": "2026-10-14"
+      "last_message": "Page ATS publique parcourue"
     },
     {
       "key": "zf france",
@@ -4940,8 +4940,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -4992,8 +4992,8 @@
       "notes": "Pays cible à confirmer.",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -5008,8 +5008,8 @@
       "notes": "Pays cible à confirmer.",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -5024,8 +5024,8 @@
       "notes": "Pays cible à confirmer.",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -5067,8 +5067,8 @@
       "notes": "Pays cible à confirmer.",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -5083,8 +5083,8 @@
       "notes": "Pays cible à confirmer.",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -5114,7 +5114,12 @@
       "careers_url": "",
       "enabled": true,
       "origin": "directory_priority",
-      "notes": ""
+      "notes": "",
+      "last_attempt": "2026-10-20",
+      "last_method": "discovery",
+      "last_outcome": "lookup_only",
+      "last_jobs": 0,
+      "last_message": "Recherche annuaire seulement ; scan non confirmé"
     },
     {
       "key": "neology",
@@ -5125,13 +5130,13 @@
       "origin": "csv_watchlist",
       "notes": "Pays cible à confirmer.",
       "url_valid": true,
-      "last_message": "Page ATS publique parcourue",
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
+      "last_success": "2026-10-14",
       "last_outcome": "scanned",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "https://neology.bamboohr.com/careers",
-      "last_success": "2026-10-14"
+      "last_message": "Page ATS publique parcourue"
     },
     {
       "key": "northvolt",
@@ -5164,11 +5169,11 @@
       "enabled": true,
       "origin": "config_direct",
       "notes": "",
-      "last_attempt": "2026-10-14",
-      "last_success": "2026-10-14",
+      "last_attempt": "2026-10-20",
+      "last_success": "2026-10-20",
       "last_outcome": "scanned",
       "last_method": "direct",
-      "last_jobs": 121,
+      "last_jobs": 122,
       "last_resolved_url": "https://job-boards.greenhouse.io/planetlabs",
       "last_message": "Site ATS interrogé directement"
     },
@@ -5205,8 +5210,8 @@
       "notes": "Pays cible à confirmer.",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -5221,8 +5226,8 @@
       "notes": "Robotique adjacente : pays et site carrière à confirmer. ; Pays cible à confirmer.",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -5237,8 +5242,8 @@
       "notes": "Pays cible à confirmer.",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -5252,13 +5257,13 @@
       "origin": "csv_watchlist",
       "notes": "Pays cible à confirmer.",
       "url_valid": true,
-      "last_message": "Page ATS publique parcourue",
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
+      "last_success": "2026-10-14",
       "last_outcome": "scanned",
+      "last_method": "watchlist",
       "last_jobs": 6,
       "last_resolved_url": "https://job-boards.greenhouse.io/verse",
-      "last_success": "2026-10-14"
+      "last_message": "Page ATS publique parcourue"
     },
     {
       "key": "aerospacelab",
@@ -5270,8 +5275,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -5286,8 +5291,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -5302,8 +5307,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "error",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "https://join.com/companies/melexis",
       "last_message": "ATS fetch error: ScraperError: JoinComScraper('melexis'): https://join.com/api/public/companies/39222/jobs returned 422"
@@ -5318,8 +5323,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -5334,8 +5339,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -5349,13 +5354,13 @@
       "origin": "csv_watchlist",
       "notes": "",
       "url_valid": true,
-      "last_message": "Page ATS publique parcourue",
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
+      "last_success": "2026-10-14",
       "last_outcome": "scanned",
+      "last_method": "watchlist",
       "last_jobs": 10,
       "last_resolved_url": "https://lde.tbe.taleo.net/lde01/ats/careers/v2/searchResults?org=SONACA&cws=38",
-      "last_success": "2026-10-14"
+      "last_message": "Page ATS publique parcourue"
     },
     {
       "key": "thales belgium",
@@ -5367,8 +5372,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -5383,8 +5388,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -5399,8 +5404,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "unsupported_url",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Connecteur ATS indisponible pour cette URL: Could not recognize an ATS from 'https://careers.umicore.com'. Custom-domain careers sites can't be resolved from the URL alone — if you kno"
@@ -5414,13 +5419,13 @@
       "origin": "csv_watchlist",
       "notes": "",
       "url_valid": true,
-      "last_message": "Page ATS publique parcourue",
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
+      "last_success": "2026-10-14",
       "last_outcome": "scanned",
+      "last_method": "watchlist",
       "last_jobs": 3,
       "last_resolved_url": "https://apply.workable.com/agile-robots",
-      "last_success": "2026-10-14"
+      "last_message": "Page ATS publique parcourue"
     },
     {
       "key": "airbus germany",
@@ -5432,8 +5437,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -5448,8 +5453,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -5463,13 +5468,13 @@
       "origin": "csv_watchlist",
       "notes": "",
       "url_valid": true,
-      "last_message": "Page ATS publique parcourue",
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
+      "last_success": "2026-10-14",
       "last_outcome": "scanned",
+      "last_method": "watchlist",
       "last_jobs": 58,
       "last_resolved_url": "https://job-boards.greenhouse.io/arxroboticsgmbh",
-      "last_success": "2026-10-14"
+      "last_message": "Page ATS publique parcourue"
     },
     {
       "key": "audi",
@@ -5481,8 +5486,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -5497,8 +5502,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "unsupported_url",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Connecteur ATS indisponible pour cette URL: Could not recognize an ATS from 'https://jobs.bmwgroup.com'. Custom-domain careers sites can't be resolved from the URL alone — if you know "
@@ -5513,8 +5518,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -5529,8 +5534,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "timeout",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Délai de 24 secondes dépassé"
@@ -5545,8 +5550,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -5561,8 +5566,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -5577,8 +5582,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -5593,8 +5598,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "unsupported_url",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Connecteur ATS indisponible pour cette URL: Could not recognize an ATS from 'https://careers.mahle.com'. Custom-domain careers sites can't be resolved from the URL alone — if you know "
@@ -5609,8 +5614,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -5625,8 +5630,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -5641,8 +5646,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "unsupported_url",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Connecteur ATS indisponible pour cette URL: Could not recognize an ATS from 'https://career-ohb.csod.com/ux/ats/careersite/4/home?c=career-ohb'. Custom-domain careers sites can't be re"
@@ -5657,8 +5662,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -5673,8 +5678,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -5689,8 +5694,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -5705,8 +5710,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "error",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "https://siemens.teamtailor.com",
       "last_message": "ATS fetch error: CompanyNotFoundError: TeamtailorScraper('siemens') not found"
@@ -5721,8 +5726,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -5737,8 +5742,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -5753,8 +5758,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -5769,8 +5774,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -5785,8 +5790,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "unsupported_url",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Connecteur ATS indisponible pour cette URL: Could not recognize an ATS from 'https://jobs.zf.com'. Custom-domain careers sites can't be resolved from the URL alone — if you know the pl"
@@ -5801,8 +5806,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -5817,8 +5822,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -5833,8 +5838,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "unsupported_url",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Connecteur ATS indisponible pour cette URL: Could not recognize an ATS from 'https://career5.successfactors.eu/career?company=termaas'. Custom-domain careers sites can't be resolved fr"
@@ -5849,8 +5854,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -5865,8 +5870,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "unsupported_url",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Connecteur ATS indisponible pour cette URL: Could not recognize an ATS from 'https://careers.vestas.com'. Custom-domain careers sites can't be resolved from the URL alone — if you know"
@@ -5881,8 +5886,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -5897,12 +5902,12 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
+      "last_success": "2026-10-14",
       "last_outcome": "scanned",
+      "last_method": "watchlist",
       "last_jobs": 191,
       "last_resolved_url": "https://jobs.ashbyhq.com/iceye",
-      "last_message": "Page ATS publique parcourue",
-      "last_success": "2026-10-14"
+      "last_message": "Page ATS publique parcourue"
     },
     {
       "key": "metso",
@@ -5914,8 +5919,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -5930,8 +5935,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -5946,8 +5951,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -5962,12 +5967,12 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
+      "last_success": "2026-10-14",
       "last_outcome": "scanned",
+      "last_method": "watchlist",
       "last_jobs": 1,
       "last_resolved_url": "https://job-boards.greenhouse.io/ses",
-      "last_message": "Page ATS publique parcourue",
-      "last_success": "2026-10-14"
+      "last_message": "Page ATS publique parcourue"
     },
     {
       "key": "ampelmann",
@@ -5979,8 +5984,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -5995,8 +6000,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -6011,8 +6016,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -6027,8 +6032,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -6043,8 +6048,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -6059,8 +6064,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -6075,8 +6080,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -6091,8 +6096,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -6107,8 +6112,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -6123,8 +6128,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -6139,8 +6144,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -6155,8 +6160,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -6171,8 +6176,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -6187,8 +6192,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -6203,12 +6208,12 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
+      "last_success": "2026-10-14",
       "last_outcome": "scanned",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "https://careers.smartrecruiters.com/polestar",
-      "last_message": "Page ATS publique parcourue",
-      "last_success": "2026-10-14"
+      "last_message": "Page ATS publique parcourue"
     },
     {
       "key": "saab",
@@ -6223,8 +6228,8 @@
       "last_outcome": "error",
       "last_method": "watchlist",
       "last_jobs": 0,
-      "last_message": "ATS fetch error: ScraperError: Workday returned 422 for https://saabgroup.wd3.myworkdayjobs.com/saab_careers (offset=0)",
-      "last_resolved_url": "https://saabgroup.wd3.myworkdayjobs.com/saab_careers"
+      "last_resolved_url": "https://saabgroup.wd3.myworkdayjobs.com/saab_careers",
+      "last_message": "ATS fetch error: ScraperError: Workday returned 422 for https://saabgroup.wd3.myworkdayjobs.com/saab_careers (offset=0)"
     },
     {
       "key": "sandvik",
@@ -6236,12 +6241,12 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
+      "last_success": "2026-10-14",
       "last_outcome": "scanned",
+      "last_method": "watchlist",
       "last_jobs": 52,
       "last_resolved_url": "https://sandvik.wd3.myworkdayjobs.com/coromant-jobs",
-      "last_message": "Page ATS publique parcourue",
-      "last_success": "2026-10-14"
+      "last_message": "Page ATS publique parcourue"
     },
     {
       "key": "scania",
@@ -6253,8 +6258,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
@@ -6269,8 +6274,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "unsupported_url",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Connecteur ATS indisponible pour cette URL: Could not recognize an ATS from 'https://career.skf.com'. Custom-domain careers sites can't be resolved from the URL alone — if you know the"
@@ -6285,8 +6290,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "unsupported_url",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Connecteur ATS indisponible pour cette URL: Could not recognize an ATS from 'https://jobs.tetrapak.com'. Custom-domain careers sites can't be resolved from the URL alone — if you know "
@@ -6301,8 +6306,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "unsupported_url",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Connecteur ATS indisponible pour cette URL: Could not recognize an ATS from 'https://jobs.volvocars.com'. Custom-domain careers sites can't be resolved from the URL alone — if you know"
@@ -6317,8 +6322,8 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-14",
-      "last_method": "watchlist",
       "last_outcome": "not_found",
+      "last_method": "watchlist",
       "last_jobs": 0,
       "last_resolved_url": "",
       "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
