@@ -77,7 +77,7 @@ jobs:
           python backfill_jobs.py --report-only
           python build_dashboard.py
           python -m unittest discover -s tests -v
-          git add data/job-enrichment-audit.csv data/job-enrichment-summary.json dashboard/index.html
+          git add data/job-enrichment-audit.csv data/job-enrichment-summary.json data/job_assessments.json dashboard/index.html
           if ! git diff --cached --quiet; then
             git commit -m "Refresh enriched dashboard from latest history"
           fi

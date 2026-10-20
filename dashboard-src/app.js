@@ -12,6 +12,14 @@
     applied: 'Postulé', interview: 'Entretien', rejected: 'Refusé', ignored: 'Ignoré'
   };
   const statusColors = { to_review: '', shortlisted: '', to_apply: '', applied: '', interview: '', rejected: '', ignored: 'ignored' };
+  const decisionLabels = {to_review:'À examiner', retained:'Retenue', revisit:'À revoir', discarded:'Écartée'};
+  const pdmLabels = {explicit:'PDM explicite', high:'Potentiel PDM élevé', medium:'Potentiel PDM moyen', low:'Potentiel PDM faible', uncertain:'Potentiel PDM incertain'};
+  const pdmRank = {explicit:4, high:3, medium:2, uncertain:1, low:0};
+  const constraintLabels = {compatible:'Compatible', incompatible:'Incompatible', unknown:'À vérifier'};
+  const constraintNames = {duration:'Durée', start_date:'Date de début', languages:'Langues', location:'Lieu', education:'Formation', eligibility:'Éligibilité'};
+  const technicalCategories = ['Mechanical Design','R&D / Product Development','Simulation / CAE','Testing / Validation','Manufacturing / Production','Systems Integration','Robotics / Mechatronics','Automation / Control','Materials / Processes','Energy / Thermal','Quality','Supply Chain / Logistics','Project Management','Other'];
+  let currentView = 'jobs';
+  const viewSort = {jobs:'score', preselection:'combined'};
   const today = new Date();
   let tracking = {};
   let selectedId = '';
@@ -65,6 +73,50 @@
   const getStatus = job => state(job).status || baseStatus(job);
   const isFavorite = job => !!state(job).favorite;
   const getNote = job => state(job).note || '';
+  const getDecision = job => Object.hasOwn(decisionLabels, state(job).selection_decision) ? state(job).selection_decision : 'to_review';
+  const strings = value => Array.isArray(value) ? value.filter(item => typeof item === 'string') : [];
+  const selectedValues = id => Array.from($(id).selectedOptions || []).map(option => option.value).filter(Boolean);
+  function cleanOverride(value) {
+    if (!value || typeof value !== 'object' || Array.isArray(value)) return null;
+    const result = {...(Object.hasOwn(pdmLabels,value.pdm_potential) ? {pdm_potential:value.pdm_potential} : {}),
+      ...(typeof value.technical_score === 'number' && Number.isFinite(value.technical_score) && value.technical_score >= 0 && value.technical_score <= 100 ? {technical_score:value.technical_score} : {}),
+      ...(Array.isArray(value.technical_categories) && value.technical_categories.every(item => typeof item === 'string') ? {technical_categories:value.technical_categories.slice(0,30).map(item => item.slice(0,200))} : {}),
+      ...(typeof value.reason === 'string' ? {reason:value.reason.slice(0,2000)} : {}),
+      ...(typeof value.input_hash === 'string' ? {input_hash:value.input_hash.slice(0,200)} : {})};
+    return ['pdm_potential','technical_score','technical_categories','reason'].some(key => Object.hasOwn(result,key)) ? result : null;
+  }
+  function assessment(job) {
+    const base = job.assessment || {};
+    const server = cleanOverride(base.manual_override);
+    const local = cleanOverride(state(job).assessment_override);
+    const result = {...base, ...(server || {}), ...(local || {})};
+    result.pdm_potential = Object.hasOwn(pdmLabels,result.pdm_potential) ? result.pdm_potential : 'uncertain';
+    result.technical_score = typeof result.technical_score === 'number' && Number.isFinite(result.technical_score) ? Math.max(0,Math.min(100,result.technical_score)) : 0;
+    result.technical_categories = strings(result.technical_categories);
+    result.override = local || server ? {...(server || {}), ...(local || {})} : null;
+    result.sourceChanged = !!result.override?.input_hash && result.override.input_hash !== base.input_hash;
+    return result;
+  }
+  const combinedScore = job => { const a = assessment(job); return a.technical_score * ((pdmRank[a.pdm_potential] + 1) / 5); };
+  function assessmentBadges(job) {
+    const a = assessment(job);
+    return `<span class="pill pdm">${esc(pdmLabels[a.pdm_potential])}</span><span class="pill technical">Technique ${a.technical_score}/100</span>${a.technical_categories.map(category => `<span class="pill category">${esc(category)}</span>`).join('')}${job.priority_company ? '<span class="pill priority">Entreprise prioritaire</span>' : ''}<span class="pill decision">${esc(decisionLabels[getDecision(job)])}</span>`;
+  }
+  function cardAssessment(job) {
+    if (currentView !== 'preselection') return '';
+    const a = assessment(job);
+    const evidence = strings(a.mission_evidence).find(text => text.trim()) || strings(a.technical_reasons).find(text => text.trim()) || a.pdm_reason || 'Missions à préciser.';
+    const text = String(evidence).replace(/\s+/g,' ').trim();
+    const summary = text.length > 220 ? text.slice(0,217).replace(/\s+\S*$/,'').trimEnd() + '…' : text;
+    const status = Object.hasOwn(constraintLabels,a.constraint_status) ? a.constraint_status : 'unknown';
+    return `<p class="card-justification">${esc(summary)}</p><span class="pill constraints ${status}">Contraintes : ${esc(constraintLabels[status])}</span>`;
+  }
+  function updateCategoryOptions() {
+    const selected = new Set(selectedValues('technical-categories'));
+    const categories = [...new Set([...jobs.flatMap(job => assessment(job).technical_categories), ...selected])].filter(Boolean).sort((a,b)=>a.localeCompare(b,'fr'));
+    const options = categories.map(value => { const option = document.createElement('option'); option.value = value; option.textContent = value; option.selected = selected.has(value); return option; });
+    $('technical-categories').replaceChildren(...options);
+  }
   function loadTracking() {
     try {
       const raw = JSON.parse(localStorage.getItem(storageKey) || '{}');
@@ -96,11 +148,29 @@
     if ($('fave-only').checked && !isFavorite(job)) return false;
     if ($('new-only').checked && !isNew(job)) return false;
     if ($('official-only').checked && !isOfficial(job)) return false;
+    if (currentView === 'preselection') {
+      const a = assessment(job);
+      if (!$('show-low').checked && $('pdm-filter').value !== 'low' && a.pdm_potential === 'low') return false;
+      if ($('pdm-filter').value && a.pdm_potential !== $('pdm-filter').value) return false;
+      const categories = selectedValues('technical-categories');
+      if (categories.length && !categories.some(category => a.technical_categories.includes(category))) return false;
+      if (a.technical_score < Number($('technical-min').value || 0)) return false;
+      if ($('company-filter').value && job.company !== $('company-filter').value) return false;
+      if ($('selection-decision').value && getDecision(job) !== $('selection-decision').value) return false;
+      if ($('constraint-filter').value && (a.constraint_status || 'unknown') !== $('constraint-filter').value) return false;
+      if ($('availability-filter').value && (job.availability || 'unknown') !== $('availability-filter').value) return false;
+    }
     return true;
   }
   function sortJobs(list) {
     const mode = $('sort').value;
     list.sort((a,b) => {
+      const aa = assessment(a), ab = assessment(b);
+      const tie = () => ab.technical_score - aa.technical_score || pdmRank[ab.pdm_potential] - pdmRank[aa.pdm_potential] || (b.first_seen || '').localeCompare(a.first_seen || '') || a.id.localeCompare(b.id);
+      if (mode === 'combined') return combinedScore(b) - combinedScore(a) || tie();
+      if (mode === 'pdm') return pdmRank[ab.pdm_potential] - pdmRank[aa.pdm_potential] || tie();
+      if (mode === 'technical') return ab.technical_score - aa.technical_score || tie();
+      if (mode === 'priority') return Number(!!b.priority_company) - Number(!!a.priority_company) || combinedScore(b) - combinedScore(a) || tie();
       if (mode === 'newest') return (b.first_seen || '').localeCompare(a.first_seen || '') || b.score - a.score;
       if (mode === 'posted') return (b.posted_at || '').localeCompare(a.posted_at || '') || b.score - a.score;
       if (mode === 'company') return a.company.localeCompare(b.company, 'fr') || b.score - a.score;
@@ -130,7 +200,7 @@
           <div class="job-main"><div class="job-company"><span class="company-avatar">${esc(initial(job.company))}</span><span>${esc(job.company)}</span></div>
           <div class="job-title">${esc(job.title)}</div>
           <div class="job-meta"><span>⌁ ${esc(job.location || 'Lieu non précisé')}</span><span>· ${esc(job.source || 'Source non précisée')}</span></div>
-          <div class="job-badges"><span class="pill score ${scoreClass}">${job.score}/100</span>${isPdm(job) ? '<span class="pill pdm">Master thesis</span>' : ''}${isNew(job) ? '<span class="pill new">Nouveau</span>' : ''}${verificationBadge}${s !== 'to_review' ? `<span class="pill status ${statusColors[s]}">${esc(statusLabels[s])}</span>` : ''}</div></div>
+          <div class="job-badges"><span class="pill score ${scoreClass}">Recherche ${Number(job.score) || 0}/100</span>${assessmentBadges(job)}${isNew(job) ? '<span class="pill new">Nouveau</span>' : ''}${verificationBadge}${s !== 'to_review' ? `<span class="pill status ${statusColors[s]}">${esc(statusLabels[s])}</span>` : ''}</div>${cardAssessment(job)}</div>
           <button class="favorite-btn ${isFavorite(job) ? 'active' : ''}" type="button" data-fav-id="${esc(job.id)}" aria-label="${isFavorite(job) ? 'Retirer des' : 'Ajouter aux'} favoris" title="Favori">${isFavorite(job) ? '★' : '☆'}</button>
         </article>`;
       }).join('');
@@ -139,6 +209,23 @@
     if (!$('show-more').hidden) $('show-more').textContent = `Afficher 80 offres de plus (${(filtered.length-visibleLimit).toLocaleString('fr-FR')} restantes)`;
   }
   function fact(label, value) { return `<div class="fact"><dt>${esc(label)}</dt><dd>${esc(value || 'Non précisé')}</dd></div>`; }
+  function renderAssessment(job) {
+    const a = assessment(job);
+    const bullets = (title, values) => strings(values).length ? `<h4>${esc(title)}</h4><ul>${strings(values).map(value => `<li>${esc(value)}</li>`).join('')}</ul>` : '';
+    const categories = [...new Set([...technicalCategories, ...jobs.flatMap(item => assessment(item).technical_categories), ...a.technical_categories])].sort();
+    const options = Object.entries(pdmLabels).map(([value,label]) => `<option value="${value}" ${value === a.pdm_potential ? 'selected' : ''}>${esc(label)}</option>`).join('');
+    return `<section class="assessment-panel" aria-label="Analyse de présélection"><h3>Analyse de présélection</h3><div class="job-badges">${assessmentBadges(job)}</div>
+      <p>${esc(a.pdm_reason || 'Potentiel PDM non évalué.')}</p><p class="analysis-meta">Confiance PDM : ${esc(({high:'élevée',medium:'moyenne',low:'faible',none:'non évaluée'})[a.pdm_confidence] || a.pdm_confidence || 'non évaluée')}${a.rules_version ? ` · Règles ${esc(a.rules_version)}` : ''}</p>
+      ${a.override ? `<p class="analysis-meta">Correction manuelle${a.override.reason ? ` : ${esc(a.override.reason)}` : ''}.</p>` : ''}
+      ${a.sourceChanged ? '<div class="warning-note">La source a changé depuis la correction manuelle. Vérifiez votre analyse ; la correction est conservée.</div>' : ''}
+      ${bullets('Correspondance technique',a.technical_reasons)}${bullets('Éléments de mission',a.mission_evidence)}${bullets('Informations manquantes',a.missing_information)}
+      <h4>Contraintes pratiques</h4><p class="analysis-meta">État global : ${esc(constraintLabels[a.constraint_status] || 'À vérifier')}${a.needs_human_review ? ' · Vérification humaine nécessaire' : ''}</p>
+      <dl class="constraint-facts">${Object.entries(constraintNames).map(([key,label]) => { const c = a.constraints?.[key] || {}; return `<div><dt>${esc(label)} <span class="pill">${esc(constraintLabels[c.status] || 'À vérifier')}</span></dt><dd>${esc(c.value || 'Non précisé')}${c.reason ? `<br>${esc(c.reason)}` : ''}${strings(c.evidence).map(text => `<blockquote>${esc(text)}</blockquote>`).join('')}</dd></div>`; }).join('')}</dl>
+      <details class="override-editor"><summary>Corriger l’analyse</summary><label for="override-pdm">Potentiel PDM</label><select id="override-pdm">${options}</select>
+        <label for="override-score">Score technique (0–100)</label><input id="override-score" type="number" min="0" max="100" value="${a.technical_score}">
+        <label for="override-categories">Catégories techniques (plusieurs choix)</label><select id="override-categories" multiple size="5">${categories.map(value => `<option value="${esc(value)}" ${a.technical_categories.includes(value) ? 'selected' : ''}>${esc(value)}</option>`).join('')}</select>
+        <label for="override-reason">Motif (facultatif)</label><textarea id="override-reason">${esc(a.override?.reason || '')}</textarea><div class="override-actions"><button id="override-save" type="button" class="button button-quiet">Enregistrer la correction</button><button id="override-reset" type="button" class="text-link">Réinitialiser la correction locale</button></div><p class="track-help">La correction est conservée lors des prochains calculs.</p></details></section>`;
+  }
   function renderDetail() {
     const job = jobsById.get(selectedId);
     if (!job) {
@@ -169,10 +256,11 @@
     $('job-detail').innerHTML = `
       <div class="detail-company"><span class="company-avatar">${esc(initial(job.company))}</span>${esc(job.company)}</div>
       <h2 class="detail-title">${esc(job.title)}</h2>
-      <div class="detail-location"><span>⌁ ${esc(job.location || 'Lieu non précisé')}</span><span class="big-score">${job.score}/100</span>${isNew(job) ? '<span class="pill new">Nouveau</span>' : ''}</div>
+      <div class="detail-location"><span>⌁ ${esc(job.location || 'Lieu non précisé')}</span><span class="big-score">Recherche ${Number(job.score) || 0}/100</span>${isNew(job) ? '<span class="pill new">Nouveau</span>' : ''}</div>
       <div class="detail-actions">${link}<button id="detail-fav" type="button" class="button button-light heart-btn">${isFavorite(job) ? '★ Favori' : '☆ Favori'}</button></div>
       <div class="detail-body">
         ${verification}
+        ${renderAssessment(job)}
         <h3>Pourquoi ce poste correspond</h3><p>${esc(job.why || 'Aucune justification fournie par le moteur de recherche.')}</p>
         <h3>Description de l'offre</h3><p>${esc(job.description || job.description_excerpt || 'Aucune description disponible : consulter directement le site de l’entreprise.')}</p>
         <p class="description-origin">${historicalText ? 'Texte conservé d’historique ; disponibilité actuelle non confirmée.' : job.description ? (job.description_status === 'partial' ? 'Description partielle fournie par la source.' : 'Texte conservé tel que fourni par la source.') : 'Ancien extrait uniquement.'}${job.description_source ? ` Source : ${esc(job.description_source)}.` : ''}</p>
@@ -180,12 +268,21 @@
         <dl class="facts">${fact('Pays', job.country)}${fact('Type', job.kind)}${fact('Durée', job.duration)}${fact('Source', job.source)}${fact('Première détection', prettifyDate(job.first_seen))}${fact('Date de publication', prettifyDate(job.posted_at))}${fact('Dernière détection', prettifyDate(job.last_seen))}</dl>
       </div>
       <div class="track-panel"><h3 class="detail-body" style="font-size:13px;margin:22px 0 8px">Mon suivi</h3>
+        <label for="detail-decision">Décision de présélection</label><select id="detail-decision">${Object.entries(decisionLabels).map(([value,label]) => `<option value="${value}" ${getDecision(job) === value ? 'selected' : ''}>${esc(label)}</option>`).join('')}</select>
         <label for="detail-status">Statut de candidature</label><select id="detail-status">${options}</select>
         <label for="detail-notes">Notes personnelles</label><textarea id="detail-notes" placeholder="Contact, date de candidature, questions, prochaine action…">${esc(getNote(job))}</textarea>
         <p class="track-help">Sauvegardé sur cet appareil. Pense à exporter ton suivi régulièrement.</p>
       </div>`;
     $('detail-fav').addEventListener('click', () => { patchJob(job.id, { favorite: !isFavorite(job) }); renderList(); renderDetail(); });
     $('detail-status').addEventListener('change', e => { patchJob(job.id, {status: e.target.value}); refresh(); });
+    $('detail-decision').addEventListener('change', e => { if (Object.hasOwn(decisionLabels,e.target.value)) { patchJob(job.id,{selection_decision:e.target.value}); refresh(); } });
+    $('override-save').addEventListener('click', () => {
+      const score = $('override-score').value;
+      const override = cleanOverride({pdm_potential:$('override-pdm').value, technical_score:score.trim() ? Number(score) : NaN, technical_categories:selectedValues('override-categories'), reason:$('override-reason').value, input_hash:job.assessment?.input_hash || ''});
+      if (!override || !Object.hasOwn(override,'pdm_potential') || !Object.hasOwn(override,'technical_score')) { toast('Choisissez un potentiel PDM et un score technique entre 0 et 100.'); return; }
+      patchJob(job.id,{assessment_override:override}); updateCategoryOptions(); refresh(); toast('Correction enregistrée.');
+    });
+    $('override-reset').addEventListener('click', () => { patchJob(job.id,{assessment_override:undefined}); updateCategoryOptions(); refresh(); toast('Correction locale réinitialisée.'); });
     $('detail-notes').addEventListener('input', e => { patchJob(job.id, {note: e.target.value}); });
   }
   function refresh(resetLimit = false) {
@@ -199,7 +296,10 @@
     ['search','country','role','review-status'].forEach(id => $(id).value = '');
     $('min-score').value = 0; $('score-label').textContent = '0';
     ['fave-only','new-only','official-only'].forEach(id => $(id).checked = false);
-    $('hide-ignored').checked = true; $('sort').value = 'score';
+    ['pdm-filter','company-filter','selection-decision','constraint-filter','availability-filter'].forEach(id => $(id).value = '');
+    for (const option of Array.from($('technical-categories').options || [])) option.selected = false;
+    $('technical-min').value = 0; $('technical-label').textContent = '0'; $('show-low').checked = false;
+    $('hide-ignored').checked = true; $('sort').value = currentView === 'preselection' ? 'combined' : 'score';
     refresh(true);
   }
   function downloadFile(name, content, mime) {
@@ -223,18 +323,23 @@
         let count = 0;
         for (const [id, record] of Object.entries(content.records)) {
           if (!jobsById.has(id) || !record || typeof record !== 'object' || Array.isArray(record)) continue;
-          tracking[id] = {...(tracking[id] || {}), ...(statusLabels[record.status] ? {status:record.status} : {}), favorite:!!record.favorite, note:String(record.note || '').slice(0,10000)};
+          const override = cleanOverride(record.assessment_override);
+          tracking[id] = {...(tracking[id] || {}), ...(Object.hasOwn(statusLabels,record.status) ? {status:record.status} : {}),
+            ...(typeof record.favorite === 'boolean' ? {favorite:record.favorite} : {}),
+            ...(typeof record.note === 'string' ? {note:record.note.slice(0,10000)} : {}),
+            ...(Object.hasOwn(decisionLabels,record.selection_decision) ? {selection_decision:record.selection_decision} : {}),
+            ...(override ? {assessment_override:{...(cleanOverride(tracking[id]?.assessment_override) || {}), ...override}} : {})};
           count++;
         }
-        saveTracking(); refresh(true); toast(`${count} fiches de suivi restaurées.`);
+        saveTracking(); updateCategoryOptions(); refresh(true); toast(`${count} fiches de suivi restaurées.`);
       } catch (error) { toast(`Impossible de restaurer : ${error.message}`); }
     };
     reader.readAsText(file, 'utf-8');
   }
   function exportCSV() {
-    const keys = ['score','company','title','location','country','kind','duration','status','favorite','note','source','url','description_url','apply_url','first_seen','posted_at'];
+    const keys = ['score','company','title','location','country','kind','duration','pdm_potential','technical_score','technical_categories','selection_decision','status','favorite','note','source','url','description_url','apply_url','first_seen','posted_at'];
     const escapeCSV = s => `"${String(s ?? '').replaceAll('"','""')}"`;
-    const rows = [keys.join(','), ...filtered.map(job => keys.map(key => escapeCSV(key === 'status' ? statusLabels[getStatus(job)] : key === 'favorite' ? (isFavorite(job) ? 'oui' : 'non') : key === 'note' ? getNote(job) : job[key])).join(','))];
+    const rows = [keys.join(','), ...filtered.map(job => { const a = assessment(job); return keys.map(key => escapeCSV(key === 'selection_decision' ? decisionLabels[getDecision(job)] : key === 'technical_categories' ? a.technical_categories.join(' | ') : ['pdm_potential','technical_score'].includes(key) ? a[key] : key === 'status' ? statusLabels[getStatus(job)] : key === 'favorite' ? (isFavorite(job) ? 'oui' : 'non') : key === 'note' ? getNote(job) : job[key])).join(','); })];
     downloadFile(`stage-scout-selection-${new Date().toISOString().slice(0,10)}.csv`, '\ufeff' + rows.join('\r\n'), 'text/csv;charset=utf-8');
     toast(`${filtered.length} offres exportées en CSV.`);
   }
@@ -309,19 +414,26 @@
     toast(`${watched.length} entreprises exportées. Remplace companies.csv dans GitHub pour modifier la surveillance.`);
   }
   function showView(view) {
-    const jobsView = view === 'jobs';
+    if (currentView !== 'coverage') viewSort[currentView] = $('sort').value;
+    currentView = view;
+    const jobsView = view !== 'coverage';
     $('coverage-page').hidden = jobsView;
     document.querySelector('.workspace').hidden = !jobsView;
     document.querySelector('.summary').hidden = !jobsView;
-    $('tab-jobs').classList.toggle('active', jobsView);
-    $('tab-coverage').classList.toggle('active', !jobsView);
-    $('tab-jobs').setAttribute('aria-pressed', String(jobsView));
-    $('tab-coverage').setAttribute('aria-pressed', String(!jobsView));
+    for (const name of ['jobs','preselection','coverage']) {
+      $(`tab-${name}`).classList.toggle('active',view === name);
+      $(`tab-${name}`).setAttribute('aria-pressed',String(view === name));
+    }
+    $('preselection-filters').hidden = view !== 'preselection';
+    $('preselection-caption').hidden = view !== 'preselection';
+    $('summary-title').textContent = view === 'preselection' ? 'Votre présélection' : 'Vos opportunités';
+    if (jobsView) { $('sort').value = viewSort[view]; refresh(true); }
     closePanels();
     if (!jobsView) renderCoverage();
   }
   function initCoverage() {
     $('tab-jobs').addEventListener('click', () => showView('jobs'));
+    $('tab-preselection').addEventListener('click', () => showView('preselection'));
     $('tab-coverage').addEventListener('click', () => showView('coverage'));
     for (const id of ['cov-search','cov-country','cov-state']) {
       $(id).addEventListener(id === 'cov-search' ? 'input' : 'change', renderCoverage);
@@ -334,6 +446,12 @@
     loadTracking();
     const countries = [...new Set(jobs.map(j => j.country))].sort((a,b)=>a.localeCompare(b,'fr'));
     for (const name of countries) { const option = document.createElement('option'); option.value = name; option.textContent = name; $('country').appendChild(option); }
+    for (const [id, values] of [['company-filter',[...new Set(jobs.map(job => job.company))]]]) {
+      for (const value of values.filter(Boolean).sort((a,b)=>a.localeCompare(b,'fr'))) { const option = document.createElement('option'); option.value = value; option.textContent = value; $(id).appendChild(option); }
+    }
+    updateCategoryOptions();
+    for (const id of ['pdm-filter','technical-categories','company-filter','selection-decision','constraint-filter','availability-filter','show-low']) $(id).addEventListener('change',() => refresh(true));
+    $('technical-min').addEventListener('input',e => { $('technical-label').textContent = e.target.value; refresh(true); });
     const date = payload.meta?.scan_date || payload.meta?.generated_at?.slice(0,10);
     $('update-date').textContent = date ? `Données du ${prettifyDate(date)}` : 'Données archivées';
     for (const id of ['search','country','role','review-status','fave-only','new-only','official-only','hide-ignored']) {

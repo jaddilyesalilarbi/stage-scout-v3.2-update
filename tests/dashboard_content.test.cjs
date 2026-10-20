@@ -19,7 +19,7 @@ function dashboard(overrides = {}, saved = {}) {
     if (!nodes.has(id)) nodes.set(id, { value:'', checked:false, hidden:false, textContent:'',
       innerHTML:'', listeners:{}, classList:{add(){},remove(){},toggle(){}},
       addEventListener(name, callback){this.listeners[name] = callback;},
-      appendChild(){}, setAttribute(){}, remove(){}, click(){this.listeners.click?.({});} });
+      appendChild(){}, replaceChildren(){}, setAttribute(){}, remove(){}, click(){this.listeners.click?.({});} });
     return nodes.get(id);
   }
   element('job-data').textContent = JSON.stringify({jobs:[job], meta:{}, coverage:[]});

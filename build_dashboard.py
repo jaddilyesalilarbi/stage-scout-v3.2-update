@@ -13,7 +13,9 @@ from pathlib import Path
 from coverage_report import load_coverage, merge_coverage
 import re
 from job_content import safe_url
-from enrichment_state import overlay
+from enrichment_state import overlay, input_signature
+from assessment_cache import update_assessments
+from company_watchlist import company_key
 
 ROOT = Path(__file__).resolve().parent
 DATA = ROOT / 'data' / 'jobs.csv'
@@ -99,7 +101,11 @@ def load_jobs(path: Path) -> list[dict]:
             continue
         seen.add(job_id)
         result = results.get(job_id)
+        structured = {}
         if isinstance(result, dict):
+            if (result.get('input_signature') == input_signature(row)
+                    and result.get('confidence') == 'high'):
+                structured = result.get('structured') or {}
             row = overlay(row, result)
         url = safe_url(row.get('url'))
         try:
@@ -111,6 +117,8 @@ def load_jobs(path: Path) -> list[dict]:
             'company': row.get('company') or '',
             'title': row.get('title') or '',
             'location': row.get('location') or '',
+            'language': row.get('language') or '',
+            'structured': structured,
             'country': infer_country(row.get('location') or ''),
             'kind': row.get('kind') or '',
             'duration': row.get('duration') or '',
@@ -141,6 +149,15 @@ def load_jobs(path: Path) -> list[dict]:
     return jobs
 
 
+def assessment_profile(config):
+    """Known profile preferences; unknown language skills/nationality stay absent."""
+    profile = {'education': 'master', 'duration_months': [5, 6], 'geography': 'europe',
+               'excluded_languages': config.get('excluded_languages', ['de']),
+               'exclude_required_german': config.get('exclude_required_german', True)}
+    profile.update(config.get('assessment_profile') or {})
+    return profile
+
+
 def build(root: Path = ROOT) -> Path:
     jobs = load_jobs(root / 'data' / 'jobs.csv')
     template = (root / 'dashboard-src' / 'index.template.html').read_text(encoding='utf-8')
@@ -159,6 +176,14 @@ def build(root: Path = ROOT) -> Path:
     # company directory lookups; CSV edits appear after a dashboard-only build.
     config_path = root / 'config.json'
     config = json.loads(config_path.read_text(encoding='utf-8')) if config_path.exists() else {}
+    assessments, assessment_meta = update_assessments(jobs, root / 'data' / 'job_assessments.json',
+                                                     profile=assessment_profile(config))
+    priority = {company_key(name) for name in config.get('priority_companies', [])}
+    for job in jobs:
+        job['assessment'] = assessments[job['id']]
+        key = company_key(job['company'])
+        job['priority_company'] = bool(key and any(key == name or key.startswith(name + ' ')
+            or name.startswith(key + ' ') or key == name + 'group' for name in priority))
     previous = load_coverage(root)
     # One-time bootstrap from the previous 3.x run; it includes direct scans
     # but must not label empty directory lookups as completed board scans.
@@ -174,7 +199,8 @@ def build(root: Path = ROOT) -> Path:
     coverage = merge_coverage(config, root / 'companies.csv', previous,
                               source_statuses=bootstrap, today=stamp)
     meta['company_targets'] = len(coverage['companies'])
-    payload = json.dumps({'meta': meta, 'jobs': jobs, 'coverage': coverage['companies']}, ensure_ascii=False, separators=(',', ':'))
+    payload = json.dumps({'meta': meta, 'jobs': jobs, 'coverage': coverage['companies'],
+                          'assessment_meta': assessment_meta}, ensure_ascii=False, separators=(',', ':'))
     payload = payload.replace('</', '<\\/').replace('<!--', '<\\!--')
     output = template.replace('/*__CSS__*/', style).replace('/*__JS__*/', script).replace('__JOB_DATA_JSON__', payload)
     dest = root / 'dashboard' / 'index.html'

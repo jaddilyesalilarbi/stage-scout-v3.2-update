@@ -10,6 +10,7 @@ on:
       - Build dashboard only
       - Scan all companies now
       - Enrich existing jobs
+      - Reclassify jobs
     types: [completed]
 
 concurrency:
