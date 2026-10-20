@@ -14,8 +14,19 @@ import run_safe
 
 class SafeRunnerTests(unittest.TestCase):
     def test_daily_plan_spreads_sources(self):
-        config = json.loads((ROOT / "config.json").read_text(encoding="utf-8"))
-        tasks = run_safe.make_tasks(config)
+        # This contract must not depend on the user's evolving company registry.
+        config = {
+            'company_careers': [{'name': 'A', 'url': 'https://a.test'},
+                                {'name': 'B', 'url': 'https://b.test'}],
+            'ats_dataset': {'scan_mode': 'source_sweep', 'providers_per_day': 4,
+                            'providers': ['greenhouse', 'lever', 'ashby', 'workday', 'oracle']},
+            'jobspy': {'searches_per_day': 6, 'queries': [
+                {'search_term': f'intern {i}', 'location': 'Paris'} for i in range(8)]},
+            'company_discovery': {'enabled': True, 'companies_per_day': 8},
+            'priority_companies': [f'Company {i}' for i in range(10)],
+        }
+        with tempfile.TemporaryDirectory() as folder:
+            tasks = run_safe.make_tasks(config, Path(folder) / 'no-registry.csv')
         counts = {stage: sum(t[0] == stage for t in tasks) for stage in {t[0] for t in tasks}}
         self.assertEqual(counts.get("direct"), 2)
         self.assertEqual(counts.get("ats"), 4)

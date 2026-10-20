@@ -75,7 +75,7 @@
     if ($('hide-ignored').checked && getStatus(job) === 'ignored') return false;
     const search = norm($('search').value).trim();
     if (search) {
-      const corpus = norm(`${job.title} ${job.company} ${job.location} ${job.country} ${job.kind} ${job.description_excerpt} ${job.why}`);
+      const corpus = norm(`${job.title} ${job.company} ${job.location} ${job.country} ${job.kind} ${job.description || job.description_excerpt} ${job.why}`);
       if (!search.split(/\s+/).every(word => corpus.includes(word))) return false;
     }
     if ($('country').value && job.country !== $('country').value) return false;
@@ -134,7 +134,12 @@
     }
     const status = getStatus(job);
     const options = Object.entries(statusLabels).map(([key, label]) => `<option value="${key}" ${status === key ? 'selected' : ''}>${esc(label)}</option>`).join('');
-    const link = /^https?:\/\//i.test(job.url) ? `<a class="button button-dark" href="${esc(job.url)}" target="_blank" rel="noopener noreferrer">Ouvrir l'annonce ↗</a>` : `<button class="button button-dark" disabled>Pas de lien disponible</button>`;
+    const actionLink = (url, label, style) => /^https?:\/\//i.test(url || '')
+      ? `<a class="button ${style}" href="${esc(url)}" target="_blank" rel="noopener noreferrer">${label} ↗</a>`
+      : `<button class="button ${style}" disabled>${label}</button>`;
+    const link = actionLink(job.description_url, "Voir l'offre", 'button-dark')
+      + actionLink(job.apply_url, 'Postuler', 'button-quiet')
+      + (!job.description_url && !job.apply_url && job.url ? actionLink(job.url, 'Lien historique', 'button-light') : '');
     $('job-detail').innerHTML = `
       <div class="detail-company"><span class="company-avatar">${esc(initial(job.company))}</span>${esc(job.company)}</div>
       <h2 class="detail-title">${esc(job.title)}</h2>
@@ -142,7 +147,8 @@
       <div class="detail-actions">${link}<button id="detail-fav" type="button" class="button button-light heart-btn">${isFavorite(job) ? '★ Favori' : '☆ Favori'}</button></div>
       <div class="detail-body">
         <h3>Pourquoi ce poste correspond</h3><p>${esc(job.why || 'Aucune justification fournie par le moteur de recherche.')}</p>
-        <h3>Description de l'offre</h3><p>${esc(job.description_excerpt || 'Aucun extrait disponible : consulter directement le site de l’entreprise.')}</p>
+        <h3>Description de l'offre</h3><p>${esc(job.description || job.description_excerpt || 'Aucune description disponible : consulter directement le site de l’entreprise.')}</p>
+        <p class="description-origin">${job.description ? (job.description_status === 'partial' ? 'Description partielle fournie par la source.' : 'Texte conservé tel que fourni par la source.') : 'Ancien extrait uniquement.'}${job.description_source ? ` Source : ${esc(job.description_source)}.` : ''}</p>
         ${job.warnings ? `<div class="warning-note">Attention : ${esc(job.warnings)}</div>` : ''}
         <dl class="facts">${fact('Pays', job.country)}${fact('Type', job.kind)}${fact('Durée', job.duration)}${fact('Source', job.source)}${fact('Première détection', prettifyDate(job.first_seen))}${fact('Date de publication', prettifyDate(job.posted_at))}${fact('Dernière détection', prettifyDate(job.last_seen))}</dl>
       </div>
@@ -199,7 +205,7 @@
     reader.readAsText(file, 'utf-8');
   }
   function exportCSV() {
-    const keys = ['score','company','title','location','country','kind','duration','status','favorite','note','source','url','first_seen','posted_at'];
+    const keys = ['score','company','title','location','country','kind','duration','status','favorite','note','source','url','description_url','apply_url','first_seen','posted_at'];
     const escapeCSV = s => `"${String(s ?? '').replaceAll('"','""')}"`;
     const rows = [keys.join(','), ...filtered.map(job => keys.map(key => escapeCSV(key === 'status' ? statusLabels[getStatus(job)] : key === 'favorite' ? (isFavorite(job) ? 'oui' : 'non') : key === 'note' ? getNote(job) : job[key])).join(','))];
     downloadFile(`stage-scout-selection-${new Date().toISOString().slice(0,10)}.csv`, '\ufeff' + rows.join('\r\n'), 'text/csv;charset=utf-8');

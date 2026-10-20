@@ -12,6 +12,7 @@ import json
 from pathlib import Path
 from coverage_report import load_coverage, merge_coverage
 import re
+from job_content import safe_url
 
 ROOT = Path(__file__).resolve().parent
 DATA = ROOT / 'data' / 'jobs.csv'
@@ -87,9 +88,7 @@ def load_jobs(path: Path) -> list[dict]:
         if job_id in seen:
             continue
         seen.add(job_id)
-        url = (row.get('url') or '').strip()
-        if not url.lower().startswith(('https://', 'http://')):
-            url = ''
+        url = safe_url(row.get('url'))
         try:
             score = max(0, min(100, int(float(row.get('score') or 0))))
         except (ValueError, TypeError):
@@ -110,6 +109,11 @@ def load_jobs(path: Path) -> list[dict]:
             'last_seen': row.get('last_seen') or '',
             'status': row.get('status') or 'To review',
             'url': url,
+            'description_url': safe_url(row.get('description_url')),
+            'apply_url': safe_url(row.get('apply_url')),
+            'description': row.get('description') or '',
+            'description_source': row.get('description_source') or '',
+            'description_status': row.get('description_status') or 'legacy_excerpt',
             'why': row.get('why') or '',
             'warnings': row.get('warnings') or '',
             'description_excerpt': row.get('description_excerpt') or '',

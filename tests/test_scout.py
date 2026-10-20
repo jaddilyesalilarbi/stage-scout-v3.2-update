@@ -39,7 +39,9 @@ class ScoutTests(unittest.TestCase):
     def test_prioritize_employer_ats(self):
         a = dict(SAMPLES[0], source="Ashby")
         b = dict(SAMPLES[0], source="Google Jobs / SerpApi")
-        self.assertIs(scout.prefer(a, b), a)
+        preferred = scout.prefer(a, b)
+        self.assertEqual(preferred['source'], 'Ashby')
+        self.assertEqual(preferred['url'], a['url'])
 
     def test_tracking_round_trip(self):
         with tempfile.TemporaryDirectory() as directory:
