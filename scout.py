@@ -15,6 +15,7 @@ import json
 import os
 import re
 import sys
+import tempfile
 import unicodedata
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
@@ -22,6 +23,7 @@ from urllib.parse import parse_qsl, urlencode, urlparse, urlunparse
 
 import requests
 from selection_filters import (classify_location, excluded_summer, geography_excluded)
+from job_content import CONTENT_FIELDS, description_text, merge_content, safe_url, split_links
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 
@@ -30,7 +32,7 @@ FIELDS = [
     "id", "first_seen", "last_seen", "status", "score", "company", "title",
     "location", "language", "kind", "duration", "source", "verification", "posted_at",
     "url", "why", "warnings", "description_excerpt"
-]
+] + CONTENT_FIELDS
 SESSION = requests.Session()
 SESSION.headers.update({"User-Agent": "StageScout/1.0 (public jobs APIs, contact via GitHub project)", "Accept": "application/json"})
 SESSION.mount("https://", HTTPAdapter(max_retries=Retry(
@@ -58,13 +60,22 @@ def get_json(url: str, params: dict | None = None) -> dict | list:
 
 def make_job(company: str, title: str, location: str, url: str,
              description: str, source: str, posted_at: str = "", kind_hint: str = "",
-             verification: str = "published_board", language: str = "") -> dict:
+             verification: str = "published_board", language: str = "", *,
+             apply_url: str = "", description_url: str | None = None,
+             description_status: str = "source_provided", identity_url: str = "") -> dict:
+    listing, application = split_links(url if description_url is None else description_url, apply_url)
+    body = description_text(description)
     return {
         "company": str(company or "").strip(),
         "title": str(title or "").strip(),
         "location": str(location or "").strip(),
-        "url": str(url or "").strip(),
-        "description": clean_html(description),
+        "url": listing or application or safe_url(url),
+        "description_url": listing,
+        "apply_url": application,
+        "_identity_url": identity_url or url,
+        "description": body,
+        "description_source": source if body else "",
+        "description_status": description_status if body else "missing",
         "source": source,
         "posted_at": str(posted_at or ""),
         "kind_hint": str(kind_hint or ""),
@@ -87,7 +98,8 @@ def fetch_ashby(board: dict) -> list[dict]:
         jobs.append(make_job(
             board["name"], p.get("title", ""), p.get("location", ""), url,
             p.get("descriptionPlain") or p.get("descriptionHtml", ""),
-            "Ashby", kind_hint=p.get("employmentType", "")
+            "Ashby", kind_hint=p.get("employmentType", ""),
+            description_url=p.get("jobUrl", ""), apply_url=p.get("applyUrl", "")
         ))
     return jobs
 
@@ -115,12 +127,15 @@ def fetch_lever(board: dict, max_pages: int = 3) -> list[dict]:
             break
         for p in rows:
             categories = p.get("categories") or {}
-            lists = " ".join(str(li.get("content", "")) for li in p.get("lists", []))
+            lists = "\n\n".join(str(li.get("text", "")) + "\n" + str(li.get("content", "")) for li in p.get("lists", []))
             jobs.append(make_job(
                 board["name"], p.get("text", ""), categories.get("location", ""),
                 p.get("hostedUrl") or p.get("applyUrl", ""),
-                " ".join([p.get("descriptionPlain", ""), lists, p.get("additionalPlain", "")]),
-                "Lever", kind_hint=categories.get("commitment", "")
+                "\n\n".join([p.get("openingPlain") or p.get("opening", ""),
+                    p.get("description") or p.get("descriptionPlain", ""), lists,
+                    p.get("additional") or p.get("additionalPlain", "")]),
+                "Lever", kind_hint=categories.get("commitment", ""),
+                description_url=p.get("hostedUrl", ""), apply_url=p.get("applyUrl", "")
             ))
         if len(rows) < 100:
             break
@@ -184,7 +199,7 @@ def fetch_serpapi(config: dict) -> list[dict]:
                     url, p.get("description", ""), "Google Jobs / SerpApi",
                     posted_at=ext.get("posted_at", ""),
                     kind_hint=ext.get("schedule_type", ""),
-                    verification="search_index_unverified"
+                    verification="search_index_unverified", description_url="", apply_url=url
                 ))
         except Exception as exc:
             print(f"[WARN] SerpApi {query['q']!r}: {exc}", file=sys.stderr)
@@ -212,7 +227,8 @@ def fetch_adzuna(config: dict) -> list[dict]:
                     (p.get("location") or {}).get("display_name", ""),
                     p.get("redirect_url", ""), p.get("description", ""), "Adzuna",
                     posted_at=p.get("created", ""),
-                    verification="third_party_listing"
+                    verification="third_party_listing", description_status="partial",
+                    description_url="", apply_url=p.get("redirect_url", "")
                 ))
         except Exception as exc:
             print(f"[WARN] Adzuna {country}/{query['what']!r}: {exc}", file=sys.stderr)
@@ -248,7 +264,8 @@ def _ats_to_dict(entry: object) -> dict:
 
 def normalize_ats(entry: object, *, direct: bool = False, company: str = "") -> dict | None:
     data = _ats_to_dict(entry)
-    url = _scalar(data.get("apply_url")) or _scalar(data.get("url"))
+    listing, application = split_links(_scalar(data.get("url")), _scalar(data.get("apply_url")))
+    url = listing or application
     title = _scalar(data.get("title"))
     if not (url.startswith(("http://", "https://")) and title):
         return None
@@ -262,6 +279,8 @@ def normalize_ats(entry: object, *, direct: bool = False, company: str = "") -> 
         kind_hint=_scalar(data.get("employment_type")) + " " + _scalar(data.get("commitment")),
         verification="published_board" if direct else "hosted_dataset_unverified",
         language=_scalar(data.get("language")),
+        description_url=listing, apply_url=application,
+        identity_url=_scalar(data.get("apply_url")) or _scalar(data.get("url")),
     )
 
 
@@ -470,7 +489,8 @@ def fetch_ats_dataset(config: dict) -> tuple[list[dict], list[str]]:
 
 
 def normalize_jobspy(entry: dict) -> dict | None:
-    url = _scalar(entry.get("job_url_direct")) or _scalar(entry.get("job_url"))
+    listing, application = split_links(_scalar(entry.get("job_url")), _scalar(entry.get("job_url_direct")))
+    url = listing or application
     title = _scalar(entry.get("title"))
     if not (title and url.startswith(("http://", "https://"))):
         return None
@@ -486,6 +506,8 @@ def normalize_jobspy(entry: dict) -> dict | None:
         kind_hint=_scalar(entry.get("job_type")),
         verification="third_party_listing",
         language=_scalar(entry.get("language")),
+        description_url=listing, apply_url=application,
+        identity_url=_scalar(entry.get("job_url_direct")) or _scalar(entry.get("job_url")),
     )
 
 
@@ -519,6 +541,7 @@ def fetch_jobspy(config: dict) -> tuple[list[dict], list[str]]:
                 country_indeed=spec.get("country_indeed", "France"),
                 results_wanted=int(spec.get("results_wanted", 25)),
                 verbose=0,
+                fetch_description=True,
             )
             count = 0
             for entry in frame.to_dict("records"):
@@ -791,7 +814,7 @@ def job_identity(job: dict) -> str:
     if company and title:
         key = f"{company}|{title}|{loc}"
     else:
-        key = canonical_url(job["url"])
+        key = canonical_url(job.get("_identity_url") or job["url"])
     return hashlib.sha256(key.encode("utf-8")).hexdigest()[:18]
 
 
@@ -804,18 +827,23 @@ def prefer(job_a: dict, job_b: dict) -> dict:
         source_rank = 3 if source.startswith("ATS dataset") else (2 if source.startswith("JobSpy") else weight.get(source, 0))
         return (source_rank, len(job.get("description", "")))
     qa, qb = rank(job_a), rank(job_b)
-    return job_a if qa >= qb else job_b
+    winner, other = (job_a, job_b) if qa >= qb else (job_b, job_a)
+    content = merge_content(winner, other)
+    if all(winner.get(key, '') == value for key, value in content.items()):
+        return winner
+    return {**winner, **content}
 
 
 def as_record(job: dict, old: dict | None, today: str) -> dict:
     return {
+        **(old or {}),
         "id": job["id"], "first_seen": old.get("first_seen", today) if old else today,
         "last_seen": today, "status": old.get("status", "To review") if old else "To review",
         "score": job["score"], "company": job["company"], "title": job["title"],
         "location": job["location"], "language": job.get("language", "unknown"), "kind": job["kind"], "duration": job["duration"],
         "source": job["source"], "verification": job["verification"],
         "posted_at": job["posted_at"], "url": job["url"], "why": job["why"],
-        "warnings": job["warnings"], "description_excerpt": job["description"][:300]
+        "warnings": job["warnings"], **merge_content(job, old)
     }
 
 
@@ -828,10 +856,14 @@ def load_rows(path: Path) -> dict[str, dict]:
 
 def write_rows(path: Path, rows: list[dict]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
-    with path.open("w", encoding="utf-8-sig", newline="") as file:
-        out = csv.DictWriter(file, fieldnames=FIELDS, extrasaction="ignore")
+    with tempfile.NamedTemporaryFile(mode="w", encoding="utf-8-sig", newline="",
+            dir=path.parent, prefix=f"{path.name}.", suffix=".tmp", delete=False) as file:
+        fields = list(dict.fromkeys(FIELDS + [key for row in rows for key in row if key not in FIELDS]))
+        out = csv.DictWriter(file, fieldnames=fields)
         out.writeheader()
         out.writerows(rows)
+        temporary = Path(file.name)
+    temporary.replace(path)
 
 
 def md_escape(s: str) -> str:

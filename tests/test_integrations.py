@@ -48,7 +48,9 @@ class IntegrationTests(unittest.TestCase):
     def test_ats_row_normalization(self):
         job = scout.normalize_ats(ATS_ROW)
         self.assertEqual(job["source"], "ATS dataset / greenhouse")
-        self.assertEqual(job["url"], ATS_ROW["apply_url"])
+        self.assertEqual(job["url"], ATS_ROW["url"])
+        self.assertEqual(job["description_url"], ATS_ROW["url"])
+        self.assertEqual(job["apply_url"], ATS_ROW["apply_url"])
         self.assertEqual(job["verification"], "hosted_dataset_unverified")
 
     def test_ats_direct_normalization(self):
@@ -99,7 +101,9 @@ class IntegrationTests(unittest.TestCase):
     def test_prefer_direct_over_aggregator(self):
         a = {"source": "ATS direct", "description": "."}
         b = {"source": "JobSpy / indeed", "description": "lots of text"}
-        self.assertIs(scout.prefer(a, b), a)
+        merged = scout.prefer(a, b)
+        self.assertEqual(merged['source'], 'ATS direct')
+        self.assertEqual(merged['description'], 'lots of text')
 
 
 if __name__ == "__main__":
