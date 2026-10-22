@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21",
+  "updated_at": "2026-10-22",
   "explanation": "Direct ATS scans are distinct from directory lookups and aggregate-provider searches.",
   "companies": [
     {
@@ -188,12 +188,12 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-21",
+      "last_success": "2026-10-21",
       "last_outcome": "directory_result",
       "last_method": "discovery",
       "last_jobs": 16,
       "last_resolved_url": "",
-      "last_message": "Offres reçues par découverte ATS",
-      "last_success": "2026-10-21"
+      "last_message": "Offres reçues par découverte ATS"
     },
     {
       "key": "anybotics",
@@ -1807,12 +1807,12 @@
       "origin": "csv_watchlist",
       "notes": "",
       "url_valid": true,
-      "last_attempt": "2026-10-14",
-      "last_outcome": "not_found",
-      "last_method": "watchlist",
+      "last_attempt": "2026-10-22",
+      "last_outcome": "lookup_only",
+      "last_method": "discovery",
       "last_jobs": 0,
       "last_resolved_url": "",
-      "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
+      "last_message": "Recherche annuaire seulement ; scan non confirmé"
     },
     {
       "key": "romande energie",
@@ -1823,12 +1823,12 @@
       "origin": "csv_watchlist",
       "notes": "",
       "url_valid": true,
-      "last_attempt": "2026-10-14",
-      "last_outcome": "not_found",
-      "last_method": "watchlist",
+      "last_attempt": "2026-10-22",
+      "last_outcome": "lookup_only",
+      "last_method": "discovery",
       "last_jobs": 0,
       "last_resolved_url": "",
-      "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
+      "last_message": "Recherche annuaire seulement ; scan non confirmé"
     },
     {
       "key": "ruag",
@@ -2074,12 +2074,12 @@
       "notes": "",
       "url_valid": true,
       "last_attempt": "2026-10-21",
+      "last_success": "2026-10-21",
       "last_outcome": "scanned",
       "last_method": "watchlist",
       "last_jobs": 410,
       "last_resolved_url": "https://sulzer.wd502.myworkdayjobs.com/SulzerJobs",
-      "last_message": "Page ATS publique parcourue",
-      "last_success": "2026-10-21"
+      "last_message": "Page ATS publique parcourue"
     },
     {
       "key": "swiss aeropole ecosystem",
@@ -2239,7 +2239,7 @@
       "origin": "csv_watchlist",
       "notes": "",
       "url_valid": true,
-      "last_attempt": "2026-10-14",
+      "last_attempt": "2026-10-22",
       "last_outcome": "not_found",
       "last_method": "watchlist",
       "last_jobs": 0,
@@ -2255,7 +2255,7 @@
       "origin": "csv_watchlist",
       "notes": "",
       "url_valid": true,
-      "last_attempt": "2026-10-14",
+      "last_attempt": "2026-10-22",
       "last_outcome": "not_found",
       "last_method": "watchlist",
       "last_jobs": 0,
@@ -2271,7 +2271,7 @@
       "origin": "csv_watchlist",
       "notes": "",
       "url_valid": true,
-      "last_attempt": "2026-10-14",
+      "last_attempt": "2026-10-22",
       "last_outcome": "not_found",
       "last_method": "watchlist",
       "last_jobs": 0,
@@ -2287,7 +2287,7 @@
       "origin": "csv_watchlist",
       "notes": "",
       "url_valid": true,
-      "last_attempt": "2026-10-14",
+      "last_attempt": "2026-10-22",
       "last_outcome": "not_found",
       "last_method": "watchlist",
       "last_jobs": 0,
@@ -2303,7 +2303,7 @@
       "origin": "csv_watchlist",
       "notes": "",
       "url_valid": true,
-      "last_attempt": "2026-10-14",
+      "last_attempt": "2026-10-22",
       "last_outcome": "not_found",
       "last_method": "watchlist",
       "last_jobs": 0,
@@ -2319,7 +2319,7 @@
       "origin": "csv_watchlist",
       "notes": "",
       "url_valid": true,
-      "last_attempt": "2026-10-14",
+      "last_attempt": "2026-10-22",
       "last_outcome": "not_found",
       "last_method": "watchlist",
       "last_jobs": 0,
@@ -4519,12 +4519,12 @@
       "origin": "csv_watchlist",
       "notes": "Groupe européen : Suisse/France/Allemagne selon postes anglophones.",
       "url_valid": true,
-      "last_attempt": "2026-10-14",
-      "last_outcome": "unsupported_url",
-      "last_method": "watchlist",
+      "last_attempt": "2026-10-22",
+      "last_outcome": "error",
+      "last_method": "discovery",
       "last_jobs": 0,
       "last_resolved_url": "",
-      "last_message": "Connecteur ATS indisponible pour cette URL: Could not recognize an ATS from 'https://jobs.schaeffler.com'. Custom-domain careers sites can't be resolved from the URL alone — if you kno"
+      "last_message": "Recherche annuaire seulement ; scan non confirmé"
     },
     {
       "key": "seb groupe",
@@ -4729,7 +4729,7 @@
       "origin": "csv_watchlist",
       "notes": "",
       "url_valid": true,
-      "last_attempt": "2026-10-14",
+      "last_attempt": "2026-10-22",
       "last_outcome": "not_found",
       "last_method": "watchlist",
       "last_jobs": 0,
@@ -4745,11 +4745,11 @@
       "origin": "csv_watchlist",
       "notes": "",
       "url_valid": true,
-      "last_attempt": "2026-10-14",
-      "last_success": "2026-10-14",
+      "last_attempt": "2026-10-22",
+      "last_success": "2026-10-22",
       "last_outcome": "scanned",
       "last_method": "watchlist",
-      "last_jobs": 16,
+      "last_jobs": 17,
       "last_resolved_url": "https://thales.wd3.myworkdayjobs.com/careers",
       "last_message": "Page ATS publique parcourue"
     },
@@ -4762,11 +4762,11 @@
       "origin": "csv_watchlist",
       "notes": "",
       "url_valid": true,
-      "last_attempt": "2026-10-14",
-      "last_success": "2026-10-14",
+      "last_attempt": "2026-10-22",
+      "last_success": "2026-10-22",
       "last_outcome": "scanned",
       "last_method": "watchlist",
-      "last_jobs": 101,
+      "last_jobs": 106,
       "last_resolved_url": "https://jobs.ashbyhq.com/the-exploration-company",
       "last_message": "Page ATS publique parcourue"
     },
@@ -4779,7 +4779,7 @@
       "origin": "csv_watchlist",
       "notes": "",
       "url_valid": true,
-      "last_attempt": "2026-10-14",
+      "last_attempt": "2026-10-22",
       "last_outcome": "not_found",
       "last_method": "watchlist",
       "last_jobs": 0,
@@ -4966,8 +4966,8 @@
       "origin": "directory_priority",
       "notes": "",
       "last_attempt": "2026-10-21",
-      "last_method": "discovery",
       "last_outcome": "lookup_only",
+      "last_method": "discovery",
       "last_jobs": 0,
       "last_message": "Recherche annuaire seulement ; scan non confirmé"
     },
@@ -4980,8 +4980,8 @@
       "origin": "directory_priority",
       "notes": "",
       "last_attempt": "2026-10-21",
-      "last_method": "discovery",
       "last_outcome": "lookup_only",
+      "last_method": "discovery",
       "last_jobs": 0,
       "last_message": "Recherche annuaire seulement ; scan non confirmé"
     },
@@ -4994,8 +4994,8 @@
       "origin": "directory_priority",
       "notes": "",
       "last_attempt": "2026-10-21",
-      "last_method": "discovery",
       "last_outcome": "lookup_only",
+      "last_method": "discovery",
       "last_jobs": 0,
       "last_message": "Recherche annuaire seulement ; scan non confirmé"
     },
@@ -5054,7 +5054,13 @@
       "careers_url": "",
       "enabled": true,
       "origin": "directory_priority",
-      "notes": ""
+      "notes": "",
+      "last_attempt": "2026-10-22",
+      "last_method": "discovery",
+      "last_outcome": "directory_result",
+      "last_jobs": 36,
+      "last_message": "Offres reçues par découverte ATS",
+      "last_success": "2026-10-22"
     },
     {
       "key": "ems electro medical systems",
@@ -5186,8 +5192,8 @@
       "enabled": true,
       "origin": "config_direct",
       "notes": "",
-      "last_attempt": "2026-10-21",
-      "last_success": "2026-10-21",
+      "last_attempt": "2026-10-22",
+      "last_success": "2026-10-22",
       "last_outcome": "scanned",
       "last_method": "direct",
       "last_jobs": 122,
@@ -5215,7 +5221,12 @@
       "careers_url": "",
       "enabled": true,
       "origin": "directory_priority",
-      "notes": ""
+      "notes": "",
+      "last_attempt": "2026-10-22",
+      "last_method": "discovery",
+      "last_outcome": "lookup_only",
+      "last_jobs": 0,
+      "last_message": "Recherche annuaire seulement ; scan non confirmé"
     },
     {
       "key": "the countdown company",
@@ -5534,12 +5545,12 @@
       "origin": "csv_watchlist",
       "notes": "",
       "url_valid": true,
-      "last_attempt": "2026-10-14",
-      "last_outcome": "not_found",
-      "last_method": "watchlist",
+      "last_attempt": "2026-10-22",
+      "last_outcome": "lookup_only",
+      "last_method": "discovery",
       "last_jobs": 0,
       "last_resolved_url": "",
-      "last_message": "Aucune URL ATS correspondant exactement à cette entreprise dans l'annuaire"
+      "last_message": "Recherche annuaire seulement ; scan non confirmé"
     },
     {
       "key": "continental",
@@ -5662,12 +5673,12 @@
       "origin": "csv_watchlist",
       "notes": "",
       "url_valid": true,
-      "last_attempt": "2026-10-14",
-      "last_outcome": "unsupported_url",
-      "last_method": "watchlist",
+      "last_attempt": "2026-10-22",
+      "last_outcome": "error",
+      "last_method": "discovery",
       "last_jobs": 0,
       "last_resolved_url": "",
-      "last_message": "Connecteur ATS indisponible pour cette URL: Could not recognize an ATS from 'https://career-ohb.csod.com/ux/ats/careersite/4/home?c=career-ohb'. Custom-domain careers sites can't be re"
+      "last_message": "Recherche annuaire seulement ; scan non confirmé"
     },
     {
       "key": "porsche",
@@ -6241,12 +6252,12 @@
       "origin": "csv_watchlist",
       "notes": "",
       "url_valid": true,
-      "last_attempt": "2026-10-14",
+      "last_attempt": "2026-10-22",
       "last_outcome": "error",
-      "last_method": "watchlist",
+      "last_method": "discovery",
       "last_jobs": 0,
       "last_resolved_url": "https://saabgroup.wd3.myworkdayjobs.com/saab_careers",
-      "last_message": "ATS fetch error: ScraperError: Workday returned 422 for https://saabgroup.wd3.myworkdayjobs.com/saab_careers (offset=0)"
+      "last_message": "Recherche annuaire seulement ; scan non confirmé"
     },
     {
       "key": "sandvik",
