@@ -1,0 +1,56 @@
+{
+  "checked_at": "2026-10-20T17:14:08.961482+00:00",
+  "baseline_git_commit": "d702203",
+  "jobs_csv_unchanged": true,
+  "jobs_csv_sha256": "236ae29f724f589adf66d46c849270d605e812df15d786283364f44ea168c56e",
+  "total_ids": 780,
+  "checkpoint_ids": 780,
+  "audit_ids_and_order_preserved": true,
+  "manual_source_sample": [
+    {
+      "id": "30f9d1300a61dc263c",
+      "platform": "SmartRecruiters",
+      "detail_url": "https://jobs.smartrecruiters.com/ALTEN/744000151646968-stage-innovation-ingenieur-simulation-mecatronique",
+      "apply_url": "https://jobs.smartrecruiters.com/ALTEN/744000151646968-stage-innovation-ingenieur-simulation-mecatronique?oga=true",
+      "matched_title": "Stage Innovation : Ingénieur Simulation / Mécatronique",
+      "matched_company": "ALTEN",
+      "description_length": 2811,
+      "manually_compared_to_public_detail_page": true
+    },
+    {
+      "id": "de2ade81d2c45a058e",
+      "platform": "Lever",
+      "detail_url": "https://jobs.lever.co/anybotics/d78ed750-b7fa-41a1-8691-0091b9df4169",
+      "apply_url": "https://jobs.lever.co/anybotics/d78ed750-b7fa-41a1-8691-0091b9df4169/apply",
+      "matched_title": "Software Engineer Intern - Industrialization",
+      "matched_company": "ANYbotics",
+      "description_length": 4347,
+      "manually_compared_to_public_detail_page": true
+    },
+    {
+      "id": "7c39a75d67b48cdc82",
+      "platform": "Recruitee",
+      "detail_url": "https://hemeriagroup.recruitee.com/o/stage-ingenieur-mecanique-vol-simulation-haps-fh",
+      "apply_url": "https://hemeriagroup.recruitee.com/o/stage-ingenieur-mecanique-vol-simulation-haps-fh/c/new",
+      "matched_title": "Stage Ingénieur mécanique vol, simulation HAPS (F/H)",
+      "matched_company": "HEMERIA",
+      "description_length": 1785,
+      "manually_compared_to_public_detail_page": true
+    }
+  ],
+  "browser_validation": {
+    "browser": "Chrome headless",
+    "desktop": "1440x1000",
+    "mobile": "390x844",
+    "full_description": true,
+    "detail_and_apply_links": true,
+    "tracking_survives_reload": true,
+    "coverage_tab": true,
+    "mobile_panel_fits_viewport": true,
+    "javascript_errors": []
+  },
+  "automated_tests": {
+    "python_unittest": 143,
+    "javascript_runtime_cases": 12
+  }
+}

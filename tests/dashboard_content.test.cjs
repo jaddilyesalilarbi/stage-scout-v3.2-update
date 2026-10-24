@@ -19,7 +19,7 @@ function dashboard(overrides = {}, saved = {}) {
     if (!nodes.has(id)) nodes.set(id, { value:'', checked:false, hidden:false, textContent:'',
       innerHTML:'', listeners:{}, classList:{add(){},remove(){},toggle(){}},
       addEventListener(name, callback){this.listeners[name] = callback;},
-      appendChild(){}, setAttribute(){}, remove(){}, click(){this.listeners.click?.({});} });
+      appendChild(){}, replaceChildren(){}, setAttribute(){}, remove(){}, click(){this.listeners.click?.({});} });
     return nodes.get(id);
   }
   element('job-data').textContent = JSON.stringify({jobs:[job], meta:{}, coverage:[]});
@@ -29,6 +29,7 @@ function dashboard(overrides = {}, saved = {}) {
     localStorage:{getItem:key=>storage.get(key),setItem:(key,value)=>storage.set(key,value)},
     window:{matchMedia:()=>({matches:false})}, console, Blob,
     URL:{createObjectURL:blob=>{downloads.push(blob);return 'blob:test';}, revokeObjectURL(){}},
+    FileReader:class {readAsText(file){this.result = file.text; this.onload();}},
     setTimeout:()=>1, clearTimeout(){},
   };
   vm.runInNewContext(script, context, {filename:'app.js'});
@@ -83,4 +84,86 @@ test('CSV export retains tracking and both link roles', async () => {
   assert.match(csv, /https:\/\/x.test\/job\/apply/);
   assert.match(csv, /Postulé/);
   assert.match(csv, /Call Alice/);
+});
+
+test('expired verification is dated and keeps historical text without application action', () => {
+  const app = dashboard({enrichment_outcome:'expired', availability:'expired',
+    enrichment_checked_at:'2026-10-20T12:30:00+00:00', enrichment_confidence:'high'});
+  assert.match(app.detail(), /Offre expirée/);
+  assert.match(app.element('job-list').innerHTML, /Offre expirée/);
+  assert.match(app.detail(), /Texte conservé d.historique/);
+  assert.match(app.detail(), /2026-10-20T12:30:00\+00:00/);
+  assert.match(app.detail(), /disabled>Postuler<\/button>/);
+  assert.match(app.detail(), /TAIL &lt;script&gt;/);
+});
+
+test('uncertain verification labels historical links and preserves saved tracking', () => {
+  const app = dashboard({enrichment_outcome:'inaccessible', availability:'unknown',
+    enrichment_checked_at:'2026-10-20T12:30:00Z', enrichment_confidence:'none',
+    enrichment_error:'Access <denied>'},
+    {'stable-id':{favorite:true,status:'applied',note:'Call Alice'}});
+  assert.match(app.detail(), /Vérification incertaine/);
+  assert.match(app.element('job-list').innerHTML, /Vérification incertaine/);
+  assert.match(app.detail(), /Lien non vérifié/);
+  assert.match(app.detail(), /Lien historique/);
+  assert.doesNotMatch(app.detail(), />Voir l'offre/);
+  assert.match(app.detail(), /Access &lt;denied&gt;/);
+  assert.match(app.detail(), /value="applied" selected/);
+  assert.match(app.detail(), /Call Alice/);
+  app.element('detail-fav').click();
+  assert.equal(JSON.parse(app.storage.get('stage-scout-review-v4'))['stable-id'].note, 'Call Alice');
+});
+
+test('mismatching or missing offers cannot activate historical or application links', () => {
+  for (const enrichment_outcome of ['mismatch', 'not_found']) {
+    const app = dashboard({enrichment_outcome, availability:'unknown'});
+    assert.doesNotMatch(app.detail(), /href="https:\/\/x.test/);
+    assert.match(app.detail(), /disabled>Lien historique<\/button>/);
+    assert.match(app.detail(), /disabled>Postuler<\/button>/);
+  }
+});
+
+test('confirmed enrichment uses the detail URL alias and keeps tracking export', async () => {
+  const app = dashboard({enrichment_outcome:'enriched', availability:'open',
+    enrichment_confidence:'high', detail_url:'https://official.test/confirmed',
+    enrichment_checked_at:'2026-10-20T12:30:00Z'},
+    {'stable-id':{favorite:true,status:'applied',note:'Call Alice'}});
+  assert.match(app.detail(), /href="https:\/\/official.test\/confirmed"[^>]*>Voir l'offre/);
+  assert.match(app.detail(), /Disponibilité constatée lors de la vérification/);
+  app.element('export-track').click();
+  const exported = JSON.parse(await app.downloads[0].text());
+  assert.equal(exported.records['stable-id'].favorite, true);
+  assert.equal(exported.records['stable-id'].note, 'Call Alice');
+});
+
+test('tracking import remains compatible for enriched records', () => {
+  const app = dashboard({enrichment_outcome:'inaccessible', availability:'unknown'});
+  const text = JSON.stringify({format:'stage-scout-tracking-v1', records:{
+    'stable-id':{favorite:true,status:'interview',note:'Imported <note>'}}});
+  app.element('import-file').listeners.change({target:{files:[{text}]}});
+  assert.match(app.detail(), /value="interview" selected/);
+  assert.match(app.detail(), /Imported &lt;note&gt;/);
+  const saved = JSON.parse(app.storage.get('stage-scout-review-v4'))['stable-id'];
+  assert.equal(saved.favorite, true);
+  assert.equal(saved.note, 'Imported <note>');
+});
+
+test('medium confidence cannot present a match as a confirmed official offer', () => {
+  const app = dashboard({enrichment_outcome:'enriched', availability:'open',
+    enrichment_confidence:'medium', detail_url:'https://official.test/unconfirmed'});
+  assert.match(app.detail(), /Vérification incertaine/);
+  assert.doesNotMatch(app.detail(), />Voir l'offre/);
+  assert.match(app.detail(), /disabled>Postuler<\/button>/);
+});
+
+test('verified identity keeps official offer link when availability is unknown', () => {
+  const app = dashboard({enrichment_outcome:'enriched', availability:'unknown',
+    enrichment_confidence:'high', detail_url:'https://official.test/verified',
+    enrichment_checked_at:'2026-10-20T12:30:00Z'});
+  assert.match(app.detail(), /href="https:\/\/official.test\/verified"[^>]*>Voir l'offre/);
+  assert.match(app.detail(), /Disponibilité inconnue/);
+  assert.match(app.element('job-list').innerHTML, /Disponibilité inconnue/);
+  assert.match(app.detail(), /2026-10-20T12:30:00Z/);
+  assert.match(app.detail(), /disabled>Postuler<\/button>/);
+  assert.doesNotMatch(app.detail(), /Lien non vérifié|Lien historique|Texte conservé d.historique/);
 });
