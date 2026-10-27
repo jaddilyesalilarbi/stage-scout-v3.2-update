@@ -70343,12 +70343,13 @@
     },
     "e74a1da48177eb3503": {
       "rules_version": "missions-v1",
-      "pdm_potential": "low",
-      "pdm_label": "Faible potentiel PDM",
+      "pdm_potential": "medium",
+      "pdm_label": "Potentiel PDM à préciser",
       "pdm_explicit": false,
-      "pdm_reason": "Les missions décrites relèvent surtout de l'exécution, du suivi ou du support, sans démarche de conception / investigation établie.",
+      "pdm_reason": "Une mission technique de conception ou d'étude est identifiée ; autonomie, question de recherche et livrable académique restent à préciser.",
       "pdm_confidence": "high",
       "missing_information": [
+        "Accord académique EPFL et encadrement du PDM à confirmer.",
         "Durée : Durée structurée publiée ; comparaison à confirmer.",
         "Date de début : Information non précisée dans l'offre.",
         "Langues : Information non précisée dans l'offre.",
@@ -70357,16 +70358,25 @@
         "Éligibilité : Information non précisée dans l'offre."
       ],
       "technical_categories": [
-        "Other"
+        "R&D / Product Development",
+        "Manufacturing / Production",
+        "Materials / Processes"
       ],
-      "technical_score": 8,
+      "technical_score": 60,
       "technical_reasons": [
-        "Mission à pertinence mécanique limitée : CYENS invites motivated and curious individuals to join our research teams through our internship programme.",
-        "Mission à pertinence mécanique limitée : This is an opportunity to work alongside experts, contribute to innovative projects, and explore areas that match your academic and professional interests."
+        "Mission technique mécanique : Prototyping, fabrication, and creative project support (Makerspace)",
+        "Mission technique mécanique : Supporting the preparation of materials, tools, or deliverables relevant to each function",
+        "Mission à pertinence mécanique limitée : Supporting day-to-day departmental operations through hands-on involvement"
       ],
       "mission_evidence": [
-        "CYENS invites motivated and curious individuals to join our research teams through our internship programme.",
-        "This is an opportunity to work alongside experts, contribute to innovative projects, and explore areas that match your academic and professional interests."
+        "Supporting day-to-day departmental operations through hands-on involvement",
+        "Assisting with data entry, documentation, reporting, and record keeping",
+        "Contributing to department-specific tasks, such as:",
+        "Workshop design and educational content development (Education)",
+        "Prototyping, fabrication, and creative project support (Makerspace)",
+        "Participating in ongoing projects and real organisational activities",
+        "Supporting the preparation of materials, tools, or deliverables relevant to each function",
+        "Assisting in events, workshops, or internal initiatives, where applicable"
       ],
       "constraints": {
         "duration": {
@@ -70413,8 +70423,8 @@
       "constraint_status": "unknown",
       "needs_human_review": true,
       "id": "e74a1da48177eb3503",
-      "input_hash": "147112c154038d3b11b78dadf845d4dea3bd7a6a78b266f2fa097245e692e253",
-      "assessed_at": "2026-10-24T07:08:45.157272+00:00"
+      "input_hash": "369765900a862bf7525dbf1dd614d4c5069d1b4c476d72db3e7cc65c25e4bb72",
+      "assessed_at": "2026-10-27T08:06:57.205022+00:00"
     },
     "eee816661fbd8e9a6d": {
       "rules_version": "missions-v1",
@@ -71160,8 +71170,8 @@
       "constraint_status": "unknown",
       "needs_human_review": true,
       "id": "57b012967ee028c28f",
-      "input_hash": "8eca806c2e5d4201e97e61177ff90dfa5286e4d0e529b94d554f7f2cce8f2012",
-      "assessed_at": "2026-10-21T07:13:54.625114+00:00"
+      "input_hash": "80ef6ab8b7be9068a71562f660067018b090f17b53bf5f8d63fbe0b70074694f",
+      "assessed_at": "2026-10-27T08:06:57.234340+00:00"
     },
     "d906d5cf569223b0cf": {
       "rules_version": "missions-v1",
@@ -85117,8 +85127,8 @@
       "constraint_status": "unknown",
       "needs_human_review": true,
       "id": "66d1ab9280a66f56ae",
-      "input_hash": "ffde884ed0701ccad7909b922444563b8206b70516d87955508109e4565f51a7",
-      "assessed_at": "2026-10-22T07:17:29.599434+00:00"
+      "input_hash": "2aeeeed4124ddb46afb86af76f4cf6d82bf02fa0f1d60af943eb0092acf10cba",
+      "assessed_at": "2026-10-27T08:06:57.218647+00:00"
     },
     "003ac4930d41fd6cd1": {
       "rules_version": "missions-v1",
@@ -130400,6 +130410,357 @@
       "id": "0e03781a29f612305b",
       "input_hash": "cd182af8570d1300a9141789cc6ded7319b78e84fd7a8333fcdd7b7af9300089",
       "assessed_at": "2026-10-26T08:15:17.232105+00:00"
+    },
+    "71c72afd1650c516c2": {
+      "rules_version": "missions-v1",
+      "pdm_potential": "high",
+      "pdm_label": "Fort potentiel PDM",
+      "pdm_explicit": false,
+      "pdm_reason": "Les missions associent conception ou investigation à une démarche de modélisation, comparaison ou validation technique.",
+      "pdm_confidence": "high",
+      "missing_information": [
+        "Accord académique EPFL et encadrement du PDM à confirmer.",
+        "Date de début : Information non précisée dans l'offre.",
+        "Langues : Information non précisée dans l'offre.",
+        "Localisation : Information non précisée dans l'offre.",
+        "Éligibilité : Information non précisée dans l'offre."
+      ],
+      "technical_categories": [
+        "R&D / Product Development",
+        "Testing / Validation",
+        "Manufacturing / Production",
+        "Robotics / Mechatronics",
+        "Automation / Control",
+        "Energy / Thermal",
+        "Quality",
+        "Supply Chain / Logistics"
+      ],
+      "technical_score": 100,
+      "technical_reasons": [
+        "Mission technique mécanique : Our team brings together experts in Mechanical Engineering, Software, E/E, Manufacturing, Homologation, Testing, Purchasing, Business Development, and Sales & Marketing.",
+        "Mission technique mécanique : Support troubleshooting and commissioning on prototype and field vehicles.",
+        "Mission technique mécanique : Ongoing studies in electrical engineering, mechatronics, energy engineering or a comparable field, from the 3rd bachelor semester onwards."
+      ],
+      "mission_evidence": [
+        "Our team brings together experts in Mechanical Engineering, Software, E/E, Manufacturing, Homologation, Testing, Purchasing, Business Development, and Sales & Marketing.",
+        "In this role, you work hands-on with the electrical systems of our electric commercial vehicles — LV power net, HV distribution, contactors, sensors, control units and wiring harnesses.",
+        "You set up measurement rigs, run tests on components and vehicles, and make sure the results are recorded in a way the team can rely on later.",
+        "The second part of the role is our electrical documentation.",
+        "Schematics, pin assignments, connector lists and harness drawings are the basis for everything we build and troubleshoot.",
+        "You keep this documentation accurate and aligned with what is in the vehicle.",
+        "You get your own topics, your own measurements and your own part of the documentation — with an engineer as your point of contact, not as your supervisor for every step.",
+        "### **What you can contribute.**"
+      ],
+      "constraints": {
+        "duration": {
+          "status": "compatible",
+          "value": "6 months",
+          "evidence": [
+            "Availability of around 20 hours per week, on-site, for at least 6 months — with flexibility around lectures and exam periods."
+          ],
+          "reason": "Durée comparée à l'intervalle souhaité fourni dans le profil ; ce n'est pas une restriction administrative."
+        },
+        "start_date": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "languages": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "location": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "education": {
+          "status": "compatible",
+          "value": "Master / ingénieur",
+          "evidence": [
+            "There is the option to continue with a bachelor's or master's thesis, and afterwards as a permanent team member."
+          ],
+          "reason": "Niveau master / ingénieur compatible avec le master EPFL du profil."
+        },
+        "eligibility": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        }
+      },
+      "constraint_status": "unknown",
+      "needs_human_review": true,
+      "id": "71c72afd1650c516c2",
+      "input_hash": "e69b18f1609f6a9133419a4b514bc7049911b1b20f8b798d822195893499b734",
+      "assessed_at": "2026-10-27T08:06:57.049310+00:00"
+    },
+    "c71080bbc5e7008577": {
+      "rules_version": "missions-v1",
+      "pdm_potential": "explicit",
+      "pdm_label": "PDM / mémoire de master explicite",
+      "pdm_explicit": true,
+      "pdm_reason": "L'intitulé ou le texte de l'offre propose explicitement un mémoire / projet de master.",
+      "pdm_confidence": "high",
+      "missing_information": [
+        "Date de début : Début publié ; disponibilité du candidat à confirmer.",
+        "Langues : Information non précisée dans l'offre.",
+        "Localisation : Information non précisée dans l'offre.",
+        "Éligibilité : Information non précisée dans l'offre."
+      ],
+      "technical_categories": [
+        "R&D / Product Development",
+        "Simulation / CAE",
+        "Testing / Validation",
+        "Manufacturing / Production",
+        "Automation / Control"
+      ],
+      "technical_score": 82,
+      "technical_reasons": [
+        "Mission technique mécanique : Deliver working tools and prototypes, a prioritised roadmap, documented procedures, user guidance and team training, ensuring an effective handover and a structured academic report.",
+        "Mission à pertinence mécanique limitée : Working closely with the Customised Solutions team and the relevant data teams, you will help transform a largely manual production model into robust, scalable and AI-enabled reporting solutions.",
+        "Mission à pertinence mécanique limitée : Map the end-to-end customised reporting production model, including effort, tools, data flows, controls, risks, dependencies and failure points."
+      ],
+      "mission_evidence": [
+        "you will complement this knowledge with strong engineering, automation and applied AI capabilities.",
+        "Working closely with the Customised Solutions team and the relevant data teams, you will help transform a largely manual production model into robust, scalable and AI-enabled reporting solutions.",
+        "Your work will directly contribute to reducing manual workload, capacity constraints and operational risk, while helping the team adopt modern tools and ways of working.",
+        "Map the end-to-end customised reporting production model, including effort, tools, data flows, controls, risks, dependencies and failure points.",
+        "Identify, assess and prioritise opportunities to industrialise and automate data aggregation, validation and reporting workflows, including the additional complexity created by external bank data.",
+        "Work with Customised Reporting, Customised Solutions and data teams to design solutions aligned with existing architecture, data governance, security and control requirements.",
+        "Design, develop, test and implement practical solutions and AI-enabled use cases for data extraction, anomaly detection, commentary generation and report production.",
+        "Build robust End User Computing capabilities that empower reporting specialists while ensuring appropriate documentation, controls and maintainability."
+      ],
+      "constraints": {
+        "duration": {
+          "status": "incompatible",
+          "value": "12 months",
+          "evidence": [
+            "Duration:** 12 months (EPFL master’s internship)"
+          ],
+          "reason": "Durée comparée à l'intervalle souhaité fourni dans le profil ; ce n'est pas une restriction administrative."
+        },
+        "start_date": {
+          "status": "unknown",
+          "value": "Start date:** February / March 2027",
+          "evidence": [
+            "Start date:** February / March 2027"
+          ],
+          "reason": "Début publié ; disponibilité du candidat à confirmer."
+        },
+        "languages": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "location": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "education": {
+          "status": "compatible",
+          "value": "Master / ingénieur",
+          "evidence": [
+            "We are looking for an EPFL master’s student to join our four-person Customised Reporting team for a 12-month academic placement.",
+            "EPFL student in the final year of a relevant master’s degree and eligible for a 12-month academic internship.",
+            "This opportunity is intended for students completing a Master’s thesis required by their academic programme.",
+            "Only candidates whose Master’s degree requires an internship are eligible to apply.**",
+            "Duration:** 12 months (EPFL master’s internship)"
+          ],
+          "reason": "Niveau master / ingénieur compatible avec le master EPFL du profil."
+        },
+        "eligibility": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        }
+      },
+      "constraint_status": "incompatible",
+      "needs_human_review": false,
+      "id": "c71080bbc5e7008577",
+      "input_hash": "4e26479ae08a2c9be1bd616973e2c73f8bd503226d5ac6f23d9115db7b0ce77f",
+      "assessed_at": "2026-10-27T08:06:57.104445+00:00"
+    },
+    "2c353d14dd0bfe881f": {
+      "rules_version": "missions-v1",
+      "pdm_potential": "explicit",
+      "pdm_label": "PDM / mémoire de master explicite",
+      "pdm_explicit": true,
+      "pdm_reason": "L'intitulé ou le texte de l'offre propose explicitement un mémoire / projet de master.",
+      "pdm_confidence": "high",
+      "missing_information": [
+        "Durée : Durée structurée publiée ; comparaison à confirmer.",
+        "Date de début : Début publié ; disponibilité du candidat à confirmer.",
+        "Langues : Information non précisée dans l'offre.",
+        "Localisation : Information non précisée dans l'offre.",
+        "Éligibilité : Information non précisée dans l'offre."
+      ],
+      "technical_categories": [
+        "R&D / Product Development",
+        "Systems Integration",
+        "Automation / Control",
+        "Supply Chain / Logistics"
+      ],
+      "technical_score": 98,
+      "technical_reasons": [
+        "Mission technique mécanique : Build prototypes and proof-of-concepts addressing real business use cases.",
+        "Mission technique mécanique : Prototypes of AI agents addressing business use cases and technical documentation.",
+        "Mission à pertinence mécanique limitée : Support the design of secure, scalable, and reusable platform components."
+      ],
+      "mission_evidence": [
+        "PWM Customized Solutions team enables business innovation within Pictet Wealth Management (PWM) by helping business users leverage modern technologies, including AI, low-code platforms, and data solutions.",
+        "This strategic initiative aims to provide business users with secure, scalable, and governed AI agents capable of supporting knowledge discovery, process automation, decision support, and productivity enhancement across PWM.",
+        "The intern will contribute to both the research and implementation aspects of the platform, combining academic work with practical delivery in a real-world banking environment.",
+        "Evaluate emerging AI agent technologies, frameworks, and patterns.",
+        "Support the design of secure, scalable, and reusable platform components.",
+        "#### **Governance and Risk Management**",
+        "Identify policies, standards, and control mechanisms for responsible AI adoption.",
+        "Research best practices related to AI governance in highly regulated environments."
+      ],
+      "constraints": {
+        "duration": {
+          "status": "unknown",
+          "value": "Not specified",
+          "evidence": [
+            "Not specified"
+          ],
+          "reason": "Durée structurée publiée ; comparaison à confirmer."
+        },
+        "start_date": {
+          "status": "unknown",
+          "value": "Start date: February / March 2027",
+          "evidence": [
+            "Start date: February / March 2027"
+          ],
+          "reason": "Début publié ; disponibilité du candidat à confirmer."
+        },
+        "languages": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "location": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "education": {
+          "status": "compatible",
+          "value": "Master / ingénieur",
+          "evidence": [
+            "This opportunity is intended for students completing a Master’s thesis required by their academic programme.",
+            "Only candidates whose Master’s degree requires an internship are eligible to apply.**"
+          ],
+          "reason": "Niveau master / ingénieur compatible avec le master EPFL du profil."
+        },
+        "eligibility": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        }
+      },
+      "constraint_status": "unknown",
+      "needs_human_review": true,
+      "id": "2c353d14dd0bfe881f",
+      "input_hash": "af79f53f8d6733b1978ae087d0e30436b8a01dea7ec90663dcb907df3a3eb681",
+      "assessed_at": "2026-10-27T08:06:57.112255+00:00"
+    },
+    "59e35c6667cf6362e5": {
+      "rules_version": "missions-v1",
+      "pdm_potential": "explicit",
+      "pdm_label": "PDM / mémoire de master explicite",
+      "pdm_explicit": true,
+      "pdm_reason": "L'intitulé ou le texte de l'offre propose explicitement un mémoire / projet de master.",
+      "pdm_confidence": "high",
+      "missing_information": [
+        "Date de début : Début publié ; disponibilité du candidat à confirmer.",
+        "Langues : Information non précisée dans l'offre.",
+        "Localisation : Information non précisée dans l'offre.",
+        "Éligibilité : Information non précisée dans l'offre."
+      ],
+      "technical_categories": [
+        "R&D / Product Development",
+        "Testing / Validation",
+        "Systems Integration",
+        "Energy / Thermal"
+      ],
+      "technical_score": 30,
+      "technical_reasons": [
+        "Mission à pertinence mécanique limitée : In this internship, you will work alongside optimization and power system experts to test and integrate optimization tools and methodologies for Optimal Power Flow on practical use cases at Swissgrid.",
+        "Mission à pertinence mécanique limitée : Implement optimization models in python, connect the necessary input sources, and run experiments on real Swissgrid data.",
+        "Mission à pertinence mécanique limitée : Use commercial optimization engines to solve the models, develop suitable logging and reporting features."
+      ],
+      "mission_evidence": [
+        "On behalf of Switzerland and in cooperation with international partners, we do our utmost every day to develop the best solutions for the Swiss electricity grid.",
+        "Over a duration of 12 months, you will support the assessment of optimization tools and the implementation of new methodologies.",
+        "Internship: Mathematical optimization & code development (60-100%)** **- 1663**",
+        "Your code will help test how Switzerland's grid can be operated more efficiently and reliably**",
+        "In this internship, you will work alongside optimization and power system experts to test and integrate optimization tools and methodologies for Optimal Power Flow on practical use cases at Swissgrid.",
+        "Implement optimization models in python, connect the necessary input sources, and run experiments on real Swissgrid data.",
+        "Use commercial optimization engines to solve the models, develop suitable logging and reporting features.",
+        "Validate the results using an industry-standard power flow simulator."
+      ],
+      "constraints": {
+        "duration": {
+          "status": "incompatible",
+          "value": "12 months",
+          "evidence": [
+            "Over a duration of 12 months, you will support the assessment of optimization tools and the implementation of new methodologies."
+          ],
+          "reason": "Durée comparée à l'intervalle souhaité fourni dans le profil ; ce n'est pas une restriction administrative."
+        },
+        "start_date": {
+          "status": "unknown",
+          "value": "Swissgrid is seeking a talented individual to join its Innovation Incubator team in Aarau as an intern, starting December 1st, 2026, or by arrangement.",
+          "evidence": [
+            "Swissgrid is seeking a talented individual to join its Innovation Incubator team in Aarau as an intern, starting December 1st, 2026, or by arrangement."
+          ],
+          "reason": "Début publié ; disponibilité du candidat à confirmer."
+        },
+        "languages": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "location": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "education": {
+          "status": "compatible",
+          "value": "Master / ingénieur",
+          "evidence": [
+            "There is also the possibility to expand some of the tested methodologies in the context of a follow-up joint semester or master thesis.",
+            "You are currently pursuing or have recently completed a bachelor’s or master’s degree in electrical / mechanical engineering, mathematics, physics, or in a related quantitative field."
+          ],
+          "reason": "Niveau master / ingénieur compatible avec le master EPFL du profil."
+        },
+        "eligibility": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        }
+      },
+      "constraint_status": "incompatible",
+      "needs_human_review": false,
+      "id": "59e35c6667cf6362e5",
+      "input_hash": "bd260463a8c6417f2ea4e84c2fb2b0958cacf54634471a4c586a8d466db9199a",
+      "assessed_at": "2026-10-27T08:06:57.155531+00:00"
     }
   },
   "rules_version": "missions-v1",
