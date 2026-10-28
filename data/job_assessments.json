@@ -85127,8 +85127,8 @@
       "constraint_status": "unknown",
       "needs_human_review": true,
       "id": "66d1ab9280a66f56ae",
-      "input_hash": "2aeeeed4124ddb46afb86af76f4cf6d82bf02fa0f1d60af943eb0092acf10cba",
-      "assessed_at": "2026-10-27T08:06:57.218647+00:00"
+      "input_hash": "ffde884ed0701ccad7909b922444563b8206b70516d87955508109e4565f51a7",
+      "assessed_at": "2026-10-28T08:18:22.425065+00:00"
     },
     "003ac4930d41fd6cd1": {
       "rules_version": "missions-v1",
@@ -87182,8 +87182,8 @@
       "constraint_status": "unknown",
       "needs_human_review": true,
       "id": "72970cc46be8249d19",
-      "input_hash": "ab80c4c2ceacf86e9b9deccb78a1d8a45e51476933fc94e214cd946ece16887e",
-      "assessed_at": "2026-10-22T07:17:29.979373+00:00"
+      "input_hash": "12e541883382c974b610a8456dd5b41dad57d389a1b57faa6b80bb87e21a6545",
+      "assessed_at": "2026-10-28T08:18:22.462056+00:00"
     },
     "ba2513a984295a8d0f": {
       "rules_version": "missions-v1",
@@ -87266,8 +87266,8 @@
       "constraint_status": "unknown",
       "needs_human_review": true,
       "id": "ba2513a984295a8d0f",
-      "input_hash": "b55d376c5c92435c714f0480d9014b59a9274e56de351d79ac5b2f139dc471a9",
-      "assessed_at": "2026-10-22T07:17:29.992439+00:00"
+      "input_hash": "6e5a2db845b340823a3599dbfddeaae46c422e5121ac8ad5ca2330e1e570afe4",
+      "assessed_at": "2026-10-28T08:18:22.476394+00:00"
     },
     "204966ab9e1b6d6c4b": {
       "rules_version": "missions-v1",
@@ -118464,8 +118464,8 @@
       "constraint_status": "unknown",
       "needs_human_review": true,
       "id": "9ac04a05605b2111ce",
-      "input_hash": "6a9416dcbbd6d92d2565d09058302de5e39f6c9c6172067913a4e369dad30a18",
-      "assessed_at": "2026-10-25T07:57:01.227642+00:00"
+      "input_hash": "863a07d04cae8e1ac9cd5918b1082b7e5fb8fcda743d5e577779c75a0d5e024d",
+      "assessed_at": "2026-10-28T08:18:22.501698+00:00"
     },
     "ac1302e0a4fc407e91": {
       "rules_version": "missions-v1",
@@ -130761,6 +130761,952 @@
       "id": "59e35c6667cf6362e5",
       "input_hash": "bd260463a8c6417f2ea4e84c2fb2b0958cacf54634471a4c586a8d466db9199a",
       "assessed_at": "2026-10-27T08:06:57.155531+00:00"
+    },
+    "027b2b6eddccbe7003": {
+      "rules_version": "missions-v1",
+      "pdm_potential": "high",
+      "pdm_label": "Fort potentiel PDM",
+      "pdm_explicit": false,
+      "pdm_reason": "Les missions associent conception ou investigation à une démarche de modélisation, comparaison ou validation technique.",
+      "pdm_confidence": "high",
+      "missing_information": [
+        "Accord académique EPFL et encadrement du PDM à confirmer.",
+        "Date de début : Début publié ; disponibilité du candidat à confirmer.",
+        "Langues : Information non précisée dans l'offre.",
+        "Localisation : Information non précisée dans l'offre.",
+        "Formation : Information non précisée dans l'offre.",
+        "Éligibilité : Information non précisée dans l'offre."
+      ],
+      "technical_categories": [
+        "Mechanical Design",
+        "R&D / Product Development",
+        "Testing / Validation"
+      ],
+      "technical_score": 100,
+      "technical_reasons": [
+        "Mission technique mécanique : This internship is based on a concept proposal developed within Lely's feeding domain and focuses on creating an initial prototype to assess technical viability.",
+        "Mission technique mécanique : Designing a mechanical solution and translating concepts into a workable prototype",
+        "Mission technique mécanique : Testing the prototype on a farm and gathering technical insights"
+      ],
+      "mission_evidence": [
+        "We still do this from our Campus in Maassluis, the building with the highest achievable sustainability standards in the Netherlands, while also operating around the world.",
+        "Our goal is to ensure that dairy farming remains attractive for future generations.",
+        "You will develop a proof of principle and investigate whether the concept is technically feasible in a real farm environment.",
+        "This internship is based on a concept proposal developed within Lely's feeding domain and focuses on creating an initial prototype to assess technical viability.",
+        "From the first sketches and calculations to farm testing and evaluation, you will play an active role in every step of the development process.",
+        "Identifying and defining the critical technical elements required to validate the concept",
+        "Designing a mechanical solution and translating concepts into a workable prototype",
+        "Testing the prototype on a farm and gathering technical insights"
+      ],
+      "constraints": {
+        "duration": {
+          "status": "compatible",
+          "value": "6 months",
+          "evidence": [
+            "Duration: 6 months"
+          ],
+          "reason": "Durée comparée à l'intervalle souhaité fourni dans le profil ; ce n'est pas une restriction administrative."
+        },
+        "start_date": {
+          "status": "unknown",
+          "value": "Start date: February 2027",
+          "evidence": [
+            "Start date: February 2027"
+          ],
+          "reason": "Début publié ; disponibilité du candidat à confirmer."
+        },
+        "languages": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "location": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "education": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "eligibility": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        }
+      },
+      "constraint_status": "unknown",
+      "needs_human_review": true,
+      "id": "027b2b6eddccbe7003",
+      "input_hash": "65b3e5b8bc092459bd57d2008f6f5086cbae49d524edec4b4198a97136af5598",
+      "assessed_at": "2026-10-28T08:18:22.007333+00:00"
+    },
+    "83745ec6301ec8f2e8": {
+      "rules_version": "missions-v1",
+      "pdm_potential": "high",
+      "pdm_label": "Fort potentiel PDM",
+      "pdm_explicit": false,
+      "pdm_reason": "Les missions associent conception ou investigation à une démarche de modélisation, comparaison ou validation technique.",
+      "pdm_confidence": "high",
+      "missing_information": [
+        "Accord académique EPFL et encadrement du PDM à confirmer.",
+        "Durée : Durée structurée publiée ; comparaison à confirmer.",
+        "Date de début : Information non précisée dans l'offre.",
+        "Langues : Information non précisée dans l'offre.",
+        "Éligibilité : Information non précisée dans l'offre."
+      ],
+      "technical_categories": [
+        "R&D / Product Development",
+        "Simulation / CAE",
+        "Testing / Validation",
+        "Systems Integration",
+        "Robotics / Mechatronics",
+        "Automation / Control",
+        "Energy / Thermal"
+      ],
+      "technical_score": 100,
+      "technical_reasons": [
+        "Mission technique mécanique : The Skydio team combines deep expertise in artificial intelligence, best-in-class hardware and software product development, operational excellence, and customer obsession to empower a broader, more diverse audience of drone users, from [utility inspectors](https://www.skydio.com/solutions/energy-and-utilities) to [first responders](https://www.skydio.com/solutions/public-safety), [soldiers in battlefield scenarios](https://www.skydio.com/solutions/national-security/tactical-isr), and [beyond](https://www.skydio.com/solutions).",
+        "Mission technique mécanique : Sensor and Hardware Simulation**: Build high-fidelity simulations of cameras, IMUs, and other onboard components, including timing, noise characteristics, and hardware behavior.",
+        "Mission technique mécanique : Robotics, simulation, game engines, or real-time systems."
+      ],
+      "mission_evidence": [
+        "The Skydio team combines deep expertise in artificial intelligence, best-in-class hardware and software product development, operational excellence, and customer obsession to empower a broader, more diverse audience of drone users, from [utility inspectors](https://www.skydio.com/solutions/energy-and-utilities) to [first responders](https://www.skydio.com/solutions/public-safety), [soldiers in battlefield scenarios](https://www.skydio.com/solutions/national-security/tactical-isr), and [beyond](https://www.skydio.com/solutions).",
+        "You will architect and implement the algorithms that run on every drone powered by Skydio as part of a world class computer vision and deep learning team with researchers who have pushed the state of the art in academia and industry.",
+        "As a Research Intern, you will be paired up with one or more members of our core software development team, assuming direct ownership of a project that meaningfully advances the capabilities of our team and products.",
+        "Core Simulator Architecture**: Design, implement, and evolve the foundational architecture of the Skydio Simulator, ensuring it scales across vehicle types, environments, and use cases.",
+        "Physics and Dynamics**: Improve and extend physics models governing vehicle motion, interactions with the environment, and dynamic agents.",
+        "Sensor and Hardware Simulation**: Build high-fidelity simulations of cameras, IMUs, and other onboard components, including timing, noise characteristics, and hardware behavior.",
+        "Autonomy Stack Integration**: Run and validate the full Skydio autonomy stack in simulation, ensuring consistency between simulated and real-world behavior.",
+        "Feature Development on Top of the Core**: Implement simulator capabilities that unlock new workflows for customers and internal autonomy engineers, from training scenarios to advanced testing modes."
+      ],
+      "constraints": {
+        "duration": {
+          "status": "unknown",
+          "value": "Not specified",
+          "evidence": [
+            "Not specified"
+          ],
+          "reason": "Durée structurée publiée ; comparaison à confirmer."
+        },
+        "start_date": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "languages": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "location": {
+          "status": "compatible",
+          "value": "Zurich, Switzerland",
+          "evidence": [
+            "Zurich, Switzerland"
+          ],
+          "reason": "Localisation en Europe."
+        },
+        "education": {
+          "status": "compatible",
+          "value": "Master / ingénieur",
+          "evidence": [
+            "Compensation:** The hourly rate for this position is $47/hr for Undergrad, $53/hr for Masters, and $70/hr for PhD students\\*."
+          ],
+          "reason": "Niveau master / ingénieur compatible avec le master EPFL du profil."
+        },
+        "eligibility": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        }
+      },
+      "constraint_status": "unknown",
+      "needs_human_review": true,
+      "id": "83745ec6301ec8f2e8",
+      "input_hash": "6082ce2a5c141c711ba61f522e4a0867f69674416884489f9f483345c95914bb",
+      "assessed_at": "2026-10-28T08:18:22.093103+00:00"
+    },
+    "54b941b117502513a0": {
+      "rules_version": "missions-v1",
+      "pdm_potential": "high",
+      "pdm_label": "Fort potentiel PDM",
+      "pdm_explicit": false,
+      "pdm_reason": "Les missions associent conception ou investigation à une démarche de modélisation, comparaison ou validation technique.",
+      "pdm_confidence": "high",
+      "missing_information": [
+        "Accord académique EPFL et encadrement du PDM à confirmer.",
+        "Date de début : Début publié ; disponibilité du candidat à confirmer.",
+        "Langues : Information non précisée dans l'offre.",
+        "Localisation : Information non précisée dans l'offre.",
+        "Éligibilité : Information non précisée dans l'offre."
+      ],
+      "technical_categories": [
+        "R&D / Product Development",
+        "Testing / Validation",
+        "Automation / Control",
+        "Energy / Thermal"
+      ],
+      "technical_score": 78,
+      "technical_reasons": [
+        "Mission technique mécanique : Detailed understanding of large set data analysis, and how to accurately prove the impact of software/hardware changes",
+        "Mission technique mécanique : Understanding and relevant coursework within batteries, EV components and programming",
+        "Mission à pertinence mécanique limitée : For issues which do require physical repair, develop software routines which repair the system faster"
+      ],
+      "mission_evidence": [
+        "You will be part of EMEA Service Engineering, which sits under the Vehicle Software organization.",
+        "Service Engineering is responsible for keeping our global vehicle fleet operating as intended – analyzing data to identify issues or trends, creating repair and diagnostic procedures for vehicle repair technicians, and developing software-based fixes which roll out Over-The-Air to vehicles.",
+        "Develop diagnostic methods to enable automated identification and tracking of issues",
+        "Investigate root cause.",
+        "For issues which do require physical repair, develop software routines which repair the system faster",
+        "Develop and test on-vehicle code changes, utilizing our dedicated engineering fleet",
+        "Track the impact of these improvements as they make their way to customer vehicles",
+        "We work with your university to support your academic requirements."
+      ],
+      "constraints": {
+        "duration": {
+          "status": "compatible",
+          "value": "6 months",
+          "evidence": [
+            "Duration: 6 months"
+          ],
+          "reason": "Durée comparée à l'intervalle souhaité fourni dans le profil ; ce n'est pas une restriction administrative."
+        },
+        "start_date": {
+          "status": "unknown",
+          "value": "Start date: January/February 2027",
+          "evidence": [
+            "Start date: January/February 2027"
+          ],
+          "reason": "Début publié ; disponibilité du candidat à confirmer."
+        },
+        "languages": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "location": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "education": {
+          "status": "compatible",
+          "value": "Master / ingénieur",
+          "evidence": [
+            "Currently enrolled in a Master's program (preferred) or a Bachelor's in Electrical Engineering, Mechanical Engineering, Physics or Computer Science or equivalent qualification"
+          ],
+          "reason": "Niveau master / ingénieur compatible avec le master EPFL du profil."
+        },
+        "eligibility": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        }
+      },
+      "constraint_status": "unknown",
+      "needs_human_review": true,
+      "id": "54b941b117502513a0",
+      "input_hash": "2925b8c9a06ab5d5fd5070855c39a5fd365f19cef8b56bc66159a4678e4b9ca7",
+      "assessed_at": "2026-10-28T08:18:22.144903+00:00"
+    },
+    "6c59351e8366d97bb3": {
+      "rules_version": "missions-v1",
+      "pdm_potential": "high",
+      "pdm_label": "Fort potentiel PDM",
+      "pdm_explicit": false,
+      "pdm_reason": "Les missions associent conception ou investigation à une démarche de modélisation, comparaison ou validation technique.",
+      "pdm_confidence": "high",
+      "missing_information": [
+        "Accord académique EPFL et encadrement du PDM à confirmer.",
+        "Date de début : Information non précisée dans l'offre.",
+        "Langues : Langues exigées publiées ; compétences linguistiques du candidat inconnues.",
+        "Localisation : Information non précisée dans l'offre.",
+        "Éligibilité : Information non précisée dans l'offre."
+      ],
+      "technical_categories": [
+        "R&D / Product Development",
+        "Testing / Validation",
+        "Manufacturing / Production"
+      ],
+      "technical_score": 62,
+      "technical_reasons": [
+        "Mission technique mécanique : The location serves as the central hub for European Leadership and other functions that support the wider European manufacturing and distribution network.",
+        "Mission à pertinence mécanique limitée : You will be directly involved in projects focused on enhancing our production processes through improved inline viscosity measurement and the optimization of inline mixing of thickening agents.",
+        "Mission à pertinence mécanique limitée : Support new product development by aligning process capabilities with product functionality and performance requirements."
+      ],
+      "mission_evidence": [
+        "You will be directly involved in projects focused on enhancing our production processes through improved inline viscosity measurement and the optimization of inline mixing of thickening agents.",
+        "This role is fully **on-site** and the location is our Pilot Plant in Leiden, with regular workdays at our **European Headquarters** in **Oegstgeest**.",
+        "Execute trials on pilot-scale equipment to identify technical constraints and optimize the performance of multilayer coating setups.",
+        "Collect, analyze, and interpret experimental data using statistical methodologies.",
+        "Support new product development by aligning process capabilities with product functionality and performance requirements.",
+        "Establish methods for evaluating layer thickness and homogeneity.",
+        "Perform analytical testing techniques, such as confocal Raman spectroscopy or SEM (preferred).",
+        "Professional Growth:** Access to specific training programs designed to sharpen your skills throughout your internship."
+      ],
+      "constraints": {
+        "duration": {
+          "status": "compatible",
+          "value": "6 months",
+          "evidence": [
+            "This internship is scheduled to start on **01.03.2027** for a duration of **minimum 6 months**."
+          ],
+          "reason": "Durée comparée à l'intervalle souhaité fourni dans le profil ; ce n'est pas une restriction administrative."
+        },
+        "start_date": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "languages": {
+          "status": "unknown",
+          "value": "en, nl",
+          "evidence": [
+            "Fluency in English is required.",
+            "Enrollment:** You must be currently enrolled at a Dutch university for the entire duration of your internship."
+          ],
+          "reason": "Langues exigées publiées ; compétences linguistiques du candidat inconnues."
+        },
+        "location": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "education": {
+          "status": "compatible",
+          "value": "Master / ingénieur",
+          "evidence": [
+            "Currently enrolled in the final year of a Bachelor's or Master's degree program in Chemical Engineering, Process Engineering, Mechanical Engineering, Materials Science, or a related field."
+          ],
+          "reason": "Niveau master / ingénieur compatible avec le master EPFL du profil."
+        },
+        "eligibility": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        }
+      },
+      "constraint_status": "unknown",
+      "needs_human_review": true,
+      "id": "6c59351e8366d97bb3",
+      "input_hash": "d17ad8df397ad98f6af5096c5b76874af26d629138fa057c8f711f22be696eeb",
+      "assessed_at": "2026-10-28T08:18:22.198854+00:00"
+    },
+    "f0a655f8eca322a0a8": {
+      "rules_version": "missions-v1",
+      "pdm_potential": "high",
+      "pdm_label": "Fort potentiel PDM",
+      "pdm_explicit": false,
+      "pdm_reason": "Les missions associent conception ou investigation à une démarche de modélisation, comparaison ou validation technique.",
+      "pdm_confidence": "high",
+      "missing_information": [
+        "Accord académique EPFL et encadrement du PDM à confirmer.",
+        "Date de début : Début publié ; disponibilité du candidat à confirmer.",
+        "Langues : Information non précisée dans l'offre.",
+        "Localisation : Information non précisée dans l'offre.",
+        "Formation : Information non précisée dans l'offre.",
+        "Éligibilité : Information non précisée dans l'offre."
+      ],
+      "technical_categories": [
+        "R&D / Product Development",
+        "Simulation / CAE",
+        "Systems Integration",
+        "Energy / Thermal"
+      ],
+      "technical_score": 98,
+      "technical_reasons": [
+        "Mission technique mécanique : As an intern in this position, you will have an opportunity to build RMS/EMT power systems model for Battery Energy Storage System (BESS) and perform system studies.",
+        "Mission technique mécanique : Focus mostly on modeling battery energy storage systems in any of these software utilizing Python interfaces, running simulations, and analyzing the impact of these resources on stability of grids and microgrids",
+        "Mission à pertinence mécanique limitée : This position is focused on power systems stability modeling and analysis."
+      ],
+      "mission_evidence": [
+        "Tesla Energy Grid Solutions team is looking for a highly motivated individual who is excited about solving real-life power system issues around renewables integration.",
+        "As an intern in this position, you will have an opportunity to build RMS/EMT power systems model for Battery Energy Storage System (BESS) and perform system studies.",
+        "This position is focused on power systems stability modeling and analysis.",
+        "Demonstrate a solid theoretical background on EMT and dynamic modeling of power systems, renewable energy resources, and converter-interfaced devices",
+        "Perform dynamics and transient simulations using positive-sequence tools (PSSE, DIgSILENT, or PSLF) and EMT tools (preferably PSCAD)",
+        "Focus mostly on modeling battery energy storage systems in any of these software utilizing Python interfaces, running simulations, and analyzing the impact of these resources on stability of grids and microgrids",
+        "Must be self-managed and committed to working in a fast-paced environment"
+      ],
+      "constraints": {
+        "duration": {
+          "status": "compatible",
+          "value": "6 months",
+          "evidence": [
+            "Duration: 6 months"
+          ],
+          "reason": "Durée comparée à l'intervalle souhaité fourni dans le profil ; ce n'est pas une restriction administrative."
+        },
+        "start_date": {
+          "status": "unknown",
+          "value": "Start date: January/February 2027",
+          "evidence": [
+            "Start date: January/February 2027"
+          ],
+          "reason": "Début publié ; disponibilité du candidat à confirmer."
+        },
+        "languages": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "location": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "education": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "eligibility": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        }
+      },
+      "constraint_status": "unknown",
+      "needs_human_review": true,
+      "id": "f0a655f8eca322a0a8",
+      "input_hash": "93060d34b7bfdbd86a41e2f23a074048d663b91737f26152af506043e09479ec",
+      "assessed_at": "2026-10-28T08:18:22.215570+00:00"
+    },
+    "7ee21600a271008f2e": {
+      "rules_version": "missions-v1",
+      "pdm_potential": "low",
+      "pdm_label": "Faible potentiel PDM",
+      "pdm_explicit": false,
+      "pdm_reason": "Les missions décrites relèvent surtout de l'exécution, du suivi ou du support, sans démarche de conception / investigation établie.",
+      "pdm_confidence": "high",
+      "missing_information": [
+        "Date de début : Information non précisée dans l'offre.",
+        "Langues : Information non précisée dans l'offre.",
+        "Localisation : Information non précisée dans l'offre.",
+        "Éligibilité : Information non précisée dans l'offre."
+      ],
+      "technical_categories": [
+        "Automation / Control",
+        "Materials / Processes",
+        "Project Management"
+      ],
+      "technical_score": 46,
+      "technical_reasons": [
+        "Mission technique mécanique : You help create, update, and maintain documentation, reports, presentations, or other materials as needed by the team.",
+        "Mission technique mécanique : Materials Definition",
+        "Mission à pertinence mécanique limitée : Their commitment, collective expertise, and unique capabilities are the engine room behind SBM Offshore’s True."
+      ],
+      "mission_evidence": [
+        "Their commitment, collective expertise, and unique capabilities are the engine room behind SBM Offshore’s True.",
+        "Now, see how a role change can develop you, and us, even more.",
+        "You assist in the planning, execution, and monitoring of projects, contributing to tasks that align with your field of study or interest.",
+        "You conduct research, gather data, and provide insights that support decision-making, process improvements, or ongoing projects within the team.",
+        "You help create, update, and maintain documentation, reports, presentations, or other materials as needed by the team.",
+        "You work closely with team members and participate in meetings, discussions, and brainstorming sessions, offering fresh perspectives and innovative ideas.",
+        "You assist with routine administrative tasks, ensuring smooth workflow and helping the team stay organized and efficient",
+        "Materials Definition"
+      ],
+      "constraints": {
+        "duration": {
+          "status": "compatible",
+          "value": "3 months",
+          "evidence": [
+            "Open to part-time or full-time internships for a minimum of 3 months (ideally 6 months)"
+          ],
+          "reason": "Durée comparée à l'intervalle souhaité fourni dans le profil ; ce n'est pas une restriction administrative."
+        },
+        "start_date": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "languages": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "location": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "education": {
+          "status": "compatible",
+          "value": "Master / ingénieur",
+          "evidence": [
+            "Currently enrolled in a Bachelor's or Master's program in an engineering field"
+          ],
+          "reason": "Niveau master / ingénieur compatible avec le master EPFL du profil."
+        },
+        "eligibility": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        }
+      },
+      "constraint_status": "unknown",
+      "needs_human_review": true,
+      "id": "7ee21600a271008f2e",
+      "input_hash": "c85e47150410523b04f149fc9321da48ce42e6db9249c8836cd4fca5d32f4414",
+      "assessed_at": "2026-10-28T08:18:22.240683+00:00"
+    },
+    "a8a2b22d9c0f465ce6": {
+      "rules_version": "missions-v1",
+      "pdm_potential": "high",
+      "pdm_label": "Fort potentiel PDM",
+      "pdm_explicit": false,
+      "pdm_reason": "Les missions associent conception ou investigation à une démarche de modélisation, comparaison ou validation technique.",
+      "pdm_confidence": "high",
+      "missing_information": [
+        "Accord académique EPFL et encadrement du PDM à confirmer.",
+        "Durée : Durée structurée publiée ; comparaison à confirmer.",
+        "Date de début : Information non précisée dans l'offre.",
+        "Langues : Information non précisée dans l'offre.",
+        "Éligibilité : Information non précisée dans l'offre."
+      ],
+      "technical_categories": [
+        "R&D / Product Development",
+        "Simulation / CAE",
+        "Testing / Validation",
+        "Systems Integration",
+        "Robotics / Mechatronics",
+        "Automation / Control",
+        "Materials / Processes",
+        "Energy / Thermal",
+        "Quality",
+        "Project Management"
+      ],
+      "technical_score": 100,
+      "technical_reasons": [
+        "Mission technique mécanique : The Skydio team combines deep expertise in artificial intelligence, best-in-class hardware and software product development, operational excellence, and customer obsession to empower a broader, more diverse audience of drone users, from [utility inspectors](https://www.skydio.com/solutions/energy-and-utilities) to [first responders](https://www.skydio.com/solutions/public-safety), [soldiers in battlefield scenarios](https://www.skydio.com/solutions/national-security/tactical-isr), and [beyond](https://www.skydio.com/solutions).",
+        "Mission technique mécanique : Build tools that streamline stages of the robotics development process.",
+        "Mission technique mécanique : Experience building performance-sensitive systems (profiling, multithreading, real-time constraints) in robotics, aerospace, automotive, or similar domains."
+      ],
+      "mission_evidence": [
+        "The Skydio team combines deep expertise in artificial intelligence, best-in-class hardware and software product development, operational excellence, and customer obsession to empower a broader, more diverse audience of drone users, from [utility inspectors](https://www.skydio.com/solutions/energy-and-utilities) to [first responders](https://www.skydio.com/solutions/public-safety), [soldiers in battlefield scenarios](https://www.skydio.com/solutions/national-security/tactical-isr), and [beyond](https://www.skydio.com/solutions).",
+        "You will architect and implement the algorithms that run on every drone powered by Skydio as part of a world class computer vision and deep learning team with researchers who have pushed the state of the art in academia and industry.",
+        "As a Research Intern, you will be paired up with one or more members of our core software development team, assuming direct ownership of a project that meaningfully advances the capabilities of our team and products.",
+        "Design and build robust replay and analysis systems** that enable engineers to inspect and reproduce recorded autonomy behavior, with fine-grained control over system state, perception outputs, and decision-making at every stage of the stack.",
+        "Develop scalable infrastructure for automated testing and failure triage**, expanding our simulation and log-driven test coverage while accelerating root-cause analysis through automated log processing and diagnostics.",
+        "Operate at the interface between autonomy software and core robotics middleware**, defining clear APIs, data contracts, and performance requirements for messaging, state propagation, and coordination across subsystems, while partnering closely with downstream teams to support their implementation and integration.",
+        "Design and implement high-quality developer infrastructure and tools** that prioritize reliability, performance, and usability, enabling rapid iteration, safe experimentation, and sustained velocity across the autonomy organization.",
+        "Lead the design and implementation of scalable tools used across autonomy development and testing workflows."
+      ],
+      "constraints": {
+        "duration": {
+          "status": "unknown",
+          "value": "Not specified",
+          "evidence": [
+            "Not specified"
+          ],
+          "reason": "Durée structurée publiée ; comparaison à confirmer."
+        },
+        "start_date": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "languages": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "location": {
+          "status": "compatible",
+          "value": "Zurich, Switzerland",
+          "evidence": [
+            "Zurich, Switzerland"
+          ],
+          "reason": "Localisation en Europe."
+        },
+        "education": {
+          "status": "compatible",
+          "value": "Master / ingénieur",
+          "evidence": [
+            "Compensation:** The hourly rate for this position is $47/hr for Undergrad, $53/hr for Masters, and $70/hr for PhD students\\*."
+          ],
+          "reason": "Niveau master / ingénieur compatible avec le master EPFL du profil."
+        },
+        "eligibility": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        }
+      },
+      "constraint_status": "unknown",
+      "needs_human_review": true,
+      "id": "a8a2b22d9c0f465ce6",
+      "input_hash": "55609a9fdc5b499b51f52d44d3b3265486f05fea77f83227b9e00300a301ce9c",
+      "assessed_at": "2026-10-28T08:18:22.266925+00:00"
+    },
+    "f3a560bb4517df157a": {
+      "rules_version": "missions-v1",
+      "pdm_potential": "high",
+      "pdm_label": "Fort potentiel PDM",
+      "pdm_explicit": false,
+      "pdm_reason": "Les missions associent conception ou investigation à une démarche de modélisation, comparaison ou validation technique.",
+      "pdm_confidence": "high",
+      "missing_information": [
+        "Accord académique EPFL et encadrement du PDM à confirmer.",
+        "Durée : Durée structurée publiée ; comparaison à confirmer.",
+        "Date de début : Information non précisée dans l'offre.",
+        "Langues : Information non précisée dans l'offre.",
+        "Éligibilité : Information non précisée dans l'offre."
+      ],
+      "technical_categories": [
+        "R&D / Product Development",
+        "Testing / Validation",
+        "Manufacturing / Production",
+        "Robotics / Mechatronics",
+        "Automation / Control",
+        "Energy / Thermal",
+        "Quality",
+        "Project Management"
+      ],
+      "technical_score": 98,
+      "technical_reasons": [
+        "Mission technique mécanique : The Skydio team combines deep expertise in artificial intelligence, best-in-class hardware and software product development, operational excellence, and customer obsession to empower a broader, more diverse audience of drone users, from [utility inspectors](https://www.skydio.com/solutions/energy-and-utilities) to [first responders](https://www.skydio.com/solutions/public-safety), [soldiers in battlefield scenarios](https://www.skydio.com/solutions/national-security/tactical-isr), and [beyond](https://www.skydio.com/solutions).",
+        "Mission technique mécanique : Real hardware cadence:** Prototype in sim, then flight test on production-ready aircraft and edge compute.",
+        "Mission technique mécanique : PhD student in Robotics, Machine Learning, Controls, or related field."
+      ],
+      "mission_evidence": [
+        "The Skydio team combines deep expertise in artificial intelligence, best-in-class hardware and software product development, operational excellence, and customer obsession to empower a broader, more diverse audience of drone users, from [utility inspectors](https://www.skydio.com/solutions/energy-and-utilities) to [first responders](https://www.skydio.com/solutions/public-safety), [soldiers in battlefield scenarios](https://www.skydio.com/solutions/national-security/tactical-isr), and [beyond](https://www.skydio.com/solutions).",
+        "Skydio builds the world’s most advanced autonomous drones used across inspection, public safety, defense, cinematography, and more.",
+        "Your research won’t languish in a paper: it will **fly**, shaping how pilots and operators complete real missions in complex environments.",
+        "Develop and deploy **reinforcement learning** (and adjacent policy-learning methods) that make Skydio aircraft **plan, navigate, and control** themselves more intelligently, safely, reliably, and efficiently across our ecosystem: handheld apps, ground control, cloud autonomy services, and fleet workflows.",
+        "RL-augmented planning:** Fuse learned cost shaping / value functions with trajectory optimization for smooth, agile flight with tight safety envelopes and mission constraints.",
+        "Sim to Real at scale:** Build scalable datasets and training loops with Isaac Lab, domain randomization, residual learning, and safety filters;",
+        "validate on real drones weekly.",
+        "Human-in-the-loop shared control:** Learn assistive policies that blend pilot intent, autonomy priors, and uncertainty-aware behaviors for intuitive control handoffs."
+      ],
+      "constraints": {
+        "duration": {
+          "status": "unknown",
+          "value": "Not specified",
+          "evidence": [
+            "Not specified"
+          ],
+          "reason": "Durée structurée publiée ; comparaison à confirmer."
+        },
+        "start_date": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "languages": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "location": {
+          "status": "compatible",
+          "value": "Zurich, Switzerland",
+          "evidence": [
+            "Zurich, Switzerland"
+          ],
+          "reason": "Localisation en Europe."
+        },
+        "education": {
+          "status": "compatible",
+          "value": "Master / ingénieur",
+          "evidence": [
+            "Compensation:** The hourly rate for this position is $47/hr for Undergrad, $53/hr for Masters, and $70/hr for PhD students\\*."
+          ],
+          "reason": "Niveau master / ingénieur compatible avec le master EPFL du profil."
+        },
+        "eligibility": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        }
+      },
+      "constraint_status": "unknown",
+      "needs_human_review": true,
+      "id": "f3a560bb4517df157a",
+      "input_hash": "cbfe64a8fbdb9b6ba522c7c5c27cbb9a315a272c95d1e915e09b405649bba78b",
+      "assessed_at": "2026-10-28T08:18:22.283559+00:00"
+    },
+    "f601b3c583894f508a": {
+      "rules_version": "missions-v1",
+      "pdm_potential": "medium",
+      "pdm_label": "Potentiel PDM à préciser",
+      "pdm_explicit": false,
+      "pdm_reason": "Une mission technique de conception ou d'étude est identifiée ; autonomie, question de recherche et livrable académique restent à préciser.",
+      "pdm_confidence": "high",
+      "missing_information": [
+        "Accord académique EPFL et encadrement du PDM à confirmer.",
+        "Date de début : Début publié ; disponibilité du candidat à confirmer.",
+        "Langues : Information non précisée dans l'offre.",
+        "Localisation : Information non précisée dans l'offre.",
+        "Éligibilité : Information non précisée dans l'offre."
+      ],
+      "technical_categories": [
+        "R&D / Product Development",
+        "Automation / Control",
+        "Energy / Thermal"
+      ],
+      "technical_score": 100,
+      "technical_reasons": [
+        "Mission technique mécanique : Develop offboard and onboard diagnostic software to accurately identify conditions requiring HV battery repair.",
+        "Mission technique mécanique : Develop procedures, tracking, software and automation workflows to increase Service efficiency related to ordering replacement batteries, conducting battery repairs and preparing batteries for shipment.",
+        "Mission technique mécanique : Identify and develop HV battery cross-compatibility hardware and software procedures to enable retrofitting new batteries to older vehicles."
+      ],
+      "mission_evidence": [
+        "You will be part of EMEA Service Engineering, which sits under the Vehicle Software organization.",
+        "Service Engineering is responsible for keeping our global vehicle fleet operating as intended – analyzing data to identify issues or trends, creating repair and diagnostic procedures for vehicle repair technicians, and developing software-based fixes which roll out Over-The-Air to vehicles.",
+        "Develop offboard and onboard diagnostic software to accurately identify conditions requiring HV battery repair.",
+        "Develop procedures, tracking, software and automation workflows to increase Service efficiency related to ordering replacement batteries, conducting battery repairs and preparing batteries for shipment.",
+        "Identify and develop HV battery cross-compatibility hardware and software procedures to enable retrofitting new batteries to older vehicles.",
+        "We work with your university to support your academic requirements.",
+        "Detailed understanding of large set data analysis and defining KPIs",
+        "Design large-scale operations that are efficient and intuitive"
+      ],
+      "constraints": {
+        "duration": {
+          "status": "compatible",
+          "value": "6 months",
+          "evidence": [
+            "Duration: 6 months"
+          ],
+          "reason": "Durée comparée à l'intervalle souhaité fourni dans le profil ; ce n'est pas une restriction administrative."
+        },
+        "start_date": {
+          "status": "unknown",
+          "value": "Start date: January/February 2027",
+          "evidence": [
+            "Start date: January/February 2027"
+          ],
+          "reason": "Début publié ; disponibilité du candidat à confirmer."
+        },
+        "languages": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "location": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "education": {
+          "status": "compatible",
+          "value": "Master / ingénieur",
+          "evidence": [
+            "Currently enrolled in a Master's program (preferred) or a Bachelor's in Electrical Engineering, Mechanical Engineering, Physics, Computer Science or equivalent qualification"
+          ],
+          "reason": "Niveau master / ingénieur compatible avec le master EPFL du profil."
+        },
+        "eligibility": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        }
+      },
+      "constraint_status": "unknown",
+      "needs_human_review": true,
+      "id": "f601b3c583894f508a",
+      "input_hash": "637e700a107910eadff2992d5aff5da3478fdff623f54695d694d6445562b862",
+      "assessed_at": "2026-10-28T08:18:22.328816+00:00"
+    },
+    "5d3d962e5ba31dad40": {
+      "rules_version": "missions-v1",
+      "pdm_potential": "medium",
+      "pdm_label": "Potentiel PDM à préciser",
+      "pdm_explicit": false,
+      "pdm_reason": "Une mission technique de conception ou d'étude est identifiée ; autonomie, question de recherche et livrable académique restent à préciser.",
+      "pdm_confidence": "high",
+      "missing_information": [
+        "Accord académique EPFL et encadrement du PDM à confirmer.",
+        "Durée : Durée structurée publiée ; comparaison à confirmer.",
+        "Date de début : Information non précisée dans l'offre.",
+        "Langues : Information non précisée dans l'offre.",
+        "Localisation : Information non précisée dans l'offre.",
+        "Formation : Information non précisée dans l'offre.",
+        "Éligibilité : Information non précisée dans l'offre."
+      ],
+      "technical_categories": [
+        "Mechanical Design",
+        "R&D / Product Development",
+        "Automation / Control",
+        "Energy / Thermal"
+      ],
+      "technical_score": 58,
+      "technical_reasons": [
+        "Mission technique mécanique : MTS, HTS or equivalent education in the field of Mechanical engineering geared towards the design of instruments and modules.",
+        "Mission à pertinence mécanique limitée : A dynamic and dedicated workforce, Mar- In Controls B.V.",
+        "Mission à pertinence mécanique limitée : People who strive to improve the way they work and add value to the company as a whole."
+      ],
+      "mission_evidence": [
+        "A dynamic and dedicated workforce, Mar- In Controls B.V.",
+        "People who strive to improve the way they work and add value to the company as a whole.",
+        "Mar-In Controls B.V.",
+        "MTS, HTS or equivalent education in the field of Mechanical engineering geared towards the design of instruments and modules.",
+        "invests a lot of energy in providing students with the best possible support and training and as such has been awarded the title of certified learning institution.",
+        "E-mail: info@mar-in-controls.com"
+      ],
+      "constraints": {
+        "duration": {
+          "status": "unknown",
+          "value": "Not specified",
+          "evidence": [
+            "Not specified"
+          ],
+          "reason": "Durée structurée publiée ; comparaison à confirmer."
+        },
+        "start_date": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "languages": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "location": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "education": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "eligibility": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        }
+      },
+      "constraint_status": "unknown",
+      "needs_human_review": true,
+      "id": "5d3d962e5ba31dad40",
+      "input_hash": "423fb754384671d3245f6e6129fbcf4c16df3ed3b277abc9fd05765c21f31025",
+      "assessed_at": "2026-10-28T08:18:22.348493+00:00"
+    },
+    "b0da1e18173ab620f2": {
+      "rules_version": "missions-v1",
+      "pdm_potential": "low",
+      "pdm_label": "Faible potentiel PDM",
+      "pdm_explicit": false,
+      "pdm_reason": "Les missions décrites relèvent surtout de l'exécution, du suivi ou du support, sans démarche de conception / investigation établie.",
+      "pdm_confidence": "high",
+      "missing_information": [
+        "Durée : Durée structurée publiée ; comparaison à confirmer.",
+        "Date de début : Information non précisée dans l'offre.",
+        "Langues : Langues exigées publiées ; compétences linguistiques du candidat inconnues.",
+        "Localisation : Information non précisée dans l'offre.",
+        "Éligibilité : Condition d'éligibilité publiée ; nationalité, autorisation ou convention du candidat à vérifier."
+      ],
+      "technical_categories": [
+        "Project Management"
+      ],
+      "technical_score": 12,
+      "technical_reasons": [
+        "Mission à pertinence mécanique limitée : Execute in depth due diligence with a focus on the scientific and technical feasibility of the innovation.",
+        "Mission à pertinence mécanique limitée : Map and update the landscape of innovations to further strengthen our scouting in selected focus areas.",
+        "Mission à pertinence mécanique limitée : Assist the team in the creation of the Innovator deliverables (i.e."
+      ],
+      "mission_evidence": [
+        "Execute in depth due diligence with a focus on the scientific and technical feasibility of the innovation.",
+        "Map and update the landscape of innovations to further strengthen our scouting in selected focus areas.",
+        "Assist the team in the creation of the Innovator deliverables (i.e.",
+        "technical feasibility, impact analysis, project management, etc.)",
+        "Assist in general Innovation Platform activities (including operations and day to day business activities)",
+        "Support the Innovation Manager and Analyst with ongoing projects",
+        "Project management and operational support of various projects within the team",
+        "Provide analytical support to ongoing projects specifically relating to technical and impact analysis"
+      ],
+      "constraints": {
+        "duration": {
+          "status": "unknown",
+          "value": "Not specified",
+          "evidence": [
+            "Not specified"
+          ],
+          "reason": "Durée structurée publiée ; comparaison à confirmer."
+        },
+        "start_date": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "languages": {
+          "status": "unknown",
+          "value": "en",
+          "evidence": [
+            "Proficiency in English is a requirement."
+          ],
+          "reason": "Langues exigées publiées ; compétences linguistiques du candidat inconnues."
+        },
+        "location": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "education": {
+          "status": "compatible",
+          "value": "Master / ingénieur",
+          "evidence": [
+            "Academic degree (Bachelor (HBO/BA/BSc), or Masters) within sports technology (engineering), chemical engineering, material science, chemistry, mechanical engineering, textile engineering or biotechnology."
+          ],
+          "reason": "Niveau master / ingénieur compatible avec le master EPFL du profil."
+        },
+        "eligibility": {
+          "status": "unknown",
+          "value": "To apply for this position, **you must be enrolled as a student** for the duration of your internship, **eligible to work in the EU** (ie a valid visa already in place) and **living in or willing to relocate to the Netherlands**. ; To apply for this position, **you must be enrolled as a student** for the duration of your internship, **eligible to work in the EU** (ie a valid visa already in place) and **living in or willing to relocate to the Netherlands**.",
+          "evidence": [
+            "To apply for this position, **you must be enrolled as a student** for the duration of your internship, **eligible to work in the EU** (ie a valid visa already in place) and **living in or willing to relocate to the Netherlands**.",
+            "To apply for this position, **you must be enrolled as a student** for the duration of your internship, **eligible to work in the EU** (ie a valid visa already in place) and **living in or willing to relocate to the Netherlands**."
+          ],
+          "reason": "Condition d'éligibilité publiée ; nationalité, autorisation ou convention du candidat à vérifier."
+        }
+      },
+      "constraint_status": "unknown",
+      "needs_human_review": true,
+      "id": "b0da1e18173ab620f2",
+      "input_hash": "89775393bd97b6b475d20f7f018a05523c0899cec2665dd41930aad59e81e7e8",
+      "assessed_at": "2026-10-28T08:18:22.403278+00:00"
     }
   },
   "rules_version": "missions-v1",
