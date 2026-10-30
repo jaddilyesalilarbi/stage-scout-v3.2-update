@@ -30139,8 +30139,8 @@
       "constraint_status": "unknown",
       "needs_human_review": true,
       "id": "c160b47aae66c86089",
-      "input_hash": "4ec7d5c3e065b8801300d0e03d65005024ee7cf1ec7b89757f80a8b13ac0dab1",
-      "assessed_at": "2026-10-22T07:17:28.025987+00:00"
+      "input_hash": "c03c1220843fd1f38b405f28a26a9412093ed6f7092d7504d2b0bd53141b2b29",
+      "assessed_at": "2026-10-30T08:19:59.452664+00:00"
     },
     "085b84c1c323fa16fe": {
       "rules_version": "missions-v1",
@@ -40509,7 +40509,7 @@
       "pdm_confidence": "high",
       "missing_information": [
         "Durée : Durée structurée publiée ; comparaison à confirmer.",
-        "Date de début : Information non précisée dans l'offre.",
+        "Date de début : Début publié ; disponibilité du candidat à confirmer.",
         "Langues : Information non précisée dans l'offre.",
         "Localisation : Information non précisée dans l'offre.",
         "Formation : Information non précisée dans l'offre.",
@@ -40548,9 +40548,11 @@
         },
         "start_date": {
           "status": "unknown",
-          "value": "",
-          "evidence": [],
-          "reason": "Information non précisée dans l'offre."
+          "value": "Starting in spring:** Join us from April 01, 2027 and grow with the teams from day one.",
+          "evidence": [
+            "Starting in spring:** Join us from April 01, 2027 and grow with the teams from day one."
+          ],
+          "reason": "Début publié ; disponibilité du candidat à confirmer."
         },
         "languages": {
           "status": "unknown",
@@ -40582,8 +40584,8 @@
       "constraint_status": "unknown",
       "needs_human_review": true,
       "id": "d9f7886d1e23ac6f84",
-      "input_hash": "7cc935cdb5971576355fe35705d2a6114947692a2b2e780ae25d83e56c1643f1",
-      "assessed_at": "2026-10-22T07:17:28.678932+00:00"
+      "input_hash": "dddc7600265bdaff3d4ed140512841fcb99ad73755aea43d75fff9b04a4ca54f",
+      "assessed_at": "2026-10-30T08:19:59.514138+00:00"
     },
     "ca3dcb80cdecb6d6e1": {
       "rules_version": "missions-v1",
@@ -45726,8 +45728,7 @@
       "pdm_reason": "L'intitulé ou le texte de l'offre propose explicitement un mémoire / projet de master.",
       "pdm_confidence": "high",
       "missing_information": [
-        "Durée : Durée structurée publiée ; comparaison à confirmer.",
-        "Date de début : Information non précisée dans l'offre.",
+        "Date de début : Début publié ; disponibilité du candidat à confirmer.",
         "Langues : Information non précisée dans l'offre.",
         "Localisation : Information non précisée dans l'offre.",
         "Éligibilité : Information non précisée dans l'offre."
@@ -45757,18 +45758,20 @@
       ],
       "constraints": {
         "duration": {
-          "status": "unknown",
-          "value": "Not specified",
+          "status": "compatible",
+          "value": "6 months",
           "evidence": [
-            "Not specified"
+            "for at least 6 months, preferably 9 months, with the option to complete a thesis afterwards"
           ],
-          "reason": "Durée structurée publiée ; comparaison à confirmer."
+          "reason": "Durée comparée à l'intervalle souhaité fourni dans le profil ; ce n'est pas une restriction administrative."
         },
         "start_date": {
           "status": "unknown",
-          "value": "",
-          "evidence": [],
-          "reason": "Information non précisée dans l'offre."
+          "value": "To start in January 2027, we are currently seeking an",
+          "evidence": [
+            "To start in January 2027, we are currently seeking an"
+          ],
+          "reason": "Début publié ; disponibilité du candidat à confirmer."
         },
         "languages": {
           "status": "unknown",
@@ -45801,8 +45804,8 @@
       "constraint_status": "unknown",
       "needs_human_review": true,
       "id": "4585580531d3f9687f",
-      "input_hash": "693522e6e51ac9a9e14b8a77b6a1d440baec09c4ff45b61c031d739fed769646",
-      "assessed_at": "2026-10-22T07:17:28.693170+00:00"
+      "input_hash": "78a34531fb5eea1533a804657e8a0f7bcff347a6948a79be643fdd6de3bd92f3",
+      "assessed_at": "2026-10-30T08:19:59.344605+00:00"
     },
     "9267a7fb6b1a1fa6bf": {
       "rules_version": "missions-v1",
@@ -67634,8 +67637,8 @@
       "constraint_status": "incompatible",
       "needs_human_review": false,
       "id": "1576c8102a84141cd1",
-      "input_hash": "4419d3b5ebcbc9a97a01d0e004f10e55070abd8be9e5bd260be92f34e194453f",
-      "assessed_at": "2026-10-21T07:13:53.929907+00:00"
+      "input_hash": "5233bcaffe8097ceba0f013afff06cd7b52d01c491a249a1cbe402964bad9024",
+      "assessed_at": "2026-10-30T08:19:59.409468+00:00"
     },
     "1a7ef5c18484a34822": {
       "rules_version": "missions-v1",
@@ -70360,13 +70363,12 @@
     },
     "e74a1da48177eb3503": {
       "rules_version": "missions-v1",
-      "pdm_potential": "medium",
-      "pdm_label": "Potentiel PDM à préciser",
+      "pdm_potential": "low",
+      "pdm_label": "Faible potentiel PDM",
       "pdm_explicit": false,
-      "pdm_reason": "Une mission technique de conception ou d'étude est identifiée ; autonomie, question de recherche et livrable académique restent à préciser.",
+      "pdm_reason": "Les missions décrites relèvent surtout de l'exécution, du suivi ou du support, sans démarche de conception / investigation établie.",
       "pdm_confidence": "high",
       "missing_information": [
-        "Accord académique EPFL et encadrement du PDM à confirmer.",
         "Durée : Durée structurée publiée ; comparaison à confirmer.",
         "Date de début : Information non précisée dans l'offre.",
         "Langues : Information non précisée dans l'offre.",
@@ -70375,25 +70377,16 @@
         "Éligibilité : Information non précisée dans l'offre."
       ],
       "technical_categories": [
-        "R&D / Product Development",
-        "Manufacturing / Production",
-        "Materials / Processes"
+        "Other"
       ],
-      "technical_score": 60,
+      "technical_score": 8,
       "technical_reasons": [
-        "Mission technique mécanique : Prototyping, fabrication, and creative project support (Makerspace)",
-        "Mission technique mécanique : Supporting the preparation of materials, tools, or deliverables relevant to each function",
-        "Mission à pertinence mécanique limitée : Supporting day-to-day departmental operations through hands-on involvement"
+        "Mission à pertinence mécanique limitée : CYENS invites motivated and curious individuals to join our research teams through our internship programme.",
+        "Mission à pertinence mécanique limitée : This is an opportunity to work alongside experts, contribute to innovative projects, and explore areas that match your academic and professional interests."
       ],
       "mission_evidence": [
-        "Supporting day-to-day departmental operations through hands-on involvement",
-        "Assisting with data entry, documentation, reporting, and record keeping",
-        "Contributing to department-specific tasks, such as:",
-        "Workshop design and educational content development (Education)",
-        "Prototyping, fabrication, and creative project support (Makerspace)",
-        "Participating in ongoing projects and real organisational activities",
-        "Supporting the preparation of materials, tools, or deliverables relevant to each function",
-        "Assisting in events, workshops, or internal initiatives, where applicable"
+        "CYENS invites motivated and curious individuals to join our research teams through our internship programme.",
+        "This is an opportunity to work alongside experts, contribute to innovative projects, and explore areas that match your academic and professional interests."
       ],
       "constraints": {
         "duration": {
@@ -70440,8 +70433,8 @@
       "constraint_status": "unknown",
       "needs_human_review": true,
       "id": "e74a1da48177eb3503",
-      "input_hash": "369765900a862bf7525dbf1dd614d4c5069d1b4c476d72db3e7cc65c25e4bb72",
-      "assessed_at": "2026-10-27T08:06:57.205022+00:00"
+      "input_hash": "147112c154038d3b11b78dadf845d4dea3bd7a6a78b266f2fa097245e692e253",
+      "assessed_at": "2026-10-30T08:19:59.584103+00:00"
     },
     "eee816661fbd8e9a6d": {
       "rules_version": "missions-v1",
@@ -140296,6 +140289,95 @@
       "id": "d1699778c36eefa63f",
       "input_hash": "485c33a74efc85a8231d8a490d1dddae21db474db32913af0e0b9d4b97e9c703",
       "assessed_at": "2026-10-29T08:19:19.777134+00:00"
+    },
+    "f7eeacc0a0066cd1a2": {
+      "rules_version": "missions-v1",
+      "pdm_potential": "high",
+      "pdm_label": "Fort potentiel PDM",
+      "pdm_explicit": false,
+      "pdm_reason": "Les missions associent conception ou investigation à une démarche de modélisation, comparaison ou validation technique.",
+      "pdm_confidence": "high",
+      "missing_information": [
+        "Accord académique EPFL et encadrement du PDM à confirmer.",
+        "Date de début : Information non précisée dans l'offre.",
+        "Langues : Information non précisée dans l'offre.",
+        "Localisation : Localisation ambiguë ou non reconnue.",
+        "Éligibilité : Information non précisée dans l'offre."
+      ],
+      "technical_categories": [
+        "Mechanical Design",
+        "R&D / Product Development",
+        "Simulation / CAE",
+        "Testing / Validation",
+        "Systems Integration",
+        "Automation / Control",
+        "Materials / Processes",
+        "Quality"
+      ],
+      "technical_score": 100,
+      "technical_reasons": [
+        "Mission technique mécanique : If you want to see how real motion control systems perform outside of simulation — from encoder accuracy to model-based control algorithms on rapid prototyping hardware — this internship puts you right at the heart of our development process.",
+        "Mission technique mécanique : Design, build, and operate testbenches for hardware and control algorithm validation, creating the setups that turn open questions into reliable data",
+        "Mission technique mécanique : Validate model-based control algorithms in simulation and on hardware using rapid control prototyping systems (e.g., Speedgoat), closing the gap between model and real-world behaviour"
+      ],
+      "mission_evidence": [
+        "We’re looking for a motivated Validation & Testing Intern (ideally 6 months, mandatory internship) to join our Validation & Testing team in Schönaich (close to Stuttgart), with a flexible start date.",
+        "If you want to see how real motion control systems perform outside of simulation — from encoder accuracy to model-based control algorithms on rapid prototyping hardware — this internship puts you right at the heart of our development process.",
+        "Perform performance validation and quality control of integrated encoder systems — the measurements that tell us whether a product delivers the precision it promises",
+        "Design, build, and operate testbenches for hardware and control algorithm validation, creating the setups that turn open questions into reliable data",
+        "Validate model-based control algorithms in simulation and on hardware using rapid control prototyping systems (e.g., Speedgoat), closing the gap between model and real-world behaviour",
+        "Support motion control feature development and system-level product validation — making sure new functions work as intended before they reach customers",
+        "Analyse test data and document results clearly, providing the basis for development decisions across hardware, firmware, and control teams"
+      ],
+      "constraints": {
+        "duration": {
+          "status": "compatible",
+          "value": "6 months",
+          "evidence": [
+            "We’re looking for a motivated Validation & Testing Intern (ideally 6 months, mandatory internship) to join our Validation & Testing team in Schönaich (close to Stuttgart), with a flexible start date."
+          ],
+          "reason": "Durée comparée à l'intervalle souhaité fourni dans le profil ; ce n'est pas une restriction administrative."
+        },
+        "start_date": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "languages": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "location": {
+          "status": "unknown",
+          "value": "Synapticon HQ - Schönaich",
+          "evidence": [
+            "Synapticon HQ - Schönaich"
+          ],
+          "reason": "Localisation ambiguë ou non reconnue."
+        },
+        "education": {
+          "status": "compatible",
+          "value": "Master / ingénieur",
+          "evidence": [
+            "Enrolled BSc/MSc student in Mechatronics, Electrical Engineering, Control Engineering, or a related field"
+          ],
+          "reason": "Niveau master / ingénieur compatible avec le master EPFL du profil."
+        },
+        "eligibility": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        }
+      },
+      "constraint_status": "unknown",
+      "needs_human_review": true,
+      "id": "f7eeacc0a0066cd1a2",
+      "input_hash": "26ab82d0bcecac912f50e2701a487491607aede6cae13ab0bb80a50a34bea917",
+      "assessed_at": "2026-10-30T08:19:59.290735+00:00"
     }
   },
   "rules_version": "missions-v1",
