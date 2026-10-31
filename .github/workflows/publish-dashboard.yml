@@ -1,0 +1,56 @@
+name: Publish Stage Scout Dashboard
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+  workflow_run:
+    workflows:
+      - Daily stage scout
+      - Build dashboard only
+      - Scan all companies now
+      - Enrich existing jobs
+      - Reclassify jobs
+    types: [completed]
+
+concurrency:
+  group: stage-scout-pages
+  cancel-in-progress: true
+
+jobs:
+  publish:
+    if: >-
+      github.event_name != 'workflow_run' ||
+      (github.event.workflow_run.conclusion == 'success' &&
+       github.event.workflow_run.head_branch == 'main')
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - name: Checkout latest main
+        uses: actions/checkout@v6
+        with:
+          ref: main
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - name: Build dashboard from current job data
+        run: python build_dashboard.py
+      - name: Verify dashboard exists
+        run: test -s dashboard/index.html
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+      - name: Upload dashboard only
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: dashboard
+      - name: Deploy dashboard
+        id: deploy
+        uses: actions/deploy-pages@v4
