@@ -2849,7 +2849,7 @@
         "Accord académique EPFL et encadrement du PDM à confirmer.",
         "Date de début : Début publié ; disponibilité du candidat à confirmer.",
         "Langues : Langues exigées publiées ; compétences linguistiques du candidat inconnues.",
-        "Localisation : Localisation ambiguë ou non reconnue.",
+        "Localisation : Information non précisée dans l'offre.",
         "Formation : Information non précisée dans l'offre.",
         "Éligibilité : Condition d'éligibilité publiée ; nationalité, autorisation ou convention du candidat à vérifier."
       ],
@@ -2899,11 +2899,9 @@
         },
         "location": {
           "status": "unknown",
-          "value": "Hamelendreef",
-          "evidence": [
-            "Hamelendreef"
-          ],
-          "reason": "Localisation ambiguë ou non reconnue."
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
         },
         "education": {
           "status": "unknown",
@@ -2924,8 +2922,8 @@
       "constraint_status": "unknown",
       "needs_human_review": true,
       "id": "9efd2fc0daa1e75705",
-      "input_hash": "b496f9a3f8d4bb1949b9385f7ec404162cdffb49f99c0520171d87f8a8cbe8e7",
-      "assessed_at": "2026-10-21T07:13:53.637093+00:00"
+      "input_hash": "4ae13ce83f21c5c92d6bcd6846d6aa2a42ae6eaabb0a9d34104c96ce5cb3469b",
+      "assessed_at": "2026-11-05T15:41:24.720308+00:00"
     },
     "a8a96154634533dc26": {
       "rules_version": "missions-v1",
@@ -38330,8 +38328,8 @@
       "constraint_status": "unknown",
       "needs_human_review": true,
       "id": "732caad412ff43db93",
-      "input_hash": "83c8fc82ae4583d3630c205ec4da950c076be1f92149c9890a8a7928dfbf4e61",
-      "assessed_at": "2026-10-22T07:17:28.427285+00:00"
+      "input_hash": "f268422c5b1435b6f4ff015578a21090b87f3c7055fd57194160dfc2d4ee9d2d",
+      "assessed_at": "2026-11-05T15:41:25.092361+00:00"
     },
     "16dd4a1d38655f4d8b": {
       "rules_version": "missions-v1",
@@ -57514,27 +57512,26 @@
         "Éligibilité : Information non précisée dans l'offre."
       ],
       "technical_categories": [
-        "Mechanical Design",
         "R&D / Product Development",
         "Simulation / CAE",
         "Testing / Validation",
-        "Manufacturing / Production"
+        "Energy / Thermal"
       ],
-      "technical_score": 64,
+      "technical_score": 30,
       "technical_reasons": [
-        "Mission technique mécanique : Keysight is at the forefront of technology innovation, delivering breakthroughs and trusted insights in electronic design, simulation, prototyping, test, manufacturing, and optimization.",
         "Mission à pertinence mécanique limitée : The work combines microwave circuit design, computational electromagnetics, quantum-device modeling, and scientific software development.",
+        "Mission à pertinence mécanique limitée : With deep engineering expertise and leading design, emulation, and test solutions, our ~16,800 employees help customers in over 100 countries accelerate innovation across communications, automotive, energy, quantum, aerospace and defense, semiconductor, and artificial intelligence markets.",
         "Mission à pertinence mécanique limitée : Develop computational EM workflows that connect layout, electromagnetic simulation, microwave circuit simulation, and system-level analysis using tools such as ADS, RFPro, EMPro, HFSS, CST, COMSOL, Momentum, or Sonnet."
       ],
       "mission_evidence": [
         "In this role, you will be an intern in a R&D team developing simulation and design solutions for the emerging quantum technology market.",
         "The work combines microwave circuit design, computational electromagnetics, quantum-device modeling, and scientific software development.",
         "Working within an Agile development team and with guidance from experienced engineers, you will contribute to EM solver software.",
-        "Keysight is at the forefront of technology innovation, delivering breakthroughs and trusted insights in electronic design, simulation, prototyping, test, manufacturing, and optimization.",
+        "Keysight is a mission-critical design enablement partner for organizations solving the world’s most complex engineering challenges.",
+        "With deep engineering expertise and leading design, emulation, and test solutions, our ~16,800 employees help customers in over 100 countries accelerate innovation across communications, automotive, energy, quantum, aerospace and defense, semiconductor, and artificial intelligence markets.",
+        "At Keysight, people come together to explore new ideas, challenge what's possible, and advance the technologies defining the future.",
         "Develop computational EM workflows that connect layout, electromagnetic simulation, microwave circuit simulation, and system-level analysis using tools such as ADS, RFPro, EMPro, HFSS, CST, COMSOL, Momentum, or Sonnet.",
-        "Evaluate simulation accuracy by comparing results with analytical models, published results, measurement data, or results from established simulation tools.",
-        "Collaborate with computational EM, quantum, RF/microwave, circuit simulation, and software engineering teams to translate research ideas and workflow needs into reusable capabilities.",
-        "Produce clear technical documentation, validation examples, and presentations that communicate methods, results, assumptions, and limitations."
+        "Evaluate simulation accuracy by comparing results with analytical models, published results, measurement data, or results from established simulation tools."
       ],
       "constraints": {
         "duration": {
@@ -57581,8 +57578,8 @@
       "constraint_status": "unknown",
       "needs_human_review": true,
       "id": "4f313e65723dbd3c4f",
-      "input_hash": "c5bfe89afad5a5626c71c7fb581c1e8a715d5948f35d1ba96a58e252ccf5aacf",
-      "assessed_at": "2026-10-21T07:13:54.461136+00:00"
+      "input_hash": "6fd398f2919ace0c535537edad1c3ec1f7fe14f98d87169fc73b850f39952760",
+      "assessed_at": "2026-11-05T15:41:25.386075+00:00"
     },
     "d8f332210db5e4da43": {
       "rules_version": "missions-v1",
@@ -58017,7 +58014,7 @@
         "Date de début : Information non précisée dans l'offre.",
         "Langues : Langues exigées publiées ; compétences linguistiques du candidat inconnues.",
         "Localisation : Information non précisée dans l'offre.",
-        "Éligibilité : Information non précisée dans l'offre."
+        "Éligibilité : Condition d'éligibilité publiée ; nationalité, autorisation ou convention du candidat à vérifier."
       ],
       "technical_categories": [
         "Mechanical Design",
@@ -58083,16 +58080,18 @@
         },
         "eligibility": {
           "status": "unknown",
-          "value": "",
-          "evidence": [],
-          "reason": "Information non précisée dans l'offre."
+          "value": "We do not offer sponsorship visa or support with relocation.**",
+          "evidence": [
+            "We do not offer sponsorship visa or support with relocation.**"
+          ],
+          "reason": "Condition d'éligibilité publiée ; nationalité, autorisation ou convention du candidat à vérifier."
         }
       },
       "constraint_status": "unknown",
       "needs_human_review": true,
       "id": "c541e0efe8d31fa36f",
-      "input_hash": "e3b1bcbfeb482103c98075c76d587b96c815d452556ab053374580e7ab96e05d",
-      "assessed_at": "2026-10-21T07:13:54.489532+00:00"
+      "input_hash": "8fe1ca67a6cf0ee527305714cda0c93c9c4039cca06aa12c952a84c379f646d9",
+      "assessed_at": "2026-11-05T15:41:25.401145+00:00"
     },
     "c1400e9620c8a47b0b": {
       "rules_version": "missions-v1",
@@ -70394,12 +70393,13 @@
     },
     "e74a1da48177eb3503": {
       "rules_version": "missions-v1",
-      "pdm_potential": "low",
-      "pdm_label": "Faible potentiel PDM",
+      "pdm_potential": "medium",
+      "pdm_label": "Potentiel PDM à préciser",
       "pdm_explicit": false,
-      "pdm_reason": "Les missions décrites relèvent surtout de l'exécution, du suivi ou du support, sans démarche de conception / investigation établie.",
+      "pdm_reason": "Une mission technique de conception ou d'étude est identifiée ; autonomie, question de recherche et livrable académique restent à préciser.",
       "pdm_confidence": "high",
       "missing_information": [
+        "Accord académique EPFL et encadrement du PDM à confirmer.",
         "Durée : Durée structurée publiée ; comparaison à confirmer.",
         "Date de début : Information non précisée dans l'offre.",
         "Langues : Information non précisée dans l'offre.",
@@ -70408,16 +70408,25 @@
         "Éligibilité : Information non précisée dans l'offre."
       ],
       "technical_categories": [
-        "Other"
+        "R&D / Product Development",
+        "Manufacturing / Production",
+        "Materials / Processes"
       ],
-      "technical_score": 8,
+      "technical_score": 60,
       "technical_reasons": [
-        "Mission à pertinence mécanique limitée : CYENS invites motivated and curious individuals to join our research teams through our internship programme.",
-        "Mission à pertinence mécanique limitée : This is an opportunity to work alongside experts, contribute to innovative projects, and explore areas that match your academic and professional interests."
+        "Mission technique mécanique : Prototyping, fabrication, and creative project support (Makerspace)",
+        "Mission technique mécanique : Supporting the preparation of materials, tools, or deliverables relevant to each function",
+        "Mission à pertinence mécanique limitée : Supporting day-to-day departmental operations through hands-on involvement"
       ],
       "mission_evidence": [
-        "CYENS invites motivated and curious individuals to join our research teams through our internship programme.",
-        "This is an opportunity to work alongside experts, contribute to innovative projects, and explore areas that match your academic and professional interests."
+        "Supporting day-to-day departmental operations through hands-on involvement",
+        "Assisting with data entry, documentation, reporting, and record keeping",
+        "Contributing to department-specific tasks, such as:",
+        "Workshop design and educational content development (Education)",
+        "Prototyping, fabrication, and creative project support (Makerspace)",
+        "Participating in ongoing projects and real organisational activities",
+        "Supporting the preparation of materials, tools, or deliverables relevant to each function",
+        "Assisting in events, workshops, or internal initiatives, where applicable"
       ],
       "constraints": {
         "duration": {
@@ -70464,8 +70473,8 @@
       "constraint_status": "unknown",
       "needs_human_review": true,
       "id": "e74a1da48177eb3503",
-      "input_hash": "147112c154038d3b11b78dadf845d4dea3bd7a6a78b266f2fa097245e692e253",
-      "assessed_at": "2026-10-30T08:19:59.584103+00:00"
+      "input_hash": "369765900a862bf7525dbf1dd614d4c5069d1b4c476d72db3e7cc65c25e4bb72",
+      "assessed_at": "2026-11-05T15:41:25.271667+00:00"
     },
     "eee816661fbd8e9a6d": {
       "rules_version": "missions-v1",
@@ -170374,6 +170383,2288 @@
       "id": "e6599d73d078476326",
       "input_hash": "5713560b23fdc30af2525ae4a04a43d3b4335b2a3d6be340138dc5003a097724",
       "assessed_at": "2026-11-04T15:37:51.389042+00:00"
+    },
+    "3ee5e08687ec24e701": {
+      "rules_version": "missions-v1",
+      "pdm_potential": "high",
+      "pdm_label": "Fort potentiel PDM",
+      "pdm_explicit": false,
+      "pdm_reason": "Les missions associent conception ou investigation à une démarche de modélisation, comparaison ou validation technique.",
+      "pdm_confidence": "high",
+      "missing_information": [
+        "Accord académique EPFL et encadrement du PDM à confirmer.",
+        "Durée : Durée structurée publiée ; comparaison à confirmer.",
+        "Date de début : Information non précisée dans l'offre.",
+        "Langues : Information non précisée dans l'offre.",
+        "Localisation : Information non précisée dans l'offre.",
+        "Éligibilité : Condition d'éligibilité publiée ; nationalité, autorisation ou convention du candidat à vérifier."
+      ],
+      "technical_categories": [
+        "Mechanical Design",
+        "R&D / Product Development",
+        "Simulation / CAE",
+        "Testing / Validation",
+        "Manufacturing / Production",
+        "Systems Integration",
+        "Materials / Processes",
+        "Energy / Thermal",
+        "Supply Chain / Logistics"
+      ],
+      "technical_score": 100,
+      "technical_reasons": [
+        "Mission technique mécanique : the development of revolutionary materials and innovative manufacturing technologies both internally and in cooperation with other space agencies and organisations;",
+        "Mission technique mécanique : the failure investigation of materials and processes under performing and impacting ESA space missions;",
+        "Mission technique mécanique : the development, certification and support of new European industrial capabilities, manufacturing processes and manpower skills training related to space applications of materials and components;"
+      ],
+      "mission_evidence": [
+        "the qualification for space flight of all advanced metallic and non-metallic materials, structural ceramics and glasses as well as all related manufacturing and surface treatment processes for all ESA spacecraft and launchers Programme;",
+        "the development of revolutionary materials and innovative manufacturing technologies both internally and in cooperation with other space agencies and organisations;",
+        "the failure investigation of materials and processes under performing and impacting ESA space missions;",
+        "the development, certification and support of new European industrial capabilities, manufacturing processes and manpower skills training related to space applications of materials and components;",
+        "the establishment and implementation of requirements and standards for the development and the procurement of space grade materials and manufacturing processes;",
+        "The European Space Agency is implementing the ESA Advanced Manufacturing Cross-Cutting Initiative, which captures the opportunity of adopting revolutionary manufacturing capabilities, advanced materials and associated processes and creates sustainable competitive advantage for the European Space Industry in the global market.",
+        "The current space missions are often limited in their performances and scientific achievements by the traditional manufacturing processes/concepts.",
+        "This will enable new and highly innovative spacecraft and launchers designs, with significantly reduced manufacturing constraints (including costs and lead-time) and tremendous performances improvement."
+      ],
+      "constraints": {
+        "duration": {
+          "status": "unknown",
+          "value": "Not specified",
+          "evidence": [
+            "Not specified"
+          ],
+          "reason": "Durée structurée publiée ; comparaison à confirmer."
+        },
+        "start_date": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "languages": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "location": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "education": {
+          "status": "compatible",
+          "value": "Master / ingénieur",
+          "evidence": [
+            "You must be a university student, preferably in your final or second-to-last year of university course at Master's level."
+          ],
+          "reason": "Niveau master / ingénieur compatible avec le master EPFL du profil."
+        },
+        "eligibility": {
+          "status": "unknown",
+          "value": "Nationality**",
+          "evidence": [
+            "Nationality**"
+          ],
+          "reason": "Condition d'éligibilité publiée ; nationalité, autorisation ou convention du candidat à vérifier."
+        }
+      },
+      "constraint_status": "unknown",
+      "needs_human_review": true,
+      "id": "3ee5e08687ec24e701",
+      "input_hash": "e51f5b31821e7dd56ea901188d56c36e7b38e096ce369f557e12b9e54466513f",
+      "assessed_at": "2026-11-05T15:41:24.626113+00:00"
+    },
+    "a278257654f4f9839e": {
+      "rules_version": "missions-v1",
+      "pdm_potential": "high",
+      "pdm_label": "Fort potentiel PDM",
+      "pdm_explicit": false,
+      "pdm_reason": "Les missions associent conception ou investigation à une démarche de modélisation, comparaison ou validation technique.",
+      "pdm_confidence": "high",
+      "missing_information": [
+        "Accord académique EPFL et encadrement du PDM à confirmer.",
+        "Date de début : Début publié ; disponibilité du candidat à confirmer.",
+        "Langues : Information non précisée dans l'offre.",
+        "Éligibilité : Information non précisée dans l'offre."
+      ],
+      "technical_categories": [
+        "Mechanical Design",
+        "R&D / Product Development",
+        "Testing / Validation",
+        "Robotics / Mechatronics",
+        "Quality",
+        "Project Management"
+      ],
+      "technical_score": 100,
+      "technical_reasons": [
+        "Mission technique mécanique : Investigate robot issues in the field, find the root cause and pinpoint which component is faulty.",
+        "Mission technique mécanique : Design and run robot tests, both factory acceptance tests and pre deployment tests.",
+        "Mission technique mécanique : Keep our robots running by using data analysis to find common failures and passing them to the development team."
+      ],
+      "mission_evidence": [
+        "Investigate robot issues in the field, find the root cause and pinpoint which component is faulty.",
+        "Design and run robot tests, both factory acceptance tests and pre deployment tests.",
+        "Keep our robots running by using data analysis to find common failures and passing them to the development team.",
+        "Coordinate the release of new software features and deploy them to the robot fleet.",
+        "Multidisciplinary and not scared to get your hands dirty, whether replacing robot parts or learning new programming languages and tools.",
+        "You will build tools to test and debug, but not core algorithms like navigation or perception.",
+        "We build autonomous outdoor security robots and own the full stack: hardware, software and service operations, all offered as Robotics as a Service."
+      ],
+      "constraints": {
+        "duration": {
+          "status": "compatible",
+          "value": "6 months",
+          "evidence": [
+            "We are looking for someone to start as soon as possible, ideally by December 1st, for at least 6 months."
+          ],
+          "reason": "Durée comparée à l'intervalle souhaité fourni dans le profil ; ce n'est pas une restriction administrative."
+        },
+        "start_date": {
+          "status": "unknown",
+          "value": "We are looking for someone to start as soon as possible, ideally by December 1st, for at least 6 months.",
+          "evidence": [
+            "We are looking for someone to start as soon as possible, ideally by December 1st, for at least 6 months."
+          ],
+          "reason": "Début publié ; disponibilité du candidat à confirmer."
+        },
+        "languages": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "location": {
+          "status": "compatible",
+          "value": "Zürich, CH",
+          "evidence": [
+            "Zürich, CH"
+          ],
+          "reason": "Localisation en Europe."
+        },
+        "education": {
+          "status": "compatible",
+          "value": "Master / ingénieur",
+          "evidence": [
+            "Pursuing a BSc or MSc in robotics, mechanical engineering, computer science or equivalent."
+          ],
+          "reason": "Niveau master / ingénieur compatible avec le master EPFL du profil."
+        },
+        "eligibility": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        }
+      },
+      "constraint_status": "unknown",
+      "needs_human_review": true,
+      "id": "a278257654f4f9839e",
+      "input_hash": "1f2867d6a771e2978e0a8887370246beaafa3e20d461ab27bc416fbf255bac00",
+      "assessed_at": "2026-11-05T15:41:24.709280+00:00"
+    },
+    "58ea4bb2a39e947137": {
+      "rules_version": "missions-v1",
+      "pdm_potential": "medium",
+      "pdm_label": "Potentiel PDM à préciser",
+      "pdm_explicit": false,
+      "pdm_reason": "Une mission technique de conception ou d'étude est identifiée ; autonomie, question de recherche et livrable académique restent à préciser.",
+      "pdm_confidence": "high",
+      "missing_information": [
+        "Accord académique EPFL et encadrement du PDM à confirmer.",
+        "Durée : Durée structurée publiée ; comparaison à confirmer.",
+        "Date de début : Information non précisée dans l'offre.",
+        "Langues : Information non précisée dans l'offre.",
+        "Localisation : Information non précisée dans l'offre.",
+        "Éligibilité : Condition d'éligibilité publiée ; nationalité, autorisation ou convention du candidat à vérifier."
+      ],
+      "technical_categories": [
+        "R&D / Product Development",
+        "Testing / Validation",
+        "Systems Integration"
+      ],
+      "technical_score": 30,
+      "technical_reasons": [
+        "Mission à pertinence mécanique limitée : a solid theoretical and historical understanding of space propulsion, combined with the ability to envision how future propulsion systems could operate and be integrated into spacecraft and space vehicles under development;",
+        "Mission à pertinence mécanique limitée : provide technical support and consultancy in space transportation propulsion (liquid, including storable and cryogenic technologies, and solid propulsion) and spacecraft propulsion (various chemical propulsion technologies) to the Agency project teams responsible for the development of launchers and spacecraft, throughout all project phases;",
+        "Mission à pertinence mécanique limitée : contribute to the preparation of work plans in the areas of space transportation and spacecraft propulsion in the Agency’s technological programmes, with a particular contribution expected on systems and new propulsion aspects;"
+      ],
+      "mission_evidence": [
+        "provide technical support and consultancy in space transportation propulsion (liquid, including storable and cryogenic technologies, and solid propulsion) and spacecraft propulsion (various chemical propulsion technologies) to the Agency project teams responsible for the development of launchers and spacecraft, throughout all project phases;",
+        "contribute to the preparation of work plans in the areas of space transportation and spacecraft propulsion in the Agency’s technological programmes, with a particular contribution expected on systems and new propulsion aspects;",
+        "prepare and manage, from a technical perspective, ESA contracts for studies, experimental investigations, and engineering development activities in space propulsion.",
+        "You will be integrated into the ESA Chemical Propulsion Section, reporting directly to the Head of Section and the Head of Division.",
+        "In this role, you will develop skills and expertise while supporting the team in implementing the Innovative Propulsion Cross-Cutting Initiative (ESA IP-CCI) through technical and personal development in the following areas:",
+        "contributing to the development of key ESA technologies, including monitoring progress and updating the IP-CCI technology roadmaps;",
+        "conducting comprehensive assessments of European R&D activities related to IP-CCI topics;",
+        "supporting the Division in implementing activities approved at the ESA Ministerial Conference 2025 (CM25), preparing internal performance indicators and supporting the preparation of ESA Ministerial Conference 2028;"
+      ],
+      "constraints": {
+        "duration": {
+          "status": "unknown",
+          "value": "Not specified",
+          "evidence": [
+            "Not specified"
+          ],
+          "reason": "Durée structurée publiée ; comparaison à confirmer."
+        },
+        "start_date": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "languages": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "location": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "education": {
+          "status": "compatible",
+          "value": "Master / ingénieur",
+          "evidence": [
+            "You must be a university student, preferably in your final or second-to-last year of university course at Master's level."
+          ],
+          "reason": "Niveau master / ingénieur compatible avec le master EPFL du profil."
+        },
+        "eligibility": {
+          "status": "unknown",
+          "value": "Nationality**",
+          "evidence": [
+            "Nationality**"
+          ],
+          "reason": "Condition d'éligibilité publiée ; nationalité, autorisation ou convention du candidat à vérifier."
+        }
+      },
+      "constraint_status": "unknown",
+      "needs_human_review": true,
+      "id": "58ea4bb2a39e947137",
+      "input_hash": "7cae407e72fc4f81178960e5e9e29aeecc1f7b744e83981c362a0d193e1edd67",
+      "assessed_at": "2026-11-05T15:41:24.751647+00:00"
+    },
+    "e59e65b04b6b3d35a3": {
+      "rules_version": "missions-v1",
+      "pdm_potential": "high",
+      "pdm_label": "Fort potentiel PDM",
+      "pdm_explicit": false,
+      "pdm_reason": "Les missions associent conception ou investigation à une démarche de modélisation, comparaison ou validation technique.",
+      "pdm_confidence": "high",
+      "missing_information": [
+        "Accord académique EPFL et encadrement du PDM à confirmer.",
+        "Durée : Durée structurée publiée ; comparaison à confirmer.",
+        "Date de début : Information non précisée dans l'offre.",
+        "Langues : Information non précisée dans l'offre.",
+        "Localisation : Information non précisée dans l'offre.",
+        "Éligibilité : Condition d'éligibilité publiée ; nationalité, autorisation ou convention du candidat à vérifier."
+      ],
+      "technical_categories": [
+        "Mechanical Design",
+        "R&D / Product Development",
+        "Simulation / CAE",
+        "Testing / Validation",
+        "Automation / Control",
+        "Energy / Thermal",
+        "Quality"
+      ],
+      "technical_score": 100,
+      "technical_reasons": [
+        "Mission technique mécanique : Thermal Analysis and Verification Section (TEC-MTV): The section is responsible for providing the means of analysis and verification, and for performing predevelopment and verification tests in the field of thermal environment and mechanical systems.",
+        "Mission technique mécanique : It is the centre of competence within the Agency for thermal analysis tools and verification, including testing.",
+        "Mission technique mécanique : Space Thermal Analysis and Verification, covering one or several of the activities below:"
+      ],
+      "mission_evidence": [
+        "Thermal Analysis and Verification Section (TEC-MTV): The section is responsible for providing the means of analysis and verification, and for performing predevelopment and verification tests in the field of thermal environment and mechanical systems.",
+        "It is the centre of competence within the Agency for thermal analysis tools and verification, including testing.",
+        "Space Thermal Analysis and Verification, covering one or several of the activities below:",
+        "Mechanical Systems Laboratory: Participation in the testing activities of the laboratory including evaluation of test data.",
+        "Participate in the development and acceptance of new test facilities, e.g.",
+        "Thermal Analysis methods: Research and development in the area of computational methods for space thermal analysis or multi-disciplinary analysis e.g.:",
+        "methods and tools for exchange of thermal analysis data with other disciplines such as structures (e.g.",
+        "development of SINAS);"
+      ],
+      "constraints": {
+        "duration": {
+          "status": "unknown",
+          "value": "Not specified",
+          "evidence": [
+            "Not specified"
+          ],
+          "reason": "Durée structurée publiée ; comparaison à confirmer."
+        },
+        "start_date": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "languages": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "location": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "education": {
+          "status": "compatible",
+          "value": "Master / ingénieur",
+          "evidence": [
+            "You must be a university student, preferably in your final or second-to-last year of university course at Master's level."
+          ],
+          "reason": "Niveau master / ingénieur compatible avec le master EPFL du profil."
+        },
+        "eligibility": {
+          "status": "unknown",
+          "value": "Nationality**",
+          "evidence": [
+            "Nationality**"
+          ],
+          "reason": "Condition d'éligibilité publiée ; nationalité, autorisation ou convention du candidat à vérifier."
+        }
+      },
+      "constraint_status": "unknown",
+      "needs_human_review": true,
+      "id": "e59e65b04b6b3d35a3",
+      "input_hash": "82ae501f9e66673533b2d680e1dc9e1224937879b1081afdaa9e11f7d4417bc7",
+      "assessed_at": "2026-11-05T15:41:24.767799+00:00"
+    },
+    "b7dc99a7cbacc38b52": {
+      "rules_version": "missions-v1",
+      "pdm_potential": "high",
+      "pdm_label": "Fort potentiel PDM",
+      "pdm_explicit": false,
+      "pdm_reason": "Les missions associent conception ou investigation à une démarche de modélisation, comparaison ou validation technique.",
+      "pdm_confidence": "high",
+      "missing_information": [
+        "Accord académique EPFL et encadrement du PDM à confirmer.",
+        "Durée : Durée structurée publiée ; comparaison à confirmer.",
+        "Date de début : Information non précisée dans l'offre.",
+        "Langues : Information non précisée dans l'offre.",
+        "Localisation : Information non précisée dans l'offre.",
+        "Éligibilité : Condition d'éligibilité publiée ; nationalité, autorisation ou convention du candidat à vérifier."
+      ],
+      "technical_categories": [
+        "Mechanical Design",
+        "R&D / Product Development",
+        "Simulation / CAE",
+        "Testing / Validation",
+        "Manufacturing / Production",
+        "Robotics / Mechatronics",
+        "Automation / Control",
+        "Materials / Processes"
+      ],
+      "technical_score": 100,
+      "technical_reasons": [
+        "Mission technique mécanique : mechanisms performance evaluation, simulation and analysis (including hardware tests where appropriate);",
+        "Mission technique mécanique : mechanisms technology research and development (addressing areas such as tribology/lubrication engineering, tribology free and compliant mechanisms, mechanical components including ball bearings and gears, position sensors, electric motors, new/alternative actuation principles e.g.",
+        "Mission technique mécanique : In the frame of above-mentioned activities, you may have to use the following software packages: MATLAB/Simulink®, CAD design tools (such as FreeCAD or SolidWorks) or other more specialised software tools (such as Abaqus, ANSYS Maxwell, COMSOL, ADAMS, LabVIEW, CABARET, RBS-DYN, OptiStruct, etc.), with particular emphasis on:"
+      ],
+      "mission_evidence": [
+        "Within this frame, the Mechanism Section (TEC-MSM) is the focal point for matters relating to the design, engineering and verification of space mechanisms.",
+        "overall mechanisms definition, design and engineering;",
+        "mechanisms performance evaluation, simulation and analysis (including hardware tests where appropriate);",
+        "mechanisms technology research and development (addressing areas such as tribology/lubrication engineering, tribology free and compliant mechanisms, mechanical components including ball bearings and gears, position sensors, electric motors, new/alternative actuation principles e.g.",
+        "mechanism and actuator drive and control concepts targeting higher positioning accuracy and/or lower micro-disturbances;",
+        "critical review of design / analysis / simulation / optimisation / test activities / characterisation / validation (up to the correlation of analysis with test results) in the domain of space mechanisms;",
+        "feasibility assessment of new mechanism design concepts;",
+        "participation in the definition and implementation of R&D activities;"
+      ],
+      "constraints": {
+        "duration": {
+          "status": "unknown",
+          "value": "Not specified",
+          "evidence": [
+            "Not specified"
+          ],
+          "reason": "Durée structurée publiée ; comparaison à confirmer."
+        },
+        "start_date": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "languages": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "location": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "education": {
+          "status": "compatible",
+          "value": "Master / ingénieur",
+          "evidence": [
+            "You must be a university student, preferably in your final or second-to-last year of university course at Master's level."
+          ],
+          "reason": "Niveau master / ingénieur compatible avec le master EPFL du profil."
+        },
+        "eligibility": {
+          "status": "unknown",
+          "value": "Nationality**",
+          "evidence": [
+            "Nationality**"
+          ],
+          "reason": "Condition d'éligibilité publiée ; nationalité, autorisation ou convention du candidat à vérifier."
+        }
+      },
+      "constraint_status": "unknown",
+      "needs_human_review": true,
+      "id": "b7dc99a7cbacc38b52",
+      "input_hash": "caa0aa10ae318aaf454ddd9d5a0330fd19e3bae6370b537b9f916b8e1692fda4",
+      "assessed_at": "2026-11-05T15:41:24.806361+00:00"
+    },
+    "5aa55638f39a63e2cb": {
+      "rules_version": "missions-v1",
+      "pdm_potential": "high",
+      "pdm_label": "Fort potentiel PDM",
+      "pdm_explicit": false,
+      "pdm_reason": "Les missions associent conception ou investigation à une démarche de modélisation, comparaison ou validation technique.",
+      "pdm_confidence": "high",
+      "missing_information": [
+        "Accord académique EPFL et encadrement du PDM à confirmer.",
+        "Durée : Durée structurée publiée ; comparaison à confirmer.",
+        "Date de début : Information non précisée dans l'offre.",
+        "Langues : Information non précisée dans l'offre.",
+        "Localisation : Information non précisée dans l'offre.",
+        "Éligibilité : Condition d'éligibilité publiée ; nationalité, autorisation ou convention du candidat à vérifier."
+      ],
+      "technical_categories": [
+        "Mechanical Design",
+        "R&D / Product Development",
+        "Simulation / CAE",
+        "Testing / Validation",
+        "Manufacturing / Production",
+        "Systems Integration",
+        "Automation / Control",
+        "Materials / Processes",
+        "Energy / Thermal"
+      ],
+      "technical_score": 100,
+      "technical_reasons": [
+        "Mission technique mécanique : Structural Design and Verification Methods / Tools;",
+        "Mission technique mécanique : The ESA Structures Section brings together a diverse team of approximately 43 engineers and specialists covering the complete structural lifecycle of space systems—from early concept development and structural sizing to analysis, verification, testing and in-flight performance.",
+        "Mission technique mécanique : Our expertise includes structural design and analysis, loads and coupled-loads analysis, structural dynamics, vibro-acoustics, shock, micro-vibration, thermo-elastic performance, fracture control and fatigue, advanced materials and manufacturing, deployable structures, structural digitalisation and emerging technologies."
+      ],
+      "mission_evidence": [
+        "Structural Design and Verification Methods / Tools;",
+        "Crash / Impacts / Meteoroids Absorption Analysis;",
+        "Damage Tolerance / Fracture Control / Health Monitoring;",
+        "Launcher Coupled Dynamic Analysis;",
+        "Launchers / Re-Entry (Hot Structures) / Planetary Landing Vehicles;",
+        "The ESA Structures Section brings together a diverse team of approximately 43 engineers and specialists covering the complete structural lifecycle of space systems—from early concept development and structural sizing to analysis, verification, testing and in-flight performance.",
+        "Our expertise includes structural design and analysis, loads and coupled-loads analysis, structural dynamics, vibro-acoustics, shock, micro-vibration, thermo-elastic performance, fracture control and fatigue, advanced materials and manufacturing, deployable structures, structural digitalisation and emerging technologies.",
+        "The team supports ESA missions across Earth observation, science, exploration, telecommunications, navigation and space transportation, working closely with project teams, European industry, research organisations and partner agencies."
+      ],
+      "constraints": {
+        "duration": {
+          "status": "unknown",
+          "value": "Not specified",
+          "evidence": [
+            "Not specified"
+          ],
+          "reason": "Durée structurée publiée ; comparaison à confirmer."
+        },
+        "start_date": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "languages": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "location": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "education": {
+          "status": "compatible",
+          "value": "Master / ingénieur",
+          "evidence": [
+            "You must be a university student, preferably in your final or second-to-last year of university course at Master's level."
+          ],
+          "reason": "Niveau master / ingénieur compatible avec le master EPFL du profil."
+        },
+        "eligibility": {
+          "status": "unknown",
+          "value": "Nationality**",
+          "evidence": [
+            "Nationality**"
+          ],
+          "reason": "Condition d'éligibilité publiée ; nationalité, autorisation ou convention du candidat à vérifier."
+        }
+      },
+      "constraint_status": "unknown",
+      "needs_human_review": true,
+      "id": "5aa55638f39a63e2cb",
+      "input_hash": "5b6b768ee38d6a26a98bf52de3f4ca3004221ff1178c06e55ee7a98ec28df780",
+      "assessed_at": "2026-11-05T15:41:24.828712+00:00"
+    },
+    "5d4165efd08e6b8824": {
+      "rules_version": "missions-v1",
+      "pdm_potential": "high",
+      "pdm_label": "Fort potentiel PDM",
+      "pdm_explicit": false,
+      "pdm_reason": "Les missions associent conception ou investigation à une démarche de modélisation, comparaison ou validation technique.",
+      "pdm_confidence": "high",
+      "missing_information": [
+        "Accord académique EPFL et encadrement du PDM à confirmer.",
+        "Durée : Durée structurée publiée ; comparaison à confirmer.",
+        "Date de début : Information non précisée dans l'offre.",
+        "Langues : Information non précisée dans l'offre.",
+        "Localisation : Information non précisée dans l'offre.",
+        "Éligibilité : Condition d'éligibilité publiée ; nationalité, autorisation ou convention du candidat à vérifier."
+      ],
+      "technical_categories": [
+        "Mechanical Design",
+        "R&D / Product Development",
+        "Simulation / CAE",
+        "Testing / Validation",
+        "Automation / Control",
+        "Energy / Thermal"
+      ],
+      "technical_score": 100,
+      "technical_reasons": [
+        "Mission technique mécanique : It is the centre of competence within the Agency for design and verification of passive and active thermal control systems, cryogenics and refrigeration, heat transport, heat storage and rejection, thermal insulations and thermal protection.",
+        "Mission technique mécanique : Thermal Design & Analysis: Perform thermal design and associated analysis, including steady state/transient analyses of instrument and satellites following familiarisation with project requirements and Agency’s tools (ESATAN-TMS).",
+        "Mission technique mécanique : This may also include in-flight correlation of thermal analysis models for ESA projects;"
+      ],
+      "mission_evidence": [
+        "Thermal Control Section (TEC-MTT): The section is responsible for all ESA activities related to thermal engineering, related R&D activities and hardware for the thermal control of space systems.",
+        "It is the centre of competence within the Agency for design and verification of passive and active thermal control systems, cryogenics and refrigeration, heat transport, heat storage and rejection, thermal insulations and thermal protection.",
+        "Space Thermal Control Engineering, covering one or several of the activities below:",
+        "Thermal Design & Analysis: Perform thermal design and associated analysis, including steady state/transient analyses of instrument and satellites following familiarisation with project requirements and Agency’s tools (ESATAN-TMS).",
+        "This may also include in-flight correlation of thermal analysis models for ESA projects;",
+        "Cryogenics: Investigate cryogenic technologies (active and passive coolers) for applications in future ESA spacecraft and launchers;",
+        "Heat Transfer & Heat Rejection: Investigate heat transport technologies such as capillary and mechanically pumped two-phase loops, single-phase loops, heat pipes for thermal control;",
+        "Thermal Protection: Investigate thermal protection technologies (both re-usable and ablative) for on-going and future missions (e.g."
+      ],
+      "constraints": {
+        "duration": {
+          "status": "unknown",
+          "value": "Not specified",
+          "evidence": [
+            "Not specified"
+          ],
+          "reason": "Durée structurée publiée ; comparaison à confirmer."
+        },
+        "start_date": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "languages": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "location": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "education": {
+          "status": "compatible",
+          "value": "Master / ingénieur",
+          "evidence": [
+            "You must be a university student, preferably in your final or second-to-last year of university course at Master's level."
+          ],
+          "reason": "Niveau master / ingénieur compatible avec le master EPFL du profil."
+        },
+        "eligibility": {
+          "status": "unknown",
+          "value": "Nationality**",
+          "evidence": [
+            "Nationality**"
+          ],
+          "reason": "Condition d'éligibilité publiée ; nationalité, autorisation ou convention du candidat à vérifier."
+        }
+      },
+      "constraint_status": "unknown",
+      "needs_human_review": true,
+      "id": "5d4165efd08e6b8824",
+      "input_hash": "8e731187db328a87d945bd2de282e654a6bef43f2d31db1f8110662399131655",
+      "assessed_at": "2026-11-05T15:41:24.851528+00:00"
+    },
+    "e25eec957e970108d3": {
+      "rules_version": "missions-v1",
+      "pdm_potential": "high",
+      "pdm_label": "Fort potentiel PDM",
+      "pdm_explicit": false,
+      "pdm_reason": "Les missions associent conception ou investigation à une démarche de modélisation, comparaison ou validation technique.",
+      "pdm_confidence": "high",
+      "missing_information": [
+        "Accord académique EPFL et encadrement du PDM à confirmer.",
+        "Durée : Durée structurée publiée ; comparaison à confirmer.",
+        "Date de début : Information non précisée dans l'offre.",
+        "Langues : Information non précisée dans l'offre.",
+        "Localisation : Information non précisée dans l'offre.",
+        "Éligibilité : Condition d'éligibilité publiée ; nationalité, autorisation ou convention du candidat à vérifier."
+      ],
+      "technical_categories": [
+        "R&D / Product Development",
+        "Simulation / CAE",
+        "Testing / Validation",
+        "Manufacturing / Production",
+        "Systems Integration",
+        "Automation / Control"
+      ],
+      "technical_score": 82,
+      "technical_reasons": [
+        "Mission technique mécanique : assembly and commissioning of an optoelectronics test bench for the characterisation of scientific digital CMOS image sensors;",
+        "Mission à pertinence mécanique limitée : The Optoelectronics Section deals with the specification, development and characterisation of photonic component subsystems and active optical instruments, such as detectors and lasers operating in the UV to FIR wavelength ranges, fibre-optic sensors, lidars, optical communication systems and quantum technologies.",
+        "Mission à pertinence mécanique limitée : development of simulation tools for free-space optical communications systems;"
+      ],
+      "mission_evidence": [
+        "The Optoelectronics Section deals with the specification, development and characterisation of photonic component subsystems and active optical instruments, such as detectors and lasers operating in the UV to FIR wavelength ranges, fibre-optic sensors, lidars, optical communication systems and quantum technologies.",
+        "In these areas, the section provides functional support to ESA projects and carries out technological research.",
+        "The section is also developing and operating laboratory test setups and simulation tools.",
+        "Depending on your interests, technical competences and project constraints in 2026, you will support one or more of our laboratory activities for example by:",
+        "development of simulation tools for free-space optical communications systems;",
+        "testbed development of advanced spaceborne optoelectronic applications (for optical communication, optical detectors and/or lasers);",
+        "integration and commissioning of upgraded laser induced contamination characterisation setup;",
+        "assembly and commissioning of an optoelectronics test bench for the characterisation of scientific digital CMOS image sensors;"
+      ],
+      "constraints": {
+        "duration": {
+          "status": "unknown",
+          "value": "Not specified",
+          "evidence": [
+            "Not specified"
+          ],
+          "reason": "Durée structurée publiée ; comparaison à confirmer."
+        },
+        "start_date": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "languages": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "location": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "education": {
+          "status": "compatible",
+          "value": "Master / ingénieur",
+          "evidence": [
+            "You must be a university student, preferably in your final or second-to-last year of university course at Master's level."
+          ],
+          "reason": "Niveau master / ingénieur compatible avec le master EPFL du profil."
+        },
+        "eligibility": {
+          "status": "unknown",
+          "value": "Nationality**",
+          "evidence": [
+            "Nationality**"
+          ],
+          "reason": "Condition d'éligibilité publiée ; nationalité, autorisation ou convention du candidat à vérifier."
+        }
+      },
+      "constraint_status": "unknown",
+      "needs_human_review": true,
+      "id": "e25eec957e970108d3",
+      "input_hash": "7d987a58e98bff0379b390c9439e25fc9438f13a249c3c6e2de920c71946a56c",
+      "assessed_at": "2026-11-05T15:41:24.873751+00:00"
+    },
+    "cb9c22f62fded17272": {
+      "rules_version": "missions-v1",
+      "pdm_potential": "high",
+      "pdm_label": "Fort potentiel PDM",
+      "pdm_explicit": false,
+      "pdm_reason": "Les missions associent conception ou investigation à une démarche de modélisation, comparaison ou validation technique.",
+      "pdm_confidence": "high",
+      "missing_information": [
+        "Accord académique EPFL et encadrement du PDM à confirmer.",
+        "Durée : Durée structurée publiée ; comparaison à confirmer.",
+        "Date de début : Information non précisée dans l'offre.",
+        "Langues : Information non précisée dans l'offre.",
+        "Localisation : Information non précisée dans l'offre.",
+        "Éligibilité : Condition d'éligibilité publiée ; nationalité, autorisation ou convention du candidat à vérifier."
+      ],
+      "technical_categories": [
+        "Mechanical Design",
+        "R&D / Product Development",
+        "Testing / Validation",
+        "Robotics / Mechatronics",
+        "Automation / Control",
+        "Supply Chain / Logistics"
+      ],
+      "technical_score": 100,
+      "technical_reasons": [
+        "Mission technique mécanique : The Robotics Section provides functional support to ESA projects and carries out technological research and development (R&D) in the field of space robotics systems (from manipulators to autonomous vehicles) and laboratories supporting automation and robotics in crewed and uncrewed missions.",
+        "Mission technique mécanique : the Planetary Robotics Laboratory where the work focuses on the design of rovers for planetary exploration;",
+        "Mission technique mécanique : Furthermore, you will conduct independent research and development on robotics concepts coming from internal ideas of the section."
+      ],
+      "mission_evidence": [
+        "The Robotics Section provides functional support to ESA projects and carries out technological research and development (R&D) in the field of space robotics systems (from manipulators to autonomous vehicles) and laboratories supporting automation and robotics in crewed and uncrewed missions.",
+        "As part of our team of mechanical, electrical, control, and software engineers, you will contribute to the work of the Robotics Section at ESTEC, and in particular to the Automation and Robotics Laboratories (ARL), which consist of three areas:",
+        "the Planetary Robotics Laboratory where the work focuses on the design of rovers for planetary exploration;",
+        "support industrial activities;",
+        "the laboratory is hosting third parties for tests: the preparation of the facilities and the support provided by the section personnel are vital for this;",
+        "Furthermore, you will conduct independent research and development on robotics concepts coming from internal ideas of the section.",
+        "Such work includes concept designing, prototyping, testing to prove the idea viable;",
+        "collaboration with third parties companies in the frame of hardware development and procurement: the ARL has a constant need to upgrade and adjust its inventory in order to support new activities."
+      ],
+      "constraints": {
+        "duration": {
+          "status": "unknown",
+          "value": "Not specified",
+          "evidence": [
+            "Not specified"
+          ],
+          "reason": "Durée structurée publiée ; comparaison à confirmer."
+        },
+        "start_date": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "languages": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "location": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "education": {
+          "status": "compatible",
+          "value": "Master / ingénieur",
+          "evidence": [
+            "You must be a university student, preferably in your final or second-to-last year of university course at Master's level."
+          ],
+          "reason": "Niveau master / ingénieur compatible avec le master EPFL du profil."
+        },
+        "eligibility": {
+          "status": "unknown",
+          "value": "Nationality**",
+          "evidence": [
+            "Nationality**"
+          ],
+          "reason": "Condition d'éligibilité publiée ; nationalité, autorisation ou convention du candidat à vérifier."
+        }
+      },
+      "constraint_status": "unknown",
+      "needs_human_review": true,
+      "id": "cb9c22f62fded17272",
+      "input_hash": "bbbfe09200d857b41c17707409d512066f704063f4cd9e791ee825e16a549f79",
+      "assessed_at": "2026-11-05T15:41:24.898311+00:00"
+    },
+    "fc5b20c7577e9ae98f": {
+      "rules_version": "missions-v1",
+      "pdm_potential": "high",
+      "pdm_label": "Fort potentiel PDM",
+      "pdm_explicit": false,
+      "pdm_reason": "Les missions associent conception ou investigation à une démarche de modélisation, comparaison ou validation technique.",
+      "pdm_confidence": "high",
+      "missing_information": [
+        "Accord académique EPFL et encadrement du PDM à confirmer.",
+        "Durée : Durée structurée publiée ; comparaison à confirmer.",
+        "Date de début : Information non précisée dans l'offre.",
+        "Langues : Langues exigées publiées ; compétences linguistiques du candidat inconnues.",
+        "Éligibilité : Information non précisée dans l'offre."
+      ],
+      "technical_categories": [
+        "R&D / Product Development",
+        "Testing / Validation",
+        "Automation / Control",
+        "Energy / Thermal"
+      ],
+      "technical_score": 82,
+      "technical_reasons": [
+        "Mission technique mécanique : Characterise sensors for temperature, pressure, flow, strain, vibration and optical power: accuracy, linearity, noise, drift and response time",
+        "Mission technique mécanique : Run environmental tests such as thermal cycling, pressure and vibration to check sensors and their electronics hold up in the field",
+        "Mission à pertinence mécanique limitée : As a Working Student in Test & Instrumentation, you will help design, build and operate the test benches that characterise, calibrate and qualify the Hades sensor suite."
+      ],
+      "mission_evidence": [
+        "Founded in 2025, we’re developing ultra-deep laser drilling technologies that push the limits of what’s possible underground.",
+        "We’re now building a world-class team to bring this vision to life.",
+        "As a Working Student in Test & Instrumentation, you will help design, build and operate the test benches that characterise, calibrate and qualify the Hades sensor suite.",
+        "You will own real bench subsystems and test series.",
+        "Build and wire sensor test benches, including signal conditioning, cabling, grounding and shielding, and safety interlocks",
+        "Characterise sensors for temperature, pressure, flow, strain, vibration and optical power: accuracy, linearity, noise, drift and response time",
+        "Calibrate sensors against reference instruments and estimate measurement uncertainty",
+        "Run environmental tests such as thermal cycling, pressure and vibration to check sensors and their electronics hold up in the field"
+      ],
+      "constraints": {
+        "duration": {
+          "status": "unknown",
+          "value": "Not specified",
+          "evidence": [
+            "Not specified"
+          ],
+          "reason": "Durée structurée publiée ; comparaison à confirmer."
+        },
+        "start_date": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "languages": {
+          "status": "unknown",
+          "value": "en",
+          "evidence": [
+            "Excellent written and spoken English;"
+          ],
+          "reason": "Langues exigées publiées ; compétences linguistiques du candidat inconnues."
+        },
+        "location": {
+          "status": "compatible",
+          "value": "Munich",
+          "evidence": [
+            "Munich"
+          ],
+          "reason": "Localisation en Europe."
+        },
+        "education": {
+          "status": "compatible",
+          "value": "Master / ingénieur",
+          "evidence": [
+            "The role is aimed at master’s students in their final semesters.",
+            "Enrolled in a master’s programme in Electrical Engineering, Measurement Engineering, Physics, Mechatronics or a related field, ideally in the final semesters"
+          ],
+          "reason": "Niveau master / ingénieur compatible avec le master EPFL du profil."
+        },
+        "eligibility": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        }
+      },
+      "constraint_status": "unknown",
+      "needs_human_review": true,
+      "id": "fc5b20c7577e9ae98f",
+      "input_hash": "8738044fa3f045df2d22629798074d6dc9c40f9bb1159048a861ae68e175a3bc",
+      "assessed_at": "2026-11-05T15:41:24.921462+00:00"
+    },
+    "6133970c280fb1b302": {
+      "rules_version": "missions-v1",
+      "pdm_potential": "high",
+      "pdm_label": "Fort potentiel PDM",
+      "pdm_explicit": false,
+      "pdm_reason": "Les missions associent conception ou investigation à une démarche de modélisation, comparaison ou validation technique.",
+      "pdm_confidence": "high",
+      "missing_information": [
+        "Accord académique EPFL et encadrement du PDM à confirmer.",
+        "Durée : Durée structurée publiée ; comparaison à confirmer.",
+        "Date de début : Information non précisée dans l'offre.",
+        "Langues : Information non précisée dans l'offre.",
+        "Localisation : Information non précisée dans l'offre.",
+        "Éligibilité : Information non précisée dans l'offre."
+      ],
+      "technical_categories": [
+        "Mechanical Design",
+        "R&D / Product Development",
+        "Automation / Control"
+      ],
+      "technical_score": 70,
+      "technical_reasons": [
+        "Mission technique mécanique : Mechanical engineering and design of equipment.",
+        "Mission à pertinence mécanique limitée : At GustoMSC, you'll have the opportunity to explore technical challenges involving offshore structures, vessels and specialized equipment.",
+        "Mission à pertinence mécanique limitée : Whether you're working on your master's thesis or looking for practical engineering experience, we'll explore a suitable project together based on your interests, academic requirements and available opportunities."
+      ],
+      "mission_evidence": [
+        "At GustoMSC, you'll have the opportunity to explore technical challenges involving offshore structures, vessels and specialized equipment.",
+        "Whether you're working on your master's thesis or looking for practical engineering experience, we'll explore a suitable project together based on your interests, academic requirements and available opportunities.",
+        "Mechanical engineering and design of equipment.",
+        "Hydromechanics, control systems and marine operations.",
+        "Your activities may include technical research, engineering analysis, exploring solutions and developing new methodologies."
+      ],
+      "constraints": {
+        "duration": {
+          "status": "unknown",
+          "value": "Not specified",
+          "evidence": [
+            "Not specified"
+          ],
+          "reason": "Durée structurée publiée ; comparaison à confirmer."
+        },
+        "start_date": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "languages": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "location": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "education": {
+          "status": "compatible",
+          "value": "Master / ingénieur",
+          "evidence": [
+            "Whether you're working on your master's thesis or looking for practical engineering experience, we'll explore a suitable project together based on your interests, academic requirements and available opportunities."
+          ],
+          "reason": "Niveau master / ingénieur compatible avec le master EPFL du profil."
+        },
+        "eligibility": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        }
+      },
+      "constraint_status": "unknown",
+      "needs_human_review": true,
+      "id": "6133970c280fb1b302",
+      "input_hash": "a4c7b6a1b19f33b65ea06e446e1eb531b2350f98714e6a290eaa57dd4614b1c8",
+      "assessed_at": "2026-11-05T15:41:24.960171+00:00"
+    },
+    "98e89e3d8e08a711d7": {
+      "rules_version": "missions-v1",
+      "pdm_potential": "high",
+      "pdm_label": "Fort potentiel PDM",
+      "pdm_explicit": false,
+      "pdm_reason": "Les missions associent conception ou investigation à une démarche de modélisation, comparaison ou validation technique.",
+      "pdm_confidence": "high",
+      "missing_information": [
+        "Accord académique EPFL et encadrement du PDM à confirmer.",
+        "Durée : Durée structurée publiée ; comparaison à confirmer.",
+        "Date de début : Information non précisée dans l'offre.",
+        "Langues : Information non précisée dans l'offre.",
+        "Localisation : Information non précisée dans l'offre.",
+        "Éligibilité : Condition d'éligibilité publiée ; nationalité, autorisation ou convention du candidat à vérifier."
+      ],
+      "technical_categories": [
+        "R&D / Product Development",
+        "Testing / Validation",
+        "Systems Integration",
+        "Robotics / Mechatronics",
+        "Automation / Control",
+        "Quality",
+        "Supply Chain / Logistics"
+      ],
+      "technical_score": 82,
+      "technical_reasons": [
+        "Mission technique mécanique : a) starting the implementation of a non sequential raytracing, b) implementing the possibility to introduce mechanical elements, or c) improving straylight analysis capabilities (e.g.",
+        "Mission technique mécanique : The Optics, Robotics and Life Sciences Division is responsible for the technical and strategic management in the following space segment domains at subsystem and instrument level:",
+        "Mission technique mécanique : automation and robotics: space automation and robotic systems, including planetary (surface, sub-surface and aerial) robotics probes, space robot payloads and their control systems, space laboratory automation, human-robot interaction, tele-robotics in manned and unmanned missions, as well as automation and robotics technology for ground MAIT;"
+      ],
+      "mission_evidence": [
+        "The Optics, Robotics and Life Sciences Division is responsible for the technical and strategic management in the following space segment domains at subsystem and instrument level:",
+        "optical systems: design, engineering and verification in all optical related areas, including optical component technology, micro-optics, fibre and passive integrated optics;",
+        "spectro-radiometric imaging instruments in the x-ray, ultra-violet, visible and infrared region;",
+        "optical metrology, and space micro-nano technology systems, stray-light analysis and verification.",
+        "Calibration and verification of optical payloads, covering the definition, procurement and commissioning of Optical Ground Support Equipment (OGSE).",
+        "optoelectronics: laser systems and sensors, LIDAR and laser ranging systems, including optical metrology and time and frequency distribution, photo-detectors and focal plane technologies for the x-ray, ultra-violet, visible and infrared range;",
+        "photonics technologies and application, including integrated and fibre optics, RF photonics, micro-nano-photonics, opto-pyrotechnics, fibre sensors, non-linear optics, superconductor technology and optical atomic clocks;",
+        "optical chain architecture: design, analysis, and technical assessment of optical instruments, subsystems, detection chain systems and focal plane instrumentation, optical communication systems for classical and quantum communications, time and frequency transfer, intersatellite ranging and similar end-to-end systems;"
+      ],
+      "constraints": {
+        "duration": {
+          "status": "unknown",
+          "value": "Not specified",
+          "evidence": [
+            "Not specified"
+          ],
+          "reason": "Durée structurée publiée ; comparaison à confirmer."
+        },
+        "start_date": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "languages": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "location": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "education": {
+          "status": "compatible",
+          "value": "Master / ingénieur",
+          "evidence": [
+            "You must be a university student, preferably in your final or second-to-last year of university course at Master's level."
+          ],
+          "reason": "Niveau master / ingénieur compatible avec le master EPFL du profil."
+        },
+        "eligibility": {
+          "status": "unknown",
+          "value": "Nationality**",
+          "evidence": [
+            "Nationality**"
+          ],
+          "reason": "Condition d'éligibilité publiée ; nationalité, autorisation ou convention du candidat à vérifier."
+        }
+      },
+      "constraint_status": "unknown",
+      "needs_human_review": true,
+      "id": "98e89e3d8e08a711d7",
+      "input_hash": "8ab953861bd0d9a8a39d08b23b53e13ee54cfceb66fcc28f528741c38d8d7784",
+      "assessed_at": "2026-11-05T15:41:24.991498+00:00"
+    },
+    "862825209e2a0d75c3": {
+      "rules_version": "missions-v1",
+      "pdm_potential": "low",
+      "pdm_label": "Faible potentiel PDM",
+      "pdm_explicit": false,
+      "pdm_reason": "Les missions décrites relèvent surtout de l'exécution, du suivi ou du support, sans démarche de conception / investigation établie.",
+      "pdm_confidence": "medium",
+      "missing_information": [
+        "Durée : Durée structurée publiée ; comparaison à confirmer.",
+        "Date de début : Information non précisée dans l'offre.",
+        "Langues : Langues exigées publiées ; compétences linguistiques du candidat inconnues.",
+        "Localisation : Information non précisée dans l'offre.",
+        "Éligibilité : Information non précisée dans l'offre."
+      ],
+      "technical_categories": [
+        "Manufacturing / Production"
+      ],
+      "technical_score": 18,
+      "technical_reasons": [
+        "Mission technique mécanique : At our manufacturing site, we continuously strive for operational excellence and sustainable performance through the MSE (Manufacturing Supply Excellence) framework."
+      ],
+      "mission_evidence": [
+        "At our manufacturing site, we continuously strive for operational excellence and sustainable performance through the MSE (Manufacturing Supply Excellence) framework."
+      ],
+      "constraints": {
+        "duration": {
+          "status": "unknown",
+          "value": "Not specified",
+          "evidence": [
+            "Not specified"
+          ],
+          "reason": "Durée structurée publiée ; comparaison à confirmer."
+        },
+        "start_date": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "languages": {
+          "status": "unknown",
+          "value": "en, nl",
+          "evidence": [
+            "Excellent command of English and Dutch (written and verbal)"
+          ],
+          "reason": "Langues exigées publiées ; compétences linguistiques du candidat inconnues."
+        },
+        "location": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "education": {
+          "status": "compatible",
+          "value": "Master / ingénieur",
+          "evidence": [
+            "Currently pursuing a Bachelors or Masters degree (HBO / WO) in:"
+          ],
+          "reason": "Niveau master / ingénieur compatible avec le master EPFL du profil."
+        },
+        "eligibility": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        }
+      },
+      "constraint_status": "unknown",
+      "needs_human_review": true,
+      "id": "862825209e2a0d75c3",
+      "input_hash": "13984c92ae0d3c21c96fbbcc8a007cba1c9d5ede4e7a0956f474ff1febcca39b",
+      "assessed_at": "2026-11-05T15:41:25.023558+00:00"
+    },
+    "8c0ae0c805998adff2": {
+      "rules_version": "missions-v1",
+      "pdm_potential": "high",
+      "pdm_label": "Fort potentiel PDM",
+      "pdm_explicit": false,
+      "pdm_reason": "Les missions associent conception ou investigation à une démarche de modélisation, comparaison ou validation technique.",
+      "pdm_confidence": "high",
+      "missing_information": [
+        "Accord académique EPFL et encadrement du PDM à confirmer.",
+        "Durée : Durée structurée publiée ; comparaison à confirmer.",
+        "Date de début : Information non précisée dans l'offre.",
+        "Langues : Information non précisée dans l'offre.",
+        "Éligibilité : Condition d'éligibilité publiée ; nationalité, autorisation ou convention du candidat à vérifier."
+      ],
+      "technical_categories": [
+        "R&D / Product Development",
+        "Testing / Validation",
+        "Systems Integration",
+        "Automation / Control"
+      ],
+      "technical_score": 30,
+      "technical_reasons": [
+        "Mission à pertinence mécanique limitée : As a Flight Control Intern, you will contribute to the development, integration, and validation of flight control and autonomy features on Auterion-powered UAVs within the Guidance, Navigation and Control (GNC) team.",
+        "Mission à pertinence mécanique limitée : Design and implement algorithms in control, estimation, system state monitoring and management.",
+        "Mission à pertinence mécanique limitée : Integrate, develop features for and maintain autonomous aerial vehicles."
+      ],
+      "mission_evidence": [
+        "As a Flight Control Intern, you will contribute to the development, integration, and validation of flight control and autonomy features on Auterion-powered UAVs within the Guidance, Navigation and Control (GNC) team.",
+        "Integrate, develop features for and maintain autonomous aerial vehicles.",
+        "Design and implement algorithms in control, estimation, system state monitoring and management.",
+        "Test in simulation and in real flights, evaluate performance and iterate quickly.",
+        "Document and report procedures and results.",
+        "Software development experience.",
+        "Strong organizational and communication skills."
+      ],
+      "constraints": {
+        "duration": {
+          "status": "unknown",
+          "value": "Not specified",
+          "evidence": [
+            "Not specified"
+          ],
+          "reason": "Durée structurée publiée ; comparaison à confirmer."
+        },
+        "start_date": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "languages": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "location": {
+          "status": "compatible",
+          "value": "Zurich, Switzerland",
+          "evidence": [
+            "Zurich, Switzerland"
+          ],
+          "reason": "Localisation en Europe."
+        },
+        "education": {
+          "status": "compatible",
+          "value": "Master / ingénieur",
+          "evidence": [
+            "Final-year Master’s student or graduate in mechanical, electrical, computer science, robotics or related engineering field."
+          ],
+          "reason": "Niveau master / ingénieur compatible avec le master EPFL du profil."
+        },
+        "eligibility": {
+          "status": "unknown",
+          "value": "CH/EU citizenship required.",
+          "evidence": [
+            "CH/EU citizenship required."
+          ],
+          "reason": "Condition d'éligibilité publiée ; nationalité, autorisation ou convention du candidat à vérifier."
+        }
+      },
+      "constraint_status": "unknown",
+      "needs_human_review": true,
+      "id": "8c0ae0c805998adff2",
+      "input_hash": "6617caddce5ee21a233b5cde6588d5bbfc6dfb4cdca91067982acb39b4e45ffc",
+      "assessed_at": "2026-11-05T15:41:25.037305+00:00"
+    },
+    "b427a321a24bb4f916": {
+      "rules_version": "missions-v1",
+      "pdm_potential": "high",
+      "pdm_label": "Fort potentiel PDM",
+      "pdm_explicit": false,
+      "pdm_reason": "Les missions associent conception ou investigation à une démarche de modélisation, comparaison ou validation technique.",
+      "pdm_confidence": "high",
+      "missing_information": [
+        "Accord académique EPFL et encadrement du PDM à confirmer.",
+        "Date de début : Information non précisée dans l'offre.",
+        "Langues : Information non précisée dans l'offre.",
+        "Localisation : Information non précisée dans l'offre.",
+        "Éligibilité : Information non précisée dans l'offre."
+      ],
+      "technical_categories": [
+        "Mechanical Design",
+        "R&D / Product Development",
+        "Testing / Validation",
+        "Systems Integration",
+        "Robotics / Mechatronics",
+        "Automation / Control",
+        "Energy / Thermal",
+        "Quality"
+      ],
+      "technical_score": 100,
+      "technical_reasons": [
+        "Mission technique mécanique : The NLR carries out research on automated inspection, which may require robotic solutions.",
+        "Mission technique mécanique : Such robotics research depends on experimental setups that change often.",
+        "Mission technique mécanique : In practice, research setups are often built around one specific combination of hardware and software, which makes every change time-consuming."
+      ],
+      "mission_evidence": [
+        "The NLR carries out research on automated inspection, which may require robotic solutions.",
+        "Such robotics research depends on experimental setups that change often.",
+        "Robots, sensors and controllers are added, replaced or reconfigured from one project to the next, and new technologies need to be tried out quickly and efficiently.",
+        "In practice, research setups are often built around one specific combination of hardware and software, which makes every change time-consuming.",
+        "NLR therefore wants a robotics research platform in which components can be switched easily and new components can be introduced with little effort.",
+        "The challenge lies in the overall design of such a platform.",
+        "On the hardware side, modular control systems such as the Beckhoff MX-System make it easier to add or exchange components.",
+        "On the software side, open frameworks such as the Robot Operating System (ROS) offer standard interfaces and reusable building blocks."
+      ],
+      "constraints": {
+        "duration": {
+          "status": "incompatible",
+          "value": "9 months",
+          "evidence": [
+            "For an MSc thesis, the standard duration of a thesis at your faculty applies (typically 9 months)."
+          ],
+          "reason": "Durée comparée à l'intervalle souhaité fourni dans le profil ; ce n'est pas une restriction administrative."
+        },
+        "start_date": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "languages": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "location": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "education": {
+          "status": "compatible",
+          "value": "Master / ingénieur",
+          "evidence": [
+            "For an MSc thesis, the standard duration of a thesis at your faculty applies (typically 9 months).",
+            "You are an MSc student or HBO graduate student in Mechatronics, Electrical Engineering, Robotics, Technical Computer Science or a similar master/bachelor."
+          ],
+          "reason": "Niveau master / ingénieur compatible avec le master EPFL du profil."
+        },
+        "eligibility": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        }
+      },
+      "constraint_status": "incompatible",
+      "needs_human_review": true,
+      "id": "b427a321a24bb4f916",
+      "input_hash": "bc688c9381a123afd41f02c97970b55629c7f70686bd2420c3719ff08e39c56f",
+      "assessed_at": "2026-11-05T15:41:25.057499+00:00"
+    },
+    "12acb15bd3300c6fc7": {
+      "rules_version": "missions-v1",
+      "pdm_potential": "medium",
+      "pdm_label": "Potentiel PDM à préciser",
+      "pdm_explicit": false,
+      "pdm_reason": "Une mission technique de conception ou d'étude est identifiée ; autonomie, question de recherche et livrable académique restent à préciser.",
+      "pdm_confidence": "high",
+      "missing_information": [
+        "Accord académique EPFL et encadrement du PDM à confirmer.",
+        "Date de début : Information non précisée dans l'offre.",
+        "Langues : Langues exigées publiées ; compétences linguistiques du candidat inconnues.",
+        "Localisation : Information non précisée dans l'offre.",
+        "Formation : Information non précisée dans l'offre.",
+        "Éligibilité : Condition d'éligibilité publiée ; nationalité, autorisation ou convention du candidat à vérifier."
+      ],
+      "technical_categories": [
+        "R&D / Product Development",
+        "Materials / Processes",
+        "Supply Chain / Logistics"
+      ],
+      "technical_score": 26,
+      "technical_reasons": [
+        "Mission technique mécanique : Collecting learnings: Support with collecting and reporting of learnings at packaging material suppliers, brewery operations, distribution- and retail partners and HEINEKEN operating companies.",
+        "Mission à pertinence mécanique limitée : Development of scale-up scenario’s: Support the project team with the analysis of supply chain options, external supply capacity simulations and cost price modelling for the scale-up phase.",
+        "Mission à pertinence mécanique limitée : “Being part of the Innovation team at HEINEKEN gave me the opportunity to contribute to impactful global projects.”"
+      ],
+      "mission_evidence": [
+        "“Being part of the Innovation team at HEINEKEN gave me the opportunity to contribute to impactful global projects.”",
+        "You will actively participate in:",
+        "Innovation projects: Being part of a project team and supporting an innovation project within the Packaging & Dispense domain, during the market introduction phase.",
+        "Collecting learnings: Support with collecting and reporting of learnings at packaging material suppliers, brewery operations, distribution- and retail partners and HEINEKEN operating companies.",
+        "Development of scale-up scenario’s: Support the project team with the analysis of supply chain options, external supply capacity simulations and cost price modelling for the scale-up phase.",
+        "You will be based at HEINEKEN’s Global Research & Development Centre in Zoeterwoude, next to Europe’s biggest brewery.",
+        "During your internship, you’ll have every opportunity to get to know HEINEKEN as an organization, not just within your own team, but across departments."
+      ],
+      "constraints": {
+        "duration": {
+          "status": "compatible",
+          "value": "5 to 6 months",
+          "evidence": [
+            "HEINEKEN Global R&D; (located in Zoeterwoude) is looking for a hands-on and motivated intern for a period of 5 to 6 months."
+          ],
+          "reason": "Durée comparée à l'intervalle souhaité fourni dans le profil ; ce n'est pas une restriction administrative."
+        },
+        "start_date": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "languages": {
+          "status": "unknown",
+          "value": "en, nl",
+          "evidence": [
+            "Strong communication skills and fluency in English.",
+            "+ In the case of non-EU nationality, you must be registered as an intern with a Dutch educational institution."
+          ],
+          "reason": "Langues exigées publiées ; compétences linguistiques du candidat inconnues."
+        },
+        "location": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "education": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "eligibility": {
+          "status": "unknown",
+          "value": "+ In the case of non-EU nationality, you must be registered as an intern with a Dutch educational institution. ; + In case of EU nationality, you may also be registered as an intern at educational institutions outside the EU. ; + You are in possession of a valid citizen service number (BSN).",
+          "evidence": [
+            "+ In the case of non-EU nationality, you must be registered as an intern with a Dutch educational institution.",
+            "+ In case of EU nationality, you may also be registered as an intern at educational institutions outside the EU.",
+            "+ You are in possession of a valid citizen service number (BSN)."
+          ],
+          "reason": "Condition d'éligibilité publiée ; nationalité, autorisation ou convention du candidat à vérifier."
+        }
+      },
+      "constraint_status": "unknown",
+      "needs_human_review": true,
+      "id": "12acb15bd3300c6fc7",
+      "input_hash": "8d08eff23b8ab37c9c4d56bd2eeaa7080e25d52b6167baf590b72a9d1ac3c1c2",
+      "assessed_at": "2026-11-05T15:41:25.118999+00:00"
+    },
+    "055b4b2bdbf64492a3": {
+      "rules_version": "missions-v1",
+      "pdm_potential": "high",
+      "pdm_label": "Fort potentiel PDM",
+      "pdm_explicit": false,
+      "pdm_reason": "Les missions associent conception ou investigation à une démarche de modélisation, comparaison ou validation technique.",
+      "pdm_confidence": "high",
+      "missing_information": [
+        "Accord académique EPFL et encadrement du PDM à confirmer.",
+        "Durée : Durée structurée publiée ; comparaison à confirmer.",
+        "Date de début : Information non précisée dans l'offre.",
+        "Langues : Information non précisée dans l'offre.",
+        "Localisation : Information non précisée dans l'offre.",
+        "Formation : Information non précisée dans l'offre.",
+        "Éligibilité : Information non précisée dans l'offre."
+      ],
+      "technical_categories": [
+        "R&D / Product Development",
+        "Simulation / CAE",
+        "Automation / Control",
+        "Energy / Thermal"
+      ],
+      "technical_score": 100,
+      "technical_reasons": [
+        "Mission technique mécanique : Internship: Technology development for gearboxes in wind turbines (m/f/d)**",
+        "Mission technique mécanique : Conduct advanced Finite Element Analysis (FEA) to evaluate and enhance the structural performance of wind turbine gearboxes",
+        "Mission technique mécanique : Study in Mechanical Engineering or comparable field of study"
+      ],
+      "mission_evidence": [
+        "Internship: Technology development for gearboxes in wind turbines (m/f/d)**",
+        "Conduct advanced Finite Element Analysis (FEA) to evaluate and enhance the structural performance of wind turbine gearboxes",
+        "Analyze and optimize dynamic behavior of gearbox systems to improve reliability and operational efficiency",
+        "Develop, implement and automate innovative optimization methodologies to advance gearbox design and performance",
+        "Your profile as an intern in the Innovation Management department (m/f/d):**",
+        "Study in Mechanical Engineering or comparable field of study",
+        "Join our ZF team as an intern (m/f/d) and apply now with your complete application documents.",
+        "Be part of our ZF team as Internship: Technology development for gearboxes in wind turbines (m/f/d) and apply now!"
+      ],
+      "constraints": {
+        "duration": {
+          "status": "unknown",
+          "value": "5-7 months mentioned",
+          "evidence": [
+            "5-7 months mentioned"
+          ],
+          "reason": "Durée structurée publiée ; comparaison à confirmer."
+        },
+        "start_date": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "languages": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "location": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "education": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "eligibility": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        }
+      },
+      "constraint_status": "unknown",
+      "needs_human_review": true,
+      "id": "055b4b2bdbf64492a3",
+      "input_hash": "adfb6f6e3a2e4d752e91e144a55125d5939f433c045a354a1e2c29b3ffc36d99",
+      "assessed_at": "2026-11-05T15:41:25.128097+00:00"
+    },
+    "67f98d830e8367fe46": {
+      "rules_version": "missions-v1",
+      "pdm_potential": "medium",
+      "pdm_label": "Potentiel PDM à préciser",
+      "pdm_explicit": false,
+      "pdm_reason": "Une mission technique de conception ou d'étude est identifiée ; autonomie, question de recherche et livrable académique restent à préciser.",
+      "pdm_confidence": "high",
+      "missing_information": [
+        "Accord académique EPFL et encadrement du PDM à confirmer.",
+        "Date de début : Information non précisée dans l'offre.",
+        "Formation : Information non précisée dans l'offre.",
+        "Éligibilité : Information non précisée dans l'offre."
+      ],
+      "technical_categories": [
+        "R&D / Product Development",
+        "Automation / Control",
+        "Energy / Thermal",
+        "Project Management"
+      ],
+      "technical_score": 30,
+      "technical_reasons": [
+        "Mission à pertinence mécanique limitée : A beautiful, centrally located, dog-friendly office with inspiring spaces, a sunny terrace, and good food - designed for moments that energise and connect",
+        "Mission à pertinence mécanique limitée : , you will directly support our People & Business Partnering team across ongoing strategic initiatives and daily operations.",
+        "Mission à pertinence mécanique limitée : From day one, you will take ownership of diverse People & Culture topics, gaining deep exposure to organisational development, stakeholder advisory, and the employee lifecycle in a high-pace, design-led environment."
+      ],
+      "mission_evidence": [
+        ", you will directly support our People & Business Partnering team across ongoing strategic initiatives and daily operations.",
+        "From day one, you will take ownership of diverse People & Culture topics, gaining deep exposure to organisational development, stakeholder advisory, and the employee lifecycle in a high-pace, design-led environment.",
+        "Support strategic People & Culture initiatives and projects with a strong focus on organisational development",
+        "Build executive-ready presentations and reports to enable strategic counsel for business leaders, and d",
+        "eliver ad-hoc analysis on core People & Culture metrics to identify actionable workforce trends",
+        "Conduct targeted research on emerging HR, talent, and people trends to continuously benchmark best practices",
+        "Coordinate meetings, leadership workshops, and targeted communication measures across central people programmes",
+        "Assist Business Partners in guiding and empowering team members across the full employee lifecycle"
+      ],
+      "constraints": {
+        "duration": {
+          "status": "compatible",
+          "value": "6 months",
+          "evidence": [
+            "6 months"
+          ],
+          "reason": "Durée comparée à l'intervalle souhaité fourni dans le profil ; ce n'est pas une restriction administrative."
+        },
+        "start_date": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "languages": {
+          "status": "incompatible",
+          "value": "de, en",
+          "evidence": [
+            "Professional fluency in both German and English (written and spoken)"
+          ],
+          "reason": "Langue explicitement obligatoire exclue par le filtre de recherche configuré ; aucune compétence du candidat n'est supposée."
+        },
+        "location": {
+          "status": "compatible",
+          "value": "Munich Office",
+          "evidence": [
+            "Munich Office"
+          ],
+          "reason": "Localisation en Europe."
+        },
+        "education": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "eligibility": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        }
+      },
+      "constraint_status": "incompatible",
+      "needs_human_review": true,
+      "id": "67f98d830e8367fe46",
+      "input_hash": "3c4f374a8fb629bfeaf3c7054424317e3b378a181928e2f22d8387f06cbb2767",
+      "assessed_at": "2026-11-05T15:41:25.183446+00:00"
+    },
+    "b67aa2bd48fa926709": {
+      "rules_version": "missions-v1",
+      "pdm_potential": "low",
+      "pdm_label": "Faible potentiel PDM",
+      "pdm_explicit": false,
+      "pdm_reason": "Les missions décrites relèvent surtout de l'exécution, du suivi ou du support, sans démarche de conception / investigation établie.",
+      "pdm_confidence": "high",
+      "missing_information": [
+        "Durée : Durée structurée publiée ; comparaison à confirmer.",
+        "Date de début : Information non précisée dans l'offre.",
+        "Langues : Langues exigées publiées ; compétences linguistiques du candidat inconnues.",
+        "Localisation : Localisation ambiguë ou non reconnue.",
+        "Formation : Mention de doctorat sans obligation exclusive établie.",
+        "Éligibilité : Information non précisée dans l'offre."
+      ],
+      "technical_categories": [
+        "Quality",
+        "Project Management"
+      ],
+      "technical_score": 12,
+      "technical_reasons": [
+        "Mission à pertinence mécanique limitée : Research Team Leader",
+        "Mission à pertinence mécanique limitée : Research Lecturer | Research Assistant Professor | Research Associate Professor | Research Professor",
+        "Mission à pertinence mécanique limitée : Research"
+      ],
+      "mission_evidence": [
+        "Research Team Leader",
+        "Research Lecturer | Research Assistant Professor | Research Associate Professor | Research Professor",
+        "Research",
+        "Research Director",
+        "For employees currently employed under a fixed-term contract, the appointment will be formalized through an initial two-year fixed-term employment contract, with the possibility of conversion to an indefinite-term full-time contract following satisfactory performance and subject to the required approvals.",
+        "Any changes following the initial two-year period, including the possibility of full funding through the CYENS central budget, will be subject to the Centre's financial position, organisational needs and required approvals.",
+        "Open exclusively to current CYENS employees (research and non-research personnel) who meet the published eligibility requirements and have completed at least two (2) years of employment at CYENS.",
+        "The remuneration offer will be determined based on the successful candidate's academic rank, qualifications, research achievements and relevant experience, in accordance with the applicable CYENS policies."
+      ],
+      "constraints": {
+        "duration": {
+          "status": "unknown",
+          "value": "Not specified",
+          "evidence": [
+            "Not specified"
+          ],
+          "reason": "Durée structurée publiée ; comparaison à confirmer."
+        },
+        "start_date": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "languages": {
+          "status": "unknown",
+          "value": "en",
+          "evidence": [
+            "Excellent written and oral English-language skills."
+          ],
+          "reason": "Langues exigées publiées ; compétences linguistiques du candidat inconnues."
+        },
+        "location": {
+          "status": "unknown",
+          "value": "CYENS - Centre of Excellence",
+          "evidence": [
+            "CYENS - Centre of Excellence"
+          ],
+          "reason": "Localisation ambiguë ou non reconnue."
+        },
+        "education": {
+          "status": "unknown",
+          "value": "Doctorat mentionné",
+          "evidence": [
+            "PhD in a relevant field from an accredited institution."
+          ],
+          "reason": "Mention de doctorat sans obligation exclusive établie."
+        },
+        "eligibility": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        }
+      },
+      "constraint_status": "unknown",
+      "needs_human_review": true,
+      "id": "b67aa2bd48fa926709",
+      "input_hash": "3b64e9126c064ecebb22d3fcd224f504ad672b8fb5287fcb5eecfe334e78dae0",
+      "assessed_at": "2026-11-05T15:41:25.234782+00:00"
+    },
+    "4b79d1e98bed6be5d1": {
+      "rules_version": "missions-v1",
+      "pdm_potential": "high",
+      "pdm_label": "Fort potentiel PDM",
+      "pdm_explicit": false,
+      "pdm_reason": "Les missions associent conception ou investigation à une démarche de modélisation, comparaison ou validation technique.",
+      "pdm_confidence": "high",
+      "missing_information": [
+        "Accord académique EPFL et encadrement du PDM à confirmer.",
+        "Durée : Durée structurée publiée ; comparaison à confirmer.",
+        "Date de début : Information non précisée dans l'offre.",
+        "Langues : Langues exigées publiées ; compétences linguistiques du candidat inconnues.",
+        "Éligibilité : Condition d'éligibilité publiée ; nationalité, autorisation ou convention du candidat à vérifier."
+      ],
+      "technical_categories": [
+        "R&D / Product Development",
+        "Manufacturing / Production",
+        "Automation / Control"
+      ],
+      "technical_score": 58,
+      "technical_reasons": [
+        "Mission technique mécanique : Potentially own a scoped AI or engineering project end-to-end — from problem framing to a working prototype or shipped improvement",
+        "Mission à pertinence mécanique limitée : Support the development and improvement of AI models and pipelines used by thousands of dental professionals globally",
+        "Mission à pertinence mécanique limitée : Explore and evaluate new approaches (models, tools, techniques) relevant to our core AI stack"
+      ],
+      "mission_evidence": [
+        "You will contribute to the core AI systems that power our dental automation platform:",
+        "Support the development and improvement of AI models and pipelines used by thousands of dental professionals globally",
+        "Contribute to real product tickets: bug fixes, feature work, or pipeline improvements that go into production",
+        "Potentially own a scoped AI or engineering project end-to-end — from problem framing to a working prototype or shipped improvement",
+        "Explore and evaluate new approaches (models, tools, techniques) relevant to our core AI stack",
+        "Assist in data collection, preprocessing, and labeling to support model training and evaluation",
+        "Analyze model performance and contribute to iterative improvements in accuracy and reliability"
+      ],
+      "constraints": {
+        "duration": {
+          "status": "unknown",
+          "value": "Not specified",
+          "evidence": [
+            "Not specified"
+          ],
+          "reason": "Durée structurée publiée ; comparaison à confirmer."
+        },
+        "start_date": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "languages": {
+          "status": "unknown",
+          "value": "en",
+          "evidence": [
+            "Fluent in English (written and spoken)"
+          ],
+          "reason": "Langues exigées publiées ; compétences linguistiques du candidat inconnues."
+        },
+        "location": {
+          "status": "compatible",
+          "value": "Leuven",
+          "evidence": [
+            "Leuven"
+          ],
+          "reason": "Localisation en Europe."
+        },
+        "education": {
+          "status": "compatible",
+          "value": "Master / ingénieur",
+          "evidence": [
+            "Currently pursuing a Master's degree in Computer Science, AI, Machine Learning, or related field",
+            "Already in your Master's"
+          ],
+          "reason": "Niveau master / ingénieur compatible avec le master EPFL du profil."
+        },
+        "eligibility": {
+          "status": "unknown",
+          "value": "Valid work authorization in Belgium",
+          "evidence": [
+            "Valid work authorization in Belgium"
+          ],
+          "reason": "Condition d'éligibilité publiée ; nationalité, autorisation ou convention du candidat à vérifier."
+        }
+      },
+      "constraint_status": "unknown",
+      "needs_human_review": true,
+      "id": "4b79d1e98bed6be5d1",
+      "input_hash": "9920629680445aeb5ee86e3e112be4f52b2b1a083f7f042d6ff2b343544a6a88",
+      "assessed_at": "2026-11-05T15:41:25.251710+00:00"
+    },
+    "2b0caec9d5229a03b4": {
+      "rules_version": "missions-v1",
+      "pdm_potential": "high",
+      "pdm_label": "Fort potentiel PDM",
+      "pdm_explicit": false,
+      "pdm_reason": "Les missions associent conception ou investigation à une démarche de modélisation, comparaison ou validation technique.",
+      "pdm_confidence": "high",
+      "missing_information": [
+        "Accord académique EPFL et encadrement du PDM à confirmer.",
+        "Durée : Durée structurée publiée ; comparaison à confirmer.",
+        "Date de début : Information non précisée dans l'offre.",
+        "Langues : Information non précisée dans l'offre.",
+        "Localisation : Information non précisée dans l'offre.",
+        "Éligibilité : Condition d'éligibilité publiée ; nationalité, autorisation ou convention du candidat à vérifier."
+      ],
+      "technical_categories": [
+        "R&D / Product Development",
+        "Simulation / CAE",
+        "Testing / Validation",
+        "Manufacturing / Production",
+        "Systems Integration",
+        "Robotics / Mechatronics",
+        "Automation / Control",
+        "Materials / Processes",
+        "Energy / Thermal"
+      ],
+      "technical_score": 100,
+      "technical_reasons": [
+        "Mission technique mécanique : The Antennas and Sub-millimetre Waves Section provides functional support to ESA projects across all the various domains (Navigation, Earth Observation, Telecommunication/Secure Connectivity, Human Robotic Exploration and Launchers) and carries out technological research (R&D) in the field(s) of space antenna systems, submillimetre wave instruments and associated technologies.",
+        "Mission technique mécanique : antenna measurements and RF material characterisation.",
+        "Mission technique mécanique : The goal of this internship is to investigate the calibration of active phased array antennas, assess the impact of hardware imperfections on beamforming performance, and evaluate modern calibration techniques applicable to large-scale and next-generation antenna system."
+      ],
+      "mission_evidence": [
+        "The Antennas and Sub-millimetre Waves Section provides functional support to ESA projects across all the various domains (Navigation, Earth Observation, Telecommunication/Secure Connectivity, Human Robotic Exploration and Launchers) and carries out technological research (R&D) in the field(s) of space antenna systems, submillimetre wave instruments and associated technologies.",
+        "analysis, engineering, RF modelling and design tool developments of stand-alone antennas (ground and space) as well as interference effects among antennas and with the spacecraft structure or other platform (like aircraft/train/vehicle);",
+        "design and analysis of all antenna (active and passive) sub-systems including e.g., stand-alone radiators, arrays, reflector, lens optics, dichroics and their associated focal plane;",
+        "analysis, engineering, RF modelling and design tool developments of instrument architecture, antenna, front-end technology and components for sub-millimetre wave applications;",
+        "antenna measurements and RF material characterisation.",
+        "Small amplitude and phase errors caused by component tolerances, thermal effects, and ageing can significantly degrade beamforming performance, antenna gain, pointing accuracy, and sidelobe levels.",
+        "Effective calibration enables these imperfections to be identified and compensated, ensuring that the array achieves its expected performance throughout its operational lifetime.",
+        "The goal of this internship is to investigate the calibration of active phased array antennas, assess the impact of hardware imperfections on beamforming performance, and evaluate modern calibration techniques applicable to large-scale and next-generation antenna system."
+      ],
+      "constraints": {
+        "duration": {
+          "status": "unknown",
+          "value": "Not specified",
+          "evidence": [
+            "Not specified"
+          ],
+          "reason": "Durée structurée publiée ; comparaison à confirmer."
+        },
+        "start_date": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "languages": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "location": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "education": {
+          "status": "compatible",
+          "value": "Master / ingénieur",
+          "evidence": [
+            "You must be a university student, preferably in your final or second-to-last year of university course at Master's level."
+          ],
+          "reason": "Niveau master / ingénieur compatible avec le master EPFL du profil."
+        },
+        "eligibility": {
+          "status": "unknown",
+          "value": "Nationality**",
+          "evidence": [
+            "Nationality**"
+          ],
+          "reason": "Condition d'éligibilité publiée ; nationalité, autorisation ou convention du candidat à vérifier."
+        }
+      },
+      "constraint_status": "unknown",
+      "needs_human_review": true,
+      "id": "2b0caec9d5229a03b4",
+      "input_hash": "908a630fb29e67001f695d1babe20b32b451eb1143e5656892e64137d36666a3",
+      "assessed_at": "2026-11-05T15:41:25.305468+00:00"
+    },
+    "4a0c56280b55bc0aba": {
+      "rules_version": "missions-v1",
+      "pdm_potential": "high",
+      "pdm_label": "Fort potentiel PDM",
+      "pdm_explicit": false,
+      "pdm_reason": "Les missions associent conception ou investigation à une démarche de modélisation, comparaison ou validation technique.",
+      "pdm_confidence": "high",
+      "missing_information": [
+        "Accord académique EPFL et encadrement du PDM à confirmer.",
+        "Durée : Durée structurée publiée ; comparaison à confirmer.",
+        "Date de début : Information non précisée dans l'offre.",
+        "Langues : Information non précisée dans l'offre.",
+        "Localisation : Information non précisée dans l'offre.",
+        "Éligibilité : Condition d'éligibilité publiée ; nationalité, autorisation ou convention du candidat à vérifier."
+      ],
+      "technical_categories": [
+        "Mechanical Design",
+        "R&D / Product Development",
+        "Simulation / CAE",
+        "Testing / Validation",
+        "Manufacturing / Production",
+        "Materials / Processes",
+        "Energy / Thermal",
+        "Quality",
+        "Project Management"
+      ],
+      "technical_score": 100,
+      "technical_reasons": [
+        "Mission technique mécanique : Besides Europe’s largest space simulation chamber LSS and Europe’s largest reverberant acoustic noise test chamber, the Test Centre is equipped with a 6 degree of freedom hydraulic vibration test stand, a 320kN horizontal and a 640kN vertical electrodynamic shaker system and a large EMC test chamber.",
+        "Mission technique mécanique : The set of facilities is complemented by a medium sized thermal vacuum chamber (Phenix), a small vacuum chamber with high solar flux simulation (VTC 1.5), a 80kN vibrations system and shock test benches for subsystem and equipment testing.",
+        "Mission technique mécanique : The group encompasses multidisciplinary engineering domains, ranging from mechanical, electrical and electronic design up to metrology."
+      ],
+      "mission_evidence": [
+        "ESA operates a Test Centre at ESTEC, Noordwijk, The Netherlands, a unique place in Europe which is geared to perform environmental tests on large spacecraft and aerospace structures.",
+        "The Test Centre includes the complete portfolio of test facilities to simulate the environmental conditions which are experienced by a spacecraft during its launch and early operation phase.",
+        "This includes hydraulic and electrodynamic vibration test systems, shock test facilities, mass properties measurement facilities, electro-magnetic compatibility test facilities.",
+        "Besides Europe’s largest space simulation chamber LSS and Europe’s largest reverberant acoustic noise test chamber, the Test Centre is equipped with a 6 degree of freedom hydraulic vibration test stand, a 320kN horizontal and a 640kN vertical electrodynamic shaker system and a large EMC test chamber.",
+        "The set of facilities is complemented by a medium sized thermal vacuum chamber (Phenix), a small vacuum chamber with high solar flux simulation (VTC 1.5), a 80kN vibrations system and shock test benches for subsystem and equipment testing.",
+        "Part of the Test Centre is the Engineering Services Section.",
+        "The group encompasses multidisciplinary engineering domains, ranging from mechanical, electrical and electronic design up to metrology.",
+        "Calibrations of electrical equipment and manufacturing are also areas covered by the Engineering Services Section, whose mission is to support the Test Centre and its customers, the ESTEC laboratories as well as the ESA programmes."
+      ],
+      "constraints": {
+        "duration": {
+          "status": "unknown",
+          "value": "Not specified",
+          "evidence": [
+            "Not specified"
+          ],
+          "reason": "Durée structurée publiée ; comparaison à confirmer."
+        },
+        "start_date": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "languages": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "location": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "education": {
+          "status": "compatible",
+          "value": "Master / ingénieur",
+          "evidence": [
+            "You must be a university student, preferably in your final or second-to-last year of university course at Master's level."
+          ],
+          "reason": "Niveau master / ingénieur compatible avec le master EPFL du profil."
+        },
+        "eligibility": {
+          "status": "unknown",
+          "value": "Nationality**",
+          "evidence": [
+            "Nationality**"
+          ],
+          "reason": "Condition d'éligibilité publiée ; nationalité, autorisation ou convention du candidat à vérifier."
+        }
+      },
+      "constraint_status": "unknown",
+      "needs_human_review": true,
+      "id": "4a0c56280b55bc0aba",
+      "input_hash": "64341d0d1702700865c711e8f24ec59ebcb621b73caac3ec184529778754dff1",
+      "assessed_at": "2026-11-05T15:41:25.327110+00:00"
+    },
+    "062100da99abc9c750": {
+      "rules_version": "missions-v1",
+      "pdm_potential": "medium",
+      "pdm_label": "Potentiel PDM à préciser",
+      "pdm_explicit": false,
+      "pdm_reason": "Une mission technique de conception ou d'étude est identifiée ; autonomie, question de recherche et livrable académique restent à préciser.",
+      "pdm_confidence": "high",
+      "missing_information": [
+        "Accord académique EPFL et encadrement du PDM à confirmer.",
+        "Durée : Durée structurée publiée ; comparaison à confirmer.",
+        "Date de début : Information non précisée dans l'offre.",
+        "Langues : Information non précisée dans l'offre.",
+        "Localisation : Information non précisée dans l'offre.",
+        "Éligibilité : Condition d'éligibilité publiée ; nationalité, autorisation ou convention du candidat à vérifier."
+      ],
+      "technical_categories": [
+        "R&D / Product Development",
+        "Testing / Validation",
+        "Systems Integration",
+        "Robotics / Mechatronics",
+        "Project Management"
+      ],
+      "technical_score": 98,
+      "technical_reasons": [
+        "Mission technique mécanique : Directorate: Human and Robotic Exploration",
+        "Mission technique mécanique : The Mars Exploration Studies Team in ESA’s Human and Robotic Exploration Directorate is tasked with formulating future Mars missions.",
+        "Mission à pertinence mécanique limitée : You will work in close coordination with the Mars exploration payload systems engineer, the Directorate’s scientific support for Mars exploration, and Definition Teams for Mars lander Science and Instrumentation."
+      ],
+      "mission_evidence": [
+        "Directorate: Human and Robotic Exploration",
+        "The Mars Exploration Studies Team in ESA’s Human and Robotic Exploration Directorate is tasked with formulating future Mars missions.",
+        "This is done in coordination with relevant stakeholders and specialists within ESA, selected definition teams and with external stakeholders in the Member States and Associates, including industry and the science and instrument development communities.",
+        "The Mars Exploration Studies Team is currently engaged in parallel mission studies and technology developments for ESA’s future missions to Mars (beyond the Rosalind Franklin rover mission planned for launch in 2028).",
+        "These encompass elements of infrastructure around Mars for communications and navigation support, measurements needed to address knowledge gaps for future exploration, remote sensing from Mars orbit and in situ measurements from the martian surface.",
+        "The team is a small, dynamic and multidisciplinary grouping within the ExPeRT (Exploration Preparation, Research and Technology) division.",
+        "Part of the team’s work is to track the potential and proposed payload equipment, which needs to meet the desired technology readiness, resources, and technical and operational interfaces with the spacecraft.",
+        "You will work in close coordination with the Mars exploration payload systems engineer, the Directorate’s scientific support for Mars exploration, and Definition Teams for Mars lander Science and Instrumentation."
+      ],
+      "constraints": {
+        "duration": {
+          "status": "unknown",
+          "value": "Not specified",
+          "evidence": [
+            "Not specified"
+          ],
+          "reason": "Durée structurée publiée ; comparaison à confirmer."
+        },
+        "start_date": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "languages": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "location": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "education": {
+          "status": "compatible",
+          "value": "Master / ingénieur",
+          "evidence": [
+            "You must be a university student, preferably in your final or second-to-last year of university course at Master's level."
+          ],
+          "reason": "Niveau master / ingénieur compatible avec le master EPFL du profil."
+        },
+        "eligibility": {
+          "status": "unknown",
+          "value": "Nationality**",
+          "evidence": [
+            "Nationality**"
+          ],
+          "reason": "Condition d'éligibilité publiée ; nationalité, autorisation ou convention du candidat à vérifier."
+        }
+      },
+      "constraint_status": "unknown",
+      "needs_human_review": true,
+      "id": "062100da99abc9c750",
+      "input_hash": "4749b9fd192b9465fe82c680153d4e08a54a0dc7bb88de141a2031c542cfb677",
+      "assessed_at": "2026-11-05T15:41:25.344014+00:00"
+    },
+    "39648fc01c572d19cc": {
+      "rules_version": "missions-v1",
+      "pdm_potential": "high",
+      "pdm_label": "Fort potentiel PDM",
+      "pdm_explicit": false,
+      "pdm_reason": "Les missions associent conception ou investigation à une démarche de modélisation, comparaison ou validation technique.",
+      "pdm_confidence": "high",
+      "missing_information": [
+        "Accord académique EPFL et encadrement du PDM à confirmer.",
+        "Durée : Durée structurée publiée ; comparaison à confirmer.",
+        "Date de début : Information non précisée dans l'offre.",
+        "Langues : Information non précisée dans l'offre.",
+        "Localisation : Information non précisée dans l'offre.",
+        "Éligibilité : Condition d'éligibilité publiée ; nationalité, autorisation ou convention du candidat à vérifier."
+      ],
+      "technical_categories": [
+        "R&D / Product Development",
+        "Simulation / CAE",
+        "Testing / Validation",
+        "Systems Integration",
+        "Energy / Thermal",
+        "Supply Chain / Logistics",
+        "Project Management"
+      ],
+      "technical_score": 100,
+      "technical_reasons": [
+        "Mission technique mécanique : This proposed activity is of significant interest to the EnVision project, as thermo-elastic distortion analyses play a key role in the verification of several mission performance requirements, particularly those related to the pointing stability of scientific instruments or the link budget of communication antennae.",
+        "Mission technique mécanique : Topic of the internship: Improving Thermo-Elastic Modelling of Spacecraft and Payload Coupling**",
+        "Mission technique mécanique : Your task will be to investigate how interactions between a spacecraft platform and its payload equipment influence thermo-elastic distortions, and how these effects can be represented more accurately and efficiently in engineering analyses."
+      ],
+      "mission_evidence": [
+        "EnVision is a Venus orbiter mission selected by ESA’s Science Programme Committee as the fifth Medium-class mission in the Agency’s Cosmic Vision plan.",
+        "It will be the first mission to investigate Venus from its inner core to its upper atmosphere, characterising the interaction between its atmosphere, surface/subsurface and interior.",
+        "It aims at providing a holistic view of Venus, studying the planet’s history, activity, and climate.",
+        "The project team in which this internship is proposed is in charge of the implementation of the mission: the procurement of the spacecraft and the launch vehicle and the liaising with the developers of the instruments that will be embarked on EnVision.",
+        "As with most Science missions, the instruments are provided by Member States, with ESA providing several specific payload elements.",
+        "At the time of writing (September 2026), the EnVision spacecraft is undergoing the Preliminary Design Review.",
+        "This proposed activity is of significant interest to the EnVision project, as thermo-elastic distortion analyses play a key role in the verification of several mission performance requirements, particularly those related to the pointing stability of scientific instruments or the link budget of communication antennae.",
+        "Topic of the internship: Improving Thermo-Elastic Modelling of Spacecraft and Payload Coupling**"
+      ],
+      "constraints": {
+        "duration": {
+          "status": "unknown",
+          "value": "Not specified",
+          "evidence": [
+            "Not specified"
+          ],
+          "reason": "Durée structurée publiée ; comparaison à confirmer."
+        },
+        "start_date": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "languages": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "location": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "education": {
+          "status": "compatible",
+          "value": "Master / ingénieur",
+          "evidence": [
+            "You must be a university student, preferably in your final or second-to-last year of university course at Master's level."
+          ],
+          "reason": "Niveau master / ingénieur compatible avec le master EPFL du profil."
+        },
+        "eligibility": {
+          "status": "unknown",
+          "value": "Nationality**",
+          "evidence": [
+            "Nationality**"
+          ],
+          "reason": "Condition d'éligibilité publiée ; nationalité, autorisation ou convention du candidat à vérifier."
+        }
+      },
+      "constraint_status": "unknown",
+      "needs_human_review": true,
+      "id": "39648fc01c572d19cc",
+      "input_hash": "17eb041b74d448502754a36beedf0bbd0c943924b83bfe8397286519994ec8ba",
+      "assessed_at": "2026-11-05T15:41:25.368808+00:00"
+    },
+    "e111ba1c72ce20e7cd": {
+      "rules_version": "missions-v1",
+      "pdm_potential": "high",
+      "pdm_label": "Fort potentiel PDM",
+      "pdm_explicit": false,
+      "pdm_reason": "Les missions associent conception ou investigation à une démarche de modélisation, comparaison ou validation technique.",
+      "pdm_confidence": "high",
+      "missing_information": [
+        "Accord académique EPFL et encadrement du PDM à confirmer.",
+        "Durée : Durée structurée publiée ; comparaison à confirmer.",
+        "Date de début : Information non précisée dans l'offre.",
+        "Langues : Information non précisée dans l'offre.",
+        "Localisation : Information non précisée dans l'offre.",
+        "Éligibilité : Condition d'éligibilité publiée ; nationalité, autorisation ou convention du candidat à vérifier."
+      ],
+      "technical_categories": [
+        "R&D / Product Development",
+        "Simulation / CAE",
+        "Testing / Validation",
+        "Systems Integration",
+        "Automation / Control",
+        "Energy / Thermal",
+        "Project Management"
+      ],
+      "technical_score": 82,
+      "technical_reasons": [
+        "Mission technique mécanique : These scenarios will support, in particular, Attitude and Orbit Control System simulations and thermo-mechanical fatigue analyses of spacecraft appendages, including the solar arrays.",
+        "Mission à pertinence mécanique limitée : These are complemented by a Radio Science investigation exploiting the spacecraft Telemetry Tracking and Command (TT&C) system to map the planet’s gravity field and constrain its internal structure, and to measure the composition and structure of Venus’ atmosphere.",
+        "Mission à pertinence mécanique limitée : The role of the Mission and Performance team within the EnVision project is to ensure that the mission will fulfil its mission requirements by rigorous requirements apportioning, defining and controlling interfaces between elements, and verifying the requirements by establishing end-to-end performance budgets, supported as needed by mission performance simulations."
+      ],
+      "mission_evidence": [
+        "EnVision was selected by ESA’s Science Programme Committee as the fifth Medium-class mission in the Agency’s Cosmic Vision plan, with a launch in the early 2030s from ESA’s Spaceport in Kourou.",
+        "EnVision will be the first mission to investigate Venus from its inner core to its upper atmosphere, characterising the interaction between its different envelopes: its atmosphere, surface/subsurface and interior.",
+        "It aims to provide a holistic view of Venus, studying the planet’s history, activity, and climate.",
+        "three optical spectrometers (VenSpec-M, VenSpec-U and VenSpec-H) designed to observe the surface and atmosphere of Venus;",
+        "These are complemented by a Radio Science investigation exploiting the spacecraft Telemetry Tracking and Command (TT&C) system to map the planet’s gravity field and constrain its internal structure, and to measure the composition and structure of Venus’ atmosphere.",
+        "The EnVision project team is responsible for implementing the EnVision mission, composed of all its elements (Spacecraft, Instruments, Ground Segment).",
+        "The role of the Mission and Performance team within the EnVision project is to ensure that the mission will fulfil its mission requirements by rigorous requirements apportioning, defining and controlling interfaces between elements, and verifying the requirements by establishing end-to-end performance budgets, supported as needed by mission performance simulations.",
+        "The team is directly interfacing with all stakeholders of the mission (industry, the mission operations centre at ESOC in Germany, the Science Operations centre at ESAC in Spain, the launcher provider, the science team and the instrument teams)."
+      ],
+      "constraints": {
+        "duration": {
+          "status": "unknown",
+          "value": "Not specified",
+          "evidence": [
+            "Not specified"
+          ],
+          "reason": "Durée structurée publiée ; comparaison à confirmer."
+        },
+        "start_date": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "languages": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "location": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "education": {
+          "status": "compatible",
+          "value": "Master / ingénieur",
+          "evidence": [
+            "You must be a university student, preferably in your final or second-to-last year of university course at Master's level."
+          ],
+          "reason": "Niveau master / ingénieur compatible avec le master EPFL du profil."
+        },
+        "eligibility": {
+          "status": "unknown",
+          "value": "Nationality**",
+          "evidence": [
+            "Nationality**"
+          ],
+          "reason": "Condition d'éligibilité publiée ; nationalité, autorisation ou convention du candidat à vérifier."
+        }
+      },
+      "constraint_status": "unknown",
+      "needs_human_review": true,
+      "id": "e111ba1c72ce20e7cd",
+      "input_hash": "efeab336ddd6ed449e1b16be4d4b1890aa733e2b51d7305a4deafa0cbdc4226f",
+      "assessed_at": "2026-11-05T15:41:25.433676+00:00"
+    },
+    "6461c7b9c1afe107b7": {
+      "rules_version": "missions-v1",
+      "pdm_potential": "low",
+      "pdm_label": "Faible potentiel PDM",
+      "pdm_explicit": false,
+      "pdm_reason": "Les missions décrites relèvent surtout de l'exécution, du suivi ou du support, sans démarche de conception / investigation établie.",
+      "pdm_confidence": "high",
+      "missing_information": [
+        "Durée : Durée structurée publiée ; comparaison à confirmer.",
+        "Date de début : Information non précisée dans l'offre.",
+        "Langues : Information non précisée dans l'offre.",
+        "Localisation : Information non précisée dans l'offre.",
+        "Éligibilité : Information non précisée dans l'offre."
+      ],
+      "technical_categories": [
+        "Automation / Control"
+      ],
+      "technical_score": 40,
+      "technical_reasons": [
+        "Mission technique mécanique : + For each of the 10 or more ECUs document: supplier, dimensions, weight, connector type, programming time, SWDL fixture and label information.",
+        "Mission technique mécanique : + What programming tools (fixtures, adapters) are used?",
+        "Mission à pertinence mécanique limitée : Investigate how to develop a fully automated dark factory cell that:"
+      ],
+      "mission_evidence": [
+        "Investigate how to develop a fully automated dark factory cell that:",
+        "Download result validates.",
+        "+ For each of the 10 or more ECUs document: supplier, dimensions, weight, connector type, programming time, SWDL fixture and label information.",
+        "+ What programming tools (fixtures, adapters) are used?",
+        "Studying the future ECU programming process",
+        "+ Explore vision camera solutions such as Cognex, Keyence, and SICK.",
+        "+ Do they support bulk SWDL?",
+        "+ Determine if each ECU can be programmed fully automatically without an operator."
+      ],
+      "constraints": {
+        "duration": {
+          "status": "unknown",
+          "value": "Not specified",
+          "evidence": [
+            "Not specified"
+          ],
+          "reason": "Durée structurée publiée ; comparaison à confirmer."
+        },
+        "start_date": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "languages": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "location": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "education": {
+          "status": "compatible",
+          "value": "Master / ingénieur",
+          "evidence": [
+            "You are a Master's student in (electro)mechanical engineering"
+          ],
+          "reason": "Niveau master / ingénieur compatible avec le master EPFL du profil."
+        },
+        "eligibility": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        }
+      },
+      "constraint_status": "unknown",
+      "needs_human_review": true,
+      "id": "6461c7b9c1afe107b7",
+      "input_hash": "7b5bd51844afbe32f1899027a7c98f679e948d2f5e40716acdfd2e1811bddcc9",
+      "assessed_at": "2026-11-05T15:41:25.457761+00:00"
     }
   },
   "rules_version": "missions-v1",
