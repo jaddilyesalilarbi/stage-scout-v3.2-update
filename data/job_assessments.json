@@ -1217,8 +1217,8 @@
       "constraint_status": "unknown",
       "needs_human_review": true,
       "id": "de2ade81d2c45a058e",
-      "input_hash": "30870694383eb7ce72f9ee1df396df5eeff5131ab7217e351c216a58f6b83470",
-      "assessed_at": "2026-11-04T15:37:49.486343+00:00"
+      "input_hash": "06eb6fb0dc8d9f50e3d24bae9e9fcb6851f3566a0b1612d13c81abce6e9b6ee9",
+      "assessed_at": "2026-11-06T15:14:57.909522+00:00"
     },
     "a71660f3a133255a8d": {
       "rules_version": "missions-v1",
@@ -38328,8 +38328,8 @@
       "constraint_status": "unknown",
       "needs_human_review": true,
       "id": "732caad412ff43db93",
-      "input_hash": "f268422c5b1435b6f4ff015578a21090b87f3c7055fd57194160dfc2d4ee9d2d",
-      "assessed_at": "2026-11-05T15:41:25.092361+00:00"
+      "input_hash": "f826f34019d1e3ada788d9e41d07a90b964a6f1e2891c4a611d749427cc6d7f4",
+      "assessed_at": "2026-11-06T15:14:58.118732+00:00"
     },
     "16dd4a1d38655f4d8b": {
       "rules_version": "missions-v1",
@@ -56308,8 +56308,8 @@
       "constraint_status": "unknown",
       "needs_human_review": true,
       "id": "ef1e4afeb1bab18a8a",
-      "input_hash": "3aecb2536f500cde05a285e2f0893f7fa6624aad34b01fd35f86b645100d5ed0",
-      "assessed_at": "2026-10-21T07:13:54.409264+00:00"
+      "input_hash": "28ce1b979ac91b14e642ac4baedf0e7217120e5dbcbbc0dcfbeb85e511dbd2d7",
+      "assessed_at": "2026-11-06T15:14:58.296401+00:00"
     },
     "992f26e411bdac454c": {
       "rules_version": "missions-v1",
@@ -77951,8 +77951,8 @@
       "constraint_status": "unknown",
       "needs_human_review": true,
       "id": "3f707f664212e21216",
-      "input_hash": "c947fe3438b6be89a7b87e3ea5716b06c348acd431bbd44e936a33d664c1d2d5",
-      "assessed_at": "2026-10-22T07:17:28.133755+00:00"
+      "input_hash": "6e010b2b28d7c56b900f36cd8186b0cd352925dfab93438495e25257643eb559",
+      "assessed_at": "2026-11-06T15:14:58.091865+00:00"
     },
     "145f3187de067ce9c6": {
       "rules_version": "missions-v1",
@@ -160077,9 +160077,9 @@
       "constraints": {
         "duration": {
           "status": "unknown",
-          "value": "Not specified",
+          "value": "5-7 months mentioned",
           "evidence": [
-            "Not specified"
+            "5-7 months mentioned"
           ],
           "reason": "Durée structurée publiée ; comparaison à confirmer."
         },
@@ -160127,8 +160127,8 @@
       "constraint_status": "unknown",
       "needs_human_review": true,
       "id": "dec006bb91c74fa212",
-      "input_hash": "b5aa8f39cb7b00516ed170c660520cf3dbc0830e1c5a602521e354f47b4b7a35",
-      "assessed_at": "2026-11-03T15:24:52.995744+00:00"
+      "input_hash": "f5b74b600e4083a4d3fb6e2f934eb20186e9cbdeda4a22495b18244fb7228fe9",
+      "assessed_at": "2026-11-06T15:14:57.948226+00:00"
     },
     "3aea7116f3ff6cea6b": {
       "rules_version": "missions-v1",
@@ -162552,8 +162552,8 @@
       "constraint_status": "unknown",
       "needs_human_review": true,
       "id": "814c8962547393c49d",
-      "input_hash": "464e15f7cd6f6646532408269fdb92cedd57868642d9e1a7d7657e13f290e634",
-      "assessed_at": "2026-11-03T15:24:53.643614+00:00"
+      "input_hash": "796a4a069808e6b0b084c7de3dd9de2a57bedd85767ce097a77188e255821e8c",
+      "assessed_at": "2026-11-06T15:14:58.353389+00:00"
     },
     "bfb72162d5fc475e3e": {
       "rules_version": "missions-v1",
@@ -171557,7 +171557,8 @@
         "Test in simulation and in real flights, evaluate performance and iterate quickly.",
         "Document and report procedures and results.",
         "Software development experience.",
-        "Strong organizational and communication skills."
+        "Strong organizational and communication skills.",
+        "Mental health and wellbeing support"
       ],
       "constraints": {
         "duration": {
@@ -171608,8 +171609,8 @@
       "constraint_status": "unknown",
       "needs_human_review": true,
       "id": "8c0ae0c805998adff2",
-      "input_hash": "6617caddce5ee21a233b5cde6588d5bbfc6dfb4cdca91067982acb39b4e45ffc",
-      "assessed_at": "2026-11-05T15:41:25.037305+00:00"
+      "input_hash": "fdb1af355e21513c6f4044740540cbfe35f2a3701edb35b1c84f2cccb6ddd1ff",
+      "assessed_at": "2026-11-06T15:14:58.060470+00:00"
     },
     "b427a321a24bb4f916": {
       "rules_version": "missions-v1",
@@ -172665,6 +172666,2175 @@
       "id": "6461c7b9c1afe107b7",
       "input_hash": "7b5bd51844afbe32f1899027a7c98f679e948d2f5e40716acdfd2e1811bddcc9",
       "assessed_at": "2026-11-05T15:41:25.457761+00:00"
+    },
+    "af92f0c28687896965": {
+      "rules_version": "missions-v1",
+      "pdm_potential": "high",
+      "pdm_label": "Fort potentiel PDM",
+      "pdm_explicit": false,
+      "pdm_reason": "Les missions associent conception ou investigation à une démarche de modélisation, comparaison ou validation technique.",
+      "pdm_confidence": "high",
+      "missing_information": [
+        "Accord académique EPFL et encadrement du PDM à confirmer.",
+        "Date de début : Information non précisée dans l'offre.",
+        "Langues : Information non précisée dans l'offre.",
+        "Formation : Information non précisée dans l'offre.",
+        "Éligibilité : Information non précisée dans l'offre."
+      ],
+      "technical_categories": [
+        "R&D / Product Development",
+        "Testing / Validation",
+        "Manufacturing / Production",
+        "Systems Integration",
+        "Automation / Control",
+        "Quality"
+      ],
+      "technical_score": 30,
+      "technical_reasons": [
+        "Mission à pertinence mécanique limitée : À titre d’exemple, l’analyse d’images automatisée par l’IA peut assister les contrôleurs en charge de l’inspection de pièces critiques en les aidant à détecter les anomalies éventuelles à partir de clichés numériques.",
+        "Mission à pertinence mécanique limitée : Le département AI production est en charge de concevoir, développer et maintenir des produits et solutions d’IA allant en production au service de nos clients.",
+        "Mission à pertinence mécanique limitée : → Implémenter de nouvelles briques de code dans la codebase commune (briques de pré-traitement de la donnée, d’évaluation de la qualité des modèles, etc…)"
+      ],
+      "mission_evidence": [
+        "Depuis son intégration à Safran en septembre 2024, contribue également à la transformation du groupe, en appliquant les solutions d’IA aux domaines de l’industrie 4.0.",
+        "À titre d’exemple, l’analyse d’images automatisée par l’IA peut assister les contrôleurs en charge de l’inspection de pièces critiques en les aidant à détecter les anomalies éventuelles à partir de clichés numériques.",
+        "Le département AI production est en charge de concevoir, développer et maintenir des produits et solutions d’IA allant en production au service de nos clients.",
+        "→ Algorithmes pour l’automatisation des contrôles de production dans l’industrie basé sur la computer vision (images radiographiques, ultrasons, vidéos, tomographie, imagerie optique...)",
+        "Vous intégrerez pour une durée de 6 mois une squad de 4 à 7 personnes composée de Data Scientists, ML-engineers et R&D scientists tout en collaborant étroitement avec nos équipes AI Research et AI Platform.",
+        "Au sein de votre équipe, vous contribuerez à un ou plusieurs projets visant à développer ou améliorer un algorithme spécifique - par exemple un détecteur d'aéronefs, de navires ou de véhicules sur imagerie satellite, ou d’anomalies sur des pièces industrielles.",
+        "Votre périmètre pourra comprendre sans s’y limiter les aspects suivants :",
+        "→ Proposer de nouvelles idées créatives et innovantes pour améliorer les performances de nos algorithmes."
+      ],
+      "constraints": {
+        "duration": {
+          "status": "compatible",
+          "value": "6 mois",
+          "evidence": [
+            "Vous intégrerez pour une durée de 6 mois une squad de 4 à 7 personnes composée de Data Scientists, ML-engineers et R&D scientists tout en collaborant étroitement avec nos équipes AI Research et AI Platform."
+          ],
+          "reason": "Durée comparée à l'intervalle souhaité fourni dans le profil ; ce n'est pas une restriction administrative."
+        },
+        "start_date": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "languages": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "location": {
+          "status": "compatible",
+          "value": "Paris",
+          "evidence": [
+            "Paris"
+          ],
+          "reason": "Localisation en Europe."
+        },
+        "education": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "eligibility": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        }
+      },
+      "constraint_status": "unknown",
+      "needs_human_review": true,
+      "id": "af92f0c28687896965",
+      "input_hash": "5deb584c06c0488e8ae23b5123ef8955dda2ddfde4b10ea0a0a3dc29e97c408d",
+      "assessed_at": "2026-11-06T15:14:57.931947+00:00"
+    },
+    "0fcb44386397a87ee6": {
+      "rules_version": "missions-v1",
+      "pdm_potential": "high",
+      "pdm_label": "Fort potentiel PDM",
+      "pdm_explicit": false,
+      "pdm_reason": "Les missions associent conception ou investigation à une démarche de modélisation, comparaison ou validation technique.",
+      "pdm_confidence": "high",
+      "missing_information": [
+        "Accord académique EPFL et encadrement du PDM à confirmer.",
+        "Durée : Durée structurée publiée ; comparaison à confirmer.",
+        "Date de début : Information non précisée dans l'offre.",
+        "Langues : Langues exigées publiées ; compétences linguistiques du candidat inconnues.",
+        "Localisation : Information non précisée dans l'offre.",
+        "Formation : Information non précisée dans l'offre.",
+        "Éligibilité : Information non précisée dans l'offre."
+      ],
+      "technical_categories": [
+        "Mechanical Design",
+        "R&D / Product Development",
+        "Testing / Validation",
+        "Manufacturing / Production",
+        "Robotics / Mechatronics",
+        "Materials / Processes"
+      ],
+      "technical_score": 100,
+      "technical_reasons": [
+        "Mission technique mécanique : Electrical/Electronic and Mechanical Development:** Support the design, development, and testing of avionics hardware",
+        "Mission technique mécanique : Prototyping and Testing:** Design and validate prototype hardware, including 3D-printed parts, machined components, and prototype circuits",
+        "Mission technique mécanique : Systems Design:** Contribute to the design of electrical wiring harnesses, pneumatic systems, and mechatronic subsystems"
+      ],
+      "mission_evidence": [
+        "We specialize in building small launch vehicles designed to deploy satellites into Low Earth Orbit (LEO) and beyond.",
+        "Together with you, we aim to revolutionize space services and help improve life on Earth.",
+        "Our international and agile team is looking for support from a motivated person as a ..........................................",
+        "Electrical/Electronic and Mechanical Development:** Support the design, development, and testing of avionics hardware",
+        "Prototyping and Testing:** Design and validate prototype hardware, including 3D-printed parts, machined components, and prototype circuits",
+        "Engineering Documentation:** Prepare and maintain technical reports, schematics, and development documentation",
+        "Systems Design:** Contribute to the design of electrical wiring harnesses, pneumatic systems, and mechatronic subsystems",
+        "Lifecycle Management:** Assist in tracking avionics hardware from prototyping through testing to production"
+      ],
+      "constraints": {
+        "duration": {
+          "status": "unknown",
+          "value": "Not specified",
+          "evidence": [
+            "Not specified"
+          ],
+          "reason": "Durée structurée publiée ; comparaison à confirmer."
+        },
+        "start_date": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "languages": {
+          "status": "unknown",
+          "value": "en",
+          "evidence": [
+            "Fluent in English (spoken and written), as all day-to-day activities are conducted in English"
+          ],
+          "reason": "Langues exigées publiées ; compétences linguistiques du candidat inconnues."
+        },
+        "location": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "education": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "eligibility": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        }
+      },
+      "constraint_status": "unknown",
+      "needs_human_review": true,
+      "id": "0fcb44386397a87ee6",
+      "input_hash": "95d1dd6c7730f9c2f6f8edc87bb7f8d395fbc5c101addfc73508cf3e54cb8925",
+      "assessed_at": "2026-11-06T15:14:57.960978+00:00"
+    },
+    "dd355acaac1759efb2": {
+      "rules_version": "missions-v1",
+      "pdm_potential": "high",
+      "pdm_label": "Fort potentiel PDM",
+      "pdm_explicit": false,
+      "pdm_reason": "Les missions associent conception ou investigation à une démarche de modélisation, comparaison ou validation technique.",
+      "pdm_confidence": "high",
+      "missing_information": [
+        "Accord académique EPFL et encadrement du PDM à confirmer.",
+        "Date de début : Début publié ; disponibilité du candidat à confirmer.",
+        "Langues : Langues exigées publiées ; compétences linguistiques du candidat inconnues.",
+        "Localisation : Localisation ambiguë ou non reconnue.",
+        "Formation : Information non précisée dans l'offre.",
+        "Éligibilité : Condition d'éligibilité publiée ; nationalité, autorisation ou convention du candidat à vérifier."
+      ],
+      "technical_categories": [
+        "R&D / Product Development",
+        "Manufacturing / Production",
+        "Systems Integration",
+        "Automation / Control",
+        "Quality",
+        "Supply Chain / Logistics"
+      ],
+      "technical_score": 66,
+      "technical_reasons": [
+        "Mission technique mécanique : Notre siège européen se situe à Rueil-Malmaison (92), et à Autun (71), en Bourgogne, se trouve notre siège social historique, où sont répartis divers services tels que la fabrication, le contrôle de la qualité et la logistique, ou encore le service clients.",
+        "Mission à pertinence mécanique limitée : Porté par son savoir-faire et son programme d’innovation, DBI développe des produits essentiels du quotidien (sous-vêtements et legwear) qui s’adressent à l’ensemble des publics : femmes, hommes et enfants.",
+        "Mission à pertinence mécanique limitée : Veille concurrentielle, analyse des tendances de marché et de nos performances en vue d’optimiser les plans de développement, le portefeuille produit et de nourrir le pipe innovations."
+      ],
+      "mission_evidence": [
+        "Porté par son savoir-faire et son programme d’innovation, DBI développe des produits essentiels du quotidien (sous-vêtements et legwear) qui s’adressent à l’ensemble des publics : femmes, hommes et enfants.",
+        "Notre siège européen se situe à Rueil-Malmaison (92), et à Autun (71), en Bourgogne, se trouve notre siège social historique, où sont répartis divers services tels que la fabrication, le contrôle de la qualité et la logistique, ou encore le service clients.",
+        "En France, Dim est leader sur le marché des sous-vêtements et la marque préférée des Français (Etude OpinionWay 2025\\*).",
+        "Pour nous accompagner dans cette aventure, la Direction Marketing recherche à partir de janvier 2027 pour une durée de 6 mois, un(e) stagiaire Assistant(e) Brand Manager (H/F) pour accompagner la catégorie du sous-vêtements femme DIM.",
+        "Au sein du département Marketing, vous participerez à l’élaboration de la stratégie de marque et la commercialisation des collections produits en collaboration avec le Brand Manager.",
+        "Développement packaging (artworks) :",
+        "Réalisation des créations packaging en suivant l’intégralité de la chaîne graphique : du brief agence, à l’impression.",
+        "Pilotage des performances catégorie/marque :"
+      ],
+      "constraints": {
+        "duration": {
+          "status": "compatible",
+          "value": "6 mois",
+          "evidence": [
+            "Pour nous accompagner dans cette aventure, la Direction Marketing recherche à partir de janvier 2027 pour une durée de 6 mois, un(e) stagiaire Assistant(e) Brand Manager (H/F) pour accompagner la catégorie du sous-vêtements femme DIM."
+          ],
+          "reason": "Durée comparée à l'intervalle souhaité fourni dans le profil ; ce n'est pas une restriction administrative."
+        },
+        "start_date": {
+          "status": "unknown",
+          "value": "Pour nous accompagner dans cette aventure, la Direction Marketing recherche à partir de janvier 2027 pour une durée de 6 mois, un(e) stagiaire Assistant(e) Brand Manager (H/F) pour accompagner la catégorie du sous-vêtements femme DIM.",
+          "evidence": [
+            "Pour nous accompagner dans cette aventure, la Direction Marketing recherche à partir de janvier 2027 pour une durée de 6 mois, un(e) stagiaire Assistant(e) Brand Manager (H/F) pour accompagner la catégorie du sous-vêtements femme DIM."
+          ],
+          "reason": "Début publié ; disponibilité du candidat à confirmer."
+        },
+        "languages": {
+          "status": "unknown",
+          "value": "en",
+          "evidence": [
+            "La maîtrise de l’anglais et du pack office (notamment Excel et PowerPoint) est indispensable."
+          ],
+          "reason": "Langues exigées publiées ; compétences linguistiques du candidat inconnues."
+        },
+        "location": {
+          "status": "unknown",
+          "value": "Rueil-Malmaison",
+          "evidence": [
+            "Rueil-Malmaison"
+          ],
+          "reason": "Localisation ambiguë ou non reconnue."
+        },
+        "education": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "eligibility": {
+          "status": "unknown",
+          "value": "CONVENTION DE STAGE OBLIGATOIRE",
+          "evidence": [
+            "CONVENTION DE STAGE OBLIGATOIRE"
+          ],
+          "reason": "Condition d'éligibilité publiée ; nationalité, autorisation ou convention du candidat à vérifier."
+        }
+      },
+      "constraint_status": "unknown",
+      "needs_human_review": true,
+      "id": "dd355acaac1759efb2",
+      "input_hash": "6fcdcf3830974cde86ef3295e19db9c9c1361fa85bef108000ecb33c5fc58bd9",
+      "assessed_at": "2026-11-06T15:14:57.974009+00:00"
+    },
+    "4a05262baabc76ffc1": {
+      "rules_version": "missions-v1",
+      "pdm_potential": "high",
+      "pdm_label": "Fort potentiel PDM",
+      "pdm_explicit": false,
+      "pdm_reason": "Les missions associent conception ou investigation à une démarche de modélisation, comparaison ou validation technique.",
+      "pdm_confidence": "high",
+      "missing_information": [
+        "Accord académique EPFL et encadrement du PDM à confirmer.",
+        "Durée : Durée structurée publiée ; comparaison à confirmer.",
+        "Date de début : Information non précisée dans l'offre.",
+        "Langues : Information non précisée dans l'offre.",
+        "Localisation : Information non précisée dans l'offre.",
+        "Formation : Information non précisée dans l'offre.",
+        "Éligibilité : Information non précisée dans l'offre."
+      ],
+      "technical_categories": [
+        "Mechanical Design",
+        "R&D / Product Development",
+        "Simulation / CAE",
+        "Testing / Validation",
+        "Manufacturing / Production",
+        "Automation / Control",
+        "Materials / Processes"
+      ],
+      "technical_score": 100,
+      "technical_reasons": [
+        "Mission technique mécanique : As Intern Mechanical Design & Product Development, you will be a key part of our Droneport Team to develop innovative storage, charging, launch and landing capabilities for professional drones.",
+        "Mission technique mécanique : Support the mechanical development of innovative Droneport systems",
+        "Mission technique mécanique : Create 3D CAD models and assemblies using CATIA V5"
+      ],
+      "mission_evidence": [
+        "As Intern Mechanical Design & Product Development, you will be a key part of our Droneport Team to develop innovative storage, charging, launch and landing capabilities for professional drones.",
+        "Enabling fully automated mission execution to Quantum-Systems - your mission will be a powerful impact.",
+        "Conduct market and patent research on competing products and technologies",
+        "Support the mechanical development of innovative Droneport systems",
+        "Create 3D CAD models and assemblies using CATIA V5",
+        "Generate manufacturing drawings and technical documentation",
+        "Evaluate and select suitable materials and manufacturing processes",
+        "Design components for additive manufacturing and prototype development"
+      ],
+      "constraints": {
+        "duration": {
+          "status": "unknown",
+          "value": "Not specified",
+          "evidence": [
+            "Not specified"
+          ],
+          "reason": "Durée structurée publiée ; comparaison à confirmer."
+        },
+        "start_date": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "languages": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "location": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "education": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "eligibility": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        }
+      },
+      "constraint_status": "unknown",
+      "needs_human_review": true,
+      "id": "4a05262baabc76ffc1",
+      "input_hash": "cca5e1ed59ec0c9d90f990bd7865fb3edae41cf0dc6a2522b93298cc1ad40dae",
+      "assessed_at": "2026-11-06T15:14:57.997089+00:00"
+    },
+    "3ad549efb29839569f": {
+      "rules_version": "missions-v1",
+      "pdm_potential": "high",
+      "pdm_label": "Fort potentiel PDM",
+      "pdm_explicit": false,
+      "pdm_reason": "Les missions associent conception ou investigation à une démarche de modélisation, comparaison ou validation technique.",
+      "pdm_confidence": "high",
+      "missing_information": [
+        "Accord académique EPFL et encadrement du PDM à confirmer.",
+        "Durée : Durée structurée publiée ; comparaison à confirmer.",
+        "Date de début : Information non précisée dans l'offre.",
+        "Langues : Information non précisée dans l'offre.",
+        "Localisation : Localisation ambiguë ou non reconnue.",
+        "Formation : Information non précisée dans l'offre.",
+        "Éligibilité : Information non précisée dans l'offre."
+      ],
+      "technical_categories": [
+        "Mechanical Design",
+        "R&D / Product Development",
+        "Manufacturing / Production",
+        "Automation / Control",
+        "Materials / Processes",
+        "Project Management"
+      ],
+      "technical_score": 100,
+      "technical_reasons": [
+        "Mission technique mécanique : Its product line includes motors, linear drives, digital drives, custom assemblies, and products to fit unique applications and ground-up system design and manufacturing solutions.",
+        "Mission technique mécanique : As a student intern, you’ll have the opportunity to take part in meaningful work and real-life projects such as supporting the assembly of initial engineering build cycles to efficiently transition to internal manufacturing and explore future career possibilities.",
+        "Mission technique mécanique : Assist MFGE team in manufacturing or industrial development for Trust Automation processes."
+      ],
+      "mission_evidence": [
+        "Trust Automation**",
+        "Its product line includes motors, linear drives, digital drives, custom assemblies, and products to fit unique applications and ground-up system design and manufacturing solutions.",
+        "Trust Automation is an equal opportunity employer and committed to attracting, hiring, developing, and retaining a skilled, productive, and diverse workforce, personnel with competencies and experience related to the regional and State population.",
+        "Every employee has an “at-will” relationship with Trust Automation.",
+        "This means that employment with Trust Automation is at the mutual consent of the employer and the employee and is subject to termination by either party at will, with or without cause or advance notice.",
+        "Trust Automation’s Paid Internship Program is designed to offer opportunities for students and recent graduates to build their resumes, apply academic knowledge, and network with professionals in their fields of interest while encouraging participants to obtain their educational degree.",
+        "As a student intern, you’ll have the opportunity to take part in meaningful work and real-life projects such as supporting the assembly of initial engineering build cycles to efficiently transition to internal manufacturing and explore future career possibilities.",
+        "To perform this job successfully, an individual must be able to perform each essential duty satisfactorily."
+      ],
+      "constraints": {
+        "duration": {
+          "status": "unknown",
+          "value": "Not specified",
+          "evidence": [
+            "Not specified"
+          ],
+          "reason": "Durée structurée publiée ; comparaison à confirmer."
+        },
+        "start_date": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "languages": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "location": {
+          "status": "unknown",
+          "value": "San Luis Obispo",
+          "evidence": [
+            "San Luis Obispo"
+          ],
+          "reason": "Localisation ambiguë ou non reconnue."
+        },
+        "education": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "eligibility": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        }
+      },
+      "constraint_status": "unknown",
+      "needs_human_review": true,
+      "id": "3ad549efb29839569f",
+      "input_hash": "13d7b8f00dcb82d8263249635fdb8081869c9c0d0bd9db8a99222717abb5d352",
+      "assessed_at": "2026-11-06T15:14:58.008797+00:00"
+    },
+    "70324831f8161e7dde": {
+      "rules_version": "missions-v1",
+      "pdm_potential": "high",
+      "pdm_label": "Fort potentiel PDM",
+      "pdm_explicit": false,
+      "pdm_reason": "Les missions associent conception ou investigation à une démarche de modélisation, comparaison ou validation technique.",
+      "pdm_confidence": "high",
+      "missing_information": [
+        "Accord académique EPFL et encadrement du PDM à confirmer.",
+        "Durée : Durée structurée publiée ; comparaison à confirmer.",
+        "Date de début : Information non précisée dans l'offre.",
+        "Langues : Information non précisée dans l'offre.",
+        "Localisation : Information non précisée dans l'offre.",
+        "Formation : Information non précisée dans l'offre.",
+        "Éligibilité : Information non précisée dans l'offre."
+      ],
+      "technical_categories": [
+        "R&D / Product Development",
+        "Simulation / CAE",
+        "Testing / Validation",
+        "Systems Integration",
+        "Automation / Control"
+      ],
+      "technical_score": 82,
+      "technical_reasons": [
+        "Mission technique mécanique : As a Working Student in Automated Testing, you will help develop a hardware-in-the-loop (HIL) test",
+        "Mission technique mécanique : on a real Droneport, drone hardware and a dedicated test rig.",
+        "Mission technique mécanique : Connect and control hardware, sensors and interfaces using Python."
+      ],
+      "mission_evidence": [
+        "As a Working Student in Automated Testing, you will help develop a hardware-in-the-loop (HIL) test",
+        "You will combine Python development with hands-on work",
+        "on a real Droneport, drone hardware and a dedicated test rig.",
+        "Over approximately one year, you will take ownership of a project from test-rig design and setup to repeatable",
+        "automated tests.",
+        "Working closely with the Droneport development team, you will help identify faults earlier and",
+        "improve system reliability.",
+        "The project offers room to explore solutions, make technical proposals and work"
+      ],
+      "constraints": {
+        "duration": {
+          "status": "unknown",
+          "value": "Not specified",
+          "evidence": [
+            "Not specified"
+          ],
+          "reason": "Durée structurée publiée ; comparaison à confirmer."
+        },
+        "start_date": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "languages": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "location": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "education": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "eligibility": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        }
+      },
+      "constraint_status": "unknown",
+      "needs_human_review": true,
+      "id": "70324831f8161e7dde",
+      "input_hash": "427c978f96eb11c76795c87096ca8b1904faf6e00c9dc2a3f688a98d6a4e2bbb",
+      "assessed_at": "2026-11-06T15:14:58.033445+00:00"
+    },
+    "91ed2e1416c7fb1ced": {
+      "rules_version": "missions-v1",
+      "pdm_potential": "high",
+      "pdm_label": "Fort potentiel PDM",
+      "pdm_explicit": false,
+      "pdm_reason": "Les missions associent conception ou investigation à une démarche de modélisation, comparaison ou validation technique.",
+      "pdm_confidence": "high",
+      "missing_information": [
+        "Accord académique EPFL et encadrement du PDM à confirmer.",
+        "Durée : Durée structurée publiée ; comparaison à confirmer.",
+        "Date de début : Début publié ; disponibilité du candidat à confirmer.",
+        "Langues : Information non précisée dans l'offre.",
+        "Localisation : Information non précisée dans l'offre.",
+        "Formation : Information non précisée dans l'offre.",
+        "Éligibilité : Information non précisée dans l'offre."
+      ],
+      "technical_categories": [
+        "Mechanical Design",
+        "R&D / Product Development",
+        "Testing / Validation",
+        "Manufacturing / Production",
+        "Systems Integration",
+        "Materials / Processes",
+        "Energy / Thermal"
+      ],
+      "technical_score": 100,
+      "technical_reasons": [
+        "Mission technique mécanique : GKN Aerospace Global Technology Centre in Bristol is the company's flagship aerospace research and development hub, bringing together engineers, researchers and industry partners to develop next-generation aircraft technologies, advanced manufacturing processes and sustainable aviation solutions.",
+        "Mission technique mécanique : Support the design, development and maturation of cryogenic and hydrogen system hardware.",
+        "Mission technique mécanique : Work closely with engineers and technicians to support prototype manufacture, assembly and integration activities."
+      ],
+      "mission_evidence": [
+        "And we’re committed to putting sustainability at the centre of everything we do, opening up and protecting our planet.",
+        "GKN Aerospace Global Technology Centre in Bristol is the company's flagship aerospace research and development hub, bringing together engineers, researchers and industry partners to develop next-generation aircraft technologies, advanced manufacturing processes and sustainable aviation solutions.",
+        "As a Year in Industry student, you'll have the opportunity to work on real projects that contribute to the future of aerospace.",
+        "You'll gain hands-on experience, receive support from industry experts, and develop valuable skills that will accelerate your career.",
+        "Our interns make a genuine impact from day one and are trusted to contribute to meaningful work across the business.",
+        "The internship will support the Hydrogen Systems team working on flagship programmes, H2FlyGHT and ICEFlight, which develop electrical and cryogenic power distribution technologies for zero-emissions flight.",
+        "Support the design, development and maturation of cryogenic and hydrogen system hardware.",
+        "Work closely with engineers and technicians to support prototype manufacture, assembly and integration activities."
+      ],
+      "constraints": {
+        "duration": {
+          "status": "unknown",
+          "value": "Not specified",
+          "evidence": [
+            "Not specified"
+          ],
+          "reason": "Durée structurée publiée ; comparaison à confirmer."
+        },
+        "start_date": {
+          "status": "unknown",
+          "value": "Start Date: August/September 2027",
+          "evidence": [
+            "Start Date: August/September 2027"
+          ],
+          "reason": "Début publié ; disponibilité du candidat à confirmer."
+        },
+        "languages": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "location": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "education": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "eligibility": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        }
+      },
+      "constraint_status": "unknown",
+      "needs_human_review": true,
+      "id": "91ed2e1416c7fb1ced",
+      "input_hash": "f6c086e7db36f5008518824914b605e55e336d60e80a69f16881d12a8dd441a8",
+      "assessed_at": "2026-11-06T15:14:58.077165+00:00"
+    },
+    "f4f5334edd5a4f5b3b": {
+      "rules_version": "missions-v1",
+      "pdm_potential": "medium",
+      "pdm_label": "Potentiel PDM à préciser",
+      "pdm_explicit": false,
+      "pdm_reason": "Une mission technique de conception ou d'étude est identifiée ; autonomie, question de recherche et livrable académique restent à préciser.",
+      "pdm_confidence": "high",
+      "missing_information": [
+        "Accord académique EPFL et encadrement du PDM à confirmer.",
+        "Date de début : Début publié ; disponibilité du candidat à confirmer.",
+        "Langues : Langues exigées publiées ; compétences linguistiques du candidat inconnues.",
+        "Formation : Information non précisée dans l'offre.",
+        "Éligibilité : Information non précisée dans l'offre."
+      ],
+      "technical_categories": [
+        "R&D / Product Development",
+        "Manufacturing / Production",
+        "Project Management"
+      ],
+      "technical_score": 30,
+      "technical_reasons": [
+        "Mission à pertinence mécanique limitée : Are comfortable using graphic design and video editing tools such as Canva, Adobe Creative Cloud, CapCut, Lovable or similar platforms, and contributing to the production of video and photo content",
+        "Mission à pertinence mécanique limitée : We contribute to the digitalisation of healthcare systems by improving access to care and simplifying healthcare professionals’ working lives across France, Germany and Italy.",
+        "Mission à pertinence mécanique limitée : As part of our Italian B2C Marketing team, you will support the development and execution of social media and creative content designed to engage our patient community and raise awareness of Doctolib’s mission."
+      ],
+      "mission_evidence": [
+        "We contribute to the digitalisation of healthcare systems by improving access to care and simplifying healthcare professionals’ working lives across France, Germany and Italy.",
+        "As part of our Italian B2C Marketing team, you will support the development and execution of social media and creative content designed to engage our patient community and raise awareness of Doctolib’s mission.",
+        "Supporting the planning and execution of social media content** across platforms such as Instagram, TikTok, YouTube and other relevant channels",
+        "Contributing to the creation and management of the **social media content calendar**, coordinating timelines, briefs, approvals and deliverables with internal and external stakeholders",
+        "Developing creative content ideas based on social media trends**, audience insights, Doctolib’s communication priorities and relevant healthcare topics",
+        "Supporting the **production of visual, video and editorial content**, including short-form videos, Reels, Stories, carousels, static posts and other social media formats",
+        "Supporting **community management** by monitoring comments, questions and interactions across social media channels",
+        "Participating in **creative brainstorming sessions** and collaborating with internal teams, agencies and external partners when relevant"
+      ],
+      "constraints": {
+        "duration": {
+          "status": "compatible",
+          "value": "6 months",
+          "evidence": [
+            "Duration: 6 months"
+          ],
+          "reason": "Durée comparée à l'intervalle souhaité fourni dans le profil ; ce n'est pas une restriction administrative."
+        },
+        "start_date": {
+          "status": "unknown",
+          "value": "Start date: January",
+          "evidence": [
+            "Start date: January"
+          ],
+          "reason": "Début publié ; disponibilité du candidat à confirmer."
+        },
+        "languages": {
+          "status": "unknown",
+          "value": "en, it",
+          "evidence": [
+            "Have excellent communication skills in Italian and English"
+          ],
+          "reason": "Langues exigées publiées ; compétences linguistiques du candidat inconnues."
+        },
+        "location": {
+          "status": "compatible",
+          "value": "Milan",
+          "evidence": [
+            "Milan"
+          ],
+          "reason": "Localisation en Europe."
+        },
+        "education": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "eligibility": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        }
+      },
+      "constraint_status": "unknown",
+      "needs_human_review": true,
+      "id": "f4f5334edd5a4f5b3b",
+      "input_hash": "b9a55ddb1f3c629193396d016c474987bab6367545a953769986486a49967523",
+      "assessed_at": "2026-11-06T15:14:58.106747+00:00"
+    },
+    "d0808ed8e91ef36135": {
+      "rules_version": "missions-v1",
+      "pdm_potential": "high",
+      "pdm_label": "Fort potentiel PDM",
+      "pdm_explicit": false,
+      "pdm_reason": "Les missions associent conception ou investigation à une démarche de modélisation, comparaison ou validation technique.",
+      "pdm_confidence": "high",
+      "missing_information": [
+        "Accord académique EPFL et encadrement du PDM à confirmer.",
+        "Durée : Durée structurée publiée ; comparaison à confirmer.",
+        "Date de début : Début publié ; disponibilité du candidat à confirmer.",
+        "Langues : Information non précisée dans l'offre.",
+        "Formation : Information non précisée dans l'offre.",
+        "Éligibilité : Information non précisée dans l'offre."
+      ],
+      "technical_categories": [
+        "Mechanical Design",
+        "R&D / Product Development",
+        "Testing / Validation",
+        "Quality"
+      ],
+      "technical_score": 82,
+      "technical_reasons": [
+        "Mission technique mécanique : Within the DeFi track, we focus on how blockchain mechanics, protocol design and on-chain market structure shape liquidity, execution and risk.",
+        "Mission technique mécanique : Study how protocol mechanics, transaction ordering, gas, slippage, latency and MEV affect execution quality and strategy performance.",
+        "Mission à pertinence mécanique limitée : Our Strategic Proprietary Market Making team researches and deploys systematic trading strategies across digital asset markets."
+      ],
+      "mission_evidence": [
+        "DeFi Quant Research Intern - Digital Assets Market Making**",
+        "Today we run a full spectrum of capital markets businesses across centralized and on-chain venues: market making, high-frequency trading, options, OTC, DeFi trading desks, advisory, and asset management.",
+        "We're building toward the agentic investment banking capabilities for the era of digital finance.",
+        "We're not just envisioning the future of finance - we're building it.",
+        "Our internship programme gives early-career talent the opportunity to build practical skills, contribute to meaningful projects and learn alongside experienced colleagues in digital finance.",
+        "Where performance, business needs and available opportunities align, an internship may lead to a permanent role, though this is not guaranteed.",
+        "Interview with Hiring Manager",
+        "Our Strategic Proprietary Market Making team researches and deploys systematic trading strategies across digital asset markets."
+      ],
+      "constraints": {
+        "duration": {
+          "status": "unknown",
+          "value": "5-7 months mentioned",
+          "evidence": [
+            "5-7 months mentioned"
+          ],
+          "reason": "Durée structurée publiée ; comparaison à confirmer."
+        },
+        "start_date": {
+          "status": "unknown",
+          "value": "Start date: 1 March 2027",
+          "evidence": [
+            "Start date: 1 March 2027"
+          ],
+          "reason": "Début publié ; disponibilité du candidat à confirmer."
+        },
+        "languages": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "location": {
+          "status": "compatible",
+          "value": "Brussels",
+          "evidence": [
+            "Brussels"
+          ],
+          "reason": "Localisation en Europe."
+        },
+        "education": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "eligibility": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        }
+      },
+      "constraint_status": "unknown",
+      "needs_human_review": true,
+      "id": "d0808ed8e91ef36135",
+      "input_hash": "5ed661c75c1ee52831a2f0e6a911161d0d6665d23ffe72a46141d3c17c02360e",
+      "assessed_at": "2026-11-06T15:14:58.133577+00:00"
+    },
+    "f9c8802831caff19e7": {
+      "rules_version": "missions-v1",
+      "pdm_potential": "high",
+      "pdm_label": "Fort potentiel PDM",
+      "pdm_explicit": false,
+      "pdm_reason": "Les missions associent conception ou investigation à une démarche de modélisation, comparaison ou validation technique.",
+      "pdm_confidence": "high",
+      "missing_information": [
+        "Accord académique EPFL et encadrement du PDM à confirmer.",
+        "Durée : Durée structurée publiée ; comparaison à confirmer.",
+        "Date de début : Début publié ; disponibilité du candidat à confirmer.",
+        "Langues : Information non précisée dans l'offre.",
+        "Formation : Information non précisée dans l'offre.",
+        "Éligibilité : Information non précisée dans l'offre."
+      ],
+      "technical_categories": [
+        "R&D / Product Development",
+        "Simulation / CAE",
+        "Testing / Validation",
+        "Systems Integration"
+      ],
+      "technical_score": 100,
+      "technical_reasons": [
+        "Mission technique mécanique : In our Corporate Development team, we identify, evaluate, prototype, and build strategic innovations across digital asset markets and Web3 ecosystems.",
+        "Mission technique mécanique : As an Innovation Quant Developer Intern, you will work directly with quant developers and Corp Dev strategists to prototype new technologies, conduct technical due diligence, and support strategic growth initiatives.",
+        "Mission technique mécanique : Prototyping & System Integration:** Help build, test, and maintain prototype systems, analytics tools, and internal proof-of-concepts, collaborating across divisions to ensure compatibility with Keyrock's broader trading and tech stack."
+      ],
+      "mission_evidence": [
+        "Innovation Quant Developer: Intern - DeFi/Corporate Development**",
+        "Today we run a full spectrum of capital markets businesses across centralized and on-chain venues: market making, high-frequency trading, options, OTC, DeFi trading desks, advisory, and asset management.",
+        "We're building toward the agentic investment banking capabilities for the era of digital finance.",
+        "We're not just envisioning the future of finance - we're building it.",
+        "Our internship programme gives early-career talent the opportunity to build practical skills, contribute to meaningful projects and learn alongside experienced colleagues in digital finance.",
+        "Where performance, business needs and available opportunities align, an internship may lead to a permanent role, though this is not guaranteed.",
+        "Interview with Hiring Manager",
+        "About Corporate Development**"
+      ],
+      "constraints": {
+        "duration": {
+          "status": "unknown",
+          "value": "5-7 months mentioned",
+          "evidence": [
+            "5-7 months mentioned"
+          ],
+          "reason": "Durée structurée publiée ; comparaison à confirmer."
+        },
+        "start_date": {
+          "status": "unknown",
+          "value": "Start date: 1 March 2027",
+          "evidence": [
+            "Start date: 1 March 2027"
+          ],
+          "reason": "Début publié ; disponibilité du candidat à confirmer."
+        },
+        "languages": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "location": {
+          "status": "compatible",
+          "value": "Brussels",
+          "evidence": [
+            "Brussels"
+          ],
+          "reason": "Localisation en Europe."
+        },
+        "education": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "eligibility": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        }
+      },
+      "constraint_status": "unknown",
+      "needs_human_review": true,
+      "id": "f9c8802831caff19e7",
+      "input_hash": "6dd25faa3f8ef695ee57e58c3110baa1bd9a26a5914783ad318508e1d29d2c09",
+      "assessed_at": "2026-11-06T15:14:58.144083+00:00"
+    },
+    "877050f2050d7b8515": {
+      "rules_version": "missions-v1",
+      "pdm_potential": "medium",
+      "pdm_label": "Potentiel PDM à préciser",
+      "pdm_explicit": false,
+      "pdm_reason": "Une mission technique de conception ou d'étude est identifiée ; autonomie, question de recherche et livrable académique restent à préciser.",
+      "pdm_confidence": "high",
+      "missing_information": [
+        "Accord académique EPFL et encadrement du PDM à confirmer.",
+        "Durée : Durée structurée publiée ; comparaison à confirmer.",
+        "Date de début : Début publié ; disponibilité du candidat à confirmer.",
+        "Langues : Information non précisée dans l'offre.",
+        "Formation : Information non précisée dans l'offre.",
+        "Éligibilité : Information non précisée dans l'offre."
+      ],
+      "technical_categories": [
+        "R&D / Product Development",
+        "Testing / Validation",
+        "Manufacturing / Production",
+        "Automation / Control",
+        "Quality",
+        "Supply Chain / Logistics"
+      ],
+      "technical_score": 30,
+      "technical_reasons": [
+        "Mission à pertinence mécanique limitée : Our Strategic Proprietary Market Making team researches and deploys systematic trading strategies across centralized digital asset venues.",
+        "Mission à pertinence mécanique limitée : Evaluate liquidity-program economics by balancing execution quality, market share, fees and incentives, and work with traders and engineers to translate research into robust production improvements.",
+        "Mission à pertinence mécanique limitée : Quantitative Analyst Intern - Digital Assets Market Making (HFT) - Brussels**"
+      ],
+      "mission_evidence": [
+        "Quantitative Analyst Intern - Digital Assets Market Making (HFT) - Brussels**",
+        "Today we run a full spectrum of capital markets businesses across centralized and on-chain venues: market making, high-frequency trading, options, OTC, DeFi trading desks, advisory, and asset management.",
+        "We're building toward the agentic investment banking capabilities for the era of digital finance.",
+        "We're not just envisioning the future of finance - we're building it.",
+        "Our internship programme gives early-career talent the opportunity to build practical skills, contribute to meaningful projects and learn alongside experienced colleagues in digital finance.",
+        "Where performance, business needs and available opportunities align, an internship may lead to a permanent role, though this is not guaranteed.",
+        "Interview with Hiring Manager",
+        "Our Strategic Proprietary Market Making team researches and deploys systematic trading strategies across centralized digital asset venues."
+      ],
+      "constraints": {
+        "duration": {
+          "status": "unknown",
+          "value": "5-7 months mentioned",
+          "evidence": [
+            "5-7 months mentioned"
+          ],
+          "reason": "Durée structurée publiée ; comparaison à confirmer."
+        },
+        "start_date": {
+          "status": "unknown",
+          "value": "Start date: 1 March 2027",
+          "evidence": [
+            "Start date: 1 March 2027"
+          ],
+          "reason": "Début publié ; disponibilité du candidat à confirmer."
+        },
+        "languages": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "location": {
+          "status": "compatible",
+          "value": "Brussels",
+          "evidence": [
+            "Brussels"
+          ],
+          "reason": "Localisation en Europe."
+        },
+        "education": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "eligibility": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        }
+      },
+      "constraint_status": "unknown",
+      "needs_human_review": true,
+      "id": "877050f2050d7b8515",
+      "input_hash": "5f4ca42645e2d130bd59e7cb2a0f6a6f7f14c1f5b84c30b2427c0359752cca8d",
+      "assessed_at": "2026-11-06T15:14:58.157730+00:00"
+    },
+    "8bf20c339a0a831068": {
+      "rules_version": "missions-v1",
+      "pdm_potential": "high",
+      "pdm_label": "Fort potentiel PDM",
+      "pdm_explicit": false,
+      "pdm_reason": "Les missions associent conception ou investigation à une démarche de modélisation, comparaison ou validation technique.",
+      "pdm_confidence": "high",
+      "missing_information": [
+        "Accord académique EPFL et encadrement du PDM à confirmer.",
+        "Date de début : Information non précisée dans l'offre.",
+        "Langues : Information non précisée dans l'offre.",
+        "Formation : Information non précisée dans l'offre.",
+        "Éligibilité : Condition d'éligibilité publiée ; nationalité, autorisation ou convention du candidat à vérifier."
+      ],
+      "technical_categories": [
+        "R&D / Product Development",
+        "Automation / Control"
+      ],
+      "technical_score": 98,
+      "technical_reasons": [
+        "Mission technique mécanique : That could be a feature prototype, an internal tool, a GTM engine, a support automation, an eval setup, or something we haven’t thought of yet.",
+        "Mission technique mécanique : You take it from prototype to something our team or customers actually use.",
+        "Mission à pertinence mécanique limitée : We bring all leading AI models into one secure, model-agnostic platform and make them usable across entire organizations."
+      ],
+      "mission_evidence": [
+        "## Build something that matters.",
+        "We bring all leading AI models into one secure, model-agnostic platform and make them usable across entire organizations.",
+        "Their employees open Langdock to draft strategies, analyze documents, or automate workflows, helping them to work smarter, think more creatively, and reach their full potential.",
+        "If you build with AI because you can’t stop, with Langdock, Claude, ChatGPT, Cursor, or anything else, show us.",
+        "Look at our product roadmap and at our product, and build something that solves a real problem for us or our customers.",
+        "That could be a feature prototype, an internal tool, a GTM engine, a support automation, an eval setup, or something we haven’t thought of yet.",
+        "Our customers build those every day.",
+        "How it’s built:** the models, tools, architecture, and key decisions behind it."
+      ],
+      "constraints": {
+        "duration": {
+          "status": "compatible",
+          "value": "6 months",
+          "evidence": [
+            "This is a full-time internship of at least 6 months at our Berlin HQ, and it is not a regular internship application."
+          ],
+          "reason": "Durée comparée à l'intervalle souhaité fourni dans le profil ; ce n'est pas une restriction administrative."
+        },
+        "start_date": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "languages": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "location": {
+          "status": "compatible",
+          "value": "Berlin",
+          "evidence": [
+            "Berlin"
+          ],
+          "reason": "Localisation en Europe."
+        },
+        "education": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "eligibility": {
+          "status": "unknown",
+          "value": "A work permit for Germany.",
+          "evidence": [
+            "A work permit for Germany."
+          ],
+          "reason": "Condition d'éligibilité publiée ; nationalité, autorisation ou convention du candidat à vérifier."
+        }
+      },
+      "constraint_status": "unknown",
+      "needs_human_review": true,
+      "id": "8bf20c339a0a831068",
+      "input_hash": "847c2c6863d09bffedcff0cdfc5c031adde9eaeea1c2e65f8d375126d9720035",
+      "assessed_at": "2026-11-06T15:14:58.166507+00:00"
+    },
+    "83a6544fa44e7ff329": {
+      "rules_version": "missions-v1",
+      "pdm_potential": "high",
+      "pdm_label": "Fort potentiel PDM",
+      "pdm_explicit": false,
+      "pdm_reason": "Les missions associent conception ou investigation à une démarche de modélisation, comparaison ou validation technique.",
+      "pdm_confidence": "high",
+      "missing_information": [
+        "Accord académique EPFL et encadrement du PDM à confirmer.",
+        "Date de début : Information non précisée dans l'offre.",
+        "Langues : Information non précisée dans l'offre.",
+        "Formation : Information non précisée dans l'offre.",
+        "Éligibilité : Information non précisée dans l'offre."
+      ],
+      "technical_categories": [
+        "R&D / Product Development",
+        "Automation / Control",
+        "Materials / Processes",
+        "Project Management"
+      ],
+      "technical_score": 62,
+      "technical_reasons": [
+        "Mission technique mécanique : Qualifying inbound and outbound vendor leads, preparing materials, populating Virtual Data Rooms, and coordinating buyer Q&A.",
+        "Mission à pertinence mécanique limitée : Origination: identifying SMEs likely to sell, running our \"likely seller\" models against iwoca's customer base, and converting matches into mandates.",
+        "Mission à pertinence mécanique limitée : Product, data & AI: turning manual workflows into automated ones, mapping the data schema for our \"Digital IM\", and building AI-enabled tooling that gives our Transaction Managers leverage."
+      ],
+      "mission_evidence": [
+        "Our smart technology, data science and five-star customer service ensures business owners can act with the speed, confidence and control they need, exactly when it's needed.",
+        "Our passionate team is driven to help even more SMEs succeed, through access to better finance and other services that make running a business easier.",
+        "Our ultimate mission is to support one million SMEs in their defining moments, creating lasting impact for the communities and economies they drive.",
+        "This is a paid off-cycle internship of up to 6 months, for someone who wants to build a long-term career in fintech - **Hybrid in London.**",
+        "iwoca has 150,000+ SME customers in the UK and a track record of building clean, automated processes, and manda is leveraging that to build an M&A platform that serves this market properly.",
+        "You'll see the full deal lifecycle (origination, diligence, execution, close) inside a venture small enough that the work you do moves the business, and you'll have AI and automation as leverage rather than as a side project.",
+        "You'll sit inside the manda Deal Team and work directly with the people running the platform: our sell-side and buy-side Transaction Managers, our Due Diligence Manager, and the Venture Lead.",
+        "You'll do real day-to-day work supporting the team where it matters most."
+      ],
+      "constraints": {
+        "duration": {
+          "status": "compatible",
+          "value": "6 months",
+          "evidence": [
+            "This is a paid off-cycle internship of up to 6 months, for someone who wants to build a long-term career in fintech - **Hybrid in London.**"
+          ],
+          "reason": "Durée comparée à l'intervalle souhaité fourni dans le profil ; ce n'est pas une restriction administrative."
+        },
+        "start_date": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "languages": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "location": {
+          "status": "compatible",
+          "value": "London",
+          "evidence": [
+            "London"
+          ],
+          "reason": "Localisation en Europe."
+        },
+        "education": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "eligibility": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        }
+      },
+      "constraint_status": "unknown",
+      "needs_human_review": true,
+      "id": "83a6544fa44e7ff329",
+      "input_hash": "0f4595eed7ab4ebea1239ab2b44cc6001d4641595bbbe2ad22918273a53974df",
+      "assessed_at": "2026-11-06T15:14:58.200508+00:00"
+    },
+    "50daf3c51b0e708683": {
+      "rules_version": "missions-v1",
+      "pdm_potential": "high",
+      "pdm_label": "Fort potentiel PDM",
+      "pdm_explicit": false,
+      "pdm_reason": "Les missions associent conception ou investigation à une démarche de modélisation, comparaison ou validation technique.",
+      "pdm_confidence": "high",
+      "missing_information": [
+        "Accord académique EPFL et encadrement du PDM à confirmer.",
+        "Date de début : Début publié ; disponibilité du candidat à confirmer.",
+        "Langues : Langues exigées publiées ; compétences linguistiques du candidat inconnues.",
+        "Formation : Information non précisée dans l'offre.",
+        "Éligibilité : Information non précisée dans l'offre."
+      ],
+      "technical_categories": [
+        "R&D / Product Development",
+        "Manufacturing / Production",
+        "Systems Integration",
+        "Automation / Control",
+        "Quality"
+      ],
+      "technical_score": 30,
+      "technical_reasons": [
+        "Mission à pertinence mécanique limitée : You will be responsible for assisting in conceptualizing and creating content, filming, processing and editing video shorts and photographs for both social media and internal use, highlighting the key features and products of our cloud-based marketing tool, managing equipment and files, and building equipment and sets up and down on shoot days.",
+        "Mission à pertinence mécanique limitée : Research, ideas, and production of creative content for our running marketing programs",
+        "Mission à pertinence mécanique limitée : Our industry-leading DAM platform serves as the strategic engine for brand governance and control."
+      ],
+      "mission_evidence": [
+        "Our industry-leading DAM platform serves as the strategic engine for brand governance and control.",
+        "By integrating human-led, customizable **AI Agents** directly into our enterprise-grade infrastructure, we enable brands to augment their workforce and intelligently automate high-effort workflows without sacrificing brand integrity.",
+        "Ready to grow your career by helping the world’s leading brands deliver exceptional content experiences?** Join our global team of 600+ ‘Byndies’ and help 4,000+ organizations work smarter with their content.",
+        "You will have a chance to explore endless growth opportunities every day, we will invest in you, your training, and we will welcome your fresh point of view and ideas.",
+        "You will have a lot of autonomy and supportive colleagues, so nothing will stop you from truly making an impact at Bynder.",
+        "You will be part of the creative team, reporting to our Manager of Creative Strategy and working hand-in-hand with our designers, videographers, and copywriters.",
+        "You will be responsible for assisting in conceptualizing and creating content, filming, processing and editing video shorts and photographs for both social media and internal use, highlighting the key features and products of our cloud-based marketing tool, managing equipment and files, and building equipment and sets up and down on shoot days.",
+        "Contribute to the development of high-quality photo and video concepts in a style specific to the subject and audience."
+      ],
+      "constraints": {
+        "duration": {
+          "status": "compatible",
+          "value": "6 months",
+          "evidence": [
+            "You're available for a full-time internship of at least 6 months starting February 2027**"
+          ],
+          "reason": "Durée comparée à l'intervalle souhaité fourni dans le profil ; ce n'est pas une restriction administrative."
+        },
+        "start_date": {
+          "status": "unknown",
+          "value": "You're available for a full-time internship of at least 6 months starting February 2027**",
+          "evidence": [
+            "You're available for a full-time internship of at least 6 months starting February 2027**"
+          ],
+          "reason": "Début publié ; disponibilité du candidat à confirmer."
+        },
+        "languages": {
+          "status": "unknown",
+          "value": "en",
+          "evidence": [
+            "You are fluent in English and have good communication skills"
+          ],
+          "reason": "Langues exigées publiées ; compétences linguistiques du candidat inconnues."
+        },
+        "location": {
+          "status": "compatible",
+          "value": "Amsterdam",
+          "evidence": [
+            "Amsterdam"
+          ],
+          "reason": "Localisation en Europe."
+        },
+        "education": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "eligibility": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        }
+      },
+      "constraint_status": "unknown",
+      "needs_human_review": true,
+      "id": "50daf3c51b0e708683",
+      "input_hash": "c926c382a8dfad83531497df2179f37ba7dfa22c5b667ba0588c359aa98d3bbe",
+      "assessed_at": "2026-11-06T15:14:58.217972+00:00"
+    },
+    "110fc76e004f9384ea": {
+      "rules_version": "missions-v1",
+      "pdm_potential": "high",
+      "pdm_label": "Fort potentiel PDM",
+      "pdm_explicit": false,
+      "pdm_reason": "Les missions associent conception ou investigation à une démarche de modélisation, comparaison ou validation technique.",
+      "pdm_confidence": "high",
+      "missing_information": [
+        "Accord académique EPFL et encadrement du PDM à confirmer.",
+        "Date de début : Début publié ; disponibilité du candidat à confirmer.",
+        "Langues : Langues exigées publiées ; compétences linguistiques du candidat inconnues.",
+        "Localisation : Localisation ambiguë ou non reconnue.",
+        "Formation : Information non précisée dans l'offre.",
+        "Éligibilité : Information non précisée dans l'offre."
+      ],
+      "technical_categories": [
+        "R&D / Product Development",
+        "Project Management"
+      ],
+      "technical_score": 30,
+      "technical_reasons": [
+        "Mission à pertinence mécanique limitée : DIM est le leader du marché en France et la marque préférée des consommateurs français (Étude OpinionWay – 1059 répondants – février 2025), Nur Die est le leader du marché en Allemagne dans le segment des produits de consommation, Lovable est un solide second sur le marché italien de la lingerie et La Senza est une marque canadienne emblématique de sous-vêtements.",
+        "Mission à pertinence mécanique limitée : En 2022, l'entreprise a retrouvé son indépendance et entend accélérer sa croissance en s'appuyant sur une stratégie claire basée sur quatre axes : le développement de ses marques phares, un solide programme d'innovations produits, une stratégie omnicanale forte et un programme d'excellence opérationnelle continue. \"Simplification and Scale\" est notre devise stratégique.",
+        "Mission à pertinence mécanique limitée : E-merchandising** : optimisation des pages collections, mise en avant des produits et cohérence des parcours clients (Nosto)."
+      ],
+      "mission_evidence": [
+        "DIM est le leader du marché en France et la marque préférée des consommateurs français (Étude OpinionWay – 1059 répondants – février 2025), Nur Die est le leader du marché en Allemagne dans le segment des produits de consommation, Lovable est un solide second sur le marché italien de la lingerie et La Senza est une marque canadienne emblématique de sous-vêtements.",
+        "En 2022, l'entreprise a retrouvé son indépendance et entend accélérer sa croissance en s'appuyant sur une stratégie claire basée sur quatre axes : le développement de ses marques phares, un solide programme d'innovations produits, une stratégie omnicanale forte et un programme d'excellence opérationnelle continue. \"Simplification and Scale\" est notre devise stratégique.",
+        "Notre ambition est d'ouvrir un nouveau cycle de croissance rentable et de réaliser le plein potentiel mondial de la marque DIM.",
+        "A ce titre, vous pourrez intervenir sur les sujets suivants :",
+        "Animation commerciale** : participation à la mise en ligne des opérations commerciales, mise à jour des bannières, visuels et contenus des sites.",
+        "E-merchandising** : optimisation des pages collections, mise en avant des produits et cohérence des parcours clients (Nosto).",
+        "Coordination transverse** : lien avec les équipes acquisition, service client, social media et communication pour assurer la bonne circulation des informations et des contenus.",
+        "Avis clients** : suivi quotidien de et remontée des alertes au service client."
+      ],
+      "constraints": {
+        "duration": {
+          "status": "compatible",
+          "value": "6 mois",
+          "evidence": [
+            "Pour nous accompagner dans cette aventure, la **Direction E-commerce** recherche à partir de **Janvier 2027** pour une durée de 6 mois, un(e) stagiaire **Chargé****(e) de projets e-commerce (H/F).**"
+          ],
+          "reason": "Durée comparée à l'intervalle souhaité fourni dans le profil ; ce n'est pas une restriction administrative."
+        },
+        "start_date": {
+          "status": "unknown",
+          "value": "Pour nous accompagner dans cette aventure, la **Direction E-commerce** recherche à partir de **Janvier 2027** pour une durée de 6 mois, un(e) stagiaire **Chargé****(e) de projets e-commerce (H/F).**",
+          "evidence": [
+            "Pour nous accompagner dans cette aventure, la **Direction E-commerce** recherche à partir de **Janvier 2027** pour une durée de 6 mois, un(e) stagiaire **Chargé****(e) de projets e-commerce (H/F).**"
+          ],
+          "reason": "Début publié ; disponibilité du candidat à confirmer."
+        },
+        "languages": {
+          "status": "unknown",
+          "value": "en",
+          "evidence": [
+            "Un bon niveau d’anglais lu, écrit, parlé est exigé (la maîtrise d’une autre langue est un plus)."
+          ],
+          "reason": "Langues exigées publiées ; compétences linguistiques du candidat inconnues."
+        },
+        "location": {
+          "status": "unknown",
+          "value": "Rueil-Malmaison",
+          "evidence": [
+            "Rueil-Malmaison"
+          ],
+          "reason": "Localisation ambiguë ou non reconnue."
+        },
+        "education": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "eligibility": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        }
+      },
+      "constraint_status": "unknown",
+      "needs_human_review": true,
+      "id": "110fc76e004f9384ea",
+      "input_hash": "b80abaffa59a7b19ae6ea7dcb5c8e9c43619beffe39e566a42b057d0718e5b27",
+      "assessed_at": "2026-11-06T15:14:58.230720+00:00"
+    },
+    "413c7a195b7dc30e87": {
+      "rules_version": "missions-v1",
+      "pdm_potential": "high",
+      "pdm_label": "Fort potentiel PDM",
+      "pdm_explicit": false,
+      "pdm_reason": "Les missions associent conception ou investigation à une démarche de modélisation, comparaison ou validation technique.",
+      "pdm_confidence": "high",
+      "missing_information": [
+        "Accord académique EPFL et encadrement du PDM à confirmer.",
+        "Durée : Durée structurée publiée ; comparaison à confirmer.",
+        "Date de début : Début publié ; disponibilité du candidat à confirmer.",
+        "Langues : Information non précisée dans l'offre.",
+        "Formation : Information non précisée dans l'offre.",
+        "Éligibilité : Information non précisée dans l'offre."
+      ],
+      "technical_categories": [
+        "R&D / Product Development",
+        "Simulation / CAE",
+        "Testing / Validation",
+        "Automation / Control"
+      ],
+      "technical_score": 52,
+      "technical_reasons": [
+        "Mission technique mécanique : As a Credit Desk DeFi Quant Trader Intern, you will work directly with quant traders and credit strategists to build quantitative risk models, automate yield harvesting, analyze on-chain liquidity pools, and evaluate DeFi protocol mechanics.",
+        "Mission à pertinence mécanique limitée : On-Chain Risk & Credit Modeling:** Develop and refine quantitative risk models to assess protocol health, collateralization ratios, liquidation risks, and smart contract vulnerability exposure across DeFi credit platforms.",
+        "Mission à pertinence mécanique limitée : Yield Optimization & Execution:** Build Python-based tools and algorithmic models to analyze real-time yield curves, liquidity pool depth, and funding rate arbitrage across lending and borrowing protocols."
+      ],
+      "mission_evidence": [
+        "Today we run a full spectrum of capital markets businesses across centralized and on-chain venues: market making, high-frequency trading, options, OTC, DeFi trading desks, advisory, and asset management.",
+        "We're building toward the agentic investment banking capabilities for the era of digital finance.",
+        "We're not just envisioning the future of finance - we're building it.",
+        "Our internship programme gives early-career talent the opportunity to build practical skills, contribute to meaningful projects and learn alongside experienced colleagues in digital finance.",
+        "Where performance, business needs and available opportunities align, an internship may lead to a permanent role, though this is not guaranteed.",
+        "Interview with Hiring Manager",
+        "Operating at the intersection of quantitative finance and smart contract risk, the Credit Desk is responsible for optimizing yield, evaluating counterparty and protocol risk, and deploying programmatic credit solutions across digital asset markets.",
+        "As a Credit Desk DeFi Quant Trader Intern, you will work directly with quant traders and credit strategists to build quantitative risk models, automate yield harvesting, analyze on-chain liquidity pools, and evaluate DeFi protocol mechanics."
+      ],
+      "constraints": {
+        "duration": {
+          "status": "unknown",
+          "value": "5-7 months mentioned",
+          "evidence": [
+            "5-7 months mentioned"
+          ],
+          "reason": "Durée structurée publiée ; comparaison à confirmer."
+        },
+        "start_date": {
+          "status": "unknown",
+          "value": "Start date: 1 March 2027",
+          "evidence": [
+            "Start date: 1 March 2027"
+          ],
+          "reason": "Début publié ; disponibilité du candidat à confirmer."
+        },
+        "languages": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "location": {
+          "status": "compatible",
+          "value": "Brussels",
+          "evidence": [
+            "Brussels"
+          ],
+          "reason": "Localisation en Europe."
+        },
+        "education": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "eligibility": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        }
+      },
+      "constraint_status": "unknown",
+      "needs_human_review": true,
+      "id": "413c7a195b7dc30e87",
+      "input_hash": "2290ff8e5c52a76f9039df5c0d4f32b07411e71ad94b2ff29fccdd9b22336eb0",
+      "assessed_at": "2026-11-06T15:14:58.253753+00:00"
+    },
+    "5320142f2cceff63c3": {
+      "rules_version": "missions-v1",
+      "pdm_potential": "high",
+      "pdm_label": "Fort potentiel PDM",
+      "pdm_explicit": false,
+      "pdm_reason": "Les missions associent conception ou investigation à une démarche de modélisation, comparaison ou validation technique.",
+      "pdm_confidence": "high",
+      "missing_information": [
+        "Accord académique EPFL et encadrement du PDM à confirmer.",
+        "Durée : Durée structurée publiée ; comparaison à confirmer.",
+        "Date de début : Information non précisée dans l'offre.",
+        "Langues : Langues exigées publiées ; compétences linguistiques du candidat inconnues.",
+        "Formation : Information non précisée dans l'offre.",
+        "Éligibilité : Information non précisée dans l'offre."
+      ],
+      "technical_categories": [
+        "R&D / Product Development",
+        "Testing / Validation",
+        "Automation / Control",
+        "Quality"
+      ],
+      "technical_score": 70,
+      "technical_reasons": [
+        "Mission technique mécanique : With our headquarters in Paris, and offices in Vierzon, Grenoble, Montpellier, London, Portland, Geneva, Zurich and Central Singapore, we have a team of around 600 professionals developing a variety of products and services to enable individuals and companies to securely buy, store, swap, grow and manage crypto assets – including the Ledger hardware wallets line with more than 7.5 millions units already sold in 200 countries.",
+        "Mission à pertinence mécanique limitée : Experimentation & A/B Testing:** Specify and support A/B test setups, funnel evaluation, and advanced statistical analysis for product features.",
+        "Mission à pertinence mécanique limitée : Documentation & Enablement:** Develop comprehensive documentation and data models (dbt/data mart) to empower stakeholders"
+      ],
+      "mission_evidence": [
+        "We believe in a world where users, creators and enterprises manage their value with ownership and freedom.",
+        "We believe change is constant and our team moves forward as one, with a culture of problem-solving where every employee is empowered and supported to challenge tradition and create solutions.",
+        "With our headquarters in Paris, and offices in Vierzon, Grenoble, Montpellier, London, Portland, Geneva, Zurich and Central Singapore, we have a team of around 600 professionals developing a variety of products and services to enable individuals and companies to securely buy, store, swap, grow and manage crypto assets – including the Ledger hardware wallets line with more than 7.5 millions units already sold in 200 countries.",
+        "As a Product Analytics Engineer Intern, you will join the Product Analytics team supporting Ledger Wallet across Product, Business, and Growth/CRM teams.",
+        "Reporting directly to the Product Data Analytics Manager, you will play a key role in ensuring tracking data quality, and scaling our analytics infrastructure to support company-wide data-driven decision-making.",
+        "Cross-Functional Collaboration:** Work closely with Product Managers, Data Engineers, and Data Scientists to deliver insights and support Growth/CRM personalization pipelines.",
+        "Experimentation & A/B Testing:** Specify and support A/B test setups, funnel evaluation, and advanced statistical analysis for product features.",
+        "AI Governance & Automation:** Help establish governance, guardrails, and custom skills for users querying analytics platforms (Mixpanel, Snowflake MCP) via AI tools, and contribute to building end-to-end AI-assisted tracking workflows."
+      ],
+      "constraints": {
+        "duration": {
+          "status": "unknown",
+          "value": "Not specified",
+          "evidence": [
+            "Not specified"
+          ],
+          "reason": "Durée structurée publiée ; comparaison à confirmer."
+        },
+        "start_date": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "languages": {
+          "status": "unknown",
+          "value": "en",
+          "evidence": [
+            "Excellent written and verbal communication skills in English."
+          ],
+          "reason": "Langues exigées publiées ; compétences linguistiques du candidat inconnues."
+        },
+        "location": {
+          "status": "compatible",
+          "value": "Paris, France",
+          "evidence": [
+            "Paris, France"
+          ],
+          "reason": "Localisation en Europe."
+        },
+        "education": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "eligibility": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        }
+      },
+      "constraint_status": "unknown",
+      "needs_human_review": true,
+      "id": "5320142f2cceff63c3",
+      "input_hash": "cbd76556ccf01079c8c3df2bafc67458e8d479d8fec93b042739fcc843e0bc0d",
+      "assessed_at": "2026-11-06T15:14:58.263415+00:00"
+    },
+    "750a5517b07f79f3a2": {
+      "rules_version": "missions-v1",
+      "pdm_potential": "high",
+      "pdm_label": "Fort potentiel PDM",
+      "pdm_explicit": false,
+      "pdm_reason": "Les missions associent conception ou investigation à une démarche de modélisation, comparaison ou validation technique.",
+      "pdm_confidence": "high",
+      "missing_information": [
+        "Accord académique EPFL et encadrement du PDM à confirmer.",
+        "Durée : Durée structurée publiée ; comparaison à confirmer.",
+        "Date de début : Information non précisée dans l'offre.",
+        "Langues : Information non précisée dans l'offre.",
+        "Formation : Information non précisée dans l'offre.",
+        "Éligibilité : Information non précisée dans l'offre."
+      ],
+      "technical_categories": [
+        "R&D / Product Development",
+        "Testing / Validation",
+        "Materials / Processes"
+      ],
+      "technical_score": 82,
+      "technical_reasons": [
+        "Mission technique mécanique : How to go through the **entire process**, from idea to prototype to live test.",
+        "Mission à pertinence mécanique limitée : You’ll collaborate with our multidisciplinary Product, Design, Engineering & Analytics team.",
+        "Mission à pertinence mécanique limitée : You’ll work on **Product Design** of this feature."
+      ],
+      "mission_evidence": [
+        "During this internship, you’ll contribute to an experiment that brings this vision to life.",
+        "Develop an innovative feature that helps users **find people in a new way** and/or tools that enable this.",
+        "You’ll collaborate with our multidisciplinary Product, Design, Engineering & Analytics team.",
+        "You’ll work on **Product Design** of this feature.",
+        "You’ll work closely with the product managers to translate a product hypothesis into a feature, with a strong focus on UI and UX design.",
+        "Product Design**:",
+        "Analyze user problems and translate them into strategic hypotheses and solutions.",
+        "Design UI & UX for these solutions."
+      ],
+      "constraints": {
+        "duration": {
+          "status": "unknown",
+          "value": "Not specified",
+          "evidence": [
+            "Not specified"
+          ],
+          "reason": "Durée structurée publiée ; comparaison à confirmer."
+        },
+        "start_date": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "languages": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "location": {
+          "status": "compatible",
+          "value": "Ghent, Belgium",
+          "evidence": [
+            "Ghent, Belgium"
+          ],
+          "reason": "Localisation en Europe."
+        },
+        "education": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "eligibility": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        }
+      },
+      "constraint_status": "unknown",
+      "needs_human_review": true,
+      "id": "750a5517b07f79f3a2",
+      "input_hash": "41a11b18b2efd051ddf1152816d2d4968b345df85d3ee844892e7d40c538d715",
+      "assessed_at": "2026-11-06T15:14:58.268851+00:00"
+    },
+    "a31eb7fa379dc75ed1": {
+      "rules_version": "missions-v1",
+      "pdm_potential": "high",
+      "pdm_label": "Fort potentiel PDM",
+      "pdm_explicit": false,
+      "pdm_reason": "Les missions associent conception ou investigation à une démarche de modélisation, comparaison ou validation technique.",
+      "pdm_confidence": "high",
+      "missing_information": [
+        "Accord académique EPFL et encadrement du PDM à confirmer.",
+        "Durée : Durée structurée publiée ; comparaison à confirmer.",
+        "Date de début : Information non précisée dans l'offre.",
+        "Langues : Information non précisée dans l'offre.",
+        "Formation : Information non précisée dans l'offre.",
+        "Éligibilité : Information non précisée dans l'offre."
+      ],
+      "technical_categories": [
+        "R&D / Product Development",
+        "Testing / Validation",
+        "Materials / Processes"
+      ],
+      "technical_score": 98,
+      "technical_reasons": [
+        "Mission technique mécanique : Final presentation to the team with lessons learned and a demo of a working prototype",
+        "Mission technique mécanique : How to go through the **entire process**, from idea to prototype to live test.",
+        "Mission à pertinence mécanique limitée : You’ll collaborate with our multidisciplinary Product, Design, Engineering & Analytics team."
+      ],
+      "mission_evidence": [
+        "During this internship, you’ll contribute to an experiment that brings this vision to life.",
+        "Develop an innovative feature that helps users **find people in a new way** and/or tools that enable this.",
+        "You’ll collaborate with our multidisciplinary Product, Design, Engineering & Analytics team.",
+        "You’ll test this using user interviews, online user surveys, surveys of people in the target group who are not yet users, usability tests, market tests, etc.",
+        "Afterwards, you’ll work with our product & design team to create a product brief that the engineering team can work with.",
+        "Documentation of the design (wireframes, mock-ups, flowcharts)",
+        "Final presentation to the team with lessons learned and a demo of a working prototype",
+        "You’ll work in a **multidisciplinary team** with product, design, engineering, and analytics."
+      ],
+      "constraints": {
+        "duration": {
+          "status": "unknown",
+          "value": "Not specified",
+          "evidence": [
+            "Not specified"
+          ],
+          "reason": "Durée structurée publiée ; comparaison à confirmer."
+        },
+        "start_date": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "languages": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "location": {
+          "status": "compatible",
+          "value": "Ghent, Belgium",
+          "evidence": [
+            "Ghent, Belgium"
+          ],
+          "reason": "Localisation en Europe."
+        },
+        "education": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "eligibility": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        }
+      },
+      "constraint_status": "unknown",
+      "needs_human_review": true,
+      "id": "a31eb7fa379dc75ed1",
+      "input_hash": "624e7f4895d3a3dbb81b882d6a8056c3ef542738b498909232b8a9323a47488b",
+      "assessed_at": "2026-11-06T15:14:58.274228+00:00"
+    },
+    "ee56d930edf5d27214": {
+      "rules_version": "missions-v1",
+      "pdm_potential": "medium",
+      "pdm_label": "Potentiel PDM à préciser",
+      "pdm_explicit": false,
+      "pdm_reason": "Une mission technique de conception ou d'étude est identifiée ; autonomie, question de recherche et livrable académique restent à préciser.",
+      "pdm_confidence": "high",
+      "missing_information": [
+        "Accord académique EPFL et encadrement du PDM à confirmer.",
+        "Durée : Durée structurée publiée ; comparaison à confirmer.",
+        "Date de début : Information non précisée dans l'offre.",
+        "Langues : Information non précisée dans l'offre.",
+        "Localisation : Information non précisée dans l'offre.",
+        "Éligibilité : Condition d'éligibilité publiée ; nationalité, autorisation ou convention du candidat à vérifier."
+      ],
+      "technical_categories": [
+        "R&D / Product Development",
+        "Testing / Validation",
+        "Manufacturing / Production",
+        "Robotics / Mechatronics",
+        "Materials / Processes",
+        "Project Management"
+      ],
+      "technical_score": 100,
+      "technical_reasons": [
+        "Mission technique mécanique : Directorate: Human and Robotic Exploration",
+        "Mission technique mécanique : The Directorate of Human and Robotic Exploration (D/HRE) is the main ESA entity in charge of supporting and coordinating efforts towards the current and future endeavours of human spaceflight and robotic exploration.",
+        "Mission technique mécanique : adapted techniques for advanced characterisation of the physical, mechanical, mineralogical, and chemical properties of analogue samples."
+      ],
+      "mission_evidence": [
+        "Directorate: Human and Robotic Exploration",
+        "The Directorate of Human and Robotic Exploration (D/HRE) is the main ESA entity in charge of supporting and coordinating efforts towards the current and future endeavours of human spaceflight and robotic exploration.",
+        "The exploration activities are part of the strategic plans in securing a central role for Europe with respect to the global initiatives.",
+        "The Vulcan Analogue Sample Facility is uniquely positioned within D/HRE’s Exploration Preparation, Research and Technology (ExPeRT) team to support long-term Lunar and Martian Surface Exploration by developing operational concepts and low TRL technologies.",
+        "The Vulcan team provides expert support (on analogue sample topics) to research and technology development projects (focused on space exploration and planetary science applications) within ESA, its Member States, and the rest of Europe.",
+        "It is located on the Harwell Campus in the UK (part of ESA’s ECSAT site) and serves as a European focal point for the research, curation, and characterisation of analogue samples.",
+        "support validation and de-risking of low TRL technologies & key operational concepts;",
+        "improve confidence in European simulants;"
+      ],
+      "constraints": {
+        "duration": {
+          "status": "unknown",
+          "value": "Not specified",
+          "evidence": [
+            "Not specified"
+          ],
+          "reason": "Durée structurée publiée ; comparaison à confirmer."
+        },
+        "start_date": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "languages": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "location": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "education": {
+          "status": "compatible",
+          "value": "Master / ingénieur",
+          "evidence": [
+            "You must be a university student, preferably in your final or second-to-last year of university course at Master's level."
+          ],
+          "reason": "Niveau master / ingénieur compatible avec le master EPFL du profil."
+        },
+        "eligibility": {
+          "status": "unknown",
+          "value": "Due to the location of ECSAT and current UK legislation, only UK and Irish citizens, students enrolled in a UK university, or those with pre-settled status (right to study) in the UK are eligible to apply for this internship. ; Nationality**",
+          "evidence": [
+            "Due to the location of ECSAT and current UK legislation, only UK and Irish citizens, students enrolled in a UK university, or those with pre-settled status (right to study) in the UK are eligible to apply for this internship.",
+            "Nationality**"
+          ],
+          "reason": "Condition d'éligibilité publiée ; nationalité, autorisation ou convention du candidat à vérifier."
+        }
+      },
+      "constraint_status": "unknown",
+      "needs_human_review": true,
+      "id": "ee56d930edf5d27214",
+      "input_hash": "e4f64d1c52a3ecb36030e58b22662022d24bdcaac5e884a18d63f85534a0e516",
+      "assessed_at": "2026-11-06T15:14:58.309893+00:00"
+    },
+    "d30bf1b6db672a62c3": {
+      "rules_version": "missions-v1",
+      "pdm_potential": "medium",
+      "pdm_label": "Potentiel PDM à préciser",
+      "pdm_explicit": false,
+      "pdm_reason": "Une mission technique de conception ou d'étude est identifiée ; autonomie, question de recherche et livrable académique restent à préciser.",
+      "pdm_confidence": "high",
+      "missing_information": [
+        "Accord académique EPFL et encadrement du PDM à confirmer.",
+        "Durée : Durée structurée publiée ; comparaison à confirmer.",
+        "Date de début : Information non précisée dans l'offre.",
+        "Langues : Information non précisée dans l'offre.",
+        "Formation : Information non précisée dans l'offre.",
+        "Éligibilité : Information non précisée dans l'offre."
+      ],
+      "technical_categories": [
+        "R&D / Product Development"
+      ],
+      "technical_score": 30,
+      "technical_reasons": [
+        "Mission à pertinence mécanique limitée : Harmattan AI is a next-generation defense prime building autonomous and scalable defense systems.",
+        "Mission à pertinence mécanique limitée : Our work is guided by clear values: building technologies with real-world impact, pursuing excellence in everything we do, setting ambitious goals, and taking on the hardest technical challenges.",
+        "Mission à pertinence mécanique limitée : We operate in a demanding environment where rigor, ownership, and execution are expected."
+      ],
+      "mission_evidence": [
+        "Harmattan AI is a next-generation defense prime building autonomous and scalable defense systems.",
+        "Our work is guided by clear values: building technologies with real-world impact, pursuing excellence in everything we do, setting ambitious goals, and taking on the hardest technical challenges.",
+        "We operate in a demanding environment where rigor, ownership, and execution are expected.",
+        "Early-career contributors play a meaningful role in building and scaling the technologies that support our mission.",
+        "We welcome students interested in contributing to areas such as:",
+        "Are eager to contribute to meaningful technological problems"
+      ],
+      "constraints": {
+        "duration": {
+          "status": "unknown",
+          "value": "Not specified",
+          "evidence": [
+            "Not specified"
+          ],
+          "reason": "Durée structurée publiée ; comparaison à confirmer."
+        },
+        "start_date": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "languages": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "location": {
+          "status": "compatible",
+          "value": "Paris",
+          "evidence": [
+            "Paris"
+          ],
+          "reason": "Localisation en Europe."
+        },
+        "education": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "eligibility": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        }
+      },
+      "constraint_status": "unknown",
+      "needs_human_review": true,
+      "id": "d30bf1b6db672a62c3",
+      "input_hash": "6d54ab26f1a81edcca0fee9be240dccd2ee99fb938fd9be265f84ac5f3cfad7d",
+      "assessed_at": "2026-11-06T15:14:58.315286+00:00"
+    },
+    "0f389b9038d35bf264": {
+      "rules_version": "missions-v1",
+      "pdm_potential": "high",
+      "pdm_label": "Fort potentiel PDM",
+      "pdm_explicit": false,
+      "pdm_reason": "Les missions associent conception ou investigation à une démarche de modélisation, comparaison ou validation technique.",
+      "pdm_confidence": "high",
+      "missing_information": [
+        "Accord académique EPFL et encadrement du PDM à confirmer.",
+        "Date de début : Début publié ; disponibilité du candidat à confirmer.",
+        "Langues : Information non précisée dans l'offre.",
+        "Localisation : Information non précisée dans l'offre.",
+        "Éligibilité : Information non précisée dans l'offre."
+      ],
+      "technical_categories": [
+        "Mechanical Design",
+        "R&D / Product Development",
+        "Simulation / CAE",
+        "Testing / Validation",
+        "Energy / Thermal"
+      ],
+      "technical_score": 100,
+      "technical_reasons": [
+        "Mission technique mécanique : Your role would be in the Magnet Support Structures team, responsible for structural and thermomechanical analysis of the systems that hold the superconducting coils in place under extreme electromagnetic and cryogenic loads.",
+        "Mission technique mécanique : Contribute to the design, analysis or testing of Alpha systems, working with the physics, mechanical and structural teams.",
+        "Mission technique mécanique : Carry out engineering studies such as finite element simulations, design trade-offs, prototyping, experiments or simulation development, depending on your area."
+      ],
+      "mission_evidence": [
+        "Our unique concept, built upon the groundbreaking W7-X stellarator and the latest advances in technology, paves the way for commercially viable fusion power plants.",
+        "What’s more, our work in stellarator optimization, powered by cutting-edge computation and machine learning is propelling us into uncharted territories of fusion technology.",
+        "New higher performance design points are unlocked by high temperature superconducting magnets.",
+        "To fully grasp this opportunity, we’re building a team of dedicated and passionate people who come together driving something extraordinary, radically transforming technology in the world.",
+        "Join Proxima's Alpha Engineering Design team and help build Alpha, our flagship machine and the world's first high-temperature superconducting stellarator.",
+        "Alpha is designed to de-risk the technologies needed for Stellaris, our future fusion power plant.",
+        "You'll take on a well-defined engineering project with real impact on Alpha's design.",
+        "Your role would be in the Magnet Support Structures team, responsible for structural and thermomechanical analysis of the systems that hold the superconducting coils in place under extreme electromagnetic and cryogenic loads."
+      ],
+      "constraints": {
+        "duration": {
+          "status": "compatible",
+          "value": "3 - 12 months",
+          "evidence": [
+            "Timings: 3 - 12 months full-time (part-time is possible) as an intern."
+          ],
+          "reason": "Durée comparée à l'intervalle souhaité fourni dans le profil ; ce n'est pas une restriction administrative."
+        },
+        "start_date": {
+          "status": "unknown",
+          "value": "Start: Flexible between January - March 2027",
+          "evidence": [
+            "Start: Flexible between January - March 2027"
+          ],
+          "reason": "Début publié ; disponibilité du candidat à confirmer."
+        },
+        "languages": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "location": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "education": {
+          "status": "compatible",
+          "value": "Master / ingénieur",
+          "evidence": [
+            "Currently enrolled in a Bachelor's or Master's degree in Mechanical Engineering, Aerospace Engineering, Physics, Robotics/Mechatronics, or a related field."
+          ],
+          "reason": "Niveau master / ingénieur compatible avec le master EPFL du profil."
+        },
+        "eligibility": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        }
+      },
+      "constraint_status": "unknown",
+      "needs_human_review": true,
+      "id": "0f389b9038d35bf264",
+      "input_hash": "537b702e674192b2089e9294c763719a775a909161f28dc45314bff747862228",
+      "assessed_at": "2026-11-06T15:14:58.325131+00:00"
+    },
+    "a107986cac944e499b": {
+      "rules_version": "missions-v1",
+      "pdm_potential": "medium",
+      "pdm_label": "Potentiel PDM à préciser",
+      "pdm_explicit": false,
+      "pdm_reason": "Une mission technique de conception ou d'étude est identifiée ; autonomie, question de recherche et livrable académique restent à préciser.",
+      "pdm_confidence": "high",
+      "missing_information": [
+        "Accord académique EPFL et encadrement du PDM à confirmer.",
+        "Durée : Durée structurée publiée ; comparaison à confirmer.",
+        "Date de début : Information non précisée dans l'offre.",
+        "Langues : Information non précisée dans l'offre.",
+        "Formation : Information non précisée dans l'offre.",
+        "Éligibilité : Information non précisée dans l'offre."
+      ],
+      "technical_categories": [
+        "R&D / Product Development",
+        "Testing / Validation",
+        "Manufacturing / Production",
+        "Systems Integration",
+        "Automation / Control",
+        "Project Management"
+      ],
+      "technical_score": 30,
+      "technical_reasons": [
+        "Mission à pertinence mécanique limitée : As a Forward Deployed Engineer intern in the PRO business unit, you will build the RevOps system (apps, API and MCP connectors, AI-ready data), embedded with the Sales and Marketing teams.",
+        "Mission à pertinence mécanique limitée : Design and build systems** that remove friction from the way we sell.",
+        "Mission à pertinence mécanique limitée : At Brevo, we’re not just building a CRM."
+      ],
+      "mission_evidence": [
+        "At Brevo, we’re not just building a CRM.",
+        "With our technology, **we’re helping millions of organizations build lasting relationships with their customers.**",
+        "From emails and SMS to WhatsApp, Chat, and Marketing Automation, **our tools are intuitive, powerful, and built to scale with every ambition.** We give businesses a clear view of the customer journey, so they can focus on what matters: connection.",
+        "As a **certified B Corp**, we’re proud to grow with purpose, committed to high standards of social and environmental impact, not just performance.",
+        "Our **reliable technology** and **75+ integrations** help them create **unparalleled customer experiences,** without the usual tech headaches.",
+        "As a Forward Deployed Engineer intern in the PRO business unit, you will build the RevOps system (apps, API and MCP connectors, AI-ready data), embedded with the Sales and Marketing teams.",
+        "Design and build systems** that remove friction from the way we sell.",
+        "Standardise data ingestion with a guaranteed format designed for AI."
+      ],
+      "constraints": {
+        "duration": {
+          "status": "unknown",
+          "value": "Not specified",
+          "evidence": [
+            "Not specified"
+          ],
+          "reason": "Durée structurée publiée ; comparaison à confirmer."
+        },
+        "start_date": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "languages": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "location": {
+          "status": "compatible",
+          "value": "Paris, France",
+          "evidence": [
+            "Paris, France"
+          ],
+          "reason": "Localisation en Europe."
+        },
+        "education": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "eligibility": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        }
+      },
+      "constraint_status": "unknown",
+      "needs_human_review": true,
+      "id": "a107986cac944e499b",
+      "input_hash": "d1e80021ec1d2c582c4edbf0bddf2b7bb6890237edd506be2bd94f409fc31897",
+      "assessed_at": "2026-11-06T15:14:58.369415+00:00"
+    },
+    "aac042e638d58ce9b5": {
+      "rules_version": "missions-v1",
+      "pdm_potential": "medium",
+      "pdm_label": "Potentiel PDM à préciser",
+      "pdm_explicit": false,
+      "pdm_reason": "Une mission technique de conception ou d'étude est identifiée ; autonomie, question de recherche et livrable académique restent à préciser.",
+      "pdm_confidence": "high",
+      "missing_information": [
+        "Accord académique EPFL et encadrement du PDM à confirmer.",
+        "Date de début : Information non précisée dans l'offre.",
+        "Langues : Langues exigées publiées ; compétences linguistiques du candidat inconnues.",
+        "Formation : Information non précisée dans l'offre.",
+        "Éligibilité : Information non précisée dans l'offre."
+      ],
+      "technical_categories": [
+        "R&D / Product Development",
+        "Project Management"
+      ],
+      "technical_score": 30,
+      "technical_reasons": [
+        "Mission à pertinence mécanique limitée : comfort building systems that scale.",
+        "Mission à pertinence mécanique limitée : By analysing thousands of documents in minutes and powering end-to-end workflows, we cut through complexity, teams can focus on what matters: judgment, strategy, and outcomes.",
+        "Mission à pertinence mécanique limitée : We partner with world-class performers: including Aaron Judge and the New York Yankees, Ludvig Åberg (and his caddie), and campaigns featuring Jude Law."
+      ],
+      "mission_evidence": [
+        "By analysing thousands of documents in minutes and powering end-to-end workflows, we cut through complexity, teams can focus on what matters: judgment, strategy, and outcomes.",
+        "We partner with world-class performers: including Aaron Judge and the New York Yankees, Ludvig Åberg (and his caddie), and campaigns featuring Jude Law.",
+        "Everyone contributes.",
+        "We’re looking for an Internal Communications Manager to strengthen the communication that keeps Legora aligned, informed, and moving quickly as we scale globally.",
+        "Create clarity, alignment, and momentum across a fast-moving organization—with as little friction and noise as possible.",
+        "Execute the internal communications strategy: audiences, messages, channels, and tone.",
+        "Manage a scalable comms operating rhythm (weekly updates, leadership notes, All-Hands/Townhalls, Q&A formats).",
+        "Ensure the right information reaches the right people at the right time — without noise."
+      ],
+      "constraints": {
+        "duration": {
+          "status": "incompatible",
+          "value": "12 months",
+          "evidence": [
+            "Full-time, temporary position for approximately 12 months, based in Stockholm or London"
+          ],
+          "reason": "Durée comparée à l'intervalle souhaité fourni dans le profil ; ce n'est pas une restriction administrative."
+        },
+        "start_date": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "languages": {
+          "status": "unknown",
+          "value": "en",
+          "evidence": [
+            "Excellent English communication skills."
+          ],
+          "reason": "Langues exigées publiées ; compétences linguistiques du candidat inconnues."
+        },
+        "location": {
+          "status": "compatible",
+          "value": "London",
+          "evidence": [
+            "London"
+          ],
+          "reason": "Localisation en Europe."
+        },
+        "education": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "eligibility": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        }
+      },
+      "constraint_status": "incompatible",
+      "needs_human_review": true,
+      "id": "aac042e638d58ce9b5",
+      "input_hash": "60b7156209f6f4671a3166ea098bb238a7d8dd7db44a062f3da31ffb143aa9ad",
+      "assessed_at": "2026-11-06T15:14:58.383802+00:00"
+    },
+    "bd6cf00cded3e52f2a": {
+      "rules_version": "missions-v1",
+      "pdm_potential": "high",
+      "pdm_label": "Fort potentiel PDM",
+      "pdm_explicit": false,
+      "pdm_reason": "Les missions associent conception ou investigation à une démarche de modélisation, comparaison ou validation technique.",
+      "pdm_confidence": "high",
+      "missing_information": [
+        "Accord académique EPFL et encadrement du PDM à confirmer.",
+        "Durée : Durée structurée publiée ; comparaison à confirmer.",
+        "Date de début : Information non précisée dans l'offre.",
+        "Langues : Langues exigées publiées ; compétences linguistiques du candidat inconnues.",
+        "Localisation : Information non précisée dans l'offre.",
+        "Formation : Information non précisée dans l'offre.",
+        "Éligibilité : Condition d'éligibilité publiée ; nationalité, autorisation ou convention du candidat à vérifier."
+      ],
+      "technical_categories": [
+        "R&D / Product Development",
+        "Manufacturing / Production",
+        "Quality",
+        "Project Management"
+      ],
+      "technical_score": 82,
+      "technical_reasons": [
+        "Mission technique mécanique : Project Coordination & Lifecycle Management:** Supporting the end-to-end lifecycle of products, including product definition, qualification, manufacturing, and cost optimization.",
+        "Mission technique mécanique : By bridging the gap between technical execution and business objectives, you will help manage product definitions, qualifications, and manufacturing milestones, ensuring that cross-functional teams stay aligned and projects are delivered on schedule.",
+        "Mission à pertinence mécanique limitée : You will support the development and implementation of strategies that achieve profitability targets through effective project oversight, covering new product development, cost reduction, and capacity expansion."
+      ],
+      "mission_evidence": [
+        "As a Project Management & Product Engineering Intern, you will play a critical role in coordinating the technical and business lifecycles of TI products.",
+        "You will support the development and implementation of strategies that achieve profitability targets through effective project oversight, covering new product development, cost reduction, and capacity expansion.",
+        "By bridging the gap between technical execution and business objectives, you will help manage product definitions, qualifications, and manufacturing milestones, ensuring that cross-functional teams stay aligned and projects are delivered on schedule.",
+        "Project Coordination & Lifecycle Management:** Supporting the end-to-end lifecycle of products, including product definition, qualification, manufacturing, and cost optimization.",
+        "Cross-Functional Leadership:** Facilitating communication and collaboration between development, design, quality, and business teams to ensure project alignment.",
+        "Strategic Planning:** Working with business teams to evaluate product development strategies and market development needs to ensure project goals meet company objectives.",
+        "Data Analysis & Reporting:** Analyzing revenue associated with key product groups and providing progress reports/forecasts to stakeholders.",
+        "Risk & Issue Management:** Identifying potential project bottlenecks, facilitating problem-solving activities, and helping to resolve customer quality or application issues through organized follow-up."
+      ],
+      "constraints": {
+        "duration": {
+          "status": "unknown",
+          "value": "Not specified",
+          "evidence": [
+            "Not specified"
+          ],
+          "reason": "Durée structurée publiée ; comparaison à confirmer."
+        },
+        "start_date": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "languages": {
+          "status": "unknown",
+          "value": "en",
+          "evidence": [
+            "Professional proficiency in spoken and written English."
+          ],
+          "reason": "Langues exigées publiées ; compétences linguistiques du candidat inconnues."
+        },
+        "location": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "education": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "eligibility": {
+          "status": "unknown",
+          "value": "Texas Instruments will not sponsor job applicants for visas or work authorization for this position. ; TI does not make recruiting or hiring decisions based on citizenship, immigration status or national origin.",
+          "evidence": [
+            "Texas Instruments will not sponsor job applicants for visas or work authorization for this position.",
+            "TI does not make recruiting or hiring decisions based on citizenship, immigration status or national origin."
+          ],
+          "reason": "Condition d'éligibilité publiée ; nationalité, autorisation ou convention du candidat à vérifier."
+        }
+      },
+      "constraint_status": "unknown",
+      "needs_human_review": true,
+      "id": "bd6cf00cded3e52f2a",
+      "input_hash": "fc8061fa45bcacde8fdb48354f49c369db8c2e9e1ab57ed1f95529559712a19f",
+      "assessed_at": "2026-11-06T15:14:58.395000+00:00"
     }
   },
   "rules_version": "missions-v1",
