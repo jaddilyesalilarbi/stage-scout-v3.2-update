@@ -1,4 +1,8 @@
-# Stage Scout 3.0 — Recherche TRÈS large de stages et PDM
+# Stage Scout 4.3
+
+La classification PDM et la vue Présélection sont documentées dans [PRESELECTION.md](PRESELECTION.md) : filtres, décisions, cache, recalcul et limites de l’analyse.
+
+## Historique : Stage Scout 3.0 — Recherche TRÈS large de stages et PDM
 
 Cette version remplace Stage Scout 2.0. Elle conserve **les données déjà publiées dans ton dépôt** (`data/jobs.csv`), mais ajoute une vraie recherche sur les sites carrières, une recherche mondiale et l'exclusion des offres en allemand.
 
