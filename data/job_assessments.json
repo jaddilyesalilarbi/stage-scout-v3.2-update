@@ -144771,8 +144771,8 @@
       "constraint_status": "unknown",
       "needs_human_review": true,
       "id": "8bb7524cb42deaad8a",
-      "input_hash": "c9302f6c7a5615a1ac13770e733fd77623cc9f83e4515dd90961bbda3d80728f",
-      "assessed_at": "2026-11-01T14:26:02.763560+00:00"
+      "input_hash": "9c0c68fdb047049cd3725cd52d69fed607eb0dc8b586f33946097ab3a01c720a",
+      "assessed_at": "2026-11-08T14:25:09.000646+00:00"
     },
     "14894e143392236857": {
       "rules_version": "missions-v1",
@@ -175932,8 +175932,8 @@
       "constraint_status": "incompatible",
       "needs_human_review": false,
       "id": "87d0c5755e851bac6f",
-      "input_hash": "a96baa415236f25d1c4752e113cc0a5722877bc33956a51006230c7733687b2e",
-      "assessed_at": "2026-11-07T14:14:04.519958+00:00"
+      "input_hash": "347432aacd986f205bce66a938405d29fcd1a6888144e098484ffb6b57fb641a",
+      "assessed_at": "2026-11-08T14:25:09.140874+00:00"
     },
     "e2d361e34c77840dda": {
       "rules_version": "missions-v1",
@@ -180627,6 +180627,840 @@
       "id": "9394d795d72f9fb78a",
       "input_hash": "c684b33f97e4a0bfb3e5bc2bd50865babddf9ea8d49cb14cabfd895bda29be43",
       "assessed_at": "2026-11-07T14:14:05.227827+00:00"
+    },
+    "66e0b4682ee33b9229": {
+      "rules_version": "missions-v1",
+      "pdm_potential": "high",
+      "pdm_label": "Fort potentiel PDM",
+      "pdm_explicit": false,
+      "pdm_reason": "Les missions associent conception ou investigation à une démarche de modélisation, comparaison ou validation technique.",
+      "pdm_confidence": "high",
+      "missing_information": [
+        "Accord académique EPFL et encadrement du PDM à confirmer.",
+        "Date de début : Information non précisée dans l'offre.",
+        "Langues : Information non précisée dans l'offre.",
+        "Localisation : Information non précisée dans l'offre.",
+        "Éligibilité : Information non précisée dans l'offre."
+      ],
+      "technical_categories": [
+        "R&D / Product Development",
+        "Testing / Validation",
+        "Manufacturing / Production",
+        "Systems Integration"
+      ],
+      "technical_score": 30,
+      "technical_reasons": [
+        "Mission à pertinence mécanique limitée : Il développe des produits et solutions qui contribuent à un monde plus sûr, plus respectueux de l’environnement et plus inclusif.",
+        "Mission à pertinence mécanique limitée : Le site de Cannes est en charge de la conception des systèmes satellitaires & plateformes, de l’assemblage/intégration/test des satellites ainsi que des opérations en orbite.",
+        "Mission à pertinence mécanique limitée : Construisons ensemble un avenir de confiance**"
+      ],
+      "mission_evidence": [
+        "Construisons ensemble un avenir de confiance**",
+        "Il développe des produits et solutions qui contribuent à un monde plus sûr, plus respectueux de l’environnement et plus inclusif.",
+        "Le Groupe investit près de 4,5 milliards d’euros par an en Recherche & Développement, notamment dans des domaines clés de l’innovation tels que l’IA, la cybersécurité, le quantique, les technologies du cloud et la 6G.",
+        "Le site de Cannes est en charge de la conception des systèmes satellitaires & plateformes, de l’assemblage/intégration/test des satellites ainsi que des opérations en orbite.",
+        "Le site a une expertise en instrumentation optique et en avionique.",
+        "Sur le site de **Thales Alenia Space Cannes**, au sein de la **Direction Centre de Compétences Assemblage, Intégration et Test Satellite France**, vous serez **intégré à une équipe** composée de **Techniciens** et **d’Ingénieurs**.",
+        "Vos principales missions seront les suivantes :",
+        "Capter des données** afin d’en réaliser des indicateurs fiables et donner une meilleure visibilité aux différents métiers ?"
+      ],
+      "constraints": {
+        "duration": {
+          "status": "compatible",
+          "value": "6 mois",
+          "evidence": [
+            "Issu d’une formation de niveau **BAC+5** à dominante **Electronique, Mécanique,** vous recherchez un **stage** d’une durée de **6 mois** ?"
+          ],
+          "reason": "Durée comparée à l'intervalle souhaité fourni dans le profil ; ce n'est pas une restriction administrative."
+        },
+        "start_date": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "languages": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "location": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "education": {
+          "status": "compatible",
+          "value": "Master / ingénieur",
+          "evidence": [
+            "Stage – Ingénieur Mécanique – (H/F)**",
+            "Issu d’une formation de niveau **BAC+5** à dominante **Electronique, Mécanique,** vous recherchez un **stage** d’une durée de **6 mois** ?"
+          ],
+          "reason": "Niveau master / ingénieur compatible avec le master EPFL du profil."
+        },
+        "eligibility": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        }
+      },
+      "constraint_status": "unknown",
+      "needs_human_review": true,
+      "id": "66e0b4682ee33b9229",
+      "input_hash": "ff002b493bd08836aaed1dbc7c50a4df1c77b1519e986fa871fb816aca950f36",
+      "assessed_at": "2026-11-08T14:25:08.926672+00:00"
+    },
+    "01c7c43b13345850a5": {
+      "rules_version": "missions-v1",
+      "pdm_potential": "high",
+      "pdm_label": "Fort potentiel PDM",
+      "pdm_explicit": false,
+      "pdm_reason": "Les missions associent conception ou investigation à une démarche de modélisation, comparaison ou validation technique.",
+      "pdm_confidence": "high",
+      "missing_information": [
+        "Accord académique EPFL et encadrement du PDM à confirmer.",
+        "Durée : Durée structurée publiée ; comparaison à confirmer.",
+        "Date de début : Information non précisée dans l'offre.",
+        "Langues : Information non précisée dans l'offre.",
+        "Localisation : Information non précisée dans l'offre.",
+        "Éligibilité : Information non précisée dans l'offre."
+      ],
+      "technical_categories": [
+        "R&D / Product Development",
+        "Automation / Control"
+      ],
+      "technical_score": 12,
+      "technical_reasons": [
+        "Mission à pertinence mécanique limitée : Les simulations sont effectuées à l'aide de modèles multi-corps qui reconstituent le déplacement du train sur la voie.",
+        "Mission à pertinence mécanique limitée : Aussi, une transition est en cours entre deux logiciels de modélisation, avec un enjeu de fiabilisation des modèles.",
+        "Mission à pertinence mécanique limitée : Spécialité : Modélisation et Simulation en dynamique ferroviaire"
+      ],
+      "mission_evidence": [
+        "Au sein de la direction technique SNCF Réseau, la division Interaction Véhicule Voie (IVV) du département 'Voies et Abords' est en charge de la prescription des règles de conception et de maintenance relatives à la géométrie de la voie, au tracé, et à la dynamique ferroviaire.",
+        "La MT40200 prévoit les dispositions à prendre en fonction des défauts de géométrie mesurés par les engins de mesure sur le réseau ferré national.",
+        "Parmi ces défauts, les défauts transversaux (dressage) et verticaux (nivellement) de grandes longueurs d'onde (NALL et DALL) sont concernés par un processus dérogatoire spécifique d'étude par simulation en complément de la mesure de géométrie.",
+        "Les simulations sont effectuées à l'aide de modèles multi-corps qui reconstituent le déplacement du train sur la voie.",
+        "Certaines fonctionnalités ont été développées par SNCF Réseau afin d'automatiser le traitement de ces simulations depuis une dizaine d'année.",
+        "Aussi, une transition est en cours entre deux logiciels de modélisation, avec un enjeu de fiabilisation des modèles.",
+        "L'objectif du stage vise à contribuer à l'amélioration continue de la surveillance de la géométrie à travers cet outil de simulation.",
+        "Spécialité : Modélisation et Simulation en dynamique ferroviaire"
+      ],
+      "constraints": {
+        "duration": {
+          "status": "unknown",
+          "value": "Not specified",
+          "evidence": [
+            "Not specified"
+          ],
+          "reason": "Durée structurée publiée ; comparaison à confirmer."
+        },
+        "start_date": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "languages": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "location": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "education": {
+          "status": "compatible",
+          "value": "Master / ingénieur",
+          "evidence": [
+            "Etudiant en césure ou en dernière année de cycle ingénieur (Bac+4/5)"
+          ],
+          "reason": "Niveau master / ingénieur compatible avec le master EPFL du profil."
+        },
+        "eligibility": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        }
+      },
+      "constraint_status": "unknown",
+      "needs_human_review": true,
+      "id": "01c7c43b13345850a5",
+      "input_hash": "2206c2981e35c53bfa296f7ec8048a5377475475445603c9265d0abc28e34edf",
+      "assessed_at": "2026-11-08T14:25:08.958243+00:00"
+    },
+    "5a4262167f98d30e24": {
+      "rules_version": "missions-v1",
+      "pdm_potential": "high",
+      "pdm_label": "Fort potentiel PDM",
+      "pdm_explicit": false,
+      "pdm_reason": "Les missions associent conception ou investigation à une démarche de modélisation, comparaison ou validation technique.",
+      "pdm_confidence": "high",
+      "missing_information": [
+        "Accord académique EPFL et encadrement du PDM à confirmer.",
+        "Date de début : Début publié ; disponibilité du candidat à confirmer.",
+        "Langues : Langues exigées publiées ; compétences linguistiques du candidat inconnues.",
+        "Localisation : Information non précisée dans l'offre.",
+        "Éligibilité : Information non précisée dans l'offre."
+      ],
+      "technical_categories": [
+        "Mechanical Design",
+        "R&D / Product Development",
+        "Testing / Validation",
+        "Manufacturing / Production",
+        "Systems Integration",
+        "Materials / Processes"
+      ],
+      "technical_score": 100,
+      "technical_reasons": [
+        "Mission technique mécanique : Durant votre période de stage, vous piloterez un projet de conception mécanique d’un sous ensemble, du cahier des charges jusqu'au prototype industrialisable, pour nos plateformes de bioprocess Single-Use.",
+        "Mission technique mécanique : Vous explorerez ensuite plusieurs pistes de solutions techniques et les comparerez en tenant compte des contraintes de durabilité, de nettoyabilité, d’ergonomie, d’environnement en salle blanche, de coût et de fabrication.",
+        "Mission technique mécanique : Vous dimensionnerez et concevrez vos solutions à l’aide de SolidWorks ou Creo, puis vous leur donnerez vie en fabriquant et en testant un prototype fonctionnel."
+      ],
+      "mission_evidence": [
+        "Vous voulez explorer, franchir des obstacles, faire des découvertes ?Nous savons que vos projets sont ambitieux.",
+        "Ensemble, nous voyons grand et avons à cœur de prendre soin de notre large diversité de collaborateurs, clients, patients et de la planète.",
+        "Durant votre période de stage, vous piloterez un projet de conception mécanique d’un sous ensemble, du cahier des charges jusqu'au prototype industrialisable, pour nos plateformes de bioprocess Single-Use.",
+        "Ce projet s'intègrera dans le développement de notre future gamme de produits de systèmes single use.",
+        "Dans ce cadre, vous commencerez par analyser le besoin et cadrer le projet en autonomie, en collaboration étroite avec les experts métier et les équipes projet.",
+        "Vous explorerez ensuite plusieurs pistes de solutions techniques et les comparerez en tenant compte des contraintes de durabilité, de nettoyabilité, d’ergonomie, d’environnement en salle blanche, de coût et de fabrication.",
+        "Vous dimensionnerez et concevrez vos solutions à l’aide de SolidWorks ou Creo, puis vous leur donnerez vie en fabriquant et en testant un prototype fonctionnel.",
+        "Enfin, vous contribuerez à faire évoluer votre conception vers un design industrialisable, prêt à intégrer notre future gamme de systèmes, et vous présenterez vos résultats aux équipes de R&D."
+      ],
+      "constraints": {
+        "duration": {
+          "status": "compatible",
+          "value": "6 mois",
+          "evidence": [
+            "Nous recherchons un(e) stagiaire pour rejoindre l'équipe Expertise de la R&D Single-Use Systems, sur notre site de Molsheim en France pour une durée de 6 mois à partir de janvier 2027."
+          ],
+          "reason": "Durée comparée à l'intervalle souhaité fourni dans le profil ; ce n'est pas une restriction administrative."
+        },
+        "start_date": {
+          "status": "unknown",
+          "value": "Nous recherchons un(e) stagiaire pour rejoindre l'équipe Expertise de la R&D Single-Use Systems, sur notre site de Molsheim en France pour une durée de 6 mois à partir de janvier 2027.",
+          "evidence": [
+            "Nous recherchons un(e) stagiaire pour rejoindre l'équipe Expertise de la R&D Single-Use Systems, sur notre site de Molsheim en France pour une durée de 6 mois à partir de janvier 2027."
+          ],
+          "reason": "Début publié ; disponibilité du candidat à confirmer."
+        },
+        "languages": {
+          "status": "unknown",
+          "value": "en",
+          "evidence": [
+            "Anglais courant (niveau B2 minimum), à l'oral comme à l'écrit (environnement international)"
+          ],
+          "reason": "Langues exigées publiées ; compétences linguistiques du candidat inconnues."
+        },
+        "location": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "education": {
+          "status": "compatible",
+          "value": "Master / ingénieur",
+          "evidence": [
+            "Formation en dernière année Ingénieur ou Master en conception mécanique"
+          ],
+          "reason": "Niveau master / ingénieur compatible avec le master EPFL du profil."
+        },
+        "eligibility": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        }
+      },
+      "constraint_status": "unknown",
+      "needs_human_review": true,
+      "id": "5a4262167f98d30e24",
+      "input_hash": "f2e2f3468d33be7473bef0a840f65a2696d0f248cc76897b770e6b97eb8ef7a0",
+      "assessed_at": "2026-11-08T14:25:08.979917+00:00"
+    },
+    "2b282fe680cf22968f": {
+      "rules_version": "missions-v1",
+      "pdm_potential": "medium",
+      "pdm_label": "Potentiel PDM à préciser",
+      "pdm_explicit": false,
+      "pdm_reason": "Une mission technique de conception ou d'étude est identifiée ; autonomie, question de recherche et livrable académique restent à préciser.",
+      "pdm_confidence": "high",
+      "missing_information": [
+        "Accord académique EPFL et encadrement du PDM à confirmer.",
+        "Date de début : Information non précisée dans l'offre.",
+        "Langues : Information non précisée dans l'offre.",
+        "Localisation : Information non précisée dans l'offre.",
+        "Éligibilité : Information non précisée dans l'offre."
+      ],
+      "technical_categories": [
+        "R&D / Product Development",
+        "Automation / Control"
+      ],
+      "technical_score": 60,
+      "technical_reasons": [
+        "Mission technique mécanique : Analyserez les nomenclatures des organes mécaniques moteur et boite de vitesses de façon à identifier les pièces non rénovées",
+        "Mission technique mécanique : Vous préparez un cursus ingénieur génie industriel / mécanique ou équivalent et vous recherchez un stage",
+        "Mission à pertinence mécanique limitée : Le véhicule s’électrifie, se connecte, s’automatise et se doit vertueux dans sa performance environnementale."
+      ],
+      "mission_evidence": [
+        "Le véhicule s’électrifie, se connecte, s’automatise et se doit vertueux dans sa performance environnementale.",
+        "Analyserez les nomenclatures des organes mécaniques moteur et boite de vitesses de façon à identifier les pièces non rénovées",
+        "Réaliserez une analyse bibliographique des politiques techniques sur les pièces retenues, à potentiel",
+        "Analyserez les risques liés à l’utilisation de ces pièces en rénovation",
+        "Vous préparez un cursus ingénieur génie industriel / mécanique ou équivalent et vous recherchez un stage",
+        "Le stage est réalisé au sein du service Ingénierie The Remakers »",
+        "Postulez dès maintenant et construisez avec nous l’industrie automobile de demain !",
+        "Renault Group is committed to creating an inclusive working environment and the conditions for each of us to bring their passion, perform to the full and grow, whilst being themselves."
+      ],
+      "constraints": {
+        "duration": {
+          "status": "compatible",
+          "value": "6 months",
+          "evidence": [
+            "6 months"
+          ],
+          "reason": "Durée comparée à l'intervalle souhaité fourni dans le profil ; ce n'est pas une restriction administrative."
+        },
+        "start_date": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "languages": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "location": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "education": {
+          "status": "compatible",
+          "value": "Master / ingénieur",
+          "evidence": [
+            "Vous préparez un cursus ingénieur génie industriel / mécanique ou équivalent et vous recherchez un stage"
+          ],
+          "reason": "Niveau master / ingénieur compatible avec le master EPFL du profil."
+        },
+        "eligibility": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        }
+      },
+      "constraint_status": "unknown",
+      "needs_human_review": true,
+      "id": "2b282fe680cf22968f",
+      "input_hash": "e7e5e5c149ece405f92c035a9c884d7153400d5a0a4a607fa989cd3083fff9af",
+      "assessed_at": "2026-11-08T14:25:08.990760+00:00"
+    },
+    "18dbd59246b83b332a": {
+      "rules_version": "missions-v1",
+      "pdm_potential": "high",
+      "pdm_label": "Fort potentiel PDM",
+      "pdm_explicit": false,
+      "pdm_reason": "Les missions associent conception ou investigation à une démarche de modélisation, comparaison ou validation technique.",
+      "pdm_confidence": "high",
+      "missing_information": [
+        "Accord académique EPFL et encadrement du PDM à confirmer.",
+        "Durée : Durée structurée publiée ; comparaison à confirmer.",
+        "Date de début : Information non précisée dans l'offre.",
+        "Langues : Information non précisée dans l'offre.",
+        "Localisation : Information non précisée dans l'offre.",
+        "Éligibilité : Information non précisée dans l'offre."
+      ],
+      "technical_categories": [
+        "R&D / Product Development",
+        "Testing / Validation",
+        "Systems Integration",
+        "Automation / Control"
+      ],
+      "technical_score": 98,
+      "technical_reasons": [
+        "Mission technique mécanique : De la conduite de projets dans les domaines de la tribologie, de la fatigue mécanique — les deux pouvant être étudiées dans des environnements représentatifs des réacteurs à eau pressurisée (REP) — et de la mécanique de la rupture ;",
+        "Mission technique mécanique : Un intérêt pour l’expérimentation et l’analyse de phénomènes mécaniques serait apprécié.",
+        "Mission technique mécanique : Stage - Ingénieur Mécanique et Tribologie Essais-Lois-Usure-2027 F/H"
+      ],
+      "mission_evidence": [
+        "R - RESEARCH & DEVELOPMENT - R3 - Réalisation de projets R&D",
+        "Stage - Ingénieur Mécanique et Tribologie Essais-Lois-Usure-2027 F/H",
+        "Au sein de FRAMATOME, la Direction Technique et Ingénierie assure le développement, la conception et le licensing des chaudières nucléaires et des équipements associés.",
+        "Elle propose également aux exploitants des études d'ingénierie de conception, de réalisation et de services.",
+        "Elle intervient, à ce titre, comme autorité technique en apportant toute son expertise afin d'offrir un haut niveau de sûreté et de performance.",
+        "FRAMATOME** est un acteur international majeur de la filière nucléaire, reconnu pour ses solutions innovantes et ses technologies à forte valeur ajoutée dans les domaines de la conception, de la construction, de la maintenance et du développement du parc nucléaire mondial.",
+        "Grâce à ses 15 000 collaborateurs à travers le monde, FRAMATOME met chaque jour son expertise au service de ses clients afin de leur permettre d’améliorer la sûreté et la performance de leurs centrales nucléaires et de contribuer à l’atteinte de leurs objectifs économiques et sociétaux.",
+        "De la conduite de projets dans les domaines de la tribologie, de la fatigue mécanique — les deux pouvant être étudiées dans des environnements représentatifs des réacteurs à eau pressurisée (REP) — et de la mécanique de la rupture ;"
+      ],
+      "constraints": {
+        "duration": {
+          "status": "unknown",
+          "value": "Not specified",
+          "evidence": [
+            "Not specified"
+          ],
+          "reason": "Durée structurée publiée ; comparaison à confirmer."
+        },
+        "start_date": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "languages": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "location": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "education": {
+          "status": "compatible",
+          "value": "Master / ingénieur",
+          "evidence": [
+            "Stage - Ingénieur Mécanique et Tribologie Essais-Lois-Usure-2027 F/H",
+            "Vous êtes actuellement étudiant(e) en **Bac+4 ou Bac+5**, en école d’ingénieur ou en formation universitaire équivalente, avec **une spécialisation en mécanique, matériaux ou conception.**",
+            "Bac+5"
+          ],
+          "reason": "Niveau master / ingénieur compatible avec le master EPFL du profil."
+        },
+        "eligibility": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        }
+      },
+      "constraint_status": "unknown",
+      "needs_human_review": true,
+      "id": "18dbd59246b83b332a",
+      "input_hash": "be21e7fae57a2143c475119c9cd105d0dd3071de4b61c56a96f0d5c753cfb964",
+      "assessed_at": "2026-11-08T14:25:09.032670+00:00"
+    },
+    "d4f5541d6df2e62a26": {
+      "rules_version": "missions-v1",
+      "pdm_potential": "high",
+      "pdm_label": "Fort potentiel PDM",
+      "pdm_explicit": false,
+      "pdm_reason": "Les missions associent conception ou investigation à une démarche de modélisation, comparaison ou validation technique.",
+      "pdm_confidence": "high",
+      "missing_information": [
+        "Accord académique EPFL et encadrement du PDM à confirmer.",
+        "Date de début : Information non précisée dans l'offre.",
+        "Langues : Information non précisée dans l'offre.",
+        "Localisation : Information non précisée dans l'offre.",
+        "Éligibilité : Information non précisée dans l'offre."
+      ],
+      "technical_categories": [
+        "Mechanical Design",
+        "R&D / Product Development",
+        "Systems Integration",
+        "Automation / Control",
+        "Energy / Thermal"
+      ],
+      "technical_score": 100,
+      "technical_reasons": [
+        "Mission technique mécanique : Stage Ingénieur(e) Conception mécanique – Équipements lourds H/F",
+        "Mission technique mécanique : Au sein du service Mécanique du bureau d'études de notre activité EMR (énergies marines renouvelables), **vous rejoignez une équipe de 25 personnes et contribuez au développement d'une démarche de standardisation des interfaces mécaniques.**",
+        "Mission technique mécanique : Vous travaillerez en lien avec plusieurs ingénieurs et techniciens de l'entreprise, au cœur des problématiques de conception mécanique et d'intégration industrielle."
+      ],
+      "mission_evidence": [
+        "Ensemble, nous concevons, construisons et mettons en service des réalisations uniques.",
+        "Engagé dans une démarche de progrès et sensible à la transition énergétique, nous proposons des solutions novatrices et durables afin de relever avec passion 3 défis majeurs : la construction de navires (croisière et militaires), de sous-stations électriques pour l'éolien en mer, et la prestation de services pour nos clients (remises aux normes et conformité ou encore modernisation).",
+        "Conception, Etudes et Ingénierie",
+        "Stage Ingénieur(e) Conception mécanique – Équipements lourds H/F",
+        "Comment standardiser l'intégration mécanique des équipements lourds au sein de nos sous-stations électriques offshore ?**",
+        "L'intégration d'équipements tels que des vannes, des cuves ou d'autres équipements industriels nécessite de définir précisément leurs interfaces avec la structure du bâtiment, notamment leurs systèmes de supportage et de fixation.",
+        "Ces solutions doivent être anticipées suffisamment tôt pour orienter les fournisseurs sous-traitants dès le début des études et garantir une intégration cohérente des équipements dans la structure.",
+        "Au sein du service Mécanique du bureau d'études de notre activité EMR (énergies marines renouvelables), **vous rejoignez une équipe de 25 personnes et contribuez au développement d'une démarche de standardisation des interfaces mécaniques.**"
+      ],
+      "constraints": {
+        "duration": {
+          "status": "compatible",
+          "value": "6 mois",
+          "evidence": [
+            "Stage de 6 mois à compter de janvier 2027."
+          ],
+          "reason": "Durée comparée à l'intervalle souhaité fourni dans le profil ; ce n'est pas une restriction administrative."
+        },
+        "start_date": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "languages": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "location": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "education": {
+          "status": "compatible",
+          "value": "Master / ingénieur",
+          "evidence": [
+            "Stage Ingénieur(e) Conception mécanique – Équipements lourds H/F",
+            "Actuellement en dernière année d'école d'ingénieur, vous préparez un diplôme de niveau Bac+5 avec une spécialisation ou une dominante en mécanique.**",
+            "BAC+5"
+          ],
+          "reason": "Niveau master / ingénieur compatible avec le master EPFL du profil."
+        },
+        "eligibility": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        }
+      },
+      "constraint_status": "unknown",
+      "needs_human_review": true,
+      "id": "d4f5541d6df2e62a26",
+      "input_hash": "61b1f039345091aa417b8d86148c4c33ab663cada2cee602b7a2ef4ec129c4a2",
+      "assessed_at": "2026-11-08T14:25:09.056292+00:00"
+    },
+    "b8fe36fa1654c8cd46": {
+      "rules_version": "missions-v1",
+      "pdm_potential": "explicit",
+      "pdm_label": "PDM / mémoire de master explicite",
+      "pdm_explicit": true,
+      "pdm_reason": "L'intitulé ou le texte de l'offre propose explicitement un mémoire / projet de master.",
+      "pdm_confidence": "high",
+      "missing_information": [
+        "Durée : Durée structurée publiée ; comparaison à confirmer.",
+        "Date de début : Information non précisée dans l'offre.",
+        "Langues : Information non précisée dans l'offre.",
+        "Localisation : Information non précisée dans l'offre.",
+        "Éligibilité : Information non précisée dans l'offre."
+      ],
+      "technical_categories": [
+        "Mechanical Design",
+        "R&D / Product Development"
+      ],
+      "technical_score": 82,
+      "technical_reasons": [
+        "Mission technique mécanique : Backgrounds: Mechanical Engineering, Systems Engineering, Industrial Engineering & Management, Product Development, Engineering Design, Computer Science, Data Science or Applied AI.",
+        "Mission à pertinence mécanique limitée : How can AI help product development teams innovate faster, learn faster, and make better decisions earlier?",
+        "Mission à pertinence mécanique limitée : Husqvarna Construction is exploring how Generative AI can support early phases in product development through customer understanding, technology scouting, concept generation, knowledge reuse and engineering decision-making."
+      ],
+      "mission_evidence": [
+        "AI-Augmented** **Pre-Development** **- Accelerating Innovation Through AI, Rapid Learning Loops and Engineering Decision Support**",
+        "How can AI help product development teams innovate faster, learn faster, and make better decisions earlier?",
+        "Husqvarna Construction is exploring how Generative AI can support early phases in product development through customer understanding, technology scouting, concept generation, knowledge reuse and engineering decision-making.",
+        "A key focus is how AI can enable rapid learning loops, frequent iterations and exploration of multiple solution alternatives before committing to a concept.",
+        "Assess how pre-development is performed today, identify bottlenecks and opportunities, investigate where AI creates value, evaluate AI support for concept generation, trade-off analysis and knowledge reuse, explore AI support for Set-Based Concurrent Engineering (SBCE), and develop a Proof-of-Concept demonstrator.",
+        "Potential Areas of Investigation**",
+        "Concept generation and design-space exploration",
+        "Engineering trade-off analysis"
+      ],
+      "constraints": {
+        "duration": {
+          "status": "unknown",
+          "value": "Not specified",
+          "evidence": [
+            "Not specified"
+          ],
+          "reason": "Durée structurée publiée ; comparaison à confirmer."
+        },
+        "start_date": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "languages": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "location": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "education": {
+          "status": "compatible",
+          "value": "Master / ingénieur",
+          "evidence": [
+            "Master Thesis Opportunity**"
+          ],
+          "reason": "Niveau master / ingénieur compatible avec le master EPFL du profil."
+        },
+        "eligibility": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        }
+      },
+      "constraint_status": "unknown",
+      "needs_human_review": true,
+      "id": "b8fe36fa1654c8cd46",
+      "input_hash": "3fe81bcec450ec57d0372f806f491034e2c89e7373c635a97bb608d6220447c8",
+      "assessed_at": "2026-11-08T14:25:09.188769+00:00"
+    },
+    "6fff6e14c5c7bed6a3": {
+      "rules_version": "missions-v1",
+      "pdm_potential": "low",
+      "pdm_label": "Faible potentiel PDM",
+      "pdm_explicit": false,
+      "pdm_reason": "Les missions décrites relèvent surtout de l'exécution, du suivi ou du support, sans démarche de conception / investigation établie.",
+      "pdm_confidence": "high",
+      "missing_information": [
+        "Date de début : Information non précisée dans l'offre.",
+        "Langues : Information non précisée dans l'offre.",
+        "Éligibilité : Information non précisée dans l'offre."
+      ],
+      "technical_categories": [
+        "Other"
+      ],
+      "technical_score": 12,
+      "technical_reasons": [
+        "Mission à pertinence mécanique limitée : You’ll join a team of experts and contribute to real projects that connect science, technology and innovation.",
+        "Mission à pertinence mécanique limitée : Every day will bring opportunities to learn new skills, explore your interests and see how your studies come to life.",
+        "Mission à pertinence mécanique limitée : Your responsibilities Support experienced professionals in their daily activities."
+      ],
+      "mission_evidence": [
+        "You’ll join a team of experts and contribute to real projects that connect science, technology and innovation.",
+        "Every day will bring opportunities to learn new skills, explore your interests and see how your studies come to life.",
+        "Your responsibilities Support experienced professionals in their daily activities.",
+        "Contribute to small-scale projects under the guidance of your supervisor.",
+        "You will need these documents to complete your application Your CV (English or French) Any document you consider relevant to your application Overview of CERN - Discover a world where the impossible is made possible!",
+        "Every day, we face exciting new challenges and opportunities to contribute to cutting-edge research that shapes our understanding of the universe.",
+        "We meet these challenges through the diverse perspectives within our teams, ensuring every contribution is valued and driving our shared sense of inclusion and purpose."
+      ],
+      "constraints": {
+        "duration": {
+          "status": "incompatible",
+          "value": "4 months",
+          "evidence": [
+            "Entitlement to paid leave for contracts of 4 months or more."
+          ],
+          "reason": "Durée comparée à l'intervalle souhaité fourni dans le profil ; ce n'est pas une restriction administrative."
+        },
+        "start_date": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "languages": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "location": {
+          "status": "compatible",
+          "value": "Geneva, GE, ch",
+          "evidence": [
+            "Geneva, GE, ch"
+          ],
+          "reason": "Localisation en Europe."
+        },
+        "education": {
+          "status": "compatible",
+          "value": "Master / ingénieur",
+          "evidence": [
+            "You are pursuing a post-secondary education degree (Technical/Administrative diploma, Bachelor’s, or Master’s degree)."
+          ],
+          "reason": "Niveau master / ingénieur compatible avec le master EPFL du profil."
+        },
+        "eligibility": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        }
+      },
+      "constraint_status": "incompatible",
+      "needs_human_review": false,
+      "id": "6fff6e14c5c7bed6a3",
+      "input_hash": "90b2983f68bf5d76a1aefd6dc6ae74f35f611fd6e91fc498d9d4cfe7acbca6ba",
+      "assessed_at": "2026-11-08T14:25:09.232686+00:00"
+    },
+    "19d5c13c320ba5bd5b": {
+      "rules_version": "missions-v1",
+      "pdm_potential": "uncertain",
+      "pdm_label": "Informations insuffisantes",
+      "pdm_explicit": false,
+      "pdm_reason": "Le contenu disponible ne permet pas d'identifier une démarche de projet de master.",
+      "pdm_confidence": "low",
+      "missing_information": [
+        "Missions concrètes non identifiées.",
+        "Durée : Durée structurée publiée ; comparaison à confirmer.",
+        "Date de début : Information non précisée dans l'offre.",
+        "Langues : Information non précisée dans l'offre.",
+        "Localisation : Information non précisée dans l'offre.",
+        "Éligibilité : Information non précisée dans l'offre."
+      ],
+      "technical_categories": [
+        "Other"
+      ],
+      "technical_score": 0,
+      "technical_reasons": [
+        "Aucune mission technique exploitable dans le texte disponible."
+      ],
+      "mission_evidence": [],
+      "constraints": {
+        "duration": {
+          "status": "unknown",
+          "value": "Not specified",
+          "evidence": [
+            "Not specified"
+          ],
+          "reason": "Durée structurée publiée ; comparaison à confirmer."
+        },
+        "start_date": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "languages": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "location": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "education": {
+          "status": "compatible",
+          "value": "Master / ingénieur",
+          "evidence": [
+            "Intégré(e) au bureau d'études Mécanique et rattaché.e à un ingénieur expérimenté, vous contribuerez à la réalisation de projets à forte valeur ajoutée en mécanique.",
+            "Vous êtes en 5e année d'école d'ingénieur, à dominante génie mécanique, et avez un intérêt marqué pour la programmation."
+          ],
+          "reason": "Niveau master / ingénieur compatible avec le master EPFL du profil."
+        },
+        "eligibility": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        }
+      },
+      "constraint_status": "unknown",
+      "needs_human_review": true,
+      "id": "19d5c13c320ba5bd5b",
+      "input_hash": "1be080234ebf55cc0368678001afecda3da8b62a8e5b557740d8511e6483a520",
+      "assessed_at": "2026-11-08T14:25:09.259533+00:00"
+    },
+    "1589d0be831dc32c61": {
+      "rules_version": "missions-v1",
+      "pdm_potential": "medium",
+      "pdm_label": "Potentiel PDM à préciser",
+      "pdm_explicit": false,
+      "pdm_reason": "Une mission technique de conception ou d'étude est identifiée ; autonomie, question de recherche et livrable académique restent à préciser.",
+      "pdm_confidence": "high",
+      "missing_information": [
+        "Accord académique EPFL et encadrement du PDM à confirmer.",
+        "Durée : Durée structurée publiée ; comparaison à confirmer.",
+        "Date de début : Information non précisée dans l'offre.",
+        "Langues : Information non précisée dans l'offre.",
+        "Éligibilité : Information non précisée dans l'offre."
+      ],
+      "technical_categories": [
+        "R&D / Product Development",
+        "Materials / Processes",
+        "Supply Chain / Logistics",
+        "Project Management"
+      ],
+      "technical_score": 46,
+      "technical_reasons": [
+        "Mission technique mécanique : That means helping account teams prepare for executive conversations, digging into business contexts to surface what actually matters, and building materials that make AI impact legible to senior stakeholders.",
+        "Mission à pertinence mécanique limitée : You will support the Business Impact Leads in translating client challenges into AI-driven solutions, contributing to engagements, research, and internal initiatives that shape how Aily shows up in the market.",
+        "Mission à pertinence mécanique limitée : You will be embedded in live client work, not observing, but contributing."
+      ],
+      "mission_evidence": [
+        "You will support the Business Impact Leads in translating client challenges into AI-driven solutions, contributing to engagements, research, and internal initiatives that shape how Aily shows up in the market.",
+        "You will be embedded in live client work, not observing, but contributing.",
+        "That means helping account teams prepare for executive conversations, digging into business contexts to surface what actually matters, and building materials that make AI impact legible to senior stakeholders.",
+        "You will also help document the evidence: adoption milestones, ROI stories, and the moments where the platform moved the needle.",
+        "Monitor platform usage across client accounts, tracking adoption metrics by module and user segment against agreed goals",
+        "Identify drops or deviations in engagement, investigate root causes, and surface findings to the team",
+        "Go beyond surface-level tracking — work with analytics data to draw meaningful insights and propose concrete actions to improve adoption",
+        "Support the preparation of monthly impact updates: synthesizing usage and value data, coordinating with senior team members to gather inputs, and communicating outcomes to client stakeholders"
+      ],
+      "constraints": {
+        "duration": {
+          "status": "unknown",
+          "value": "Not specified",
+          "evidence": [
+            "Not specified"
+          ],
+          "reason": "Durée structurée publiée ; comparaison à confirmer."
+        },
+        "start_date": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "languages": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "location": {
+          "status": "compatible",
+          "value": "Barcelona,Remote (Spain - EU)",
+          "evidence": [
+            "Barcelona,Remote (Spain - EU)"
+          ],
+          "reason": "Localisation en Europe."
+        },
+        "education": {
+          "status": "compatible",
+          "value": "Master / ingénieur",
+          "evidence": [
+            "Master's degree in Business"
+          ],
+          "reason": "Niveau master / ingénieur compatible avec le master EPFL du profil."
+        },
+        "eligibility": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        }
+      },
+      "constraint_status": "unknown",
+      "needs_human_review": true,
+      "id": "1589d0be831dc32c61",
+      "input_hash": "39f93734254256deb63bf882bbd05b3ad190a143c1c18646043f1917951913c8",
+      "assessed_at": "2026-11-08T14:25:09.341687+00:00"
     }
   },
   "rules_version": "missions-v1",

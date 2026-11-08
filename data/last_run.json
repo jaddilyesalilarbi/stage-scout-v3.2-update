@@ -1,30 +1,29 @@
 {
-  "date": "2026-11-07",
-  "observed": 4978,
-  "matches": 636,
-  "new": 70,
-  "excluded_by_language": 362,
-  "excluded_by_summer": 1070,
-  "excluded_outside_europe": 1574,
-  "location_unknown_or_mixed": 117,
+  "date": "2026-11-08",
+  "observed": 1037,
+  "matches": 88,
+  "new": 10,
+  "excluded_by_language": 497,
+  "excluded_by_summer": 8,
+  "excluded_outside_europe": 21,
+  "location_unknown_or_mixed": 83,
   "history_removed": {
     "language": 0,
     "summer": 0,
     "geography": 0
   },
   "source_counts": {
-    "ATS company discovery": 14,
-    "ATS dataset / icims": 1200,
-    "ATS dataset / oracle": 1200,
-    "ATS dataset / smartrecruiters": 1200,
-    "ATS dataset / successfactors": 1200,
+    "ATS company watchlist": 55,
+    "ATS dataset / personio": 621,
+    "ATS dataset / softgarden": 162,
+    "ATS dataset / workable": 13,
     "ATS direct": 123,
-    "JobSpy / indeed": 41
+    "JobSpy / indeed": 63
   },
   "source_health": {
     "attempted": 29,
-    "completed": 28,
-    "timed_out": 0,
+    "completed": 27,
+    "timed_out": 1,
     "failed_or_error": 1,
     "skipped_budget": 0,
     "total_sources_planned": 29,
@@ -38,7 +37,7 @@
       },
       {
         "stage": "watchlist",
-        "name": "Beyond Gravity",
+        "name": "CaptuREE",
         "status": "completed",
         "count": 0,
         "duration_seconds": 1.1,
@@ -53,7 +52,22 @@
       },
       {
         "stage": "watchlist",
-        "name": "Blue Capsule",
+        "name": "Cardiawave",
+        "status": "completed",
+        "count": 0,
+        "duration_seconds": 0.9,
+        "scan_info": {
+          "outcome": "not_found",
+          "method": "directory",
+          "resolved_url": "",
+          "raw_postings": 0,
+          "candidate_urls": [],
+          "message": "Aucune URL ATS correspondant exactement \u00e0 cette entreprise dans l'annuaire"
+        }
+      },
+      {
+        "stage": "watchlist",
+        "name": "Carmat",
         "status": "completed",
         "count": 0,
         "duration_seconds": 1.0,
@@ -68,7 +82,7 @@
       },
       {
         "stage": "watchlist",
-        "name": "Bobst",
+        "name": "Cartier / Richemont engineering",
         "status": "completed",
         "count": 0,
         "duration_seconds": 0.9,
@@ -83,7 +97,7 @@
       },
       {
         "stage": "watchlist",
-        "name": "Bosch France",
+        "name": "CEA",
         "status": "completed",
         "count": 0,
         "duration_seconds": 0.9,
@@ -98,82 +112,7 @@
       },
       {
         "stage": "watchlist",
-        "name": "Bugatti",
-        "status": "completed",
-        "count": 0,
-        "duration_seconds": 0.9,
-        "scan_info": {
-          "outcome": "not_found",
-          "method": "directory",
-          "resolved_url": "",
-          "raw_postings": 0,
-          "candidate_urls": [],
-          "message": "Aucune URL ATS correspondant exactement \u00e0 cette entreprise dans l'annuaire"
-        }
-      },
-      {
-        "stage": "watchlist",
-        "name": "Bugatti Rimac",
-        "status": "completed",
-        "count": 0,
-        "duration_seconds": 0.9,
-        "scan_info": {
-          "outcome": "not_found",
-          "method": "directory",
-          "resolved_url": "",
-          "raw_postings": 0,
-          "candidate_urls": [],
-          "message": "Aucune URL ATS correspondant exactement \u00e0 cette entreprise dans l'annuaire"
-        }
-      },
-      {
-        "stage": "watchlist",
-        "name": "Burckhardt Compression",
-        "status": "completed",
-        "count": 0,
-        "duration_seconds": 0.9,
-        "scan_info": {
-          "outcome": "not_found",
-          "method": "directory",
-          "resolved_url": "",
-          "raw_postings": 0,
-          "candidate_urls": [],
-          "message": "Aucune URL ATS correspondant exactement \u00e0 cette entreprise dans l'annuaire"
-        }
-      },
-      {
-        "stage": "watchlist",
-        "name": "Bystronic",
-        "status": "completed",
-        "count": 0,
-        "duration_seconds": 0.9,
-        "scan_info": {
-          "outcome": "not_found",
-          "method": "directory",
-          "resolved_url": "",
-          "raw_postings": 0,
-          "candidate_urls": [],
-          "message": "Aucune URL ATS correspondant exactement \u00e0 cette entreprise dans l'annuaire"
-        }
-      },
-      {
-        "stage": "watchlist",
-        "name": "B\u00fchler AG",
-        "status": "completed",
-        "count": 0,
-        "duration_seconds": 0.9,
-        "scan_info": {
-          "outcome": "not_found",
-          "method": "directory",
-          "resolved_url": "",
-          "raw_postings": 0,
-          "candidate_urls": [],
-          "message": "Aucune URL ATS correspondant exactement \u00e0 cette entreprise dans l'annuaire"
-        }
-      },
-      {
-        "stage": "watchlist",
-        "name": "Capgemini Engineering",
+        "name": "CEA Saclay",
         "status": "completed",
         "count": 0,
         "duration_seconds": 1.0,
@@ -187,135 +126,201 @@
         }
       },
       {
-        "stage": "jobspy",
-        "name": "master thesis mechanical english @ Germany",
+        "stage": "watchlist",
+        "name": "CERN",
         "status": "completed",
-        "count": 29,
-        "duration_seconds": 1.0
+        "count": 55,
+        "duration_seconds": 4.1,
+        "scan_info": {
+          "outcome": "scanned",
+          "method": "user_url",
+          "resolved_url": "https://careers.smartrecruiters.com/CERN",
+          "raw_postings": 55,
+          "candidate_urls": [
+            "https://careers.smartrecruiters.com/CERN"
+          ],
+          "message": "Page ATS publique parcourue"
+        }
+      },
+      {
+        "stage": "watchlist",
+        "name": "Chanel engineering / manufacturing",
+        "status": "completed",
+        "count": 0,
+        "duration_seconds": 0.9,
+        "scan_info": {
+          "outcome": "not_found",
+          "method": "directory",
+          "resolved_url": "",
+          "raw_postings": 0,
+          "candidate_urls": [],
+          "message": "Aucune URL ATS correspondant exactement \u00e0 cette entreprise dans l'annuaire"
+        }
+      },
+      {
+        "stage": "watchlist",
+        "name": "CLEAN HORIZON",
+        "status": "completed",
+        "count": 0,
+        "duration_seconds": 0.9,
+        "scan_info": {
+          "outcome": "not_found",
+          "method": "directory",
+          "resolved_url": "",
+          "raw_postings": 0,
+          "candidate_urls": [],
+          "message": "Aucune URL ATS correspondant exactement \u00e0 cette entreprise dans l'annuaire"
+        }
+      },
+      {
+        "stage": "watchlist",
+        "name": "ClearSpace",
+        "status": "completed",
+        "count": 0,
+        "duration_seconds": 1.6,
+        "scan_info": {
+          "outcome": "scanned",
+          "method": "directory",
+          "resolved_url": "https://clearspace.bamboohr.com/careers",
+          "raw_postings": 0,
+          "candidate_urls": [
+            "https://clearspace.bamboohr.com/careers",
+            "https://clearspace.applytojob.com"
+          ],
+          "message": "Page ATS publique parcourue"
+        }
       },
       {
         "stage": "jobspy",
-        "name": "mechanical engineering intern @ Vienna",
+        "name": "mechanical intern @ Stockholm",
         "status": "completed",
-        "count": 2,
-        "duration_seconds": 0.8
+        "count": 0,
+        "duration_seconds": 0.9
       },
       {
         "stage": "jobspy",
-        "name": "mechanical engineering internship @ Milan",
+        "name": "master thesis engineering @ Gothenburg",
         "status": "completed",
-        "count": 2,
-        "duration_seconds": 0.8
+        "count": 25,
+        "duration_seconds": 0.9
       },
       {
         "stage": "jobspy",
-        "name": "mechanical design intern @ Turin",
+        "name": "robotics internship @ Copenhagen",
         "status": "completed",
         "count": 0,
         "duration_seconds": 0.7
       },
       {
         "stage": "jobspy",
-        "name": "aerospace internship @ Rome",
+        "name": "mechanical engineering internship @ Oslo",
         "status": "completed",
-        "count": 0,
-        "duration_seconds": 0.7
+        "count": 1,
+        "duration_seconds": 0.8
       },
       {
         "stage": "jobspy",
-        "name": "mechanical engineering internship @ Barcelona",
+        "name": "mechanical engineering intern @ Helsinki",
         "status": "completed",
-        "count": 8,
-        "duration_seconds": 0.9
+        "count": 2,
+        "duration_seconds": 0.8
+      },
+      {
+        "stage": "jobspy",
+        "name": "stage ing\u00e9nieur m\u00e9canique @ France",
+        "status": "completed",
+        "count": 35,
+        "duration_seconds": 1.1
       },
       {
         "stage": "discovery",
-        "name": "ANAVIA",
-        "status": "completed",
-        "count": 14,
-        "duration_seconds": 3.6
-      },
-      {
-        "stage": "discovery",
-        "name": "APCO Technologies",
+        "name": "Pilatus",
         "status": "completed",
         "count": 0,
         "duration_seconds": 0.9
       },
       {
         "stage": "discovery",
-        "name": "apheros",
+        "name": "Primeo Energie",
+        "status": "completed",
+        "count": 0,
+        "duration_seconds": 0.9
+      },
+      {
+        "stage": "discovery",
+        "name": "Rea Diagnostics",
+        "status": "completed",
+        "count": 0,
+        "duration_seconds": 0.9
+      },
+      {
+        "stage": "discovery",
+        "name": "Richemont",
+        "status": "completed",
+        "count": 0,
+        "duration_seconds": 0.9
+      },
+      {
+        "stage": "discovery",
+        "name": "Rollomatic",
+        "status": "completed",
+        "count": 0,
+        "duration_seconds": 0.9
+      },
+      {
+        "stage": "discovery",
+        "name": "Romande Energie",
+        "status": "completed",
+        "count": 0,
+        "duration_seconds": 0.9
+      },
+      {
+        "stage": "discovery",
+        "name": "Saab",
         "status": "error",
         "count": 0,
-        "duration_seconds": 1.3
+        "duration_seconds": 1.5
       },
       {
         "stage": "discovery",
-        "name": "Audemars Piguet",
-        "status": "completed",
-        "count": 0,
-        "duration_seconds": 0.9
-      },
-      {
-        "stage": "discovery",
-        "name": "Audi F1 Team",
-        "status": "completed",
-        "count": 0,
-        "duration_seconds": 0.9
-      },
-      {
-        "stage": "discovery",
-        "name": "Axpo",
-        "status": "completed",
-        "count": 0,
-        "duration_seconds": 1.0
-      },
-      {
-        "stage": "discovery",
-        "name": "B&R",
-        "status": "completed",
-        "count": 0,
-        "duration_seconds": 0.9
-      },
-      {
-        "stage": "discovery",
-        "name": "CaptuREE",
+        "name": "Rolls-Royce",
         "status": "completed",
         "count": 0,
         "duration_seconds": 0.9
       },
       {
         "stage": "ats",
-        "name": "ATS provider: smartrecruiters",
+        "name": "ATS provider: workable",
         "status": "completed",
-        "count": 1200,
-        "duration_seconds": 42.5
+        "count": 13,
+        "duration_seconds": 1.1
       },
       {
         "stage": "ats",
-        "name": "ATS provider: successfactors",
+        "name": "ATS provider: personio",
         "status": "completed",
-        "count": 1200,
-        "duration_seconds": 36.9
+        "count": 621,
+        "duration_seconds": 2.4
       },
       {
         "stage": "ats",
-        "name": "ATS provider: oracle",
+        "name": "ATS provider: softgarden",
         "status": "completed",
-        "count": 1200,
-        "duration_seconds": 22.5
+        "count": 162,
+        "duration_seconds": 2.4
       },
       {
         "stage": "ats",
-        "name": "ATS provider: icims",
-        "status": "completed",
-        "count": 1200,
-        "duration_seconds": 6.5
+        "name": "ATS provider: eures",
+        "status": "timeout",
+        "count": 0,
+        "duration_seconds": 80.5
       }
     ]
   },
   "errors": [
-    "Company discovery apheros: ScraperError: JoinComScraper('apherosch'): https://join.com/api/public/companies/170914/jobs returned 422"
+    "Company discovery Saab: ScraperError: Workday returned 422 for https://saabgroup.wd3.myworkdayjobs.com/saab_careers (offset=0)",
+    "TIMEOUT ats / ATS provider: eures: exceeded 80s; other sources will continue"
   ],
   "notes": "Third-party jobs must be rechecked on the official employer page."
 }
