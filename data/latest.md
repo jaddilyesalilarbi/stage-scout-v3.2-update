@@ -1,755 +1,755 @@
-# Currently observed internships (297)
+# Currently observed internships (789)
 
-Generated: 2026-11-09. Scores are heuristic, not admission probabilities.
+Generated: 2026-11-10. Scores are heuristic, not admission probabilities.
 
-1. **71/100 - ArianeGroup - [STAGE – Ingénieure / Ingénieur Matériaux et Procédés Composites](https://fr.indeed.com/viewjob?jk=6fdaaea80c0f2a30)**
+1. **76/100 - ESA - [Intern in the Mechanical Department - Materials, Manufacturing and Assembly Section](https://jobs.esa.int/job/Noordwijk-Intern-in-the-Mechanical-Department-Materials%2C-Manufacturing-and-Assembly-Section/1452886333/)**
+   - Location: Noordwijk, NL | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / successfactors
+   - Why: design mec., integration, structures, essais
+   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+2. **75/100 - Atlas Copco Group - [Master thesis - Bolted Joint Assembly Simulation with bolt having Elastoplastic Material Properties](https://career5.successfactors.eu/sfcareer/jobreqcareer?jobId=176073&company=atlascopcoP)**
+   - Location: Sweden | Language: en | Type: Master thesis / PDM | Source: ATS dataset / successfactors
+   - Why: design mec., integration, structures, essais; explicit Master thesis; preferred location
+   - Check: Confirm the opening on the employer's site
+
+3. **73/100 - alten - [Stage Innovation : Ingénieur Simulation / Mécatronique](https://jobs.smartrecruiters.com/alten/744000151646968)**
+   - Location: Toulouse, Occitanie, fr | Language: fr | Type: Stage (PDM not confirmed) | Source: ATS dataset / smartrecruiters
+   - Why: design mec., integration, structures, materiaux; ~6 months; preferred location
+   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+4. **71/100 - ArianeGroup - [STAGE – Ingénieure / Ingénieur Matériaux et Procédés Composites](https://fr.indeed.com/viewjob?jk=6fdaaea80c0f2a30)**
    - Location: Not provided | Language: fr | Type: Stage (PDM not confirmed) | Source: JobSpy / indeed
    - Why: design mec., structures, essais, thermique; priority company; ~6 months
    - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
 
-2. **66/100 - Thales - [STAGE – Ingénieur simulation mécanique des assemblages vissés – F/H](https://fr.indeed.com/viewjob?jk=2b8bc1b2f677be63)**
+5. **71/100 - ArianeGroup - [STAGE - Ingénieure / Ingénieur généraliste - Développement d'une application d'analyse d'images pour la détection de la stratification des matériaux composites](https://fr.indeed.com/viewjob?jk=0fe5c357569e3b79)**
    - Location: Not provided | Language: fr | Type: Stage (PDM not confirmed) | Source: JobSpy / indeed
-   - Why: design mec., structures, essais, materiaux; priority company
+   - Why: design mec., structures, essais, industrialisation; priority company; ~6 months
    - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
 
-3. **65/100 - Thales - [Stage - Conception mécanique d’outillages de test](https://fr.indeed.com/viewjob?jk=4dc25121a3765baf)**
+6. **68/100 - Airbus - [STAGE 2027 - Ingénieur Recherche et Technologie Matériaux Composites (ALL GENDER)](https://fr.indeed.com/viewjob?jk=e0569ee70945df43)**
    - Location: Not provided | Language: fr | Type: Stage (PDM not confirmed) | Source: JobSpy / indeed
-   - Why: design mec., structures, thermique, materiaux; priority company; ~6 months
+   - Why: design mec., structures, industrialisation, materiaux; priority company; ~6 months
    - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
 
-4. **64/100 - Thales - [STAGE - Conception mécanique de bancs de test électroniques - F/H](https://fr.indeed.com/viewjob?jk=5926614298147315)**
-   - Location: Not provided | Language: fr | Type: Stage (PDM not confirmed) | Source: JobSpy / indeed
-   - Why: design mec., essais, industrialisation, materiaux; priority company; ~6 months
-   - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-5. **62/100 - Cea - Commissariat à l'Energie Atomique - [Stage BAC+5 Simulation de la propagation de fissure dans un acier sous pression d'hydrogène H/F](https://fr.indeed.com/viewjob?jk=28e22f2baf9e1553)**
-   - Location: Not provided | Language: fr | Type: Stage (PDM not confirmed) | Source: JobSpy / indeed
-   - Why: design mec., structures, industrie, thermique; priority company
-   - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-6. **61/100 - Airbus - [STAGE 2027 - Stage en Évaluation et Analyse Structurale d'Architectures Composites Avancées (h/f)](https://fr.indeed.com/viewjob?jk=6a166b61dbf048a7)**
-   - Location: Not provided | Language: fr | Type: Stage (PDM not confirmed) | Source: JobSpy / indeed
-   - Why: design mec., structures, materiaux; priority company; ~6 months
-   - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-7. **61/100 - alice-bob - [Mechanical Engineering Intern M/F](https://jobs.lever.co/alice-bob/f73b85dd-1d5a-4406-aa81-47c73aa635cd)**
-   - Location: Aubervilliers | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / lever
-   - Why: design mec., integration, essais, industrialisation; ~6 months
-   - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-8. **60/100 - anybotics - [Software Engineer Intern - Industrialization](https://jobs.lever.co/anybotics/d78ed750-b7fa-41a1-8691-0091b9df4169)**
-   - Location: Zurich | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / lever
-   - Why: design mec., integration, essais, industrialisation; priority company; preferred location
-   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-9. **59/100 - anybotics - [Internship - Reinforcement Learning for Navigation](https://jobs.lever.co/anybotics/9d34ce1f-0dae-4cf3-85b0-d231dfb4851b)**
-   - Location: Zurich, Switzerland | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / lever
-   - Why: design mec., integration, structures, essais; priority company; ~6 months; preferred location
-   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-10. **59/100 - anybotics - [Internship – 3D Perception, Computer Vision & AI](https://jobs.lever.co/anybotics/06e5edc9-4092-4518-8ee4-cc02a2ee4c3e)**
-   - Location: Zurich, Switzerland | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / lever
-   - Why: design mec., integration, structures, essais; priority company; ~6 months; preferred location
-   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-11. **58/100 - Airbus - [STAGE 2027 - Projet IA et Conception Mécanique (all gender)](https://fr.indeed.com/viewjob?jk=f8b91ab28be32245)**
-   - Location: Not provided | Language: fr | Type: Stage (PDM not confirmed) | Source: JobSpy / indeed
-   - Why: design mec., essais; priority company; ~6 months
-   - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-12. **57/100 - Groupe SII - [Stage Drone Hybride VTOL : Développement Mécatronique & Logiciel (F/H)](https://fr.indeed.com/viewjob?jk=053e0416370a5dfa)**
-   - Location: Not provided | Language: fr | Type: Stage (PDM not confirmed) | Source: JobSpy / indeed
-   - Why: design mec., integration, structures, essais; ~6 months
-   - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-13. **57/100 - skydio - [Autonomy Engineer Intern, Simulation & Robotics, 2027 (Zurich)](https://jobs.ashbyhq.com/skydio/05f020b1-9023-49c5-bac4-42dbd8552d3a)**
-   - Location: Zurich, Switzerland | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / ashby
-   - Why: design mec., structures, essais, industrie; preferred location
-   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-14. **57/100 - Thales - [STAGE - Ingénieur Innovation mécanique - F/H](https://fr.indeed.com/viewjob?jk=4553f3023a94f460)**
-   - Location: Not provided | Language: fr | Type: Stage (PDM not confirmed) | Source: JobSpy / indeed
-   - Why: design mec., integration, structures, essais; priority company
-   - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-15. **56/100 - kickmaker - [Stage – NPI, Industrialisation et Gestion de Production en Micro-Usine (F/H)](https://jobs.lever.co/kickmaker/31916db7-7ba5-4422-8830-8008f1993af5)**
-   - Location: Paris | Language: fr | Type: Stage (PDM not confirmed) | Source: ATS dataset / lever
-   - Why: design mec., integration, industrialisation; ~6 months; preferred location
-   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-16. **54/100 - safran-ai - [Stage - Deep Learning Scientist (H/F)](https://jobs.lever.co/safran-ai/3ff52c39-28d5-41d4-958c-c16001777e7a)**
-   - Location: Paris | Language: fr | Type: Stage (PDM not confirmed) | Source: ATS dataset / lever
-   - Why: design mec., essais; priority company; ~6 months; preferred location
-   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-17. **54/100 - STMicroelectronics - [STAGE - Optimisation par simulation TCAD d'un pixel de type HDR GS-F/H](https://fr.indeed.com/viewjob?jk=ed2c193ebf1085c9)**
-   - Location: Not provided | Language: fr | Type: Stage (PDM not confirmed) | Source: JobSpy / indeed
-   - Why: design mec., structures, materiaux
-   - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-18. **53/100 - via - [Commercial Intern](https://job-boards.greenhouse.io/via/jobs/8884887002)**
-   - Location: London, UK | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / greenhouse
-   - Why: structures, essais; priority company; ~6 months; preferred location
-   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-19. **53/100 - the-exploration-company - [MAIT Additive Manufacturing Materials Intern](https://jobs.ashbyhq.com/the-exploration-company/df2e8a16-c9b2-4603-8bc6-b78a4addb04c)**
-   - Location: Düsseldorf | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / ashby
-   - Why: design mec., structures, essais, industrialisation
-   - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-20. **53/100 - teampicnic - [Intern - Business Analyst](https://jobs.picnic.app/nl/vacancies?gh_jid=1233127)**
-   - Location: Amsterdam, North Holland, Netherlands | Language: en | Type: Stage (PDM possible: confirm with EPFL) | Source: ATS dataset / greenhouse
-   - Why: design mec., industrialisation, industrie; ~6 months; preferred location
-   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-21. **52/100 - Cea - Commissariat à l'Energie Atomique - [Stage BAC+5 fab. additive H/F](https://fr.indeed.com/viewjob?jk=cb26cadcc75266e4)**
-   - Location: Not provided | Language: fr | Type: Stage (PDM not confirmed) | Source: JobSpy / indeed
-   - Why: design mec., structures, thermique, materiaux; priority company; ~6 months
-   - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-22. **52/100 - Airbus - [STAGE 2027 – Calcul de Structure et Automatisation - A320 (ALL GENDER)](https://fr.indeed.com/viewjob?jk=f34e467f78b56bba)**
+7. **68/100 - ArianeGroup - [STAGE - Ingénieure / Ingénieur d'études matériaux et procédés - Développement de composites imprégnés ablatifs via résines alternatives](https://fr.indeed.com/viewjob?jk=a44440e44c605aa9)**
    - Location: Not provided | Language: fr | Type: Stage (PDM not confirmed) | Source: JobSpy / indeed
    - Why: design mec., structures, essais, materiaux; priority company; ~6 months
    - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
 
-23. **51/100 - SNCF - [Stage ingénieur, simulation mécanique pour la surveillance de la géométrie de la voie](https://fr.indeed.com/viewjob?jk=5c66e88f867dfb17)**
+8. **66/100 - BoschGroup - [Internship in Modeling and Simulation of Heat Pump Systems](https://jobs.smartrecruiters.com/BoschGroup/744000155976242)**
+   - Location: Wernau (Neckar), BW, de | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / smartrecruiters
+   - Why: design mec., structures, industrialisation, thermique; priority company; ~6 months
+   - Check: Several possible countries: confirm a European work location; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+9. **66/100 - MBDA - [Stage Matériaux : Qualification mécano-chimique de substrats métalliques et composites F/H](https://fr.indeed.com/viewjob?jk=db611d6f9a057bd1)**
    - Location: Not provided | Language: fr | Type: Stage (PDM not confirmed) | Source: JobSpy / indeed
-   - Why: design mec., structures
-   - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-24. **51/100 - alice-bob - [Efficient Cat Qubit Simulation Intern M/F](https://jobs.lever.co/alice-bob/20b01abb-4357-497f-a854-40e08ce08b10)**
-   - Location: Paris | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / lever
-   - Why: structures; ~6 months; preferred location
-   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-25. **51/100 - Cea - Commissariat à l'Energie Atomique - [Stage de fin d'études en électronique de puissance H/F](https://fr.indeed.com/viewjob?jk=485cfa1ed2140766)**
-   - Location: Not provided | Language: fr | Type: Stage (PDM not confirmed) | Source: JobSpy / indeed
-   - Why: design mec., structures, thermique; priority company; ~6 months
-   - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-26. **50/100 - Cea - Commissariat à l'Energie Atomique - [STAGE Thermographie absolue multispectrale dans le domaine LWIR H/F](https://fr.indeed.com/viewjob?jk=7e9d6d187d8bc044)**
-   - Location: Not provided | Language: fr | Type: Stage (PDM not confirmed) | Source: JobSpy / indeed
-   - Why: design mec., essais, thermique; priority company; ~6 months
-   - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-27. **50/100 - alice-bob - [RF Sub Systems Design & Characterization Intern M/F](https://jobs.lever.co/alice-bob/89c25130-6786-45de-a28d-59ce2cae7ed9)**
-   - Location: Paris & Aubervilliers | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / lever
-   - Why: design mec., structures, essais, industrialisation; ~6 months; preferred location
-   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-28. **50/100 - ECM - [Stage Conception Mécanique Agricole H/F](https://fr.indeed.com/viewjob?jk=83a7832aba4f234e)**
-   - Location: Not provided | Language: fr | Type: Stage (PDM not confirmed) | Source: JobSpy / indeed
-   - Why: design mec., integration, structures, essais
-   - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-29. **50/100 - the-exploration-company - [CAD & PLM Administration Intern](https://jobs.ashbyhq.com/the-exploration-company/3d844765-8fd6-4978-89f6-6bd3339cd131)**
-   - Location: Munich, Germany | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / ashby
-   - Why: design mec., essais, industrie; preferred location
-   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-30. **50/100 - shieldai - [Staff Engineer, Test Integration, Modelling and Simulation (R5601)](https://jobs.lever.co/shieldai/7e905d32-4c1d-4c69-ad4c-d77a158e3297)**
-   - Location: London | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / lever
-   - Why: design mec., integration, structures, essais
-   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-31. **50/100 - heron-power - [Intern, System Integration & Test Automation (Spring 2027)](https://jobs.ashbyhq.com/heron-power/7c3f30a6-f806-4bf5-a94c-cb4dece20cb2)**
-   - Location: Scotts Valley | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / ashby
-   - Why: design mec., integration, essais, industrialisation
-   - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-32. **49/100 - dim - [Assistant(e) Brand Manager Sous-vêtements Femme (H/F) – Stage 6 mois](https://job-boards.greenhouse.io/dim/jobs/8349217)**
-   - Location: Rueil-Malmaison | Language: fr | Type: Stage (PDM not confirmed) | Source: ATS dataset / greenhouse
-   - Why: structures, industrialisation; ~6 months
-   - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-33. **49/100 - doctolib - [Software Engineering Intern - Fullstack (x/f/m) - Paris](https://jobs.ashbyhq.com/doctolib/89f0374d-48e3-4774-8a46-edfeb0657e8a)**
-   - Location: Paris | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / ashby
-   - Why: design mec., structures, essais; ~6 months; preferred location
-   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-34. **49/100 - Pretto - [Stage Business Developer / Prospection Commerciale- Paris - H/F](https://jobs.lever.co/Pretto/c2f53842-17fa-47e5-9039-d8831dffbc06)**
-   - Location: Paris, Île-de-France | Language: fr | Type: Stage (PDM not confirmed) | Source: ATS dataset / lever
-   - Why: design mec., structures, essais; ~6 months; preferred location
-   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-35. **48/100 - Groupe Talents Handicap - [Stage - Ingénieur(e) R&D - Mécanique des Matériaux F/H](https://fr.indeed.com/viewjob?jk=cc5a2997ffefd7c4)**
-   - Location: Not provided | Language: fr | Type: Stage (PDM not confirmed) | Source: JobSpy / indeed
-   - Why: design mec., structures, materiaux
-   - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-36. **48/100 - Airbus - [STAGE 2027 - Développement durable et adaptation climatique (f/h)](https://fr.indeed.com/viewjob?jk=a862bba7d3547faa)**
-   - Location: Not provided | Language: fr | Type: Stage (PDM not confirmed) | Source: JobSpy / indeed
-   - Why: industrialisation, industrie, thermique; priority company; ~6 months
-   - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-37. **48/100 - shieldai - [Simulation Specialist, Spain (R5921)](https://jobs.lever.co/shieldai/ddbc87a4-6104-4752-9d10-8f88f0aa0ac5)**
-   - Location: Madrid | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / lever
-   - Why: design mec., structures, essais, industrie
-   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-38. **47/100 - Airbus - [STAGE 2027 –Ingénieur Méthodes & Chiffrage Industriel Aérostructure (ALL GENDER)](https://fr.indeed.com/viewjob?jk=7c89debb4a6fd5be)**
-   - Location: Not provided | Language: fr | Type: Stage (PDM not confirmed) | Source: JobSpy / indeed
-   - Why: design mec., materiaux; priority company; ~6 months
-   - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-39. **47/100 - Bosch - [Stagiaire Développeur Full Stack F/H](https://fr.indeed.com/viewjob?jk=0edb7a2a40bfa3f2)**
-   - Location: Not provided | Language: fr | Type: Stage (PDM not confirmed) | Source: JobSpy / indeed
-   - Why: design mec., essais; priority company; ~6 months
-   - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-40. **47/100 - Thales - [STAGE - Ingénieur Conception d'un compagnon IA solutions de Guerre Electronique - F/H](https://fr.indeed.com/viewjob?jk=72c846ba4dc080d2)**
-   - Location: Not provided | Language: fr | Type: Stage (PDM not confirmed) | Source: JobSpy / indeed
-   - Why: design mec., essais; priority company; ~6 months
-   - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-41. **47/100 - Airbus - [STAGE 2027 - Tolérancement et Capabilités industrielles des mâts réacteurs (f/h)](https://fr.indeed.com/viewjob?jk=9d0f3e0f5c692297)**
-   - Location: Not provided | Language: fr | Type: Stage (PDM not confirmed) | Source: JobSpy / indeed
-   - Why: design mec., industrialisation; priority company; ~6 months
-   - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-42. **47/100 - ALSTOM - [Stage 6 mois - Ingénieur.e logiciel - Dev simu en Python/Robot Framework pour tests embarqués (F/H)](https://fr.indeed.com/viewjob?jk=89fd88f9a01458ec)**
-   - Location: Not provided | Language: fr | Type: Stage (PDM not confirmed) | Source: JobSpy / indeed
-   - Why: design mec., essais; priority company; ~6 months
-   - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-43. **47/100 - rai - [Autonomous Agent Engineering Intern](https://jobs.lever.co/rai/dff73976-3e91-4897-af10-8d2433c63204)**
-   - Location: Zurich | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / lever
-   - Why: structures, essais, industrie; ~6 months; preferred location
-   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-44. **47/100 - teampicnic - [Internship - Business Analyst (m/w/d)](https://jobs.picnic.app/nl/vacancies?gh_jid=6735668)**
-   - Location: Düsseldorf, North Rhine-Westphalia, Germany | Language: en | Type: Stage (PDM possible: confirm with EPFL) | Source: ATS dataset / greenhouse
-   - Why: design mec.; ~6 months; preferred location
-   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-45. **46/100 - trustautomation - [Manufacturing Engineering Internships- Industrial or Manufacturing](https://job-boards.greenhouse.io/trustautomation/jobs/8932466002)**
-   - Location: San Luis Obispo | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / greenhouse
-   - Why: design mec., integration, structures, essais
-   - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-46. **46/100 - Capgemini - [Ingénieure / Ingénieur conception mécanique - Stage](https://fr.indeed.com/viewjob?jk=edc31ee78f5f676d)**
-   - Location: Not provided | Language: fr | Type: Stage (PDM not confirmed) | Source: JobSpy / indeed
-   - Why: design mec.; ~6 months
-   - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-47. **46/100 - Capgemini - [Ingénieure / Ingénieur calcul mécanique - Stage](https://fr.indeed.com/viewjob?jk=ba4e57ae8de195d1)**
-   - Location: Not provided | Language: fr | Type: Stage (PDM not confirmed) | Source: JobSpy / indeed
-   - Why: design mec.; ~6 months
-   - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-48. **45/100 - doctolib - [Stage - Administrateur des ventes, Grands Comptes (x/f/m) - janvier 2027](https://jobs.ashbyhq.com/doctolib/3da5b5b1-3c9f-4463-bd12-addf11af8555)**
-   - Location: Paris | Language: fr | Type: Stage (PDM not confirmed) | Source: ATS dataset / ashby
-   - Why: design mec., essais; ~6 months; preferred location
-   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-49. **45/100 - doctolib - [Stage - Strategy & Operations (x/f/m) - mars 2027](https://jobs.ashbyhq.com/doctolib/6f4d7079-56c3-4516-bf4b-be0e36030f89)**
-   - Location: Paris | Language: fr | Type: Stage (PDM not confirmed) | Source: ATS dataset / ashby
-   - Why: design mec., essais; ~6 months; preferred location
-   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-50. **45/100 - iceye - [ICEYE Engineering Intern Lab 2027](https://jobs.ashbyhq.com/iceye/1b8f590b-fd9a-4c7a-ae0d-6e15f0bed42f)**
-   - Location: Espoo | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / ashby
-   - Why: design mec., structures, essais, industrie; ~6 months
-   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-51. **45/100 - doctolib - [Stage - SEO : Contenu & recherche IA (x/f/m) - novembre 2026](https://jobs.ashbyhq.com/doctolib/850c7842-94d4-4033-9962-0e598f76d0b4)**
-   - Location: Paris | Language: fr | Type: Stage (PDM not confirmed) | Source: ATS dataset / ashby
-   - Why: design mec., essais; ~6 months; preferred location
-   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-52. **45/100 - doctolib - [Stage - Assistant Conformité & Modération de Contenu (x/f/m) - janvier 2027](https://jobs.ashbyhq.com/doctolib/09933f5e-451a-4cc3-bea6-98a5a0160fe5)**
-   - Location: Paris | Language: fr | Type: Stage (PDM not confirmed) | Source: ATS dataset / ashby
-   - Why: design mec., essais; ~6 months; preferred location
-   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-53. **45/100 - doctolib - [Stage - Partenaire Performance Client (x/f/m) - janvier 2027](https://jobs.ashbyhq.com/doctolib/1d22aa3f-ba29-4373-867f-ec193995bb2c)**
-   - Location: Paris | Language: fr | Type: Stage (PDM not confirmed) | Source: ATS dataset / ashby
-   - Why: design mec., essais; ~6 months; preferred location
-   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-54. **45/100 - doctolib - [Stage - Junior Website Manager (x/f/m) - janvier 2027](https://jobs.ashbyhq.com/doctolib/873b3519-ae58-4ddc-bfb9-8bda1cf1e7a0)**
-   - Location: Paris | Language: fr | Type: Stage (PDM not confirmed) | Source: ATS dataset / ashby
-   - Why: design mec., essais; ~6 months; preferred location
-   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-55. **45/100 - doctolib - [Stage - Social Media Manager B2C (x/f/m) - janvier 2027](https://jobs.ashbyhq.com/doctolib/4d728688-f3ce-446a-9164-d3d9f008abe8)**
-   - Location: Paris | Language: fr | Type: Stage (PDM not confirmed) | Source: ATS dataset / ashby
-   - Why: design mec., essais; ~6 months; preferred location
-   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-56. **45/100 - doctolib - [Stage - Consultant en Déploiement Grands Comptes (x/f/m) - mars 2027](https://jobs.ashbyhq.com/doctolib/9fc7623a-5ea1-4323-92c0-04dc82f578cf)**
-   - Location: Paris | Language: fr | Type: Stage (PDM not confirmed) | Source: ATS dataset / ashby
-   - Why: design mec., essais; ~6 months; preferred location
-   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-57. **45/100 - doctolib - [Stage - Assistant Satisfaction (x/f/m)  - janvier 2027](https://jobs.ashbyhq.com/doctolib/b25c9448-8e74-45ac-b8ab-2017a49ce3a9)**
-   - Location: Paris | Language: fr | Type: Stage (PDM not confirmed) | Source: ATS dataset / ashby
-   - Why: design mec., essais; ~6 months; preferred location
-   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-58. **45/100 - the-exploration-company - [Internship - Radiation Testing of Electronic Components and Test Automation](https://jobs.ashbyhq.com/the-exploration-company/c0bd5a1e-0150-417f-9e83-afa9494d2357)**
-   - Location: Munich, Germany | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / ashby
-   - Why: integration, essais, industrie; preferred location
-   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-59. **45/100 - Lactalis - [Stagiaire Ingénieur Industrialisation (H/F) - 6 mois Vallet (44)](https://fr.indeed.com/viewjob?jk=fabf30a5db2dcb52)**
-   - Location: Not provided | Language: fr | Type: Stage (PDM not confirmed) | Source: JobSpy / indeed
-   - Why: design mec., industrialisation; ~6 months
-   - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-60. **45/100 - winamax - [STAGE - UX/UI Designer (H/F)](https://jobs.lever.co/winamax/f714e9a7-80e1-41c5-9e78-9d158f6a587d)**
-   - Location: Paris | Language: fr | Type: Stage (PDM not confirmed) | Source: ATS dataset / lever
-   - Why: design mec., essais; ~6 months; preferred location
-   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-61. **45/100 - kickmaker - [Stage – NPI, Industrialisation et Gestion de Production en Micro-Usine (F/H)](https://jobs.lever.co/kickmaker/8fef498a-efc5-40b5-93da-db011ff7004b)**
-   - Location: Lyon | Language: fr | Type: Stage (PDM not confirmed) | Source: ATS dataset / lever
-   - Why: integration, essais, industrialisation; preferred location
-   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-62. **44/100 - backmarket - [Software Engineer Intern](https://jobs.ashbyhq.com/backmarket/154e6aa0-dbeb-4521-8135-3304118c822b)**
-   - Location: Paris | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / ashby
-   - Why: structures, essais; ~6 months; preferred location
-   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-63. **44/100 - Naval Group - [STAGE – Ingénieur Conception thermique / énergétique - H/F](https://fr.indeed.com/viewjob?jk=26b7d913a0c0147e)**
-   - Location: Not provided | Language: fr | Type: Stage (PDM not confirmed) | Source: JobSpy / indeed
-   - Why: design mec., thermique; ~6 months
-   - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-64. **44/100 - Airbus - [STAGE 2027 - Ingénieur Support Technique Systèmes Avion (A350) (ALL GENDER)](https://fr.indeed.com/viewjob?jk=5650dc8296a2b03b)**
-   - Location: Not provided | Language: fr | Type: Stage (PDM not confirmed) | Source: JobSpy / indeed
-   - Why: design mec.; priority company; ~6 months
-   - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-65. **44/100 - Pretto - [Stage Business Developer / Prospection Commerciale - Nantes - H/F](https://jobs.lever.co/Pretto/f2bbff95-b4e1-4a8d-97ce-50ff79ef1b1f)**
-   - Location: Nantes | Language: fr | Type: Stage (PDM not confirmed) | Source: ATS dataset / lever
-   - Why: design mec., structures, essais; ~6 months
-   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-66. **44/100 - sonio - [Software Engineer Intern](https://jobs.ashbyhq.com/Sonio/64507d48-cdea-4654-a8f4-28b70ce6cb97)**
-   - Location: Paris office | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / ashby
-   - Why: structures, essais; ~6 months; preferred location
-   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-67. **44/100 - alice-bob - [Digital Twin & Surrogate Modelling Intern M/F](https://jobs.lever.co/alice-bob/a3f8c3ec-2419-433c-baae-100460e842cd)**
-   - Location: Paris | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / lever
-   - Why: structures, essais; ~6 months; preferred location
-   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-68. **44/100 - ALSTOM - [Stage 6 mois - Ingénieur.e Computer Vision & Inspections automatisées (F/H)](https://fr.indeed.com/viewjob?jk=bd3c1a7338bbd996)**
-   - Location: Not provided | Language: fr | Type: Stage (PDM not confirmed) | Source: JobSpy / indeed
-   - Why: design mec.; priority company; ~6 months
-   - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-69. **44/100 - gojob - [Stage - Platform Engineer (basé à Aix-en-Provence) (H/F)](https://jobs.lever.co/gojob/103076b3-3c50-4e92-a5ef-3e70a8d85bbc)**
-   - Location: Aix-en-Provence | Language: fr | Type: Stage (PDM not confirmed) | Source: ATS dataset / lever
-   - Why: design mec., structures, essais; ~6 months
-   - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-70. **44/100 - doctolib - [Software Engineering Intern - Fullstack (x/f/m) - Niort](https://jobs.ashbyhq.com/doctolib/0ec84e52-5047-440c-9a67-e0d0898c9783)**
-   - Location: Niort | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / ashby
-   - Why: design mec., structures, essais; ~6 months
-   - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-71. **44/100 - doctolib - [Software Engineering intern - Fullstack (x/f/m) - Nantes](https://jobs.ashbyhq.com/doctolib/b651081d-d5eb-4ffb-93e0-643b81bcfa1f)**
-   - Location: Nantes | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / ashby
-   - Why: design mec., structures, essais; ~6 months
-   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-72. **44/100 - Airbus - [STAGE 2027 – Analyste R&T en tolérancement flexible (all gender)](https://fr.indeed.com/viewjob?jk=8ece5cd6cb7d980e)**
-   - Location: Not provided | Language: fr | Type: Stage (PDM not confirmed) | Source: JobSpy / indeed
-   - Why: design mec.; priority company; ~6 months
-   - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-73. **44/100 - gojob - [Stage - Software Engineer (basé à Aix-en-Provence) (H/F)](https://jobs.lever.co/gojob/6e2801c7-e1dd-430c-8fac-6381caf7caa8)**
-   - Location: Aix-en-Provence | Language: fr | Type: Stage (PDM not confirmed) | Source: ATS dataset / lever
-   - Why: design mec., structures, essais; ~6 months
-   - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-74. **44/100 - heron-power - [Intern, Medium Voltage Test Engineering](https://jobs.ashbyhq.com/heron-power/46097ca0-4093-4a56-9c44-8ec41617bbc0)**
-   - Location: Scotts Valley | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / ashby
-   - Why: design mec., essais, thermique, materiaux
-   - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-75. **44/100 - rai - [Internship - Software Engineering](https://jobs.lever.co/rai/46c744a8-2817-4453-8b3b-20b6d0ea1ed9)**
-   - Location: Zurich | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / lever
-   - Why: structures, industrie; ~6 months; preferred location
-   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-76. **44/100 - cuspai - [MLFF Distillation & GCMC Integration -  Internship](https://jobs.ashbyhq.com/cuspai/d7b80299-ed98-4dfe-b306-729cd10d3f04)**
-   - Location: London, UK | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / ashby
-   - Why: structures, essais; ~6 months; preferred location
-   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-77. **44/100 - Beamy - [Product Engineer (Stage)](https://jobs.lever.co/Beamy/cc609544-6a20-4680-96e6-40ed3ad81b3d)**
-   - Location: Paris | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / lever
-   - Why: structures, essais; ~6 months; preferred location
-   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-78. **43/100 - Cea - Commissariat à l'Energie Atomique - [Stage BAC+5 calcul scientifique H/F](https://fr.indeed.com/viewjob?jk=ce74399141482752)**
-   - Location: Not provided | Language: fr | Type: Stage (PDM not confirmed) | Source: JobSpy / indeed
-   - Why: design mec., structures, industrie, thermique; priority company
-   - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-79. **43/100 - tracelabs - [Robotics Engineering Intern — Hardware & Software](https://jobs.ashbyhq.com/tracelabs/dec74a24-a2d5-46d2-b5b9-e7a4e3f29525)**
-   - Location: NYC | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / ashby
-   - Why: design mec., integration, structures, essais
-   - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-80. **43/100 - prose - [R&D Formulation Scientist Intern - 6 Month Internship](https://jobs.ashbyhq.com/prose/4db3a0ad-9e67-44be-b0c1-94841196b348)**
-   - Location: Paris | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / ashby
-   - Why: essais, industrialisation; ~6 months; preferred location
-   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-81. **43/100 - TREEFROG THERAPEUTICS - [Stage : Ingénieur(e) Mécatronique – Amélioration d’un encapsulateur (H/F)](https://fr.indeed.com/viewjob?jk=cb105c541a500a4c)**
-   - Location: Not provided | Language: fr | Type: Stage (PDM not confirmed) | Source: JobSpy / indeed
-   - Why: design mec., integration, essais
-   - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-82. **43/100 - ATR Aircraft - [ATR Internship 2027- Stress/Repair Engineer](https://fr.indeed.com/viewjob?jk=974fd2e913399888)**
-   - Location: Not provided | Language: unknown | Type: Stage (PDM not confirmed) | Source: JobSpy / indeed
    - Why: design mec., structures, essais, materiaux; ~6 months
    - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
 
-83. **43/100 - ATR Aircraft - [ATR – Internship 2027 - Loads Engineer H/F](https://fr.indeed.com/viewjob?jk=3b7b91a83abe7959)**
+10. **64/100 - BoschGroup - [Internship in Heat Pump System Testing and Development](https://jobs.smartrecruiters.com/BoschGroup/744000158491032)**
+   - Location: Wernau (Neckar), BW, de | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / smartrecruiters
+   - Why: design mec., structures, essais, industrialisation; priority company; ~6 months
+   - Check: Several possible countries: confirm a European work location; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+11. **64/100 - ArianeGroup - [STAGE - Ingénieure / Ingénieur généraliste - Impression 3D composite](https://fr.indeed.com/viewjob?jk=a93ffc43cdd7314a)**
    - Location: Not provided | Language: fr | Type: Stage (PDM not confirmed) | Source: JobSpy / indeed
-   - Why: design mec., structures, essais, industrie; ~6 months
+   - Why: design mec., structures, essais, materiaux; priority company; ~6 months
    - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
 
-84. **43/100 - Cea - Commissariat à l'Energie Atomique - [Stage - Étude et optimisation du procédé de thermoscellage du COC H/F](https://fr.indeed.com/viewjob?jk=afd6f7f898440f88)**
+12. **63/100 - Michelin - [Stage - Prédiction du comportement mécanique des textiles architecturés par simulation (F/H)](https://fr.indeed.com/viewjob?jk=9f49ce6217fcd84a)**
    - Location: Not provided | Language: fr | Type: Stage (PDM not confirmed) | Source: JobSpy / indeed
-   - Why: design mec., structures, thermique, materiaux; priority company
+   - Why: design mec., structures, materiaux; ~6 months
    - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
 
-85. **43/100 - Cea - Commissariat à l'Energie Atomique - [Stage - Développement d'un modèle de substitution pour l'optimisation de transistors neuromorphiques H/F](https://fr.indeed.com/viewjob?jk=5e5b0ea4737d921c)**
+13. **63/100 - alten - [Stage Innovation : Ingénieur Matériaux / Composites](https://jobs.smartrecruiters.com/alten/744000152090608)**
+   - Location: Toulouse, Occitanie, fr | Language: fr | Type: Stage (PDM not confirmed) | Source: ATS dataset / smartrecruiters
+   - Why: design mec., structures, materiaux; ~6 months; preferred location
+   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+14. **63/100 - alten - [Stage Innovation : Ingénieur Génie Mécanique / Fabrication additive](https://jobs.smartrecruiters.com/alten/744000151645438)**
+   - Location: Toulouse, Occitanie, fr | Language: fr | Type: Stage (PDM not confirmed) | Source: ATS dataset / smartrecruiters
+   - Why: design mec., integration, thermique, materiaux; ~6 months; preferred location
+   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+15. **63/100 - Liebherr-International S.A. - [Stagiaire Ingénieur mécanique / Génie industriel (H/F)](https://careers.liebherr.com/job/ColmarCedex-Stagiaire-Ing%C3%A9nieur-m%C3%A9canique-G%C3%A9nie-industriel-%28HF%29/1446165433/)**
+   - Location: Colmar/Cedex, FR | Language: fr | Type: Stage (PDM not confirmed) | Source: ATS dataset / successfactors
+   - Why: design mec., essais, industrialisation; priority company; ~6 months
+   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+16. **62/100 - GTT - [Stagiaire Ingénieur Matériaux et Procédés - Comportement mécanique - 6 mois (H/F)](https://jobs.smartrecruiters.com/GTT/744000158272574)**
+   - Location: Saint-Rémy-lès-Chevreuse, IDF, fr | Language: fr | Type: Stage (PDM not confirmed) | Source: ATS dataset / smartrecruiters
+   - Why: design mec., structures, essais, materiaux; ~6 months
+   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+17. **62/100 - Thales - [Stage - Ingénieur analyse mécanique - F/H](https://fr.indeed.com/viewjob?jk=c0abe886c77faed5)**
    - Location: Not provided | Language: fr | Type: Stage (PDM not confirmed) | Source: JobSpy / indeed
-   - Why: design mec., structures, essais, materiaux; priority company
+   - Why: design mec., structures, materiaux; priority company; ~6 months
    - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
 
-86. **43/100 - limetax - [Member of Technical Staff (MTS) Intern (m/f/d)](https://jobs.ashbyhq.com/limetax/fa80a910-9fda-4296-856e-53e919dd43fa)**
-   - Location: Berlin (HQ) | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / ashby
+18. **61/100 - ALPINE - [CS27 - Bac +5 - Stage en Développement d’outils de simulation CFD et thermique (H/F)](https://fr.indeed.com/viewjob?jk=452a83ac836039ae)**
+   - Location: Not provided | Language: unknown | Type: Stage (PDM not confirmed) | Source: JobSpy / indeed
+   - Why: design mec., structures, industrialisation, thermique; ~6 months
+   - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+19. **61/100 - Airbus - [STAGE 2027 - Ingénieur data et procédés composites (ALL GENDER)](https://fr.indeed.com/viewjob?jk=8dd8b72d3d7cac4c)**
+   - Location: Not provided | Language: fr | Type: Stage (PDM not confirmed) | Source: JobSpy / indeed
+   - Why: design mec., structures, materiaux; priority company; ~6 months
+   - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+20. **61/100 - Thales - [STAGE - Ingénieur Thermique - Caractérisation de Caloducs Oscillants pour Applications Spatiales - F/H](https://fr.indeed.com/viewjob?jk=5cc17abff2dbf364)**
+   - Location: Not provided | Language: fr | Type: Stage (PDM not confirmed) | Source: JobSpy / indeed
+   - Why: design mec., structures, essais, thermique; priority company; ~6 months
+   - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+21. **61/100 - Airbus - [Stage 2027 - Réparation de Structure Composite Nose & Center Fuselage (f/h)](https://fr.indeed.com/viewjob?jk=2125052d7560a2d1)**
+   - Location: Not provided | Language: fr | Type: Stage (PDM not confirmed) | Source: JobSpy / indeed
+   - Why: design mec., structures, materiaux; priority company; ~6 months
+   - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+22. **61/100 - Thales - [STAGE – Ingénieur Simulation Radar pour l'Observation de la Terre -F/H](https://fr.indeed.com/viewjob?jk=c36a6c3d46daa20a)**
+   - Location: Not provided | Language: fr | Type: Stage (PDM not confirmed) | Source: JobSpy / indeed
+   - Why: design mec., structures, essais; priority company; ~6 months
+   - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+23. **61/100 - GTT - [Stagiaire Ingénieur Nouvelle méthodologie calcul thermomécanique pour système d’isolation cryogénique - 6 mois F/H](https://jobs.smartrecruiters.com/GTT/744000152220569)**
+   - Location: Saint-Rémy-lès-Chevreuse, IDF, fr | Language: fr | Type: Stage (PDM not confirmed) | Source: ATS dataset / smartrecruiters
+   - Why: design mec., structures, essais, thermique; ~6 months
+   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+24. **61/100 - BoschGroup - [Academic Internship in Mechanical Engineering (f/m/div.)](https://jobs.smartrecruiters.com/BoschGroup/744000141941434)**
+   - Location: Braga, Braga, pt | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / smartrecruiters
+   - Why: design mec., structures, essais, industrialisation; priority company
+   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+25. **60/100 - BoschGroup - [Mandatory Internship Model Based Systems Engineering](https://jobs.smartrecruiters.com/BoschGroup/744000149868802)**
+   - Location: Wernau (Neckar), BW, de | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / smartrecruiters
+   - Why: design mec., integration; priority company; ~6 months
+   - Check: Several possible countries: confirm a European work location; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+26. **60/100 - BoschGroup - [Internship in the fields Manufacturing and Production planning](https://jobs.smartrecruiters.com/BoschGroup/743999974132753)**
+   - Location: Tienen, Vlaanderen, be | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / smartrecruiters
+   - Why: design mec., integration, industrialisation; priority company; ~6 months
+   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+27. **60/100 - MAHLE International GmbH - [Internship Hardware Development, Validation and Simulation for E-Mobility, Wireless Charging (m/f/d)](https://careers.mahle.com/job/Stuttgart-Internship-Hardware-Development%2C-Validation-and-Simulation-for-E-Mobility%2C-Wireless-Charging-%28mfd%29-70376/1440372333/)**
+   - Location: Stuttgart, DE, 70376 | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / successfactors
+   - Why: integration, structures, essais; ~6 months
+   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+28. **60/100 - MAHLE International GmbH - [Internship in Hardware Development, Validation and Simulation, Wireless Charging 22kW+ (m/f/d)](https://careers.mahle.com/job/Stuttgart-Internship-in-Hardware-Development%2C-Validation-and-Simulation%2C-Wireless-Charging-22kW%2B-%28mfd%29-70376/1439050633/)**
+   - Location: Stuttgart, DE, 70376 | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / successfactors
+   - Why: integration, structures, essais; ~6 months
+   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+29. **59/100 - Cook-E - [Stage – Mécanique / Robotique : Conception et industrialisation H/F](https://fr.indeed.com/viewjob?jk=fbb796f1e11d9350)**
+   - Location: Not provided | Language: fr | Type: Stage (PDM not confirmed) | Source: JobSpy / indeed
    - Why: design mec., essais, industrialisation; ~6 months
+   - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+30. **59/100 - SopraSteria1 - [Stage - Développeur/se d'applications de simulation C++/Qt - Défense & Sécurité - Toulon](https://jobs.smartrecruiters.com/SopraSteria1/744000157769738)**
+   - Location: Six-Fours-les-Plages, Provence-Alpes-Côte d'Azur, fr | Language: fr | Type: Stage (PDM not confirmed) | Source: ATS dataset / smartrecruiters
+   - Why: design mec., structures, essais, industrialisation; ~6 months
    - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
 
-87. **43/100 - Fairmat - [Stagiaire ingénieur R&D Materials (H/F)](https://fr.indeed.com/viewjob?jk=32d00410c1598d52)**
+31. **59/100 - ArianeGroup - [STAGE - Technicienne / Technicien d'essais thermo-mécaniques](https://fr.indeed.com/viewjob?jk=5b1258c5cb52d71e)**
    - Location: Not provided | Language: fr | Type: Stage (PDM not confirmed) | Source: JobSpy / indeed
-   - Why: design mec., structures, thermique, materiaux; ~6 months
+   - Why: design mec., structures, essais, thermique; priority company
    - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
 
-88. **43/100 - rai - [Internship](https://jobs.lever.co/rai/c121ffe1-e462-4902-a32f-d4f4aec02bc0)**
-   - Location: Zurich | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / lever
-   - Why: essais, industrie; ~6 months; preferred location
+32. **59/100 - RATIER-FIGEAC - [Stage PFE Ingénieur.e Matériaux Composites - H/F](https://fr.indeed.com/viewjob?jk=bc5a3c8f3c0b1835)**
+   - Location: Not provided | Language: fr | Type: Stage (PDM not confirmed) | Source: JobSpy / indeed
+   - Why: design mec., structures, essais, materiaux; ~6 months
+   - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+33. **59/100 - SBM Offshore Group - [Intern Mechanical Design Engineer - Development of a New Bogie for FPSO Weathervaning Systems](https://careers.sbmoffshore.com/job/Monaco-Intern-Mechanical-Design-Engineer-Development-of-a-New-Bogie-for-FPSO-Weathervaning-Systems/1374965857/)**
+   - Location: Monaco, MC | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / successfactors
+   - Why: design mec., integration, structures, essais; ~6 months
    - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
 
-89. **42/100 - astera - [Robotics Systems Intern](https://jobs.ashbyhq.com/astera/59578b73-571f-462d-a3d2-5f19b1ee6ed8)**
-   - Location: Emeryville HQ | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / ashby
-   - Why: design mec., integration, essais, industrie
-   - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+34. **59/100 - Volkswagen AG - [Master Thesis - Simulation-Based Modelling and Assessment of an E-turbo for a Mild-Hybrid Truck](https://jobs.scania.com/job/S%C3%B6dert%C3%A4lje-Master-Thesis-Simulation-Based-Modelling-and-Assessment-of-an-E-turbo-for-a-Mild-Hybrid-Truck-151-38/1455171333/)**
+   - Location: Södertälje, SE, 151 38 | Language: en | Type: Master thesis / PDM | Source: ATS dataset / successfactors
+   - Why: design mec., structures, industrie, thermique; explicit Master thesis
+   - Check: Confirm the opening on the employer's site
 
-90. **42/100 - Naval Group - [STAGE - Chargé.e de performance hydrodynamique - H/F](https://fr.indeed.com/viewjob?jk=4315db0582b3c6b2)**
+35. **58/100 - Fluidyn - [Stage Ingénieur d'Etudes Simulation CFD (H/F)](https://fr.indeed.com/viewjob?jk=f213095465cfa2a0)**
    - Location: Not provided | Language: fr | Type: Stage (PDM not confirmed) | Source: JobSpy / indeed
    - Why: design mec., structures, thermique; ~6 months
    - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
 
-91. **42/100 - Even - [Stage - Ingénieur R&D (F/H)](https://fr.indeed.com/viewjob?jk=7683aafd0c0cc308)**
+36. **58/100 - SBM Offshore Group - [Intern Mechanical Design Engineer - Development of an Oscillatory Test Bench for Offshore Swivel M.](https://careers.sbmoffshore.com/job/Monaco-Intern-Mechanical-Design-Engineer-Development-of-an-Oscillatory-Test-Bench-for-Offshore-Swivel-M_/1374965757/)**
+   - Location: Monaco, MC | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / successfactors
+   - Why: design mec., structures, essais, industrialisation; ~6 months
+   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+37. **58/100 - ESA - [Intern in the Mechanical Department - Aerothermodynamics and Flight Vehicles Section](https://jobs.esa.int/job/Noordwijk-Intern-in-the-Mechanical-Department-Aerothermodynamics-and-Flight-Vehicles-Section/1452883733/)**
+   - Location: Noordwijk, NL | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / successfactors
+   - Why: design mec., structures, essais, industrie
+   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+38. **57/100 - BoschGroup - [Extracurricular Internship: Model-Based System Simulation (f/m/div.)](https://jobs.smartrecruiters.com/BoschGroup/744000159895019)**
+   - Location: Aveiro, pt | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / smartrecruiters
+   - Why: design mec., structures, industrialisation, thermique; priority company
+   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+39. **57/100 - Destinus - [Propulsion Test Traineeship/ Internship](https://apply.workable.com/j/8CB564B794)**
+   - Location: Payerne, Vaud, Switzerland | Language: en | Type: Stage (PDM not confirmed) | Source: ATS company watchlist
+   - Why: design mec., essais, industrie, thermique; priority company; preferred location
+   - Check: EPFL thesis eligibility not confirmed
+
+40. **57/100 - Liebherr-International S.A. - [STAGE - Analyse des performances de compresseurs VCS aéronautiques à partir de données d'essais F/H](https://careers.liebherr.com/job/Toulouse-STAGE-Analyse-des-performances-de-compresseurs-VCS-a%C3%A9ronautiques-%C3%A0-partir-de-donn%C3%A9es-d'essais-FH/1450643633/)**
+   - Location: Toulouse, FR | Language: fr | Type: Stage (PDM not confirmed) | Source: ATS dataset / successfactors
+   - Why: design mec., industrie, thermique; priority company; ~6 months; preferred location
+   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+41. **56/100 - BoschGroup - [Internship in the field of Lean Manufacturing](https://jobs.smartrecruiters.com/BoschGroup/744000159797987)**
+   - Location: Tienen, Vlaams Gewest, be | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / smartrecruiters
+   - Why: design mec., industrialisation; priority company; ~6 months
+   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+42. **56/100 - Airbus - [STAGE 2027 - Développement de matériaux composites (ALL GENDER)](https://fr.indeed.com/viewjob?jk=d20204fa5fb009ff)**
    - Location: Not provided | Language: fr | Type: Stage (PDM not confirmed) | Source: JobSpy / indeed
+   - Why: design mec., structures, materiaux; priority company
+   - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+43. **56/100 - Framatome - [Stage - Ingénieur Mécanique des fluides - Etude expérimental d'essais d'écoulements diphasique F/H](https://fr.indeed.com/viewjob?jk=daf7848d07f87c22)**
+   - Location: Not provided | Language: fr | Type: Stage (PDM not confirmed) | Source: JobSpy / indeed
+   - Why: design mec., structures, essais, thermique; ~6 months
+   - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+44. **56/100 - BoschGroup - [Master Thesis Robust Identification of Compositional Electrical Drive Models - Identifiability, Sensitivity & Excitation Analysis](https://jobs.smartrecruiters.com/BoschGroup/744000147457039)**
+   - Location: Renningen, BW, de | Language: en | Type: Master thesis / PDM | Source: ATS dataset / smartrecruiters
+   - Why: structures; explicit Master thesis; priority company; ~6 months
+   - Check: Several possible countries: confirm a European work location; Confirm the opening on the employer's site
+
+45. **56/100 - Ciel & Terre International - [Stage Assistant Ingénieur R&D Produit Mécanique (H/F)](https://fr.indeed.com/viewjob?jk=985e1dde762d7ee4)**
+   - Location: Not provided | Language: fr | Type: Stage (PDM not confirmed) | Source: JobSpy / indeed
+   - Why: design mec., structures, essais, materiaux; ~6 months
+   - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+46. **56/100 - ams OSRAM GmbH - [Master thesis-Automated Device Handling for Post Silicon Verification of Integrated Circuits (m/f/d)](https://jobboard.osram.com/job/Premstaetten-Master-thesis-Automated-Device-Handling-for-Post-Silicon-Verification-of-Integrated-Circuits-%28mfd%29-8141/1389087633/)**
+   - Location: Premstaetten, AT, 8141 | Language: en | Type: Master thesis / PDM | Source: ATS dataset / successfactors
+   - Why: design mec., integration, essais, industrialisation; explicit Master thesis; ~6 months
+   - Check: Confirm the opening on the employer's site
+
+47. **55/100 - BoschGroup - [Academic Internship in Industrial Engineering and Management (f/m/div.)](https://jobs.smartrecruiters.com/BoschGroup/744000157525049)**
+   - Location: Braga, Braga, pt | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / smartrecruiters
+   - Why: design mec., integration, essais; priority company
+   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+48. **55/100 - Hdde - [Systems Engineering Intern](https://hdde.fa.us2.oraclecloud.com/?keyword=&mode=jobs&lang=en&site_number=CX#4439)**
+   - Location: Montgomery, AL, United States | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / oracle
+   - Why: design mec., integration, essais, industrialisation; preferred location
+   - Check: Several possible countries: confirm a European work location; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+49. **55/100 - SopraSteria1 - [Stage – Structuration et industrialisation de la gestion des modèles de simulation -  Aeroline - Toulouse](https://jobs.smartrecruiters.com/SopraSteria1/744000151619258)**
+   - Location: Colomiers, Occitanie, fr | Language: fr | Type: Stage (PDM not confirmed) | Source: ATS dataset / smartrecruiters
+   - Why: design mec., structures, essais, industrialisation
+   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+50. **55/100 - Artelia - [Stage PFE 6 mois Ingénieur / Ingénieure Mécanique Janvier 2027](https://jobs.smartrecruiters.com/Artelia/744000147846379)**
+   - Location: Le Mans, Pays de la Loire, fr | Language: fr | Type: Stage (PDM not confirmed) | Source: ATS dataset / smartrecruiters
    - Why: design mec., structures, essais; ~6 months
-   - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
 
-92. **42/100 - Even - [Stage - Ingénieur de production (F/H)](https://fr.indeed.com/viewjob?jk=59f0a8eab166ade3)**
-   - Location: Not provided | Language: fr | Type: Stage (PDM not confirmed) | Source: JobSpy / indeed
+51. **55/100 - Vitesco Technologies GmbH - [Internship - Manufacturing Concepts and Cost Calculations (d/f/m)](https://jobs.vitesco-technologies.com/job/Regensburg-Internship-Manufacturing-Concepts-and-Cost-Calculations-%28dfm%29-93055/1375827857/)**
+   - Location: Regensburg, DE, 93055 | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / successfactors
+   - Why: design mec., integration, essais, industrialisation; ~6 months
+   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+52. **55/100 - ESA - [Intern in the Mechanical Department - Propulsion Engineering Section](https://jobs.esa.int/job/Noordwijk-Intern-in-the-Mechanical-Department-Propulsion-Engineering-Section/1452883933/)**
+   - Location: Noordwijk, NL | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / successfactors
+   - Why: design mec., integration, industrie, thermique
+   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+53. **54/100 - eurofins - [Ingénieur.e Mécatronique en stage](https://jobs.smartrecruiters.com/eurofins/744000160171593)**
+   - Location: Saint-Étienne, Auvergne-Rhône-Alpes, fr | Language: fr | Type: Stage (PDM not confirmed) | Source: ATS dataset / smartrecruiters
+   - Why: design mec., integration, essais; ~6 months
+   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+54. **54/100 - BoschGroup - [Internship in Digital & Integrated Production Solutions](https://jobs.smartrecruiters.com/BoschGroup/744000159155779)**
+   - Location: Stuttgart, BW, de | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / smartrecruiters
+   - Why: design mec., integration, essais, industrialisation; priority company; ~6 months
+   - Check: Several possible countries: confirm a European work location; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+55. **54/100 - somfygroup - [Stage - Ingénieur Méthodes et Industrialisation (H/F)](https://jobs.smartrecruiters.com/somfygroup/744000157421566)**
+   - Location: Cluses, Auvergne-Rhône-Alpes, fr | Language: fr | Type: Stage (PDM not confirmed) | Source: ATS dataset / smartrecruiters
+   - Why: design mec., integration, essais, industrialisation; ~6 months
+   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+56. **54/100 - Honeywell - [Intern Bachelors - Mechanical Engineer (m/f/d)](https://ibqbjb.fa.ocs.oraclecloud.com/?keyword=&mode=jobs&lang=en&site_number=CX_1#159031)**
+   - Location: Leicester, Leicestershire, United Kingdom | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / oracle
+   - Why: design mec., integration, essais, industrialisation; preferred location
+   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+57. **54/100 - GTT - [Stagiaire Ingénieur - Fatigue thermique et soudure coque navire - 6 mois F/H](https://jobs.smartrecruiters.com/GTT/744000152217851)**
+   - Location: Saint-Rémy-lès-Chevreuse, IDF, fr | Language: fr | Type: Stage (PDM not confirmed) | Source: ATS dataset / smartrecruiters
+   - Why: design mec., structures, essais, thermique; ~6 months
+   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+58. **54/100 - SBM Offshore Group - [Intern Structural Engineer](https://careers.sbmoffshore.com/job/Monaco-Intern-Structural-Engineer/1374714957/)**
+   - Location: Monaco, MC | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / successfactors
    - Why: design mec., structures, essais; ~6 months
-   - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
 
-93. **42/100 - lifen - [Stage Chef.fe de projet migration applicative en santé](https://jobs.ashbyhq.com/lifen/36520176-470d-4325-a2f7-1faf7f268c34)**
-   - Location: Paris | Language: fr | Type: Stage (PDM not confirmed) | Source: ATS dataset / ashby
+59. **54/100 - rolexsa - [Stage : Développer la simulation d'empilements de couches minces](https://www.carrieres-rolex.com/Rolex/job/Bienne-Stage-D%C3%A9velopper-la-simulation-d'empilements-de-couches-minces-Bien/1374989333/)**
+   - Location: Bienne, Bienne, CH | Language: fr | Type: Stage (PDM not confirmed) | Source: ATS dataset / successfactors
+   - Why: design mec., structures, materiaux; ~6 months
+   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+60. **54/100 - Liebherr-International S.A. - [Stage Ingénieur (H/F)](https://careers.liebherr.com/job/ColmarCedex-Stage-Ing%C3%A9nieur-%28HF%29/1389428233/)**
+   - Location: Colmar/Cedex, FR | Language: fr | Type: Stage (PDM not confirmed) | Source: ATS dataset / successfactors
+   - Why: design mec., integration, structures, essais; priority company; ~6 months
+   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+61. **53/100 - MEDIAPARTICIPATIONS - [Stage – Assistant.e Communication et Commercial – Label Cascades Audio – Ellipsanime Production](https://jobs.smartrecruiters.com/MEDIAPARTICIPATIONS/744000159087049)**
+   - Location: Paris, Région Île-de-France, fr | Language: fr | Type: Stage (PDM not confirmed) | Source: ATS dataset / smartrecruiters
    - Why: design mec.; ~6 months; preferred location
    - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
 
-94. **42/100 - Thales - [STAGE - Ingénieur développement logiciel - F/H](https://fr.indeed.com/viewjob?jk=780aca63e5c09365)**
+62. **53/100 - IRSN - [Stage ingénieur en mécanique des fluides et thermique H/F](https://fr.indeed.com/viewjob?jk=ff0a03ff9603b572)**
    - Location: Not provided | Language: fr | Type: Stage (PDM not confirmed) | Source: JobSpy / indeed
-   - Why: essais; priority company; ~6 months
+   - Why: design mec., structures, thermique, materiaux
    - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
 
-95. **42/100 - ATR Aircraft - [ATR – Internship 2027 - Structure Fleet Support Daily repair Engineer](https://fr.indeed.com/viewjob?jk=65a1ba87d963b2e7)**
+63. **53/100 - BoschGroup - [AI Manufacturing Engineer  – CURRICULAR INTERNSHIP (m/f/d)](https://jobs.smartrecruiters.com/BoschGroup/744000157442289)**
+   - Location: Nonantola, Emilia-Romagna, it | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / smartrecruiters
+   - Why: integration, structures, essais, industrialisation; priority company
+   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+64. **53/100 - Naval Group - [STAGE – Simulation de ventilation de locaux par approche CFD (ANSYS Fluent) – H/F H/F](https://fr.indeed.com/viewjob?jk=dfad4db10a3574e3)**
    - Location: Not provided | Language: fr | Type: Stage (PDM not confirmed) | Source: JobSpy / indeed
-   - Why: design mec., structures, essais; ~6 months
+   - Why: structures, thermique; ~6 months
    - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
 
-96. **42/100 - artefactjobs - [R&D Intern - Fairness in Deep Learning - Paris](https://job-boards.greenhouse.io/artefactjobs/jobs/8870460002)**
-   - Location: 9th arrondissement of Paris, 75009, Paris, France | Language: fr | Type: Stage (PDM not confirmed) | Source: ATS dataset / greenhouse
-   - Why: design mec.; ~6 months; preferred location
+65. **53/100 - BoschGroup - [Extracurricular Internship: R&D and Testing Engineer for Heat Pump Water Heaters (f/m/div.)](https://jobs.smartrecruiters.com/BoschGroup/744000148963519)**
+   - Location: Aveiro, pt | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / smartrecruiters
+   - Why: design mec., essais, industrialisation, thermique; priority company
    - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
 
-97. **42/100 - artefactlinkedin - [R&D Intern - Fairness in Deep Learning - Paris](https://job-boards.greenhouse.io/artefactlinkedin/jobs/8870459002)**
-   - Location: 9th arrondissement of Paris, 75009, Paris, France | Language: fr | Type: Stage (PDM not confirmed) | Source: ATS dataset / greenhouse
-   - Why: design mec.; ~6 months; preferred location
+66. **53/100 - wabtec - [Manufacturing Engineer Intern (Mechanical)](https://jobs.smartrecruiters.com/wabtec/3743990012653106)**
+   - Location: Katy Wroclawskie, DS, pl | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / smartrecruiters
+   - Why: design mec., integration, industrialisation
    - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
 
-98. **42/100 - artefact - [R&D Intern - Fairness in Deep Learning - Paris](https://job-boards.greenhouse.io/artefact/jobs/8870446002)**
-   - Location: 9th arrondissement of Paris, 75009, Paris, France | Language: fr | Type: Stage (PDM not confirmed) | Source: ATS dataset / greenhouse
-   - Why: design mec.; ~6 months; preferred location
-   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+67. **52/100 - ArianeGroup - [STAGE - Ingénieure / Ingénieur Méthodes Contrôle Non Destructif](https://fr.indeed.com/viewjob?jk=cc18ce079f9b78bd)**
+   - Location: Not provided | Language: fr | Type: Stage (PDM not confirmed) | Source: JobSpy / indeed
+   - Why: design mec., structures, essais, materiaux; priority company; ~6 months
+   - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
 
-99. **42/100 - doctolib - [Stage - Corporate Development Analyst (x/f/m) - janvier 2027](https://jobs.ashbyhq.com/doctolib/3b21fb3e-21c4-45ce-87f3-6e3685728151)**
-   - Location: Paris | Language: fr | Type: Stage (PDM not confirmed) | Source: ATS dataset / ashby
-   - Why: design mec.; ~6 months; preferred location
-   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+68. **52/100 - ALPINE - [CS27 - Bac +5 - Stage en Mécanique des fluides (H/F)](https://fr.indeed.com/viewjob?jk=57c3a57610729fc4)**
+   - Location: Not provided | Language: unknown | Type: Stage (PDM not confirmed) | Source: JobSpy / indeed
+   - Why: design mec., industrialisation, thermique; ~6 months
+   - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
 
-100. **42/100 - finary - [Growth Intern - Stage 6 mois, M1 / césure (Bac+4)](https://jobs.ashbyhq.com/finary/cf1e1984-1d88-4c5d-840f-09ac8aa31b09)**
-   - Location: Paris | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / ashby
-   - Why: design mec.; ~6 months; preferred location
-   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-101. **41/100 - auterion - [Flight Control Intern](https://auterion.com/company/careers-open-position/8928210002?gh_jid=8928210002)**
-   - Location: Zurich, Switzerland | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / greenhouse
-   - Why: design mec., structures, essais, industrie; preferred location
-   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-102. **41/100 - EXOES - [Stage Assistant Chef de Projet (H/F)](https://fr.indeed.com/viewjob?jk=a2f7a8bd23a86d49)**
+69. **52/100 - Groupe Talents Handicap - [Stage - Ingénieur Mécanique des fluides - Etude expérimental d'essais d'écoulements diphasique F/H](https://fr.indeed.com/viewjob?jk=91d179e54a2da4fd)**
    - Location: Not provided | Language: fr | Type: Stage (PDM not confirmed) | Source: JobSpy / indeed
    - Why: design mec., essais, thermique; ~6 months
    - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
 
-103. **41/100 - Climeworks - [Intern in Sorbent Structures (80-100%)](https://climeworks.recruitee.com/o/intern-in-sorbent-structures-80-100-104)**
-   - Location: Zurich, Zürich, Switzerland | Language: en | Type: Stage (PDM not confirmed) | Source: ATS company watchlist
-   - Why: design mec., structures, essais, industrialisation; preferred location
-   - Check: EPFL thesis eligibility not confirmed
-
-104. **41/100 - skydio - [Autonomy Engineer Intern, Autonomy Infrastructure, Systems and Tools, 2027 (Zurich)](https://jobs.ashbyhq.com/skydio/fa88cb47-36f0-4020-95c3-6ac94d59d5d5)**
-   - Location: Zurich, Switzerland | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / ashby
-   - Why: design mec., structures, essais, industrie; preferred location
-   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-105. **41/100 - skydio - [Autonomy Engineer Intern, Reinforcement Learning, 2027 (Zurich)](https://jobs.ashbyhq.com/skydio/bdf927bf-8ec0-4bf4-9145-8211db836b6a)**
-   - Location: Zurich, Switzerland | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / ashby
-   - Why: design mec., structures, essais, industrie; preferred location
-   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-106. **41/100 - upvest - [Stagiaire Opérations Titres (f/h/d)](https://jobs.ashbyhq.com/upvest/36f78058-daf9-43c0-8a7a-9918e84eb27f)**
-   - Location: Paris | Language: fr | Type: Stage (PDM not confirmed) | Source: ATS dataset / ashby
-   - Why: structures; ~6 months; preferred location
-   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-107. **41/100 - adaptyv - [Intern, Molecular Biology](https://jobs.ashbyhq.com/adaptyv/9bfcccdb-8d60-4766-9600-295e0440349d)**
-   - Location: Lausanne | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / ashby
-   - Why: integration; ~6 months; preferred location
-   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-108. **41/100 - INGELIANCE TECHNOLOGIES - [Stage Ingénieur Conception Mécanique 5A H/F](https://fr.indeed.com/viewjob?jk=2b5a7df96f5a3438)**
-   - Location: Not provided | Language: fr | Type: Stage (PDM not confirmed) | Source: JobSpy / indeed
-   - Why: design mec., structures
+70. **52/100 - BoschGroup - [Smart Start Mechanical Design Engineer](https://jobs.smartrecruiters.com/BoschGroup/744000160249358)**
+   - Location: Bursa, tr | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / smartrecruiters
+   - Why: design mec., integration; priority company
    - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
 
-109. **41/100 - hexa - [VC Analyst - Internship](https://jobs.ashbyhq.com/hexa/cd064bc7-1b3b-4f52-9e73-740eedc376f8)**
-   - Location: Paris | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / ashby
-   - Why: structures; priority company; preferred location
+71. **52/100 - Eurofins - [Ingénieur.e Mécatronique en stage](https://fr.indeed.com/viewjob?jk=93d7840accd5491c)**
+   - Location: Not provided | Language: fr | Type: Stage (PDM not confirmed) | Source: JobSpy / indeed
+   - Why: design mec., integration, essais; ~6 months
+   - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+72. **52/100 - Cea - Commissariat à l'Energie Atomique - [STAGE - Simulation numérique instationnaire de canaux d'échanges TPMS H/F](https://fr.indeed.com/viewjob?jk=f1481f6d1759388f)**
+   - Location: Not provided | Language: fr | Type: Stage (PDM not confirmed) | Source: JobSpy / indeed
+   - Why: design mec., structures, thermique; priority company
+   - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+73. **52/100 - Thales - [STAGE – Ingénieur Développement Industriel Fabrication Additive -F/H](https://fr.indeed.com/viewjob?jk=d9b4940adebc5ae0)**
+   - Location: Not provided | Language: fr | Type: Stage (PDM not confirmed) | Source: JobSpy / indeed
+   - Why: design mec., essais, industrialisation, materiaux; priority company; ~6 months
+   - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+74. **52/100 - Fa Eoic Saasfaprod1 - [STAGE - Assistant Ingénieur R&D Matériaux biosourcés (H/F)](https://fa-eoic-saasfaprod1.fa.ocs.oraclecloud.com/?keyword=&mode=jobs&lang=en&site_number=CX_12001#24584)**
+   - Location: PANTIN, Île-de-France, France | Language: fr | Type: Stage (PDM not confirmed) | Source: ATS dataset / oracle
+   - Why: design mec., thermique, materiaux; ~6 months; preferred location
    - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
 
-110. **41/100 - Sopra Steria - [Stage - Développeur/euse Java - Lyon](https://fr.indeed.com/viewjob?jk=c909ca13a0db141c)**
+75. **52/100 - ArianeGroup - [STAGE - Ingénieure / Ingénieur Méthodes élastomère](https://fr.indeed.com/viewjob?jk=96f55ac94dd9aff0)**
+   - Location: Not provided | Language: fr | Type: Stage (PDM not confirmed) | Source: JobSpy / indeed
+   - Why: design mec., structures, essais, industrialisation; priority company; ~6 months
+   - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+76. **52/100 - ArianeGroup - [STAGE - Ingénieure / ingénieur Amélioration continue en Production](https://fr.indeed.com/viewjob?jk=c647d3c1330340ae)**
+   - Location: Not provided | Language: fr | Type: Stage (PDM not confirmed) | Source: JobSpy / indeed
+   - Why: design mec., structures, essais, materiaux; priority company; ~6 months
+   - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+77. **52/100 - Edbz - [Manufacturing Engineering Intern m/f/d](https://edbz.fa.us2.oraclecloud.com/?keyword=&mode=jobs&lang=en&site_number=CX#25015770)**
+   - Location: Freising, Bayern, Germany | Language: en | Type: Stage (PDM possible: confirm with EPFL) | Source: ATS dataset / oracle
+   - Why: design mec., integration, industrialisation; preferred location
+   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+78. **52/100 - ArianeGroup - [STAGE - Ingénieure / Ingénieur Textiles - Essais et Analyses](https://fr.indeed.com/viewjob?jk=231b32362e6b4934)**
+   - Location: Not provided | Language: fr | Type: Stage (PDM not confirmed) | Source: JobSpy / indeed
+   - Why: design mec., structures, essais, materiaux; priority company; ~6 months
+   - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+79. **52/100 - ArianeGroup - [STAGE - Ingénieure / Ingénieur en inspection non destructive](https://fr.indeed.com/viewjob?jk=7579109202d169fa)**
+   - Location: Not provided | Language: fr | Type: Stage (PDM not confirmed) | Source: JobSpy / indeed
+   - Why: design mec., structures, essais, materiaux; priority company; ~6 months
+   - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+80. **52/100 - AIRBUS PROTECT - [Stage 2027 - Ingénieur(e) Montée en TRL d'Échangeurs Thermiques en Fabrication Additive (All Gender)](https://fr.indeed.com/viewjob?jk=0b70599053bda74f)**
+   - Location: Not provided | Language: fr | Type: Stage (PDM not confirmed) | Source: JobSpy / indeed
+   - Why: design mec., structures, essais, thermique; priority company
+   - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+81. **52/100 - ArianeGroup - [STAGE - Ingénieure / Ingénieur éco-conception - Mise en place d'un critère d’éco-conception pour le choix des matières premières chimiques](https://fr.indeed.com/viewjob?jk=e7dc5a8d4b2367f1)**
+   - Location: Not provided | Language: fr | Type: Stage (PDM not confirmed) | Source: JobSpy / indeed
+   - Why: design mec., structures, essais, materiaux; priority company; ~6 months
+   - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+82. **52/100 - Airbus - [STAGE 2027 - Stage Ingénieur en calcul de structure (F/H)](https://fr.indeed.com/viewjob?jk=c7197ae2a15076ed)**
+   - Location: Not provided | Language: fr | Type: Stage (PDM not confirmed) | Source: JobSpy / indeed
+   - Why: design mec., structures, essais, materiaux; priority company; ~6 months
+   - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+83. **52/100 - PELLENC ST - [Stagiaire PFE Ingénieur Conception Mécanique H/F](https://fr.indeed.com/viewjob?jk=e02a51cc24f50708)**
    - Location: Not provided | Language: fr | Type: Stage (PDM not confirmed) | Source: JobSpy / indeed
    - Why: design mec., essais, industrialisation; ~6 months
    - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
 
-111. **40/100 - doctolib - [Social Media & Creative Intern (x/f/m)](https://jobs.ashbyhq.com/doctolib/0bff3a0b-33d3-4a49-923d-a732858dd3b6)**
-   - Location: Milan | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / ashby
-   - Why: design mec., essais; ~6 months
+84. **52/100 - aumovio - [R&D Mechanical Engineer - Internship](https://jobs.smartrecruiters.com/aumovio/744000150629014)**
+   - Location: Južnobački okrug, Vojvodina, rs | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / smartrecruiters
+   - Why: design mec., structures, essais, industrialisation
    - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
 
-112. **40/100 - backmarket - [AI Content & Knowledge Manager Intern](https://jobs.ashbyhq.com/backmarket/ae0b69b8-4051-4a31-a11f-f624be54b4e8)**
-   - Location: Paris | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / ashby
-   - Why: essais; ~6 months; preferred location
-   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-113. **40/100 - CNES - Centre National d'Etudes Spatiales - [STAGE - Traitement de données satellitaires H/F](https://fr.indeed.com/viewjob?jk=628fd0a0001c7377)**
+85. **52/100 - Groupe Atlantic - [Stage assistant ingénieur simulation numérique H/F](https://fr.indeed.com/viewjob?jk=56d0d2d379b3bd54)**
    - Location: Not provided | Language: fr | Type: Stage (PDM not confirmed) | Source: JobSpy / indeed
-   - Why: structures, essais, thermique; ~6 months
+   - Why: design mec., structures, thermique; ~6 months
    - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
 
-114. **40/100 - ekimetrics - [Stage de 6 mois UX/UI Designer (H/F/N) – PARIS](https://jobs.lever.co/ekimetrics/d6d2da34-9622-40a9-b3e4-814391d3a8db)**
-   - Location: Paris | Language: fr | Type: Stage (PDM not confirmed) | Source: ATS dataset / lever
-   - Why: essais; ~6 months; preferred location
+86. **52/100 - rolexsa - [Stagiaire en élaboration de matériaux composites (H/F)](https://www.carrieres-rolex.com/Forum26/job/Fribourg-Stagiaire-en-%C3%A9laboration-de-mat%C3%A9riaux-composites-%28HF%29-Frib/1442186633/)**
+   - Location: Fribourg, Fribourg, CH | Language: fr | Type: Stage (PDM not confirmed) | Source: ATS dataset / successfactors
+   - Why: design mec., structures, thermique, materiaux
    - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
 
-115. **40/100 - Edvance - [Stage - Ingénieur Conception Mécanique F/H](https://fr.indeed.com/viewjob?jk=78316173f69d09ea)**
+87. **52/100 - LACTALIS INFORMATIQUE - [Stagiaire Ingénieur Industrialisation (H/F) - 6 mois Vallet (44)](https://jobs.lactalisexperience.fr/job/Vallet-Stagiaire-Ing%C3%A9nieur-Industrialisation-%28HF%29-6-mois-Vallet-%2844%29/1435593933/)**
+   - Location: Vallet, France | Language: fr | Type: Stage (PDM not confirmed) | Source: ATS dataset / successfactors
+   - Why: design mec., industrialisation; ~6 months; preferred location
+   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+88. **52/100 - Liebherr-International S.A. - [STAGE -  Conception d'une loi de contrôle appliquée au contrôle de pression cabine  aéronautique F/H](https://careers.liebherr.com/job/Toulouse-STAGE-Conception-d'une-loi-de-contr%C3%B4le-appliqu%C3%A9e-au-contr%C3%B4le-de-pression-cabine-a%C3%A9ronautique-FH/1450681933/)**
+   - Location: Toulouse, FR | Language: fr | Type: Stage (PDM not confirmed) | Source: ATS dataset / successfactors
+   - Why: essais, industrie; priority company; ~6 months; preferred location
+   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+89. **52/100 - ESA - [Intern in the Mechanical Department - Structures Section](https://jobs.esa.int/job/Noordwijk-Intern-in-the-Mechanical-Department-Structures-Section/1452886433/)**
+   - Location: Noordwijk, NL | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / successfactors
+   - Why: design mec., structures, essais, industrialisation
+   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+90. **52/100 - Constellium - [Internship R&D - Microstructure Engineering and Mechanical Performance of Aluminium Alloys](https://jobs.constellium.com/job/Voreppe-Internship-R&D-Microstructure-Engineering-and-Mechanical-Performance-of-Aluminium-Alloys-38341/1443402833/)**
+   - Location: Voreppe, FR, 38341 | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / successfactors
+   - Why: design mec., integration, structures, industrie
+   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+91. **52/100 - ESA - [Intern in the Mechanical Department - Mechanisms Section](https://jobs.esa.int/job/Noordwijk-Intern-in-the-Mechanical-Department-Mechanisms-Section/1452886133/)**
+   - Location: Noordwijk, NL | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / successfactors
+   - Why: design mec., integration, structures, essais
+   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+92. **51/100 - Framatome - [Stage - Détermination des coefficients d'échanges thermiques en conditions de trempe F/H](https://fr.indeed.com/viewjob?jk=d180dd81b72088e1)**
    - Location: Not provided | Language: fr | Type: Stage (PDM not confirmed) | Source: JobSpy / indeed
-   - Why: design mec., materiaux
+   - Why: design mec., structures, essais, thermique; ~6 months
    - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
 
-116. **40/100 - valtech - [FR - Stage Intelligence Artificielle (Talent Program)](https://job-boards.eu.greenhouse.io/valtech/jobs/5005803101)**
-   - Location: Paris | Language: fr | Type: Stage (PDM not confirmed) | Source: ATS dataset / greenhouse
-   - Why: essais; ~6 months; preferred location
-   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-117. **40/100 - INGELIANCE TECHNOLOGIES - [Stage Ingénieur calcul : Modèles génératifs pour accélérer la simulation des écoulements H/F](https://fr.indeed.com/viewjob?jk=d606b45688182ffd)**
+93. **51/100 - MBDA - [Stage Thermique : Optimisation de Solutions de Management Thermique F/H](https://fr.indeed.com/viewjob?jk=3d5e5412c1ffaad3)**
    - Location: Not provided | Language: fr | Type: Stage (PDM not confirmed) | Source: JobSpy / indeed
-   - Why: design mec., structures
+   - Why: design mec., structures, thermique, materiaux; ~6 months
    - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
 
-118. **40/100 - DATA-MAJOR - [Consultants Data/IA stagiaires H/F](https://fr.indeed.com/viewjob?jk=b1d98f5a958fa3df)**
-   - Location: Not provided | Language: fr | Type: Stage (PDM possible: confirm with EPFL) | Source: JobSpy / indeed
-   - Why: design mec.; ~6 months
-   - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-119. **40/100 - Data-Major - [Consultant Data / IA Stagiaire (H/F)](https://fr.indeed.com/viewjob?jk=05890b0cd9fd0be7)**
-   - Location: Not provided | Language: fr | Type: Stage (PDM possible: confirm with EPFL) | Source: JobSpy / indeed
-   - Why: design mec.; ~6 months
-   - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-120. **40/100 - doctolib - [Stage - Product Content Manager Junior - Nantes (x/f/m)](https://jobs.ashbyhq.com/doctolib/5ea0b36c-c76b-4f82-a81f-5da685910d8e)**
-   - Location: Nantes | Language: fr | Type: Stage (PDM not confirmed) | Source: ATS dataset / ashby
-   - Why: design mec., essais; ~6 months
+94. **51/100 - GTT - [Stagiaire Ingénieur Matériaux et Procédés - Benchmark matériaux - 6 mois F/H](https://jobs.smartrecruiters.com/GTT/744000158258339)**
+   - Location: Saint-Rémy-lès-Chevreuse, IDF, fr | Language: fr | Type: Stage (PDM not confirmed) | Source: ATS dataset / smartrecruiters
+   - Why: design mec., structures, essais, materiaux; ~6 months
    - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
 
-121. **40/100 - Stellantis - [Stage : Conception mécanique Motorsport](https://fr.indeed.com/viewjob?jk=611c7a8bef21be1a)**
-   - Location: Not provided | Language: unknown | Type: Stage (PDM not confirmed) | Source: JobSpy / indeed
-   - Why: design mec., essais
-   - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-122. **40/100 - Stellantis - [Stage : Concepteur Mécanique 2D/3D – Projet Motorsport](https://fr.indeed.com/viewjob?jk=069278dc209575b2)**
-   - Location: Not provided | Language: unknown | Type: Stage (PDM not confirmed) | Source: JobSpy / indeed
-   - Why: design mec., essais
-   - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-123. **40/100 - backmarket - [Trade-in Buybulk Intern](https://jobs.ashbyhq.com/backmarket/fa86e653-4813-4021-b4a2-ee1d907087fb)**
-   - Location: Paris | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / ashby
-   - Why: essais; ~6 months; preferred location
-   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-124. **40/100 - doctolib - [Medical Data Intern (x/f/m)](https://jobs.ashbyhq.com/doctolib/42b97078-9d79-432d-95d4-0a44fcbb65b9)**
-   - Location: Berlin | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / ashby
-   - Why: design mec., essais; ~6 months
-   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-125. **40/100 - doctolib - [Stage - Assistant Commercial (x/f/m) - janvier 2027](https://jobs.ashbyhq.com/doctolib/640d50c5-09ec-44fd-9f53-e50d060e5d5e)**
-   - Location: Strasbourg | Language: fr | Type: Stage (PDM not confirmed) | Source: ATS dataset / ashby
-   - Why: design mec., essais; ~6 months
-   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-126. **40/100 - cheiron - [Intern — Open Application (Los Altos)](https://jobs.ashbyhq.com/Cheiron/7465f7b7-6a1a-4231-8755-f755ad611c42)**
-   - Location: Los Altos | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / ashby
-   - Why: design mec., industrialisation; ~6 months
-   - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-127. **40/100 - cheiron - [Agent Engineering Intern (Los Altos)](https://jobs.ashbyhq.com/Cheiron/36763c16-8996-4c66-b693-d48329413678)**
-   - Location: Los Altos | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / ashby
-   - Why: design mec., industrialisation; ~6 months
-   - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-128. **40/100 - verkor - [Stage - Contrôleur / Contrôleuse de Gestion (H/F)](https://jobs.lever.co/verkor/959ae1ef-7c06-4fba-b80f-14dc31e5532d)**
-   - Location: Grenoble, Auvergne-Rhône-Alpes | Language: fr | Type: Stage (PDM not confirmed) | Source: ATS dataset / lever
-   - Why: industrialisation; ~6 months; preferred location
-   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-129. **40/100 - rai - [Sensor Calibration & Integration Intern](https://jobs.lever.co/rai/7add1b9b-aa30-4d93-8cef-2c0a57e6d11f)**
-   - Location: Zurich | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / lever
-   - Why: industrie; ~6 months; preferred location
-   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-130. **40/100 - verkor - [Stage Ingénieur Infrastructure & DevOps H/F](https://jobs.lever.co/verkor/d4714c6b-2e29-4130-a40d-3fcee930f332)**
-   - Location: Grenoble, Auvergne-Rhône-Alpes | Language: fr | Type: Stage (PDM not confirmed) | Source: ATS dataset / lever
-   - Why: industrialisation; ~6 months; preferred location
-   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-131. **40/100 - kickmaker - [Stage – NPI, Industrialisation et Gestion de Production en Micro-Usine (F/H)](https://jobs.lever.co/kickmaker/7c5c690c-48c2-4569-b956-e549b928baa2)**
-   - Location: Nantes | Language: fr | Type: Stage (PDM not confirmed) | Source: ATS dataset / lever
-   - Why: integration, essais, industrialisation
-   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-132. **39/100 - backmarket - [Software Engineer Intern](https://jobs.ashbyhq.com/backmarket/09ecb805-3072-4e44-a66b-17c4bdb738f5)**
-   - Location: Barcelona | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / ashby
-   - Why: structures, essais; ~6 months
-   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-133. **39/100 - langdock - [Build Your Own Internship – m/f/d (min. 6 Months)](https://jobs.ashbyhq.com/langdock/6e9e2672-851a-40e9-9c4e-0fb6cf351474)**
-   - Location: Berlin | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / ashby
-   - Why: structures, essais; ~6 months
-   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-134. **39/100 - keyrock - [Quantitative Analyst Intern (Digital Assets Market Making - HFT) - Brussels](https://jobs.ashbyhq.com/Keyrock/2665c2ed-9131-46d9-9a05-564e7a719d33)**
-   - Location: Brussels | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / ashby
-   - Why: structures, essais; ~6 months
-   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-135. **39/100 - keyrock - [Innovation Quant Developer Intern (DeFi/Corporate Development) - Brussels](https://jobs.ashbyhq.com/Keyrock/d2d0a311-b102-4fda-b537-1a8e926b55c7)**
-   - Location: Brussels | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / ashby
-   - Why: integration, essais; ~6 months
-   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-136. **39/100 - keyrock - [DeFi Quant Research Intern (Digital Assets Market Making) - Brussels](https://jobs.ashbyhq.com/Keyrock/4cae20e0-f315-4ccb-aa8e-df0e87969313)**
-   - Location: Brussels | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / ashby
-   - Why: structures, essais; ~6 months
-   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-137. **39/100 - reonic - [AI Product Manager Intern - (AI x Greentech) (m/f/d)](https://jobs.ashbyhq.com/reonic/1f2083ea-7dba-47ff-8429-f4bed27e224c)**
-   - Location: Augsburg | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / ashby
-   - Why: structures, essais; ~6 months
-   - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-138. **39/100 - c12qe - [Internship in Automated Qubit Calibration (AI for Quantum)](https://jobs.lever.co/c12qe/b61e5911-ecf0-4b53-89ca-4382dfc092a3)**
-   - Location: Paris | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / lever
-   - Why: design mec., essais, industrialisation; preferred location
-   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-139. **39/100 - doctolib - [Software Engineer Intern - Fullstack (x/f/m) - Berlin - March 2027](https://jobs.ashbyhq.com/doctolib/dda0530c-043e-4ee5-8e82-f1e98c944af4)**
-   - Location: Berlin | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / ashby
-   - Why: structures, essais; ~6 months
-   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-140. **39/100 - doctolib - [Software Engineer Intern - Fullstack (x/f/m) - Amsterdam](https://jobs.ashbyhq.com/doctolib/f3605428-4d4f-414c-88d1-787b55518e1c)**
-   - Location: Amsterdam | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / ashby
-   - Why: structures, essais; ~6 months
-   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-141. **39/100 - doctolib - [Software Engineer Intern - Fullstack (x/f/m) - Milano](https://jobs.ashbyhq.com/doctolib/19f389f4-1374-4c61-ae03-aae839f65bf4)**
-   - Location: Milan | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / ashby
-   - Why: structures, essais; ~6 months
-   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-142. **39/100 - snowflake - [Software Engineer Intern - Berlin (2027)](https://jobs.ashbyhq.com/snowflake/ab028e3c-c1cf-4455-8915-8e4e6b0cc9e8)**
-   - Location: DE-Berlin-Trion Building | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / ashby
-   - Why: structures, essais; ~6 months
-   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-143. **39/100 - auterion - [Electronics Engineering Intern](https://auterion.com/company/careers-open-position/8813576002?gh_jid=8813576002)**
-   - Location: Zurich, Switzerland | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / greenhouse
-   - Why: design mec., essais, industrie; preferred location
-   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-144. **39/100 - musixmatch - [Software Engineer Intern](https://jobs.lever.co/musixmatch/c4edf289-e1ff-4763-a2d2-c1a4d124f29c)**
-   - Location: Bologna | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / lever
-   - Why: structures, essais; ~6 months
-   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-145. **39/100 - Fairmat - [Stagiaire ingénieur R&D Materials (H/F)](https://jobs.lever.co/Fairmat/bf62f7dd-b4fb-4bb7-b7d4-8fee2a12a81f)**
-   - Location: Paris | Language: fr | Type: Stage (PDM not confirmed) | Source: ATS dataset / lever
-   - Why: design mec., thermique, materiaux; preferred location
-   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-146. **39/100 - palantir - [Software Engineer, Internship](https://jobs.lever.co/palantir/76a60923-bb49-40f5-b061-7c7eb1299602)**
-   - Location: London, United Kingdom | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / lever
-   - Why: integration, structures, industrie; preferred location
-   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
-
-147. **38/100 - Groupe ADP - [Stage - Ingénieur Sécurité Aéronautique - F/H](https://fr.indeed.com/viewjob?jk=25ebc11a6f148832)**
+95. **51/100 - Thales - [STAGE - Conception et développement de bancs de test Hardware-in-the-Loop (HWIL) F/H](https://fr.indeed.com/viewjob?jk=83a106b9b80acab2)**
    - Location: Not provided | Language: fr | Type: Stage (PDM not confirmed) | Source: JobSpy / indeed
-   - Why: design mec., industrie; ~6 months
+   - Why: design mec., structures, essais; priority company; ~6 months
    - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
 
-148. **38/100 - IT Solutions Factory - [GALAXION SALT - LYON - STAGIAIRE INGENIEUR DEVELOPPEMENT](https://fr.indeed.com/viewjob?jk=496e2a726883f83e)**
+96. **51/100 - Airbus - [STAGE 2027 - Ingénieur en logistique industrielle et optimisation des flux (ALL GENDER)](https://fr.indeed.com/viewjob?jk=174ababac9930c1c)**
    - Location: Not provided | Language: fr | Type: Stage (PDM not confirmed) | Source: JobSpy / indeed
-   - Why: design mec., essais; ~6 months
+   - Why: design mec., structures, industrialisation; priority company; ~6 months
    - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
 
-149. **38/100 - Capgemini - [Ingénieure / Ingénieur en optimisation multidisciplinaire (MDO) - Stage](https://fr.indeed.com/viewjob?jk=f9e5492052aebf63)**
+97. **51/100 - Thales - [STAGE - Ingénieur conception Circuit intégré Hyperfréquence - F/H](https://fr.indeed.com/viewjob?jk=ac70c1849705babd)**
+   - Location: Not provided | Language: fr | Type: Stage (PDM not confirmed) | Source: JobSpy / indeed
+   - Why: design mec., structures, essais; priority company; ~6 months
+   - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+98. **51/100 - Saint-Gobain - [Stage Ingénieur process – Support aux projets d’industrialisation d’une nouvelle technologie de fusion - H/F](https://fr.indeed.com/viewjob?jk=9aba878f7e442003)**
+   - Location: Not provided | Language: fr | Type: Stage (PDM not confirmed) | Source: JobSpy / indeed
+   - Why: design mec., industrialisation, thermique, materiaux; ~6 months
+   - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+99. **51/100 - afry - [Master thesis - Structural Analysis](https://jobs.smartrecruiters.com/afry/744000153432650)**
+   - Location: Stockholm, Stockholm County, se | Language: en | Type: Master thesis / PDM | Source: ATS dataset / smartrecruiters
+   - Why: structures, thermique; explicit Master thesis
+   - Check: Confirm the opening on the employer's site
+
+100. **51/100 - alten - [Stage Innovation : Ingénieur Véhicule Autonome / Validation](https://jobs.smartrecruiters.com/alten/744000151644458)**
+   - Location: Sèvres, IDF, fr | Language: fr | Type: Stage (PDM not confirmed) | Source: ATS dataset / smartrecruiters
+   - Why: design mec., structures, essais; ~6 months
+   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+101. **51/100 - alten - [Stage Innovation : Ingénieur Simulation / Optimisation](https://jobs.smartrecruiters.com/alten/744000151639570)**
+   - Location: Sèvres, IDF, fr | Language: fr | Type: Stage (PDM not confirmed) | Source: ATS dataset / smartrecruiters
+   - Why: design mec., structures; ~6 months
+   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+102. **51/100 - BoschGroup - [Extracurricular Internship: Industry 4.0, IIoT and Manufacturing Digitalization  (f/m/div.)](https://jobs.smartrecruiters.com/BoschGroup/744000148966429)**
+   - Location: Aveiro, pt | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / smartrecruiters
+   - Why: design mec., integration, industrialisation; priority company
+   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+103. **51/100 - MAHLE International GmbH - [Internhip Lead-Buying Mechatronics (m/f/d)](https://careers.mahle.com/job/Stuttgart-Internhip-Lead-Buying-Mechatronics-%28mfd%29-70469/1442000633/)**
+   - Location: Stuttgart, DE, 70469 | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / successfactors
+   - Why: design mec., integration; ~6 months
+   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+104. **51/100 - ESA - [Intern in the Mechanical Department - Thermal Control Section](https://jobs.esa.int/job/Noordwijk-Intern-in-the-Mechanical-Department-Thermal-Control-Section/1452884733/)**
+   - Location: Noordwijk, NL | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / successfactors
+   - Why: design mec., industrie, thermique
+   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+105. **50/100 - Dassault Aviation - [Stage Ingénieur - Contrôle Qualité spécialisé F/H](https://fr.indeed.com/viewjob?jk=8e0d91708c945774)**
+   - Location: Not provided | Language: fr | Type: Stage (PDM not confirmed) | Source: JobSpy / indeed
+   - Why: design mec., essais, industrie; priority company; ~6 months
+   - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+106. **50/100 - Thales - [STAGE - Ingénieur informatique industrielle Environnement essais -F/H](https://fr.indeed.com/viewjob?jk=c5ec6065cb65105f)**
+   - Location: Not provided | Language: fr | Type: Stage (PDM not confirmed) | Source: JobSpy / indeed
+   - Why: design mec., essais, thermique; priority company; ~6 months
+   - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+107. **50/100 - Fa Eoic Saasfaprod1 - [STAGE - Assistant Ingénieur Chef de Projet Nouveauté Accessoires de Mode  (H/F)](https://fa-eoic-saasfaprod1.fa.ocs.oraclecloud.com/?keyword=&mode=jobs&lang=en&site_number=CX_12001#24691)**
+   - Location: PANTIN, Île-de-France, France | Language: fr | Type: Stage (PDM not confirmed) | Source: ATS dataset / oracle
+   - Why: design mec., structures, essais, industrialisation; ~6 months; preferred location
+   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+108. **50/100 - SopraSteria1 - [Stage - Ingénieur(e) en Développement d’Agents IA pour la Création Industrialisée d’IHM - Spatial - Toulouse](https://jobs.smartrecruiters.com/SopraSteria1/744000158218769)**
+   - Location: Toulouse, Occitanie, fr | Language: fr | Type: Stage (PDM not confirmed) | Source: ATS dataset / smartrecruiters
+   - Why: design mec., structures, essais, industrialisation; ~6 months; preferred location
+   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+109. **50/100 - Thales - [STAGE – Ingénieur LEAN & amélioration continue – F/H](https://fr.indeed.com/viewjob?jk=2bef746e36a63199)**
+   - Location: Not provided | Language: fr | Type: Stage (PDM not confirmed) | Source: JobSpy / indeed
+   - Why: design mec., essais, industrialisation; priority company; ~6 months
+   - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+110. **50/100 - Airbus - [STAGE 2027 - Ingénieur des Méthodes d'Assemblage et Optimisation des Moyens de Contrôle (ALL GENDER)](https://fr.indeed.com/viewjob?jk=ac1ced643eb8a662)**
+   - Location: Not provided | Language: fr | Type: Stage (PDM not confirmed) | Source: JobSpy / indeed
+   - Why: design mec., essais, materiaux; priority company; ~6 months
+   - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+111. **50/100 - BoschGroup - [Extracurricular Internship: Eletronics Reliability Testing (f/m/div.)](https://jobs.smartrecruiters.com/BoschGroup/744000150981509)**
+   - Location: Aveiro, pt | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / smartrecruiters
+   - Why: design mec., essais, industrialisation; priority company
+   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+112. **50/100 - SopraSteria1 - [Stage – Modélisation et Simulation des Systèmes Aéronautique - Aeroline - Toulouse](https://jobs.smartrecruiters.com/SopraSteria1/744000150637480)**
+   - Location: Colomiers, Occitanie, fr | Language: fr | Type: Stage (PDM not confirmed) | Source: ATS dataset / smartrecruiters
+   - Why: design mec., integration, structures, essais
+   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+113. **50/100 - BoschGroup - [Smart Start Series Support & Validation Engineer](https://jobs.smartrecruiters.com/BoschGroup/744000146919008)**
+   - Location: Bursa, tr | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / smartrecruiters
+   - Why: design mec., essais, industrialisation; priority company
+   - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+114. **50/100 - Garrett Advancing Motion - [International Internship Czech Republic 2027- INTERNSHIP IN REFRIGERATION COMPRESSOR TESTING](https://ehth.fa.em2.oraclecloud.com/?keyword=&mode=jobs&lang=en&site_number=CX_2001#14866)**
+   - Location: BRNO MĚSTO, Czech Republic | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / oracle
+   - Why: design mec., essais, thermique; ~6 months
+   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+115. **50/100 - KNDS - [STAGE - Ingénieur mécanique F/H](https://fr.indeed.com/viewjob?jk=585e07e35caabe33)**
+   - Location: Not provided | Language: fr | Type: Stage (PDM not confirmed) | Source: JobSpy / indeed
+   - Why: design mec., structures; ~6 months
+   - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+116. **50/100 - SICK - [MandatoryInternship / Thesis: 3D Simulation of Inductive Proximity Switches Using COMSOL Multiphysic (Waldkirch (near Freiburg), Waldkirch (near Freiburg), Waldkirch (near Freiburg), Waldkirch )](https://jobs.sick.com/job/Waldkirch-%28near-Freiburg%29-MandatoryInternship-Thesis-3D-Simulation-of-Inductive-Proximity-Switches-Using-COMSOL-Multiphysic-Wald-Waldkirch/1437407933/)**
+   - Location: Waldkirch (near Freiburg), Waldkirch (near Freiburg), Waldkirch (near Freiburg), Waldkirch | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / successfactors
+   - Why: integration, structures; ~6 months
+   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+117. **50/100 - BMW AG - [Intern Artificial Intelligence in Robotics (f/m/x)](https://jobs.bmwgroup.com/job/Munich-Intern-Artificial-Intelligence-in-Robotics-%28fmx%29-BY-80809/1437896333/)**
+   - Location: Munich, BY, DE, 80809 | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / successfactors
+   - Why: integration, structures, essais, industrie; ~6 months
+   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+118. **50/100 - GKN Aerospace Careers - [Technology Intern - Composites](https://careers.gknaerospace.com/job/Bristol-Technology-Intern-Composites/1450533633/)**
+   - Location: Bristol, GB | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / successfactors
+   - Why: design mec., integration, structures, essais
+   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+119. **50/100 - ESA - [Intern in the Ground Systems Engineering & Innovation Department - Optical Technologies Section](https://jobs.esa.int/job/Darmstadt-Intern-in-the-Ground-Systems-Engineering-&-Innovation-Department-Optical-Technologies-Section/1452810733/)**
+   - Location: Darmstadt, DE | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / successfactors
+   - Why: integration, structures, essais, industrie
+   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+120. **50/100 - ESA - [Intern in the Mechanical Department - Opto-Electronics Section](https://jobs.esa.int/job/Noordwijk-Intern-in-the-Mechanical-Department-Opto-Electronics-Section/1452884233/)**
+   - Location: Noordwijk, NL | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / successfactors
+   - Why: design mec., integration, structures, essais
+   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+121. **50/100 - ESA - [Intern in the Ground Systems Engineering & Innovation Department - AI, Data & Digital Twins](https://jobs.esa.int/job/Darmstadt-Intern-in-the-Ground-Systems-Engineering-&-Innovation-Department-AI%2C-Data-&-Digital-Twins/1452807533/)**
+   - Location: Darmstadt, DE | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / successfactors
+   - Why: design mec., integration, structures, essais
+   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+122. **50/100 - ESA - [Intern in the Ground Systems Engineering & Innovation Department - Disruption Tolerant Networking](https://jobs.esa.int/job/Darmstadt-Intern-in-the-Ground-Systems-Engineering-&-Innovation-Department-Disruption-Tolerant-Networking/1452810633/)**
+   - Location: Darmstadt, DE | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / successfactors
+   - Why: design mec., integration, structures, essais
+   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+123. **49/100 - Groupe Talents Handicap - [Stage – Ingénieur Développement et validation d'un couplage (CFD et code CATHARE) (F/H)](https://fr.indeed.com/viewjob?jk=78b64da849b57b59)**
+   - Location: Not provided | Language: fr | Type: Stage (PDM not confirmed) | Source: JobSpy / indeed
+   - Why: design mec., structures, essais, thermique
+   - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+124. **49/100 - Cea - Commissariat à l'Energie Atomique - [STAGE - Conception mécanique de sections d'essais H/F](https://fr.indeed.com/viewjob?jk=98b31d84bcfe86b1)**
+   - Location: Not provided | Language: fr | Type: Stage (PDM not confirmed) | Source: JobSpy / indeed
+   - Why: design mec., thermique; priority company
+   - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+125. **49/100 - abbvie - [Stagiaire USP - Stage en Bioproduction 6 mois (F/H/X)](https://jobs.smartrecruiters.com/abbvie/3743990016453685)**
+   - Location: Bordeaux, Nouvelle-Aquitaine, fr | Language: fr | Type: Stage (PDM not confirmed) | Source: ATS dataset / smartrecruiters
+   - Why: design mec., essais; priority company; ~6 months
+   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+126. **49/100 - abbvie - [Stagiaire USP - Stage en Bioproduction 6 mois (F/H/X)](https://jobs.smartrecruiters.com/abbvie/3743990016453621)**
+   - Location: Martillac, Nouvelle-Aquitaine, fr | Language: fr | Type: Stage (PDM not confirmed) | Source: ATS dataset / smartrecruiters
+   - Why: design mec., essais; priority company; ~6 months
+   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+127. **49/100 - SopraSteria1 - [Stage - Ingénieur(e) Développement EGNOS V3 - Spatial - Toulouse](https://jobs.smartrecruiters.com/SopraSteria1/744000156735085)**
+   - Location: Toulouse, Occitanie, fr | Language: fr | Type: Stage (PDM not confirmed) | Source: ATS dataset / smartrecruiters
+   - Why: design mec., structures, essais; ~6 months; preferred location
+   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+128. **49/100 - VeoliaEnvironnementSA - [Stage - Développement de fonctionnalités à base d’IA pour un logiciel de simulation de filières de traitement- H/F](https://jobs.smartrecruiters.com/VeoliaEnvironnementSA/744000156726039)**
+   - Location: Aubervilliers, IDF, fr | Language: fr | Type: Stage (PDM not confirmed) | Source: ATS dataset / smartrecruiters
+   - Why: structures, essais; ~6 months
+   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+129. **49/100 - AX System - [Stage - Ingénieur d'études mécaniques](https://fr.indeed.com/viewjob?jk=ab63d325d1da6657)**
    - Location: Not provided | Language: fr | Type: Stage (PDM not confirmed) | Source: JobSpy / indeed
    - Why: design mec., thermique; ~6 months
    - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
 
-150. **38/100 - SCE - [Stage Ingénieur – Étude des ouvrages d’art suspendus anciens (F/H/NG)](https://fr.indeed.com/viewjob?jk=9f0995300ed1b6c6)**
+130. **49/100 - SopraSteria1 - [Stage - Ingénieur(e) Assistant intelligent de création de chaînes de traitements scientifiques géospatiaux - Spatial - Toulouse](https://jobs.smartrecruiters.com/SopraSteria1/744000153676165)**
+   - Location: Toulouse, Occitanie, fr | Language: fr | Type: Stage (PDM not confirmed) | Source: ATS dataset / smartrecruiters
+   - Why: design mec., structures, essais; ~6 months; preferred location
+   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+131. **49/100 - SopraSteria1 - [Stage - Développeur(se) Java R&D pour un Centre de Mission - Spatial - Toulouse](https://jobs.smartrecruiters.com/SopraSteria1/744000152407215)**
+   - Location: Toulouse, Occitanie, fr | Language: fr | Type: Stage (PDM not confirmed) | Source: ATS dataset / smartrecruiters
+   - Why: design mec., structures, essais; ~6 months; preferred location
+   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+132. **49/100 - EgisGroup - [Stage 3A - Ingénieur Projet Energie et R&D - Transport H/F](https://jobs.smartrecruiters.com/EgisGroup/744000149534329)**
+   - Location: Lyon, Auvergne-Rhône-Alpes, fr | Language: fr | Type: Stage (PDM not confirmed) | Source: ATS dataset / smartrecruiters
+   - Why: design mec., structures, essais; ~6 months; preferred location
+   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+133. **49/100 - assystem - [Ingénieur Génie Civil – Dynamique Rapide – Impact Avion Stage - H/F](https://jobs.smartrecruiters.com/assystem/744000148961809)**
+   - Location: Lyon, Auvergne-Rhône-Alpes, fr | Language: fr | Type: Stage (PDM not confirmed) | Source: ATS dataset / smartrecruiters
+   - Why: design mec., structures, essais; ~6 months; preferred location
+   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+134. **49/100 - BoschGroup - [Internship – International Production Planning REF295427G](https://jobs.smartrecruiters.com/BoschGroup/744000146902159)**
+   - Location: Solothurn/Zuchwil, SO, ch | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / smartrecruiters
+   - Why: design mec., industrialisation; priority company; ~6 months
+   - Check: Several possible countries: confirm a European work location; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+135. **49/100 - BoschGroup - [Stagiaire Ingénieur, Développement Software](https://jobs.smartrecruiters.com/BoschGroup/743999716387177)**
+   - Location: Vénissieux, Auvergne-Rhône-Alpes, fr | Language: fr | Type: Stage (PDM not confirmed) | Source: ATS dataset / smartrecruiters
+   - Why: design mec., essais; priority company; ~6 months
+   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+136. **49/100 - kwssaatse - [Intern (m/f/d) Computational structural biology and modelling](https://jobs.kws.com/job/Einbeck-Intern-%28mfd%29-Computational-structural-biology-and-modelling-Lowe/1452007833/)**
+   - Location: Einbeck, Lower Saxony, DE | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / successfactors
+   - Why: structures, essais; ~6 months
+   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+137. **49/100 - Volkswagen AG - [Master Thesis - Imitation Learning for Industrial Robotics](https://jobs.scania.com/job/S%C3%B6dert%C3%A4lje-Master-Thesis-Imitation-Learning-for-Industrial-Robotics-151-38/1443169133/)**
+   - Location: Södertälje, SE, 151 38 | Language: en | Type: Master thesis / PDM | Source: ATS dataset / successfactors
+   - Why: design mec., essais, industrie; explicit Master thesis
+   - Check: Confirm the opening on the employer's site
+
+138. **49/100 - Wärtsilä Oyj Abp. - [Lead Engineer, Mechanical - Thrusters PDM & Portfolio Maintenance](https://careers.wartsila.com/job/Drunen-Lead-Engineer%2C-Mechanical-Thrusters-PDM-&-Portfolio-Maintenance/1414903633/)**
+   - Location: Drunen, NL | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / successfactors
+   - Why: design mec., integration, essais, industrialisation
+   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+139. **49/100 - ESA - [Intern in the Mechanical Department - Robotics Section](https://jobs.esa.int/job/Noordwijk-Intern-in-the-Mechanical-Department-Robotics-Section/1452884433/)**
+   - Location: Noordwijk, NL | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / successfactors
+   - Why: design mec., essais, industrie
+   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+140. **48/100 - Averna1 - [STAGE ingénieur bureau d'étude mécatronique (H/F)](https://jobs.smartrecruiters.com/Averna1/744000159713609)**
+   - Location: Colomiers, Occitanie, fr | Language: fr | Type: Stage (PDM not confirmed) | Source: ATS dataset / smartrecruiters
+   - Why: design mec., integration, essais, materiaux
+   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+141. **48/100 - assystem - [Ingénieur Conception & Calcul Mécanique dans le nucléaire - Stage- H/F](https://jobs.smartrecruiters.com/assystem/744000158615249)**
+   - Location: Venelles, Provence-Alpes-Côte d'Azur, fr | Language: fr | Type: Stage (PDM not confirmed) | Source: ATS dataset / smartrecruiters
+   - Why: design mec.; ~6 months
+   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+142. **48/100 - Cea - Commissariat à l'Energie Atomique - [STAGE - Etude CFD d'un dispositif expérimental pour le réacteur RJH H/F](https://fr.indeed.com/viewjob?jk=6fb2ccdc56dfb807)**
    - Location: Not provided | Language: fr | Type: Stage (PDM not confirmed) | Source: JobSpy / indeed
-   - Why: design mec., materiaux; ~6 months
+   - Why: design mec., structures, thermique; priority company
    - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
 
-... and 147 more offers in data/jobs.csv
+143. **48/100 - afry - [Master Thesis Project: Evaluation of AI-based Surrogate Models for Structural CAE Analysis](https://jobs.smartrecruiters.com/afry/744000157495689)**
+   - Location: Trollhättan, Västra Götaland County, se | Language: en | Type: Master thesis / PDM | Source: ATS dataset / smartrecruiters
+   - Why: structures; explicit Master thesis
+   - Check: Confirm the opening on the employer's site
+
+144. **48/100 - DENSOINTERNATIONALEUROPE - [Master Thesis Student (m/f/d) - Physical AI with Vision Language Action (VLA) Models in Robotics](https://jobs.smartrecruiters.com/DENSOINTERNATIONALEUROPE/744000154367756)**
+   - Location: Eching, BY, de | Language: en | Type: Master thesis / PDM | Source: ATS dataset / smartrecruiters
+   - Why: structures, essais, industrie; explicit Master thesis
+   - Check: Confirm the opening on the employer's site
+
+145. **48/100 - Dassault Systèmes - [STAGE - Ingénieur en simulation dynamique multicorps (F/H)](https://fr.indeed.com/viewjob?jk=942362309373ce4d)**
+   - Location: Not provided | Language: fr | Type: Stage (PDM not confirmed) | Source: JobSpy / indeed
+   - Why: design mec., integration, structures, essais
+   - Check: Location not identified: confirm the position is based in Europe; Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+146. **48/100 - Nemera - [Stagiaire Ingénieur Développement (Dispositifs Ophtalmiques) F/H/X](https://jobs.smartrecruiters.com/Nemera/744000151793919)**
+   - Location: Lyon, Auvergne-Rhône-Alpes, fr | Language: fr | Type: Stage (PDM not confirmed) | Source: ATS dataset / smartrecruiters
+   - Why: design mec., essais, industrialisation; ~6 months; preferred location
+   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+147. **48/100 - BoschGroup - [Working Student Mechanical Field](https://jobs.smartrecruiters.com/BoschGroup/744000143555199)**
+   - Location: Blaj, Alba, ro | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / smartrecruiters
+   - Why: design mec.; priority company
+   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+148. **48/100 - GKN Aerospace Careers - [Technology Intern - Digital and Simulation](https://careers.gknaerospace.com/job/Bristol-Technology-Intern-Digital-and-Simulation/1450534633/)**
+   - Location: Bristol, GB | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / successfactors
+   - Why: design mec., structures, industrialisation, industrie
+   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+149. **48/100 - Liebherr-International S.A. - [STAGE - Optimisation des essais de réception des machines tournantes F/H](https://careers.liebherr.com/job/Toulouse-STAGE-Optimisation-des-essais-de-r%C3%A9ception-des-machines-tournantes-FH/1450314933/)**
+   - Location: Toulouse, FR | Language: fr | Type: Stage (PDM not confirmed) | Source: ATS dataset / successfactors
+   - Why: design mec., essais, industrie; priority company; preferred location
+   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+150. **48/100 - ESA - [Intern in the Mechanical Department - Materials, Environments and Contamination Control Section](https://jobs.esa.int/job/Noordwijk-Intern-in-the-Mechanical-Department-Materials%2C-Environments-and-Contamination-Control-Section/1452885833/)**
+   - Location: Noordwijk, NL | Language: en | Type: Stage (PDM not confirmed) | Source: ATS dataset / successfactors
+   - Why: design mec., essais, industrie, thermique
+   - Check: Confirm the opening on the employer's site; EPFL thesis eligibility not confirmed
+
+... and 639 more offers in data/jobs.csv
