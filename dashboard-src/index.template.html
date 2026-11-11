@@ -15,7 +15,8 @@
       <div class="brand-copy"><span class="brand">STAGE SCOUT</span><span class="brand-sub">Tableau de bord des opportunités</span></div>
     </div>
     <nav class="view-tabs" aria-label="Vues Stage Scout">
-      <button class="view-tab active" id="tab-jobs" type="button" aria-pressed="true">Offres</button>
+      <button class="view-tab active" id="tab-jobs" type="button" aria-pressed="true">Toutes les offres</button>
+      <button class="view-tab" id="tab-preselection" type="button" aria-pressed="false">Présélection</button>
       <button class="view-tab" id="tab-coverage" type="button" aria-pressed="false">Couverture</button>
     </nav>
     <div class="top-actions">
@@ -27,7 +28,7 @@
   </header>
 
   <section class="summary" aria-label="Vue générale">
-    <div class="summary-heading"><h1>Vos opportunités</h1><p>Recherchez, comparez et avancez sur les offres qui comptent.</p></div>
+    <div class="summary-heading"><h1 id="summary-title">Vos opportunités</h1><p>Recherchez, comparez et avancez sur les offres qui comptent.</p><p id="preselection-caption" class="preselection-caption" hidden>Estimation du potentiel, à confirmer lors de l’entretien.</p></div>
     <div class="stat-row">
       <div class="stat"><span class="stat-number" id="total-stat">—</span><span class="stat-label">Offres en base</span></div>
       <div class="stat"><span class="stat-number" id="new-stat">—</span><span class="stat-label">Nouvelles (7 j)</span></div>
@@ -41,9 +42,20 @@
       <div class="pane-title"><h2>Filtres</h2><button id="clear-filters" type="button" class="text-link">Effacer</button></div>
       <div class="filter-group"><label for="search">Recherche</label><div class="search-wrap"><span class="search-icon">⌕</span><input type="search" id="search" placeholder="Entreprise, poste, ville…" autocomplete="off" aria-label="Recherche dans toutes les offres"></div></div>
       <div class="filter-group"><label for="country">Pays</label><select id="country"><option value="">Tous les pays</option></select></div>
+      <div id="preselection-filters" hidden>
+        <div class="filter-group"><label for="pdm-filter">Potentiel PDM</label><select id="pdm-filter"><option value="">Tous les potentiels</option><option value="explicit">PDM explicite</option><option value="high">Élevé</option><option value="medium">Moyen</option><option value="uncertain">Incertain</option><option value="low">Faible</option></select></div>
+        <div class="filter-group"><label for="technical-categories">Catégories techniques (OU)</label><select id="technical-categories" multiple size="5" aria-describedby="categories-help"></select><p id="categories-help" class="filter-help">Au moins une catégorie sélectionnée. Ctrl/Cmd + clic pour plusieurs choix.</p></div>
+        <div class="filter-group"><div class="range-head"><label for="technical-min">Score technique minimum</label><output id="technical-label" for="technical-min">0</output></div><input id="technical-min" type="range" min="0" max="100" step="5" value="0"></div>
+        <div class="filter-group"><label for="company-filter">Entreprise</label><select id="company-filter"><option value="">Toutes les entreprises</option></select></div>
+        <div class="filter-group"><label for="selection-decision">Décision de présélection</label><select id="selection-decision"><option value="">Toutes les décisions</option><option value="to_review">À examiner</option><option value="retained">Retenue</option><option value="revisit">À revoir</option><option value="discarded">Écartée</option></select></div>
+        <div class="filter-group"><label for="constraint-filter">Contraintes pratiques</label><select id="constraint-filter"><option value="">Tous les états</option><option value="compatible">Compatible</option><option value="incompatible">Incompatible</option><option value="unknown">À vérifier</option></select></div>
+        <div class="filter-group"><label for="availability-filter">Disponibilité de l’offre</label><select id="availability-filter"><option value="">Tous les états</option><option value="open">Ouverte</option><option value="expired">Expirée</option><option value="unknown">Inconnue</option></select></div>
+        <div class="filter-group filter-switches"><label class="switch-row"><input id="show-low" type="checkbox"><span>Afficher aussi le potentiel PDM faible</span></label></div>
+        <p class="filter-help">Les potentiels faibles restent accessibles dans « Toutes les offres ».</p>
+      </div>
       <div class="filter-group"><label for="role">Type d'opportunité</label><select id="role"><option value="">Stages et PDM</option><option value="pdm">Projet de Master / Thesis</option><option value="intern">Stage / Internship</option></select></div>
       <div class="filter-group"><label for="review-status">État du suivi</label><select id="review-status"><option value="">Tous les statuts</option><option value="to_review">À examiner</option><option value="shortlisted">Intéressant</option><option value="to_apply">À postuler</option><option value="applied">Postulé</option><option value="interview">Entretien</option><option value="rejected">Refusé</option><option value="ignored">Ignoré</option></select></div>
-      <div class="filter-group"><div class="range-head"><label for="min-score">Score minimum</label><output id="score-label" for="min-score">0</output></div><input id="min-score" type="range" min="0" max="100" step="5" value="0" aria-label="Score minimum"><div class="range-markers"><span>0</span><span>50</span><span>100</span></div></div>
+      <div class="filter-group"><div class="range-head"><label for="min-score">Score recherche minimum</label><output id="score-label" for="min-score">0</output></div><input id="min-score" type="range" min="0" max="100" step="5" value="0" aria-label="Score recherche minimum"><div class="range-markers"><span>0</span><span>50</span><span>100</span></div></div>
       <div class="filter-group filter-switches">
         <label class="switch-row"><input id="fave-only" type="checkbox"><span>★ Favoris uniquement</span></label>
         <label class="switch-row"><input id="new-only" type="checkbox"><span>Nouvelles (7 jours)</span></label>
@@ -54,7 +66,7 @@
     </aside>
 
     <section class="results-pane" aria-label="Résultats">
-      <div class="results-header"><div><h2 id="results-title">Annonces</h2><p id="results-subtitle">Chargement…</p></div><select id="sort" aria-label="Trier les offres"><option value="score">Meilleur score</option><option value="newest">Détection récente</option><option value="posted">Publication récente</option><option value="company">Entreprise A-Z</option></select></div>
+      <div class="results-header"><div><h2 id="results-title">Annonces</h2><p id="results-subtitle">Chargement…</p></div><select id="sort" aria-label="Trier les offres"><option value="score">Score recherche</option><option value="combined">Technique × PDM</option><option value="pdm">Potentiel PDM</option><option value="technical">Score technique</option><option value="priority">Entreprises prioritaires</option><option value="newest">Détection récente</option><option value="posted">Publication récente</option><option value="company">Entreprise A-Z</option></select></div>
       <div id="job-list" class="job-list" role="list"></div>
       <div class="more-zone"><button id="show-more" type="button" class="button button-light" hidden>Afficher davantage d'offres</button></div>
       <div class="footer-data"><button id="export-csv" type="button" class="text-link">↓ Exporter les résultats filtrés (.csv)</button></div>
