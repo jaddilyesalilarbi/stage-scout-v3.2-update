@@ -189,23 +189,22 @@
       ],
       "technical_score": 18,
       "technical_reasons": [
-        "Mission à pertinence mécanique limitée : Développer un modèle de physique du vol qui intègre la routine de pilotage en trajectoire",
-        "Mission à pertinence mécanique limitée : Dans le cadre du développement de solution type HAPS (High Altitude Pseudo Satellite) ballon, Hemeria souhaite développer un outils de dimensionnement pour le pilotage de trajectoire de son ballon manœuvrant.",
+        "Mission à pertinence mécanique limitée : Développer un modèle de physique du vol qui intègre la routine de pilotage en trajectoire Effectuer des simulations pour faire du stationnaire et évaluer les performances de vol (Qualité de Vol) de l’aérostat",
+        "Mission à pertinence mécanique limitée : Contexte : Dans le cadre du développement de solution type HAPS (High Altitude Pseudo Satellite) ballon, Hemeria souhaite développer un outils de dimensionnement pour le pilotage de trajectoire de son ballon manœuvrant.",
         "Mission à pertinence mécanique limitée : Les vents changeant de direction suivant le profil en Z il est possible de contrôler la trajectoire du ballon."
       ],
       "mission_evidence": [
-        "Dans le cadre du développement de solution type HAPS (High Altitude Pseudo Satellite) ballon, Hemeria souhaite développer un outils de dimensionnement pour le pilotage de trajectoire de son ballon manœuvrant.",
+        "Contexte : Dans le cadre du développement de solution type HAPS (High Altitude Pseudo Satellite) ballon, Hemeria souhaite développer un outils de dimensionnement pour le pilotage de trajectoire de son ballon manœuvrant.",
         "Les vents changeant de direction suivant le profil en Z il est possible de contrôler la trajectoire du ballon.",
-        "Etude Biblio courte du projet LOON de Google",
-        "Développer un modèle de physique du vol qui intègre la routine de pilotage en trajectoire",
-        "Effectuer des simulations pour faire du stationnaire et évaluer les performances de vol (Qualité de Vol) de l’aérostat"
+        "Missions du stage : Etude Biblio courte du projet LOON de Google Post traitement de données météo (.json) en python pour créer des cartes de vent (python, traitement de données, météo)",
+        "Développer un modèle de physique du vol qui intègre la routine de pilotage en trajectoire Effectuer des simulations pour faire du stationnaire et évaluer les performances de vol (Qualité de Vol) de l’aérostat"
       ],
       "constraints": {
         "duration": {
           "status": "compatible",
           "value": "6 mois",
           "evidence": [
-            "Durée du contrat : 6 mois"
+            "Type d'emploi : Stage Durée du contrat : 6 mois Lieu du poste : En présentiel Date de début prévue : 04/03/2024"
           ],
           "reason": "Durée comparée à l'intervalle souhaité fourni dans le profil ; ce n'est pas une restriction administrative."
         },
@@ -247,8 +246,8 @@
       "constraint_status": "unknown",
       "needs_human_review": true,
       "id": "7c39a75d67b48cdc82",
-      "input_hash": "7ae8bdb68df8b97ca36f50d3193bbf9c1613ac111224c330a09d43d0642fc56c",
-      "assessed_at": "2026-10-20T22:04:52.535388+00:00"
+      "input_hash": "c460b777083f156dfce44d87c26863dfb2b537ccab69fd07c594ae05e2a18f3f",
+      "assessed_at": "2026-11-15T14:55:49.584779+00:00"
     },
     "f70b75e8d05b01e027": {
       "rules_version": "missions-v1",
@@ -2669,30 +2668,41 @@
       "pdm_label": "Fort potentiel PDM",
       "pdm_explicit": false,
       "pdm_reason": "Les missions associent conception ou investigation à une démarche de modélisation, comparaison ou validation technique.",
-      "pdm_confidence": "low",
+      "pdm_confidence": "high",
       "missing_information": [
-        "Description complète non disponible ; classement fondé sur un texte partiel.",
         "Accord académique EPFL et encadrement du PDM à confirmer.",
         "Durée : Durée structurée publiée ; comparaison à confirmer.",
         "Date de début : Information non précisée dans l'offre.",
-        "Langues : Information non précisée dans l'offre.",
+        "Langues : Langues exigées publiées ; compétences linguistiques du candidat inconnues.",
         "Localisation : Localisation ambiguë ou non reconnue.",
-        "Formation : Information non précisée dans l'offre.",
         "Éligibilité : Information non précisée dans l'offre."
       ],
       "technical_categories": [
         "Mechanical Design",
         "R&D / Product Development",
-        "Simulation / CAE"
+        "Simulation / CAE",
+        "Testing / Validation",
+        "Manufacturing / Production",
+        "Systems Integration",
+        "Automation / Control",
+        "Materials / Processes",
+        "Energy / Thermal"
       ],
-      "technical_score": 60,
+      "technical_score": 100,
       "technical_reasons": [
-        "Mission technique mécanique : You will assist senior engineers in the design and drafting of mechanical components and assemblies for transformers using CAD software (e.g., AutoCAD, SolidWorks, Inventor). 2.",
-        "Mission à pertinence mécanique limitée : You will conduct basic engineering calculations and simulations under guidance to evaluate design performance and feasi"
+        "Mission technique mécanique : You will assist senior engineers in the design and drafting of mechanical components and assemblies for transformers using CAD software (e.g., AutoCAD, SolidWorks, Inventor).",
+        "Mission technique mécanique : You will conduct basic engineering calculations and simulations under guidance to evaluate design performance and feasibility also prepare and update technical documentation, including drawings, specifications, and bills of materials.",
+        "Mission technique mécanique : You will participate in design reviews and contribute to problem-solving discussions and support the fabrication and testing phases of prototypes by providing technical assistance and gathering data."
       ],
       "mission_evidence": [
-        "You will assist senior engineers in the design and drafting of mechanical components and assemblies for transformers using CAD software (e.g., AutoCAD, SolidWorks, Inventor). 2.",
-        "You will conduct basic engineering calculations and simulations under guidance to evaluate design performance and feasi"
+        "You will assist senior engineers in the design and drafting of mechanical components and assemblies for transformers using CAD software (e.g., AutoCAD, SolidWorks, Inventor).",
+        "You will conduct basic engineering calculations and simulations under guidance to evaluate design performance and feasibility also prepare and update technical documentation, including drawings, specifications, and bills of materials.",
+        "You will participate in design reviews and contribute to problem-solving discussions and support the fabrication and testing phases of prototypes by providing technical assistance and gathering data.",
+        "You will research and apply industry standards and best practices related to mechanical design and transformer manufacturing also collaborate with cross-functional teams, including electrical and manufacturing engineers, to ensure design integration and manufacturability.",
+        "You will perform other duties as assigned to support the engineering department.",
+        "You will be responsible to ensure compliance with applicable external and internal regulations, procedures, and guidelines.",
+        "Living Hitachi Energy’s core values of safety and integrity, which means taking responsibility for your own actions while caring for your colleagues and the business.",
+        "Strong understanding of mechanical design principles, including statics, dynamics, and materials science."
       ],
       "constraints": {
         "duration": {
@@ -2711,9 +2721,11 @@
         },
         "languages": {
           "status": "unknown",
-          "value": "",
-          "evidence": [],
-          "reason": "Information non précisée dans l'offre."
+          "value": "en",
+          "evidence": [
+            "Fluency in English (both written and spoken) is required."
+          ],
+          "reason": "Langues exigées publiées ; compétences linguistiques du candidat inconnues."
         },
         "location": {
           "status": "unknown",
@@ -2724,10 +2736,12 @@
           "reason": "Localisation ambiguë ou non reconnue."
         },
         "education": {
-          "status": "unknown",
-          "value": "",
-          "evidence": [],
-          "reason": "Information non précisée dans l'offre."
+          "status": "compatible",
+          "value": "Master / ingénieur",
+          "evidence": [
+            "You can be currently pursuing a Bachelor's or Master's degree in Mechanical Engineering or a related field."
+          ],
+          "reason": "Niveau master / ingénieur compatible avec le master EPFL du profil."
         },
         "eligibility": {
           "status": "unknown",
@@ -2739,8 +2753,8 @@
       "constraint_status": "unknown",
       "needs_human_review": true,
       "id": "d6f11748979d33f189",
-      "input_hash": "6669c6f259b4a2fed6bd5db80273b576f9e3617cf8cd0516679c9b8fd9856a8e",
-      "assessed_at": "2026-10-20T22:04:52.696795+00:00"
+      "input_hash": "6bcfed8edd03d02fcdc24093f3175de3f2243b4b39b55226de16ed1dce4086cb",
+      "assessed_at": "2026-11-15T14:55:49.607242+00:00"
     },
     "2e675759da40bd1906": {
       "rules_version": "missions-v1",
@@ -4385,13 +4399,12 @@
     },
     "f7b737ea6384b386d3": {
       "rules_version": "missions-v1",
-      "pdm_potential": "medium",
-      "pdm_label": "Potentiel PDM à préciser",
+      "pdm_potential": "high",
+      "pdm_label": "Fort potentiel PDM",
       "pdm_explicit": false,
-      "pdm_reason": "Une mission technique de conception ou d'étude est identifiée ; autonomie, question de recherche et livrable académique restent à préciser.",
-      "pdm_confidence": "low",
+      "pdm_reason": "Les missions associent conception ou investigation à une démarche de modélisation, comparaison ou validation technique.",
+      "pdm_confidence": "high",
       "missing_information": [
-        "Description complète non disponible ; classement fondé sur un texte partiel.",
         "Accord académique EPFL et encadrement du PDM à confirmer.",
         "Durée : Durée structurée publiée ; comparaison à confirmer.",
         "Date de début : Information non précisée dans l'offre.",
@@ -4401,15 +4414,31 @@
         "Éligibilité : Information non précisée dans l'offre."
       ],
       "technical_categories": [
+        "Mechanical Design",
         "R&D / Product Development",
-        "Simulation / CAE"
+        "Simulation / CAE",
+        "Manufacturing / Production",
+        "Systems Integration",
+        "Robotics / Mechatronics",
+        "Automation / Control",
+        "Energy / Thermal",
+        "Supply Chain / Logistics"
       ],
-      "technical_score": 22,
+      "technical_score": 82,
       "technical_reasons": [
-        "Mission à pertinence mécanique limitée : You will understand the current product structure design of classic valve, be familiar with the installation procedures, be responsible for simplifying the existing product's three-dimensional model, and generate installation procedure animation demonstrations in the existing software based on cu"
+        "Mission technique mécanique : Bachelor or above, majoring in Mechanical Design and Manufacturing and Automation, Mechanical Engineering, Vehicle Engineering, or Mechatronics, etc.",
+        "Mission à pertinence mécanique limitée : You will understand the current product structure design of classic valve, be familiar with the installation procedures, be responsible for simplifying the existing product's three-dimensional model, and generate installation procedure animation demonstrations in the existing software based on customer requirements.",
+        "Mission à pertinence mécanique limitée : You will understand the product structure design in NX software and familiarize with the installation steps by referring to the installation guidance documents."
       ],
       "mission_evidence": [
-        "You will understand the current product structure design of classic valve, be familiar with the installation procedures, be responsible for simplifying the existing product's three-dimensional model, and generate installation procedure animation demonstrations in the existing software based on cu"
+        "You will understand the current product structure design of classic valve, be familiar with the installation procedures, be responsible for simplifying the existing product's three-dimensional model, and generate installation procedure animation demonstrations in the existing software based on customer requirements.",
+        "You will understand the product structure design in NX software and familiarize with the installation steps by referring to the installation guidance documents.",
+        "You will simplify the necessary three-dimensional models of components.",
+        "Maintain communication with the service team to understand the requirements of on-site customers for the digital platform.",
+        "You will maintain technical communication with suppliers and track progress to ensure the timely delivery of the digital platform.",
+        "You will be responsible to ensure compliance with applicable external and internal regulations, procedures, and guidelines.",
+        "Living Hitachi Energy’s core values of safety and integrity, which means taking responsibility for your own actions while caring for your colleagues and the business.",
+        "Bachelor or above, majoring in Mechanical Design and Manufacturing and Automation, Mechanical Engineering, Vehicle Engineering, or Mechatronics, etc."
       ],
       "constraints": {
         "duration": {
@@ -4456,8 +4485,8 @@
       "constraint_status": "unknown",
       "needs_human_review": true,
       "id": "f7b737ea6384b386d3",
-      "input_hash": "6049a001a407edc09d7b56d8515a1ab3af20481f35f09546d19f4f4021ef29fc",
-      "assessed_at": "2026-10-20T22:04:52.805286+00:00"
+      "input_hash": "44b1b89ad213bef1437002301701b5a991f03ee09f71f0883ff4d866740049d1",
+      "assessed_at": "2026-11-15T14:55:49.623499+00:00"
     },
     "1bc867580c190c3177": {
       "rules_version": "missions-v1",
@@ -7437,13 +7466,12 @@
       "pdm_label": "Fort potentiel PDM",
       "pdm_explicit": false,
       "pdm_reason": "Les missions associent conception ou investigation à une démarche de modélisation, comparaison ou validation technique.",
-      "pdm_confidence": "low",
+      "pdm_confidence": "high",
       "missing_information": [
-        "Description complète non disponible ; classement fondé sur un texte partiel.",
         "Accord académique EPFL et encadrement du PDM à confirmer.",
         "Durée : Durée structurée publiée ; comparaison à confirmer.",
         "Date de début : Information non précisée dans l'offre.",
-        "Langues : Information non précisée dans l'offre.",
+        "Langues : Langues exigées publiées ; compétences linguistiques du candidat inconnues.",
         "Localisation : Localisation ambiguë ou non reconnue.",
         "Formation : Information non précisée dans l'offre.",
         "Éligibilité : Information non précisée dans l'offre."
@@ -7451,16 +7479,25 @@
       "technical_categories": [
         "Mechanical Design",
         "R&D / Product Development",
-        "Automation / Control"
+        "Systems Integration",
+        "Automation / Control",
+        "Energy / Thermal"
       ],
-      "technical_score": 42,
+      "technical_score": 100,
       "technical_reasons": [
         "Mission technique mécanique : You will get deep understanding of mechanical design for dry-type transformer standard products.",
-        "Mission à pertinence mécanique limitée : You will be responsible for maintenance, enhancement and development of the factory's dry-type transformer automation design platform, including 3D modeling and 2D drawing."
+        "Mission technique mécanique : You will provide timely troubleshooting and comprehensive support to mechanical design teams for design related issues.",
+        "Mission technique mécanique : You will collaborate closely with global mechanical design platform team, actively communicate feedback and strategic requirements."
       ],
       "mission_evidence": [
         "You will be responsible for maintenance, enhancement and development of the factory's dry-type transformer automation design platform, including 3D modeling and 2D drawing.",
-        "You will get deep understanding of mechanical design for dry-type transformer standard products."
+        "You will get deep understanding of mechanical design for dry-type transformer standard products.",
+        "You will provide timely troubleshooting and comprehensive support to mechanical design teams for design related issues.",
+        "You will collaborate closely with global mechanical design platform team, actively communicate feedback and strategic requirements.",
+        "You will be responsible to ensure compliance with applicable external and internal regulations, procedures, and guidelines.",
+        "Living Hitachi Energy’s core values of safety and integrity, which means taking responsibility for your own actions while caring for your colleagues and the business.",
+        "Minimum 2 years of professional design experience, preferably in transformer or electrical equipment industry.",
+        "Proficient in at least one 3D design software (Creo, NX, SolidWorks, Inventor, etc.);"
       ],
       "constraints": {
         "duration": {
@@ -7479,9 +7516,11 @@
         },
         "languages": {
           "status": "unknown",
-          "value": "",
-          "evidence": [],
-          "reason": "Information non précisée dans l'offre."
+          "value": "en",
+          "evidence": [
+            "Fluent in English (both written and verbal)."
+          ],
+          "reason": "Langues exigées publiées ; compétences linguistiques du candidat inconnues."
         },
         "location": {
           "status": "unknown",
@@ -7507,8 +7546,8 @@
       "constraint_status": "unknown",
       "needs_human_review": true,
       "id": "7189cfc299d2b1721a",
-      "input_hash": "9322bc11ae0a0ae5be3ef02ce2436c15421a481796689179f89b496846cca531",
-      "assessed_at": "2026-10-20T22:04:53.023981+00:00"
+      "input_hash": "fbce58b79557dcf3b853b97a5358a7acbdec73adb5226e5d21d099cef634020e",
+      "assessed_at": "2026-11-15T14:55:49.652627+00:00"
     },
     "b302a92bdfe5d571b7": {
       "rules_version": "missions-v1",
@@ -10590,9 +10629,8 @@
       "pdm_label": "Potentiel PDM à préciser",
       "pdm_explicit": false,
       "pdm_reason": "Une mission technique de conception ou d'étude est identifiée ; autonomie, question de recherche et livrable académique restent à préciser.",
-      "pdm_confidence": "low",
+      "pdm_confidence": "high",
       "missing_information": [
-        "Description complète non disponible ; classement fondé sur un texte partiel.",
         "Accord académique EPFL et encadrement du PDM à confirmer.",
         "Durée : Durée structurée publiée ; comparaison à confirmer.",
         "Date de début : Information non précisée dans l'offre.",
@@ -10603,18 +10641,25 @@
       ],
       "technical_categories": [
         "Mechanical Design",
-        "R&D / Product Development"
+        "R&D / Product Development",
+        "Systems Integration",
+        "Automation / Control",
+        "Energy / Thermal"
       ],
-      "technical_score": 94,
+      "technical_score": 100,
       "technical_reasons": [
-        "Mission technique mécanique : You will understand the basic mechanical design principle of transformer. 2.",
-        "Mission technique mécanique : You can independently complete the mechanical design on existing simplest transformer. 3.",
-        "Mission technique mécanique : You will support mechanical engineers to complete the si"
+        "Mission technique mécanique : You will understand the basic mechanical design principle of transformer.",
+        "Mission technique mécanique : You can independently complete the mechanical design on existing simplest transformer.",
+        "Mission technique mécanique : You will support mechanical engineers to complete the simplest design work."
       ],
       "mission_evidence": [
-        "You will understand the basic mechanical design principle of transformer. 2.",
-        "You can independently complete the mechanical design on existing simplest transformer. 3.",
-        "You will support mechanical engineers to complete the si"
+        "You will understand the basic mechanical design principle of transformer.",
+        "You can independently complete the mechanical design on existing simplest transformer.",
+        "You will support mechanical engineers to complete the simplest design work.",
+        "You will be responsible for the compilation and management of technical documents.",
+        "You will be responsible for ensure compliance with applicable external and internal regulations, procedures, and guidelines.",
+        "Living Hitachi Energy’s core values safety and integrity, which means taking responsibility for your own actions while caring for your colleagues and the business.",
+        "Good communication and team player and willing to learn and improve."
       ],
       "constraints": {
         "duration": {
@@ -10661,8 +10706,8 @@
       "constraint_status": "unknown",
       "needs_human_review": true,
       "id": "a6f49a493cb8873e8e",
-      "input_hash": "7afe9ec3812033b76d76c385ca8bb4d45a169357ebcf85953695106ba4d7d799",
-      "assessed_at": "2026-10-20T22:04:53.272836+00:00"
+      "input_hash": "3a62c5b9929994b09d50b3d33c31057ff6156712710e9aa0cfa0b307b8bb8941",
+      "assessed_at": "2026-11-15T14:55:49.691876+00:00"
     },
     "37480f4cbe2cbe2ef7": {
       "rules_version": "missions-v1",
@@ -13603,9 +13648,8 @@
       "pdm_label": "Faible potentiel PDM",
       "pdm_explicit": false,
       "pdm_reason": "Les missions décrites relèvent surtout de l'exécution, du suivi ou du support, sans démarche de conception / investigation établie.",
-      "pdm_confidence": "low",
+      "pdm_confidence": "high",
       "missing_information": [
-        "Description complète non disponible ; classement fondé sur un texte partiel.",
         "Durée : Durée structurée publiée ; comparaison à confirmer.",
         "Date de début : Information non précisée dans l'offre.",
         "Langues : Information non précisée dans l'offre.",
@@ -13615,18 +13659,26 @@
       ],
       "technical_categories": [
         "Testing / Validation",
-        "Manufacturing / Production"
+        "Manufacturing / Production",
+        "Systems Integration",
+        "Automation / Control",
+        "Energy / Thermal",
+        "Quality"
       ],
-      "technical_score": 18,
+      "technical_score": 30,
       "technical_reasons": [
-        "Mission à pertinence mécanique limitée : You will help engineers arrange the production plan of the test station according to the overall plan. 2.",
-        "Mission à pertinence mécanique limitée : You will prepare the test plan and test records in accordance with the technical agreement and design documents. 3.",
-        "Mission à pertinence mécanique limitée : You will review test records and test reports also will participate in prod"
+        "Mission à pertinence mécanique limitée : You will help engineers arrange the production plan of the test station according to the overall plan.",
+        "Mission à pertinence mécanique limitée : You will prepare the test plan and test records in accordance with the technical agreement and design documents.",
+        "Mission à pertinence mécanique limitée : You will review test records and test reports also will participate in product testing."
       ],
       "mission_evidence": [
-        "You will help engineers arrange the production plan of the test station according to the overall plan. 2.",
-        "You will prepare the test plan and test records in accordance with the technical agreement and design documents. 3.",
-        "You will review test records and test reports also will participate in prod"
+        "You will help engineers arrange the production plan of the test station according to the overall plan.",
+        "You will prepare the test plan and test records in accordance with the technical agreement and design documents.",
+        "You will review test records and test reports also will participate in product testing.",
+        "You will participate in the analysis of test failures and fill in the report also will participate in the individual belongs to the 5S and participates in the 5S inspection.",
+        "You will participate in the input and tracking processing of NCR also will participate in continuous improvement of experiments: non-compliant behaviors, improvement of tooling processes.",
+        "You will be responsible to ensure compliance with applicable external and internal regulations, procedures, and guidelines.",
+        "Living Hitachi Energy’s core values of safety and integrity, which means taking responsibility for your own actions while caring for your colleagues and the business."
       ],
       "constraints": {
         "duration": {
@@ -13673,8 +13725,8 @@
       "constraint_status": "unknown",
       "needs_human_review": true,
       "id": "c0d12f8a95dad43617",
-      "input_hash": "a6b3ec1a9f15e1ecc1021af80e128205616e5e19e6d2509a9da65cc995f6a256",
-      "assessed_at": "2026-10-20T22:04:53.493834+00:00"
+      "input_hash": "d77be816b95f1e14b6e77cbfdce8c227fe28ba8295f115124eae4ac7ac82aebc",
+      "assessed_at": "2026-11-15T14:55:49.717330+00:00"
     },
     "c007e2a259e91e1fbd": {
       "rules_version": "missions-v1",
@@ -16561,33 +16613,46 @@
     },
     "3739968e0cf8c3c91f": {
       "rules_version": "missions-v1",
-      "pdm_potential": "medium",
-      "pdm_label": "Potentiel PDM à préciser",
+      "pdm_potential": "high",
+      "pdm_label": "Fort potentiel PDM",
       "pdm_explicit": false,
-      "pdm_reason": "Une mission technique de conception ou d'étude est identifiée ; autonomie, question de recherche et livrable académique restent à préciser.",
-      "pdm_confidence": "low",
+      "pdm_reason": "Les missions associent conception ou investigation à une démarche de modélisation, comparaison ou validation technique.",
+      "pdm_confidence": "high",
       "missing_information": [
-        "Description complète non disponible ; classement fondé sur un texte partiel.",
         "Accord académique EPFL et encadrement du PDM à confirmer.",
         "Durée : Durée structurée publiée ; comparaison à confirmer.",
         "Date de début : Information non précisée dans l'offre.",
         "Langues : Information non précisée dans l'offre.",
         "Localisation : Localisation ambiguë ou non reconnue.",
-        "Formation : Information non précisée dans l'offre.",
         "Éligibilité : Information non précisée dans l'offre."
       ],
       "technical_categories": [
         "Mechanical Design",
-        "R&D / Product Development"
+        "R&D / Product Development",
+        "Simulation / CAE",
+        "Testing / Validation",
+        "Manufacturing / Production",
+        "Systems Integration",
+        "Automation / Control",
+        "Materials / Processes",
+        "Energy / Thermal",
+        "Quality",
+        "Project Management"
       ],
-      "technical_score": 42,
+      "technical_score": 100,
       "technical_reasons": [
-        "Mission technique mécanique : You will assist senior design engineers in the development and modification of mechanical, electrical, or software components and systems, also conduct research and gather data to support design decisions and problem-solving. 2.",
-        "Mission à pertinence mécanique limitée : You will create and update technical drawings, schematics, and 3D mo"
+        "Mission technique mécanique : You will assist senior design engineers in the development and modification of mechanical, electrical, or software components and systems, also conduct research and gather data to support design decisions and problem-solving.",
+        "Mission technique mécanique : You will create and update technical drawings, schematics, and 3D models using CAD software also perform basic engineering calculations and simulations under guidance.",
+        "Mission technique mécanique : You will participate in design reviews, providing input and documenting feedback also support the testing and validation of prototypes and production units."
       ],
       "mission_evidence": [
-        "You will assist senior design engineers in the development and modification of mechanical, electrical, or software components and systems, also conduct research and gather data to support design decisions and problem-solving. 2.",
-        "You will create and update technical drawings, schematics, and 3D mo"
+        "You will assist senior design engineers in the development and modification of mechanical, electrical, or software components and systems, also conduct research and gather data to support design decisions and problem-solving.",
+        "You will create and update technical drawings, schematics, and 3D models using CAD software also perform basic engineering calculations and simulations under guidance.",
+        "You will participate in design reviews, providing input and documenting feedback also support the testing and validation of prototypes and production units.",
+        "You will collaborate with cross-functional teams, including manufacturing, quality assurance, and project management also document design processes, specifications, and test results.",
+        "You will be responsible to ensure compliance with applicable external and internal regulations, procedures, and guidelines.",
+        "Living Hitachi Energy’s core values of safety and integrity, which means taking responsibility for your own actions while caring for your colleagues and the business.",
+        "Basic understanding of relevant programming languages (e.g., C++, Python, Java) for software-focused roles."
       ],
       "constraints": {
         "duration": {
@@ -16619,10 +16684,12 @@
           "reason": "Localisation ambiguë ou non reconnue."
         },
         "education": {
-          "status": "unknown",
-          "value": "",
-          "evidence": [],
-          "reason": "Information non précisée dans l'offre."
+          "status": "compatible",
+          "value": "Master / ingénieur",
+          "evidence": [
+            "You can be currently enrolled in a Bachelor's or Master's degree program in Mechanical Engineering, Electrical Engineering, Software Engineering, or a related field."
+          ],
+          "reason": "Niveau master / ingénieur compatible avec le master EPFL du profil."
         },
         "eligibility": {
           "status": "unknown",
@@ -16634,36 +16701,46 @@
       "constraint_status": "unknown",
       "needs_human_review": true,
       "id": "3739968e0cf8c3c91f",
-      "input_hash": "125b1c5d3938e7ce99d2859ab2e510d0a1a13a930d0d19ed81dccf867b9eeed1",
-      "assessed_at": "2026-10-20T22:04:53.728036+00:00"
+      "input_hash": "ec40d03da42c7ecb35908de7087ba624320d6b45b60dc577f29bedfc232ac73b",
+      "assessed_at": "2026-11-15T14:55:49.741659+00:00"
     },
     "38d49aad200b4ad330": {
       "rules_version": "missions-v1",
-      "pdm_potential": "low",
-      "pdm_label": "Faible potentiel PDM",
+      "pdm_potential": "medium",
+      "pdm_label": "Potentiel PDM à préciser",
       "pdm_explicit": false,
-      "pdm_reason": "Les missions décrites relèvent surtout de l'exécution, du suivi ou du support, sans démarche de conception / investigation établie.",
-      "pdm_confidence": "low",
+      "pdm_reason": "Une mission technique de conception ou d'étude est identifiée ; autonomie, question de recherche et livrable académique restent à préciser.",
+      "pdm_confidence": "high",
       "missing_information": [
-        "Description complète non disponible ; classement fondé sur un texte partiel.",
+        "Accord académique EPFL et encadrement du PDM à confirmer.",
         "Durée : Durée structurée publiée ; comparaison à confirmer.",
         "Date de début : Information non précisée dans l'offre.",
-        "Langues : Information non précisée dans l'offre.",
+        "Langues : Langues exigées publiées ; compétences linguistiques du candidat inconnues.",
         "Localisation : Localisation ambiguë ou non reconnue.",
-        "Formation : Information non précisée dans l'offre.",
         "Éligibilité : Information non précisée dans l'offre."
       ],
       "technical_categories": [
-        "Other"
+        "Mechanical Design",
+        "R&D / Product Development",
+        "Simulation / CAE",
+        "Testing / Validation",
+        "Systems Integration",
+        "Automation / Control",
+        "Energy / Thermal"
       ],
-      "technical_score": 8,
+      "technical_score": 58,
       "technical_reasons": [
-        "Mission à pertinence mécanique limitée : You will assist senior engineers in the electrical design and simulation of power transformers also conduct data collection, analysis, and interpretation to support design modifications and improvements. 2.",
-        "Mission à pertinence mécanique limitée : You will support the preparation of technical documentation, reports, and presentations re"
+        "Mission technique mécanique : You will learn and apply specialized engineering software for electromagnetic, thermal, and mechanical simulations also collaborate with cross-functional teams to ensure design integrity and project success.",
+        "Mission à pertinence mécanique limitée : You will assist senior engineers in the electrical design and simulation of power transformers also conduct data collection, analysis, and interpretation to support design modifications and improvements.",
+        "Mission à pertinence mécanique limitée : You will support the preparation of technical documentation, reports, and presentations related to EDS projects also participate in testing and validation activities of transformer components and designs."
       ],
       "mission_evidence": [
-        "You will assist senior engineers in the electrical design and simulation of power transformers also conduct data collection, analysis, and interpretation to support design modifications and improvements. 2.",
-        "You will support the preparation of technical documentation, reports, and presentations re"
+        "You will assist senior engineers in the electrical design and simulation of power transformers also conduct data collection, analysis, and interpretation to support design modifications and improvements.",
+        "You will support the preparation of technical documentation, reports, and presentations related to EDS projects also participate in testing and validation activities of transformer components and designs.",
+        "You will learn and apply specialized engineering software for electromagnetic, thermal, and mechanical simulations also collaborate with cross-functional teams to ensure design integrity and project success.",
+        "You will perform other duties as assigned to support the EDS department.",
+        "You will be responsible to ensure compliance with applicable external and internal regulations, procedures, and guidelines.",
+        "Living Hitachi Energy’s core values of safety and integrity, which means taking responsibility for your own actions while caring for your colleagues and the business."
       ],
       "constraints": {
         "duration": {
@@ -16682,9 +16759,11 @@
         },
         "languages": {
           "status": "unknown",
-          "value": "",
-          "evidence": [],
-          "reason": "Information non précisée dans l'offre."
+          "value": "en",
+          "evidence": [
+            "Excellent written and verbal communication skills in English and Mandarin (preferred)."
+          ],
+          "reason": "Langues exigées publiées ; compétences linguistiques du candidat inconnues."
         },
         "location": {
           "status": "unknown",
@@ -16695,10 +16774,12 @@
           "reason": "Localisation ambiguë ou non reconnue."
         },
         "education": {
-          "status": "unknown",
-          "value": "",
-          "evidence": [],
-          "reason": "Information non précisée dans l'offre."
+          "status": "compatible",
+          "value": "Master / ingénieur",
+          "evidence": [
+            "You can be currently pursuing a Bachelor's or Master's degree in Electrical Engineering, Power Engineering, or a related field."
+          ],
+          "reason": "Niveau master / ingénieur compatible avec le master EPFL du profil."
         },
         "eligibility": {
           "status": "unknown",
@@ -16710,43 +16791,50 @@
       "constraint_status": "unknown",
       "needs_human_review": true,
       "id": "38d49aad200b4ad330",
-      "input_hash": "2f8144423b9658ddfc6c1cfcbfd8b9766356f846abdfc950e5e2226b302f3069",
-      "assessed_at": "2026-10-20T22:04:53.729177+00:00"
+      "input_hash": "62d2bee75965df7249998bb59f5ad1f9bc58dabe5cb4f577ecccec2bf6ea28f3",
+      "assessed_at": "2026-11-15T14:55:49.748095+00:00"
     },
     "2ef5c0f5c0543573f9": {
       "rules_version": "missions-v1",
-      "pdm_potential": "medium",
-      "pdm_label": "Potentiel PDM à préciser",
+      "pdm_potential": "high",
+      "pdm_label": "Fort potentiel PDM",
       "pdm_explicit": false,
-      "pdm_reason": "Une mission technique de conception ou d'étude est identifiée ; autonomie, question de recherche et livrable académique restent à préciser.",
-      "pdm_confidence": "low",
+      "pdm_reason": "Les missions associent conception ou investigation à une démarche de modélisation, comparaison ou validation technique.",
+      "pdm_confidence": "high",
       "missing_information": [
-        "Description complète non disponible ; classement fondé sur un texte partiel.",
         "Accord académique EPFL et encadrement du PDM à confirmer.",
         "Durée : Durée structurée publiée ; comparaison à confirmer.",
         "Date de début : Information non précisée dans l'offre.",
-        "Langues : Information non précisée dans l'offre.",
+        "Langues : Langues exigées publiées ; compétences linguistiques du candidat inconnues.",
         "Localisation : Localisation ambiguë ou non reconnue.",
         "Formation : Information non précisée dans l'offre.",
         "Éligibilité : Information non précisée dans l'offre."
       ],
       "technical_categories": [
+        "Mechanical Design",
         "R&D / Product Development",
         "Simulation / CAE",
         "Testing / Validation",
+        "Systems Integration",
+        "Automation / Control",
         "Materials / Processes",
         "Energy / Thermal"
       ],
-      "technical_score": 98,
+      "technical_score": 100,
       "technical_reasons": [
-        "Mission technique mécanique : You will support in multiphysics simulation, like mechanical, thermal and electromagnetics. 2.",
-        "Mission technique mécanique : You will support in new material investigation and validation Tool development with excel and VB. 3.",
-        "Mission à pertinence mécanique limitée : You will support in data analysis, cost analysis and optimization on product development. 4."
+        "Mission technique mécanique : You will support in multiphysics simulation, like mechanical, thermal and electromagnetics.",
+        "Mission technique mécanique : You will support in new material investigation and validation Tool development with excel and VB.",
+        "Mission technique mécanique : You will ensure in insulation system study, mechanical design and parameterized solutions, test and documentation."
       ],
       "mission_evidence": [
-        "You will support in multiphysics simulation, like mechanical, thermal and electromagnetics. 2.",
-        "You will support in new material investigation and validation Tool development with excel and VB. 3.",
-        "You will support in data analysis, cost analysis and optimization on product development. 4."
+        "You will support in multiphysics simulation, like mechanical, thermal and electromagnetics.",
+        "You will support in new material investigation and validation Tool development with excel and VB.",
+        "You will support in data analysis, cost analysis and optimization on product development.",
+        "You will ensure in insulation system study, mechanical design and parameterized solutions, test and documentation.",
+        "You will be responsible to ensure compliance with applicable external and internal regulations, procedures, and guidelines.",
+        "Living Hitachi Energy’s core values of safety and integrity, which means taking responsibility for your own actions while caring for your colleagues and the business.",
+        "Programming with C, C++, Matlab, Python.",
+        "Familiar with ANSYS if supporting to do simulations."
       ],
       "constraints": {
         "duration": {
@@ -16765,9 +16853,11 @@
         },
         "languages": {
           "status": "unknown",
-          "value": "",
-          "evidence": [],
-          "reason": "Information non précisée dans l'offre."
+          "value": "en",
+          "evidence": [
+            "Be fluent in oral and written English."
+          ],
+          "reason": "Langues exigées publiées ; compétences linguistiques du candidat inconnues."
         },
         "location": {
           "status": "unknown",
@@ -16793,8 +16883,8 @@
       "constraint_status": "unknown",
       "needs_human_review": true,
       "id": "2ef5c0f5c0543573f9",
-      "input_hash": "0c1dc7ba2ef7c96194e2c913ce3ab8c95ad09be4ade61c75f986d6c63587e586",
-      "assessed_at": "2026-10-20T22:04:53.730602+00:00"
+      "input_hash": "f8cd8e2479132ce26d292c2873cd529d32216397852c986aac6770ab8ead4d02",
+      "assessed_at": "2026-11-15T14:55:49.752593+00:00"
     },
     "3100340da00fd93b5d": {
       "rules_version": "missions-v1",
@@ -21173,9 +21263,8 @@
       "pdm_label": "Potentiel PDM à préciser",
       "pdm_explicit": false,
       "pdm_reason": "Une mission technique de conception ou d'étude est identifiée ; autonomie, question de recherche et livrable académique restent à préciser.",
-      "pdm_confidence": "low",
+      "pdm_confidence": "high",
       "missing_information": [
-        "Description complète non disponible ; classement fondé sur un texte partiel.",
         "Accord académique EPFL et encadrement du PDM à confirmer.",
         "Durée : Durée structurée publiée ; comparaison à confirmer.",
         "Date de début : Information non précisée dans l'offre.",
@@ -21187,18 +21276,22 @@
       "technical_categories": [
         "R&D / Product Development",
         "Simulation / CAE",
+        "Systems Integration",
+        "Automation / Control",
         "Energy / Thermal"
       ],
       "technical_score": 30,
       "technical_reasons": [
-        "Mission à pertinence mécanique limitée : You will work on power and energy systems simulation studies according to the supervision from senior consultants. 2.",
+        "Mission à pertinence mécanique limitée : You will work on power and energy systems simulation studies according to the supervision from senior consultants.",
         "Mission à pertinence mécanique limitée : You will use typical simulation software, e.g.",
-        "Mission à pertinence mécanique limitée : You will be responsible to ensure compliance with applicable external and in"
+        "Mission à pertinence mécanique limitée : You will be responsible to ensure compliance with applicable external and internal regulations, procedures, and guidelines."
       ],
       "mission_evidence": [
-        "You will work on power and energy systems simulation studies according to the supervision from senior consultants. 2.",
+        "You will work on power and energy systems simulation studies according to the supervision from senior consultants.",
         "You will use typical simulation software, e.g.",
-        "You will be responsible to ensure compliance with applicable external and in"
+        "You will be responsible to ensure compliance with applicable external and internal regulations, procedures, and guidelines.",
+        "Living Hitachi Energy's core values of safety and integrity, which means taking responsibility for your own actions while caring for your colleagues and the business.",
+        "strong executer;"
       ],
       "constraints": {
         "duration": {
@@ -21245,8 +21338,8 @@
       "constraint_status": "unknown",
       "needs_human_review": true,
       "id": "ca85707393e2249442",
-      "input_hash": "9833df1b276dfd001af27853c5d709f049616a1170b5cc33b891bca85ac3ea3d",
-      "assessed_at": "2026-10-20T22:04:54.032440+00:00"
+      "input_hash": "5dd6fb1762ea05ccfecb72aa9267d3920730a00bb0a9b9b778cb75dfdadc4c22",
+      "assessed_at": "2026-11-15T14:55:49.775425+00:00"
     },
     "314d171df07bbec9d6": {
       "rules_version": "missions-v1",
@@ -26691,28 +26784,37 @@
       "pdm_label": "Faible potentiel PDM",
       "pdm_explicit": false,
       "pdm_reason": "Les missions décrites relèvent surtout de l'exécution, du suivi ou du support, sans démarche de conception / investigation établie.",
-      "pdm_confidence": "low",
+      "pdm_confidence": "high",
       "missing_information": [
-        "Description complète non disponible ; classement fondé sur un texte partiel.",
         "Durée : Durée structurée publiée ; comparaison à confirmer.",
         "Date de début : Information non précisée dans l'offre.",
-        "Langues : Information non précisée dans l'offre.",
+        "Langues : Langues exigées publiées ; compétences linguistiques du candidat inconnues.",
         "Localisation : Localisation ambiguë ou non reconnue.",
         "Formation : Information non précisée dans l'offre.",
         "Éligibilité : Information non précisée dans l'offre."
       ],
       "technical_categories": [
         "Testing / Validation",
+        "Manufacturing / Production",
+        "Systems Integration",
+        "Automation / Control",
+        "Energy / Thermal",
         "Quality"
       ],
-      "technical_score": 14,
+      "technical_score": 24,
       "technical_reasons": [
-        "Mission à pertinence mécanique limitée : You will prepare transformer test documents, will design transformer testing tools and will prepare technical specifications for testing equipment also be participating in solving quality problems. 2.",
-        "Mission à pertinence mécanique limitée : You will be making continuous improvement of processes and tools to improve product quality and"
+        "Mission à pertinence mécanique limitée : You will prepare transformer test documents, will design transformer testing tools and will prepare technical specifications for testing equipment also be participating in solving quality problems.",
+        "Mission à pertinence mécanique limitée : You will be making continuous improvement of processes and tools to improve product quality and efficiency also be responsible for the compliance and implementation of the corresponding safety production, occupational health and environmental protection responsibilities.",
+        "Mission à pertinence mécanique limitée : You will be responsible for the completion of the transformer and reactor factory test, body test also be responsible for the cause analysis of major test failures, investigate, find out the root cause, develop corrective actions and improve relevant procedures."
       ],
       "mission_evidence": [
-        "You will prepare transformer test documents, will design transformer testing tools and will prepare technical specifications for testing equipment also be participating in solving quality problems. 2.",
-        "You will be making continuous improvement of processes and tools to improve product quality and"
+        "You will prepare transformer test documents, will design transformer testing tools and will prepare technical specifications for testing equipment also be participating in solving quality problems.",
+        "You will be making continuous improvement of processes and tools to improve product quality and efficiency also be responsible for the compliance and implementation of the corresponding safety production, occupational health and environmental protection responsibilities.",
+        "You will be responsible for the completion of the transformer and reactor factory test, body test also be responsible for the cause analysis of major test failures, investigate, find out the root cause, develop corrective actions and improve relevant procedures.",
+        "You will be responsible for putting forward technical improvement suggestions and plans for the equipment and process of the testing station also be responsible for the new project test outline, test station capacity evaluation and give opinions and plans.",
+        "You will train new team members in test operations and processes also analyze and evaluate test results and prepare test reports template.",
+        "You will be responsible for ensure compliance with applicable external and internal regulations, procedures, and guidelines.",
+        "Living Hitachi Energy’s core values safety and integrity, which means taking responsibility for your own actions while caring for your colleagues and the business."
       ],
       "constraints": {
         "duration": {
@@ -26731,9 +26833,11 @@
         },
         "languages": {
           "status": "unknown",
-          "value": "",
-          "evidence": [],
-          "reason": "Information non précisée dans l'offre."
+          "value": "en",
+          "evidence": [
+            "Fluent in both oral and written English to discuss technical issue/communicate with foreign colleagues."
+          ],
+          "reason": "Langues exigées publiées ; compétences linguistiques du candidat inconnues."
         },
         "location": {
           "status": "unknown",
@@ -26759,8 +26863,8 @@
       "constraint_status": "unknown",
       "needs_human_review": true,
       "id": "192864b028991e66a2",
-      "input_hash": "848005543c06546c80ecfe0f5e293d7950d062554ec7ae4193d7fd74da478c1e",
-      "assessed_at": "2026-10-20T22:04:54.471086+00:00"
+      "input_hash": "4ecac6ea772cd7b6dd95f4655fb9ea60506761b8db0c9802bf27291e95ed3522",
+      "assessed_at": "2026-11-15T14:55:49.822977+00:00"
     },
     "6f3cf51e580b5a18d1": {
       "rules_version": "missions-v1",
@@ -30506,29 +30610,42 @@
     },
     "1e9d99c3fd352f9f27": {
       "rules_version": "missions-v1",
-      "pdm_potential": "low",
-      "pdm_label": "Faible potentiel PDM",
+      "pdm_potential": "medium",
+      "pdm_label": "Potentiel PDM à préciser",
       "pdm_explicit": false,
-      "pdm_reason": "Les missions décrites relèvent surtout de l'exécution, du suivi ou du support, sans démarche de conception / investigation établie.",
-      "pdm_confidence": "low",
+      "pdm_reason": "Une mission technique de conception ou d'étude est identifiée ; autonomie, question de recherche et livrable académique restent à préciser.",
+      "pdm_confidence": "high",
       "missing_information": [
-        "Description complète non disponible ; classement fondé sur un texte partiel.",
+        "Accord académique EPFL et encadrement du PDM à confirmer.",
         "Durée : Durée structurée publiée ; comparaison à confirmer.",
         "Date de début : Information non précisée dans l'offre.",
-        "Langues : Information non précisée dans l'offre.",
+        "Langues : Langues exigées publiées ; compétences linguistiques du candidat inconnues.",
         "Localisation : Localisation ambiguë ou non reconnue.",
-        "Formation : Information non précisée dans l'offre.",
         "Éligibilité : Information non précisée dans l'offre."
       ],
       "technical_categories": [
-        "Automation / Control"
+        "R&D / Product Development",
+        "Simulation / CAE",
+        "Testing / Validation",
+        "Systems Integration",
+        "Automation / Control",
+        "Energy / Thermal"
       ],
-      "technical_score": 10,
+      "technical_score": 62,
       "technical_reasons": [
-        "Mission à pertinence mécanique limitée : You will support to HVDC Control & Protection System conceptual design from software application design perspective and will be detailed application development of HVDC Control & Protection System dedicated in one of the following areas: Automation and Digitization, Database and Server, Human Mac"
+        "Mission technique mécanique : You will be involved in technical support to the hardware-in-the-loop tests of HVDC Control & Protection System (both in the company and the customer facility) from software perspective and will be involved in site installation support, commissioning, sub-system test and system test of HVDC Control & Protection System.",
+        "Mission à pertinence mécanique limitée : Familiar in PSCAD, Matlab, or any other simulation software available for electric power system and control system.",
+        "Mission à pertinence mécanique limitée : Familiar in RTDS, Hypersim, or any other electric power system simulators."
       ],
       "mission_evidence": [
-        "You will support to HVDC Control & Protection System conceptual design from software application design perspective and will be detailed application development of HVDC Control & Protection System dedicated in one of the following areas: Automation and Digitization, Database and Server, Human Mac"
+        "You will support to HVDC Control & Protection System conceptual design from software application design perspective and will be detailed application development of HVDC Control & Protection System dedicated in one of the following areas: Automation and Digitization, Database and Server, Human Machine Interface, Station Control, Supervision and Monitoring, Operating System Localization, HVDC control and Protection.",
+        "You will be involved in detailed software function implementation with specific software design tools and will be involved in conceptual design & software design documentation both for internal and external purposes.",
+        "You will be involved in technical support to the hardware-in-the-loop tests of HVDC Control & Protection System (both in the company and the customer facility) from software perspective and will be involved in site installation support, commissioning, sub-system test and system test of HVDC Control & Protection System.",
+        "You will be involved in technical support to Marketing and Sales from software design perspective, especially the support to the tenders.",
+        "You will be involved in technical support to Customer Service from software design perspective including customer meetings, on-site fault analysis, customer trainings and maintenance outages, etc.",
+        "You will be responsible for ensure compliance with applicable external and internal regulations, procedures, and guidelines.",
+        "Living Hitachi Energy's core values of safety and integrity, which means taking responsibility for your own actions while caring for your colleagues and the business.",
+        "Familiar in PSCAD, Matlab, or any other simulation software available for electric power system and control system."
       ],
       "constraints": {
         "duration": {
@@ -30547,9 +30664,11 @@
         },
         "languages": {
           "status": "unknown",
-          "value": "",
-          "evidence": [],
-          "reason": "Information non précisée dans l'offre."
+          "value": "en",
+          "evidence": [
+            "Proficiency in business level in verbal and written English ."
+          ],
+          "reason": "Langues exigées publiées ; compétences linguistiques du candidat inconnues."
         },
         "location": {
           "status": "unknown",
@@ -30560,10 +30679,12 @@
           "reason": "Localisation ambiguë ou non reconnue."
         },
         "education": {
-          "status": "unknown",
-          "value": "",
-          "evidence": [],
-          "reason": "Information non précisée dans l'offre."
+          "status": "compatible",
+          "value": "Master / ingénieur",
+          "evidence": [
+            "You hold a master's degree in computer science, Electrical Engineering, and Automation, or a degree deemed to be equivalent, with basic knowledge."
+          ],
+          "reason": "Niveau master / ingénieur compatible avec le master EPFL du profil."
         },
         "eligibility": {
           "status": "unknown",
@@ -30575,8 +30696,8 @@
       "constraint_status": "unknown",
       "needs_human_review": true,
       "id": "1e9d99c3fd352f9f27",
-      "input_hash": "619edb8c233acf6087cd5004953000725f90991a52f9f7486a7217b382a6d170",
-      "assessed_at": "2026-10-20T22:04:54.794740+00:00"
+      "input_hash": "d0bb5a0d9964c4ad41490bb8cf3f87f0f397f03fc9bde023a4c7dd3e644b8498",
+      "assessed_at": "2026-11-15T14:55:49.851729+00:00"
     },
     "ea1f615699f238955b": {
       "rules_version": "missions-v1",
@@ -35352,25 +35473,24 @@
       "technical_score": 30,
       "technical_reasons": [
         "Mission à pertinence mécanique limitée : Une refonte web de l'outil a été initiée : architecture posée, environnement de développement en place, spécification fonctionnelle rédigée (CDC v1.0) et modèle de gestion des droits par rôle (RBAC) conçu.",
-        "Mission à pertinence mécanique limitée : L'objectif du stage est de reprendre ce socle, poursuivre le développement et amener l'outil à un niveau de finalisation permettant sa mise en production, en remplacement progressif de l'outil VBA/Excel existant.",
-        "Mission à pertinence mécanique limitée : Prendre en main l'existant : architecture, spécification fonctionnelle, modèle de données et base de code déjà initiée"
+        "Mission à pertinence mécanique limitée : L'objectif du stage est de reprendre ce socle, poursuivre le développement et amener l'outil à un niveau de finalisation permettant sa mise en production , en remplacement progressif de l'outil VBA/Excel existant.",
+        "Mission à pertinence mécanique limitée : Missions: Rattaché(e) à l'ingénieur ayant initié le projet, vous serez responsable du développement de bout en bout de la nouvelle plateforme : Prendre en main l'existant : architecture, spécification fonctionnelle, modèle de données et base de code déjà initiée"
       ],
       "mission_evidence": [
-        "Le SGDT (Système de Gestion des Dossiers Techniques) est un outil interne utilisé pour gérer les dossiers techniques (RDO) associés à une structure produit (PBS) composée de sous-ensembles et de composants.",
+        "Contexte: Le SGDT (Système de Gestion des Dossiers Techniques) est un outil interne utilisé pour gérer les dossiers techniques (RDO) associés à une structure produit (PBS) composée de sous-ensembles et de composants.",
         "La version actuelle repose sur un classeur Excel/VBA développé en interne, aujourd'hui fonctionnel mais limité en termes d'évolutivité, de travail collaboratif et de gestion des accès.",
         "Une refonte web de l'outil a été initiée : architecture posée, environnement de développement en place, spécification fonctionnelle rédigée (CDC v1.0) et modèle de gestion des droits par rôle (RBAC) conçu.",
-        "L'objectif du stage est de reprendre ce socle, poursuivre le développement et amener l'outil à un niveau de finalisation permettant sa mise en production, en remplacement progressif de l'outil VBA/Excel existant.",
-        "Rattaché(e) à l'ingénieur ayant initié le projet, vous serez responsable du développement de bout en bout de la nouvelle plateforme :",
-        "Prendre en main l'existant : architecture, spécification fonctionnelle, modèle de données et base de code déjà initiée",
+        "L'objectif du stage est de reprendre ce socle, poursuivre le développement et amener l'outil à un niveau de finalisation permettant sa mise en production , en remplacement progressif de l'outil VBA/Excel existant.",
+        "Missions: Rattaché(e) à l'ingénieur ayant initié le projet, vous serez responsable du développement de bout en bout de la nouvelle plateforme : Prendre en main l'existant : architecture, spécification fonctionnelle, modèle de données et base de code déjà initiée",
         "Développer le back-end (API, logique métier, persistance des données)",
-        "Développer le front-end (interface utilisateur, ergonomie, navigation dans la structure produit)"
+        "Développer le front-end (interface utilisateur, ergonomie, navigation dans la structure produit) Implémenter la gestion des droits par rôle (RBAC) Reprendre les fonctionnalités clés de l'outil VBA existant (import de structure produit, génération de listes documentaires, gestion des statuts et indices de documents, historique/traçabilité) et les adapter à l'architecture web Mettre en place les tests (unitaires / fonctionnels) et documenter le code et les choix techniques Participer aux phases de validation avec les utilisateurs métier et itérer sur les retours Contribuer à la finalisation du déploiement de l'outil"
       ],
       "constraints": {
         "duration": {
           "status": "compatible",
           "value": "6 mois",
           "evidence": [
-            "Nous recherchons un(e) stagiaire Développeur(se) Full Stack pour un stage de 6 mois basé à Toulouse."
+            "Nous recherchons un(e) stagiaire Développeur(se) Full Stack pour un stage de 6 mois basé à Toulouse ."
           ],
           "reason": "Durée comparée à l'intervalle souhaité fourni dans le profil ; ce n'est pas une restriction administrative."
         },
@@ -35398,8 +35518,8 @@
           "status": "compatible",
           "value": "Master / ingénieur",
           "evidence": [
-            "Rattaché(e) à l'ingénieur ayant initié le projet, vous serez responsable du développement de bout en bout de la nouvelle plateforme :",
-            "Étudiant(e) en école d'ingénieur ou master, spécialisation informatique / développement logiciel, à la recherche d'un stage de fin d'études (6 mois)"
+            "Missions: Rattaché(e) à l'ingénieur ayant initié le projet, vous serez responsable du développement de bout en bout de la nouvelle plateforme : Prendre en main l'existant : architecture, spécification fonctionnelle, modèle de données et base de code déjà initiée",
+            "recherché: Étudiant(e) en école d'ingénieur ou master, spécialisation informatique / développement logiciel, à la recherche d'un stage de fin d'études (6 mois) Bonne maîtrise de Python et d'un framework web back-end (FastAPI, Django ou équivalent) Bonne maîtrise de React (ou forte motivation à monter en compétence rapidement) Connaissances en modélisation de données et bases relationnelles À l'aise pour travailler en autonomie sur un projet existant, en comprendre la logique métier et en assurer la continuité Rigueur, sens de la documentation, capacité à dialoguer avec des utilisateurs non-développeurs Une sensibilité pour les problématiques industrielles / gestion documentaire est un plus"
           ],
           "reason": "Niveau master / ingénieur compatible avec le master EPFL du profil."
         },
@@ -35413,18 +35533,18 @@
       "constraint_status": "unknown",
       "needs_human_review": true,
       "id": "ea8360f092e8efda43",
-      "input_hash": "158ce95a187a4936648d3df06d9825a2bf12bbde7f4ec35dc4aab1133a249850",
-      "assessed_at": "2026-10-20T22:04:55.166048+00:00"
+      "input_hash": "d346aa2a4401a2be5729d54293eadb4a380648e18b7d912872427d2bbc682937",
+      "assessed_at": "2026-11-15T14:55:49.888788+00:00"
     },
     "5d1b9c2e9887c20a49": {
       "rules_version": "missions-v1",
-      "pdm_potential": "low",
-      "pdm_label": "Faible potentiel PDM",
+      "pdm_potential": "high",
+      "pdm_label": "Fort potentiel PDM",
       "pdm_explicit": false,
-      "pdm_reason": "Les missions décrites relèvent surtout de l'exécution, du suivi ou du support, sans démarche de conception / investigation établie.",
-      "pdm_confidence": "low",
+      "pdm_reason": "Les missions associent conception ou investigation à une démarche de modélisation, comparaison ou validation technique.",
+      "pdm_confidence": "high",
       "missing_information": [
-        "Description complète non disponible ; classement fondé sur un texte partiel.",
+        "Accord académique EPFL et encadrement du PDM à confirmer.",
         "Durée : Durée structurée publiée ; comparaison à confirmer.",
         "Date de début : Information non précisée dans l'offre.",
         "Langues : Information non précisée dans l'offre.",
@@ -35433,16 +35553,28 @@
         "Éligibilité : Information non précisée dans l'offre."
       ],
       "technical_categories": [
-        "Other"
+        "Mechanical Design",
+        "R&D / Product Development",
+        "Testing / Validation",
+        "Systems Integration",
+        "Automation / Control",
+        "Materials / Processes",
+        "Energy / Thermal"
       ],
-      "technical_score": 8,
+      "technical_score": 86,
       "technical_reasons": [
-        "Mission à pertinence mécanique limitée : You will collect, clean, and analyze data related to wet capacitor performance and characteristics. 2.",
-        "Mission à pertinence mécanique limitée : You will prepare detailed reports and presentations based on data findings, will assist in"
+        "Mission technique mécanique : You will prepare detailed reports and presentations based on data findings, will assist in the design and development of prototypes for wet capacitors.",
+        "Mission technique mécanique : You will collaborate with engineering teams to test and refine prototypes, will document prototyping processes and outcomes for future reference.",
+        "Mission à pertinence mécanique limitée : You will collect, clean, and analyze data related to wet capacitor performance and characteristics."
       ],
       "mission_evidence": [
-        "You will collect, clean, and analyze data related to wet capacitor performance and characteristics. 2.",
-        "You will prepare detailed reports and presentations based on data findings, will assist in"
+        "You will collect, clean, and analyze data related to wet capacitor performance and characteristics.",
+        "You will prepare detailed reports and presentations based on data findings, will assist in the design and development of prototypes for wet capacitors.",
+        "You will collaborate with engineering teams to test and refine prototypes, will document prototyping processes and outcomes for future reference.",
+        "You will have the opportunity to work with industry experts and contribute to sustainable energy solutions.",
+        "You will be responsible for ensure compliance with applicable external and internal regulations, procedures, and guidelines.",
+        "Living Hitachi Energy’s core values safety and integrity, which means taking responsibility for your own actions while caring for your colleagues and the business.",
+        "Strong analytical skills with proficiency in data analysis software (e.g., Excel, MATLAB, Python)."
       ],
       "constraints": {
         "duration": {
@@ -35489,8 +35621,8 @@
       "constraint_status": "unknown",
       "needs_human_review": true,
       "id": "5d1b9c2e9887c20a49",
-      "input_hash": "6f6a983d178e74353614f016581c9390d01c02cda92625ae61b7abf6f983079b",
-      "assessed_at": "2026-10-20T22:04:55.167116+00:00"
+      "input_hash": "6e87db6c8486c1a9e4e295bc7425969e2e529f435a317cf2c3b02b75f178f695",
+      "assessed_at": "2026-11-15T14:55:49.894626+00:00"
     },
     "6d0a49fc4c190145d1": {
       "rules_version": "missions-v1",
@@ -35498,30 +35630,37 @@
       "pdm_label": "Faible potentiel PDM",
       "pdm_explicit": false,
       "pdm_reason": "Les missions décrites relèvent surtout de l'exécution, du suivi ou du support, sans démarche de conception / investigation établie.",
-      "pdm_confidence": "low",
+      "pdm_confidence": "high",
       "missing_information": [
-        "Description complète non disponible ; classement fondé sur un texte partiel.",
         "Durée : Durée structurée publiée ; comparaison à confirmer.",
         "Date de début : Information non précisée dans l'offre.",
         "Langues : Information non précisée dans l'offre.",
         "Localisation : Localisation ambiguë ou non reconnue.",
-        "Formation : Information non précisée dans l'offre.",
+        "Formation : Discipline exigée à vérifier avec le master mécanique EPFL.",
         "Éligibilité : Information non précisée dans l'offre."
       ],
       "technical_categories": [
-        "Testing / Validation"
+        "Testing / Validation",
+        "Systems Integration",
+        "Automation / Control",
+        "Materials / Processes",
+        "Energy / Thermal"
       ],
-      "technical_score": 12,
+      "technical_score": 32,
       "technical_reasons": [
-        "Mission à pertinence mécanique limitée : You will assist teams with data collection, analysis, and reporting. 2.",
-        "Mission à pertinence mécanique limitée : You will support ongoing projects by conducting research and compiling information. 3.",
-        "Mission à pertinence mécanique limitée : You will contribute to the development and testing of new solutions or processes. 4."
+        "Mission technique mécanique : You will prepare presentations, documentation, and other materials as needed.",
+        "Mission à pertinence mécanique limitée : You will assist teams with data collection, analysis, and reporting.",
+        "Mission à pertinence mécanique limitée : You will support ongoing projects by conducting research and compiling information."
       ],
       "mission_evidence": [
-        "You will assist teams with data collection, analysis, and reporting. 2.",
-        "You will support ongoing projects by conducting research and compiling information. 3.",
-        "You will contribute to the development and testing of new solutions or processes. 4.",
-        "You will prepare presentations, documentation, and ot"
+        "You will assist teams with data collection, analysis, and reporting.",
+        "You will support ongoing projects by conducting research and compiling information.",
+        "You will contribute to the development and testing of new solutions or processes.",
+        "You will prepare presentations, documentation, and other materials as needed.",
+        "You will participate in team meetings and contribute ideas.",
+        "You will perform administrative tasks and support departmental operations.",
+        "You will be responsible to ensure compliance with applicable external and internal regulations, procedures, and guidelines.",
+        "Living Hitachi Energy’s core values of safety and integrity, which means taking responsibility for your own actions while caring for your colleagues and the business."
       ],
       "constraints": {
         "duration": {
@@ -35554,9 +35693,11 @@
         },
         "education": {
           "status": "unknown",
-          "value": "",
-          "evidence": [],
-          "reason": "Information non précisée dans l'offre."
+          "value": "Master / ingénieur",
+          "evidence": [
+            "Currently enrolled in a Bachelor's or Master's degree program in a relevant field (e.g., Engineering, Computer Science, Business, Marketing, Finance)."
+          ],
+          "reason": "Discipline exigée à vérifier avec le master mécanique EPFL."
         },
         "eligibility": {
           "status": "unknown",
@@ -35568,8 +35709,8 @@
       "constraint_status": "unknown",
       "needs_human_review": true,
       "id": "6d0a49fc4c190145d1",
-      "input_hash": "34ec764abd3f8fea02e7e12eae06c497a21b81826036bfd008387556e1c0c8f4",
-      "assessed_at": "2026-10-20T22:04:55.168239+00:00"
+      "input_hash": "bb3598fac0e1a76340f585d1cf20377883ef7337f6bee012809d60579a2821d2",
+      "assessed_at": "2026-11-15T14:55:49.900247+00:00"
     },
     "beefc198910e87486d": {
       "rules_version": "missions-v1",
@@ -35577,9 +35718,8 @@
       "pdm_label": "Faible potentiel PDM",
       "pdm_explicit": false,
       "pdm_reason": "Les missions décrites relèvent surtout de l'exécution, du suivi ou du support, sans démarche de conception / investigation établie.",
-      "pdm_confidence": "low",
+      "pdm_confidence": "high",
       "missing_information": [
-        "Description complète non disponible ; classement fondé sur un texte partiel.",
         "Durée : Durée structurée publiée ; comparaison à confirmer.",
         "Date de début : Information non précisée dans l'offre.",
         "Langues : Information non précisée dans l'offre.",
@@ -35588,16 +35728,25 @@
         "Éligibilité : Information non précisée dans l'offre."
       ],
       "technical_categories": [
-        "Manufacturing / Production"
+        "Manufacturing / Production",
+        "Systems Integration",
+        "Automation / Control",
+        "Energy / Thermal",
+        "Project Management"
       ],
-      "technical_score": 28,
+      "technical_score": 38,
       "technical_reasons": [
-        "Mission technique mécanique : You will be supporting Project Manager to monitor project progress and update manufacturing status in a daily basis. 3.",
-        "Mission à pertinence mécanique limitée : You will be responsible for commercial execution for projects including SAP system & E-Process platform operations, such as order input, DN release, invoice application etc. 2."
+        "Mission technique mécanique : You will be supporting Project Manager to monitor project progress and update manufacturing status in a daily basis.",
+        "Mission à pertinence mécanique limitée : You will be responsible for commercial execution for projects including SAP system & E-Process platform operations, such as order input, DN release, invoice application etc.",
+        "Mission à pertinence mécanique limitée : You will be supporting Project Manager on project coordination, contract management, documentation preparation, FAT coordination and data analysis."
       ],
       "mission_evidence": [
-        "You will be responsible for commercial execution for projects including SAP system & E-Process platform operations, such as order input, DN release, invoice application etc. 2.",
-        "You will be supporting Project Manager to monitor project progress and update manufacturing status in a daily basis. 3."
+        "You will be responsible for commercial execution for projects including SAP system & E-Process platform operations, such as order input, DN release, invoice application etc.",
+        "You will be supporting Project Manager to monitor project progress and update manufacturing status in a daily basis.",
+        "You will be supporting Project Manager on project coordination, contract management, documentation preparation, FAT coordination and data analysis.",
+        "You will be assisting PM manager to develop or upgrade templates, tools and techniques.",
+        "You will be responsible to ensure compliance with applicable external and internal regulations, procedures, and guidelines.",
+        "Living Hitachi Energy’s core values of safety and integrity, which means taking responsibility for your own actions while caring for your colleagues and the business."
       ],
       "constraints": {
         "duration": {
@@ -35644,8 +35793,8 @@
       "constraint_status": "unknown",
       "needs_human_review": true,
       "id": "beefc198910e87486d",
-      "input_hash": "dac97645ce3ce8819ed3ec30ce1672017e4287a34241bbf50d519dcc885173a4",
-      "assessed_at": "2026-10-20T22:04:55.169257+00:00"
+      "input_hash": "ffb9c7d2bf7892e6436d3343940e82a64087291952689db8d44ca8f904254839",
+      "assessed_at": "2026-11-15T14:55:49.921162+00:00"
     },
     "dd88d006fc2cf51d84": {
       "rules_version": "missions-v1",
@@ -35653,9 +35802,8 @@
       "pdm_label": "Fort potentiel PDM",
       "pdm_explicit": false,
       "pdm_reason": "Les missions associent conception ou investigation à une démarche de modélisation, comparaison ou validation technique.",
-      "pdm_confidence": "low",
+      "pdm_confidence": "high",
       "missing_information": [
-        "Description complète non disponible ; classement fondé sur un texte partiel.",
         "Accord académique EPFL et encadrement du PDM à confirmer.",
         "Durée : Durée structurée publiée ; comparaison à confirmer.",
         "Date de début : Information non précisée dans l'offre.",
@@ -35668,15 +35816,27 @@
         "Mechanical Design",
         "R&D / Product Development",
         "Manufacturing / Production",
+        "Systems Integration",
+        "Automation / Control",
         "Materials / Processes",
+        "Energy / Thermal",
         "Quality"
       ],
-      "technical_score": 38,
+      "technical_score": 100,
       "technical_reasons": [
-        "Mission technique mécanique : You will design, develop, and implement new manufacturing processes and equipment, or optimize existing ones, to improve efficiency, quality, and cost-effectiveness also conduct process analysis, including time studies, value stream mapping, and bottleneck identification, to pinpoint areas for im"
+        "Mission technique mécanique : You will design, develop, and implement new manufacturing processes and equipment, or optimize existing ones, to improve efficiency, quality, and cost-effectiveness also conduct process analysis, including time studies, value stream mapping, and bottleneck identification, to pinpoint areas for improvement.",
+        "Mission technique mécanique : You will monitor production performance metrics, analyze data, and generate reports to track process effectiveness and identify deviations also implement and maintain lean manufacturing principles (e.g., 5S, Kaizen, Six Sigma) to drive continuous improvement initiatives.",
+        "Mission technique mécanique : You will evaluate and select appropriate manufacturing technologies, materials, and equipment also ensure compliance with safety regulations, environmental standards, and company policies."
       ],
       "mission_evidence": [
-        "You will design, develop, and implement new manufacturing processes and equipment, or optimize existing ones, to improve efficiency, quality, and cost-effectiveness also conduct process analysis, including time studies, value stream mapping, and bottleneck identification, to pinpoint areas for im"
+        "You will design, develop, and implement new manufacturing processes and equipment, or optimize existing ones, to improve efficiency, quality, and cost-effectiveness also conduct process analysis, including time studies, value stream mapping, and bottleneck identification, to pinpoint areas for improvement.",
+        "You will develop and maintain process documentation, including work instructions, standard operating procedures (SOPs), and process flow diagrams also collaborate with R&D, design, quality assurance, and maintenance teams to ensure seamless integration of new processes and products.",
+        "You will monitor production performance metrics, analyze data, and generate reports to track process effectiveness and identify deviations also implement and maintain lean manufacturing principles (e.g., 5S, Kaizen, Six Sigma) to drive continuous improvement initiatives.",
+        "You will troubleshoot production issues and implement corrective actions to minimize downtime and prevent recurrence.",
+        "You will evaluate and select appropriate manufacturing technologies, materials, and equipment also ensure compliance with safety regulations, environmental standards, and company policies.",
+        "You will be responsible for ensure compliance with applicable external and internal regulations, procedures, and guidelines.",
+        "Living Hitachi Energy’s core values safety and integrity, which means taking responsibility for your own actions while caring for your colleagues and the business.",
+        "passionate about quality management."
       ],
       "constraints": {
         "duration": {
@@ -35723,8 +35883,8 @@
       "constraint_status": "unknown",
       "needs_human_review": true,
       "id": "dd88d006fc2cf51d84",
-      "input_hash": "014f9e240911fbee1821eaab500de3ecef0ccb656902cf0064709eeee6c2b0d1",
-      "assessed_at": "2026-10-20T22:04:55.170103+00:00"
+      "input_hash": "060ad4fdf659ea16a7f5a6ee87fdf2258832d4a8aa28d5344291a8e0ab3f5aee",
+      "assessed_at": "2026-11-15T14:55:49.928278+00:00"
     },
     "5d70356659f5f8f4db": {
       "rules_version": "missions-v1",
@@ -35732,9 +35892,8 @@
       "pdm_label": "Faible potentiel PDM",
       "pdm_explicit": false,
       "pdm_reason": "Les missions décrites relèvent surtout de l'exécution, du suivi ou du support, sans démarche de conception / investigation établie.",
-      "pdm_confidence": "low",
+      "pdm_confidence": "high",
       "missing_information": [
-        "Description complète non disponible ; classement fondé sur un texte partiel.",
         "Durée : Durée structurée publiée ; comparaison à confirmer.",
         "Date de début : Information non précisée dans l'offre.",
         "Langues : Information non précisée dans l'offre.",
@@ -35743,16 +35902,27 @@
         "Éligibilité : Information non précisée dans l'offre."
       ],
       "technical_categories": [
+        "Testing / Validation",
+        "Systems Integration",
+        "Automation / Control",
+        "Energy / Thermal",
         "Quality"
       ],
-      "technical_score": 14,
+      "technical_score": 30,
       "technical_reasons": [
-        "Mission à pertinence mécanique limitée : You will assist the quality team in completing incoming inspection, in-process inspection and finished product inspection of products, and record inspection data. 2.",
-        "Mission à pertinence mécanique limitée : You will sort out and count quality data, assist in preparing quality analysis reports, and feedback abnormal quality problems in t"
+        "Mission à pertinence mécanique limitée : You will assist the quality team in completing incoming inspection, in-process inspection and finished product inspection of products, and record inspection data.",
+        "Mission à pertinence mécanique limitée : You will sort out and count quality data, assist in preparing quality analysis reports, and feedback abnormal quality problems in time.",
+        "Mission à pertinence mécanique limitée : You will participate in the follow-up of corrective and preventive actions for quality non-conformities, and track the implementation effect."
       ],
       "mission_evidence": [
-        "You will assist the quality team in completing incoming inspection, in-process inspection and finished product inspection of products, and record inspection data. 2.",
-        "You will sort out and count quality data, assist in preparing quality analysis reports, and feedback abnormal quality problems in t"
+        "You will assist the quality team in completing incoming inspection, in-process inspection and finished product inspection of products, and record inspection data.",
+        "You will sort out and count quality data, assist in preparing quality analysis reports, and feedback abnormal quality problems in time.",
+        "You will participate in the follow-up of corrective and preventive actions for quality non-conformities, and track the implementation effect.",
+        "You will assist in sorting out quality management documents and inspection standards, and maintain the integrity of quality records and complete other related work assigned by the superior.",
+        "You will be responsible for ensure compliance with applicable external and internal regulations, procedures, and guidelines.",
+        "Living Hitachi Energy’s core values safety and integrity, which means taking responsibility for your own actions while caring for your colleagues and the business.",
+        "Familiar with basic quality management tools, and have a basic understanding of ISO9001 quality management system.",
+        "Have basic ability of reading engineering drawings and using conventional testing tools."
       ],
       "constraints": {
         "duration": {
@@ -35799,8 +35969,8 @@
       "constraint_status": "unknown",
       "needs_human_review": true,
       "id": "5d70356659f5f8f4db",
-      "input_hash": "c5b6da93e7d5d290af68a3dafafe53d947cd1f7f8a24193c1fab523ffec14b67",
-      "assessed_at": "2026-10-20T22:04:55.171078+00:00"
+      "input_hash": "78e9f8638eef49e44d0c62c1f3b41132dc76b505481f70587fea88755024fc09",
+      "assessed_at": "2026-11-15T14:55:49.934217+00:00"
     },
     "2fa1bfc0f92c025814": {
       "rules_version": "missions-v1",
@@ -40284,41 +40454,45 @@
       "pdm_label": "Fort potentiel PDM",
       "pdm_explicit": false,
       "pdm_reason": "Les missions associent conception ou investigation à une démarche de modélisation, comparaison ou validation technique.",
-      "pdm_confidence": "low",
+      "pdm_confidence": "high",
       "missing_information": [
-        "Description complète non disponible ; classement fondé sur un texte partiel.",
         "Accord académique EPFL et encadrement du PDM à confirmer.",
-        "Durée : Durée structurée publiée ; comparaison à confirmer.",
         "Date de début : Information non précisée dans l'offre.",
-        "Langues : Information non précisée dans l'offre.",
+        "Langues : Langues exigées publiées ; compétences linguistiques du candidat inconnues.",
         "Localisation : Localisation ambiguë ou non reconnue.",
-        "Formation : Information non précisée dans l'offre.",
         "Éligibilité : Information non précisée dans l'offre."
       ],
       "technical_categories": [
         "R&D / Product Development",
+        "Testing / Validation",
         "Manufacturing / Production",
-        "Materials / Processes"
+        "Systems Integration",
+        "Automation / Control",
+        "Materials / Processes",
+        "Energy / Thermal"
       ],
-      "technical_score": 64,
+      "technical_score": 70,
       "technical_reasons": [
-        "Mission technique mécanique : You will perform research and development for material technology, including insulation material, smart material, additive manufacturing, etc. 2.",
-        "Mission à pertinence mécanique limitée : You will perform research and development for the power system or power electronics field. 3.",
-        "Mission à pertinence mécanique limitée : You will perform research activities for data science, in"
+        "Mission technique mécanique : You will perform research and development for material technology, including insulation material, smart material, additive manufacturing, etc.",
+        "Mission à pertinence mécanique limitée : You will perform research and development for the power system or power electronics field.",
+        "Mission à pertinence mécanique limitée : You will perform research activities for data science, including data cleaning, feature extraction, algorithm development and validation, etc."
       ],
       "mission_evidence": [
-        "You will perform research and development for material technology, including insulation material, smart material, additive manufacturing, etc. 2.",
-        "You will perform research and development for the power system or power electronics field. 3.",
-        "You will perform research activities for data science, in"
+        "You will perform research and development for material technology, including insulation material, smart material, additive manufacturing, etc.",
+        "You will perform research and development for the power system or power electronics field.",
+        "You will perform research activities for data science, including data cleaning, feature extraction, algorithm development and validation, etc.",
+        "You will be responsible to ensure compliance with applicable external and internal regulations, procedures, and guidelines.",
+        "Living Hitachi Energy's core values of safety and integrity, which means taking responsibility for your own actions while caring for your colleagues and the business.",
+        "Experienced in literature survey and patent investigation."
       ],
       "constraints": {
         "duration": {
-          "status": "unknown",
-          "value": "Short term mentioned",
+          "status": "compatible",
+          "value": "3 months",
           "evidence": [
-            "Short term mentioned"
+            "Minimum 3 days attend per week and serve for company at least 3 months."
           ],
-          "reason": "Durée structurée publiée ; comparaison à confirmer."
+          "reason": "Durée comparée à l'intervalle souhaité fourni dans le profil ; ce n'est pas une restriction administrative."
         },
         "start_date": {
           "status": "unknown",
@@ -40328,9 +40502,11 @@
         },
         "languages": {
           "status": "unknown",
-          "value": "",
-          "evidence": [],
-          "reason": "Information non précisée dans l'offre."
+          "value": "en",
+          "evidence": [
+            "Proficiency in both spoken & written English language is required."
+          ],
+          "reason": "Langues exigées publiées ; compétences linguistiques du candidat inconnues."
         },
         "location": {
           "status": "unknown",
@@ -40341,10 +40517,12 @@
           "reason": "Localisation ambiguë ou non reconnue."
         },
         "education": {
-          "status": "unknown",
-          "value": "",
-          "evidence": [],
-          "reason": "Information non précisée dans l'offre."
+          "status": "compatible",
+          "value": "Master / ingénieur",
+          "evidence": [
+            "You hold a master’s or above student majoring in Polymer Science, Power Systems, Power Electronics, or data science with strong lab hands-on experience."
+          ],
+          "reason": "Niveau master / ingénieur compatible avec le master EPFL du profil."
         },
         "eligibility": {
           "status": "unknown",
@@ -40356,8 +40534,8 @@
       "constraint_status": "unknown",
       "needs_human_review": true,
       "id": "913cc5da1f43e39947",
-      "input_hash": "329fa02c5ef13694be3c3a01d1f329b70afa13ae3bacca1ae8fa2e3eba982fd8",
-      "assessed_at": "2026-10-20T22:04:55.602934+00:00"
+      "input_hash": "3bf1161f81429b755e0af4bada8ec97590f191ab433747900a21fdce3e6c0334",
+      "assessed_at": "2026-11-15T14:55:49.982666+00:00"
     },
     "3eb5cba8037afc32da": {
       "rules_version": "missions-v1",
@@ -45142,29 +45320,32 @@
       "pdm_label": "Faible potentiel PDM",
       "pdm_explicit": false,
       "pdm_reason": "Les missions décrites relèvent surtout de l'exécution, du suivi ou du support, sans démarche de conception / investigation établie.",
-      "pdm_confidence": "low",
+      "pdm_confidence": "high",
       "missing_information": [
-        "Description complète non disponible ; classement fondé sur un texte partiel.",
         "Durée : Durée structurée publiée ; comparaison à confirmer.",
         "Date de début : Information non précisée dans l'offre.",
-        "Langues : Information non précisée dans l'offre.",
+        "Langues : Langues exigées publiées ; compétences linguistiques du candidat inconnues.",
         "Localisation : Localisation ambiguë ou non reconnue.",
         "Formation : Information non précisée dans l'offre.",
         "Éligibilité : Information non précisée dans l'offre."
       ],
       "technical_categories": [
-        "Other"
+        "Systems Integration",
+        "Automation / Control",
+        "Energy / Thermal"
       ],
-      "technical_score": 18,
+      "technical_score": 24,
       "technical_reasons": [
-        "Mission à pertinence mécanique limitée : Questions Reiwa system input, prepare product information, BOM, etc. 2.",
-        "Mission à pertinence mécanique limitée : You will make order design drawings edit tech. 3.",
-        "Mission à pertinence mécanique limitée : You will be involved in documents such as Technical Provision, Order specification, job contact, etc. 4."
+        "Mission à pertinence mécanique limitée : Questions Reiwa system input, prepare product information, BOM, etc.",
+        "Mission à pertinence mécanique limitée : You will make order design drawings edit tech.",
+        "Mission à pertinence mécanique limitée : You will be involved in documents such as Technical Provision, Order specification, job contact, etc."
       ],
       "mission_evidence": [
-        "Questions Reiwa system input, prepare product information, BOM, etc. 2.",
-        "You will make order design drawings edit tech. 3.",
-        "You will be involved in documents such as Technical Provision, Order specification, job contact, etc. 4."
+        "Questions Reiwa system input, prepare product information, BOM, etc.",
+        "You will make order design drawings edit tech.",
+        "You will be involved in documents such as Technical Provision, Order specification, job contact, etc.",
+        "You will be responsible to ensure compliance with applicable external and internal regulations, procedures, and guidelines.",
+        "Living the Hitachi Energy's core values of safety and integrity, which means taking responsibility for your own actions while caring for your colleagues and the business."
       ],
       "constraints": {
         "duration": {
@@ -45183,9 +45364,11 @@
         },
         "languages": {
           "status": "unknown",
-          "value": "",
-          "evidence": [],
-          "reason": "Information non précisée dans l'offre."
+          "value": "en",
+          "evidence": [
+            "Preferred fluency in English language, good at reading and written."
+          ],
+          "reason": "Langues exigées publiées ; compétences linguistiques du candidat inconnues."
         },
         "location": {
           "status": "unknown",
@@ -45211,8 +45394,8 @@
       "constraint_status": "unknown",
       "needs_human_review": true,
       "id": "06381c2d168fd3a670",
-      "input_hash": "c17dd48d92e26f81f7047346261a1e421d408d57c5361b39b91d6cb3ca818a81",
-      "assessed_at": "2026-10-20T22:04:56.153239+00:00"
+      "input_hash": "f31b2e2cbe7caacaecf4877736c756f42b85f45e81e78e5bfea78b007c3a0a99",
+      "assessed_at": "2026-11-15T14:55:50.007974+00:00"
     },
     "9ac1058a03551a5638": {
       "rules_version": "missions-v1",
@@ -45220,20 +45403,21 @@
       "pdm_label": "Faible potentiel PDM",
       "pdm_explicit": false,
       "pdm_reason": "Les missions décrites relèvent surtout de l'exécution, du suivi ou du support, sans démarche de conception / investigation établie.",
-      "pdm_confidence": "low",
+      "pdm_confidence": "high",
       "missing_information": [
-        "Description complète non disponible ; classement fondé sur un texte partiel.",
         "Durée : Durée structurée publiée ; comparaison à confirmer.",
         "Date de début : Information non précisée dans l'offre.",
-        "Langues : Information non précisée dans l'offre.",
+        "Langues : Langues exigées publiées ; compétences linguistiques du candidat inconnues.",
         "Localisation : Localisation ambiguë ou non reconnue.",
         "Formation : Information non précisée dans l'offre.",
         "Éligibilité : Information non précisée dans l'offre."
       ],
       "technical_categories": [
-        "Other"
+        "Systems Integration",
+        "Automation / Control",
+        "Energy / Thermal"
       ],
-      "technical_score": 18,
+      "technical_score": 24,
       "technical_reasons": [
         "Mission à pertinence mécanique limitée : Questions Reiwa system input, prepare product information, BOM, etc.",
         "Mission à pertinence mécanique limitée : You will make order design drawings edit tech.",
@@ -45242,7 +45426,9 @@
       "mission_evidence": [
         "Questions Reiwa system input, prepare product information, BOM, etc.",
         "You will make order design drawings edit tech.",
-        "You will be involved in documents such as Technical Provision, Order specification, job contact, etc."
+        "You will be involved in documents such as Technical Provision, Order specification, job contact, etc.",
+        "You will be responsible to ensure compliance with applicable external and internal regulations, procedures, and guidelines.",
+        "Living the Hitachi Energy's core values of safety and integrity, which means taking responsibility for your own actions while caring for your colleagues and the business."
       ],
       "constraints": {
         "duration": {
@@ -45261,9 +45447,11 @@
         },
         "languages": {
           "status": "unknown",
-          "value": "",
-          "evidence": [],
-          "reason": "Information non précisée dans l'offre."
+          "value": "en",
+          "evidence": [
+            "Preferred fluency in English language, good at reading and written."
+          ],
+          "reason": "Langues exigées publiées ; compétences linguistiques du candidat inconnues."
         },
         "location": {
           "status": "unknown",
@@ -45289,34 +45477,47 @@
       "constraint_status": "unknown",
       "needs_human_review": true,
       "id": "9ac1058a03551a5638",
-      "input_hash": "e95692599bab555ba267f715ed3753558eda1d946794ee65fc1bb389c1cbc7b5",
-      "assessed_at": "2026-10-20T22:04:56.154625+00:00"
+      "input_hash": "e6b15167a8b51a73cc31a863debe9ed65e0cf41b7200a7c3fff2a0c0a8f6e157",
+      "assessed_at": "2026-11-15T14:55:50.011974+00:00"
     },
     "ae701a80690e55997b": {
       "rules_version": "missions-v1",
-      "pdm_potential": "low",
-      "pdm_label": "Faible potentiel PDM",
+      "pdm_potential": "medium",
+      "pdm_label": "Potentiel PDM à préciser",
       "pdm_explicit": false,
-      "pdm_reason": "Les missions décrites relèvent surtout de l'exécution, du suivi ou du support, sans démarche de conception / investigation établie.",
-      "pdm_confidence": "low",
+      "pdm_reason": "Une mission technique de conception ou d'étude est identifiée ; autonomie, question de recherche et livrable académique restent à préciser.",
+      "pdm_confidence": "high",
       "missing_information": [
-        "Description complète non disponible ; classement fondé sur un texte partiel.",
+        "Accord académique EPFL et encadrement du PDM à confirmer.",
         "Durée : Durée structurée publiée ; comparaison à confirmer.",
         "Date de début : Information non précisée dans l'offre.",
-        "Langues : Information non précisée dans l'offre.",
+        "Langues : Langues exigées publiées ; compétences linguistiques du candidat inconnues.",
         "Localisation : Localisation ambiguë ou non reconnue.",
         "Formation : Information non précisée dans l'offre.",
         "Éligibilité : Information non précisée dans l'offre."
       ],
       "technical_categories": [
+        "R&D / Product Development",
+        "Manufacturing / Production",
+        "Systems Integration",
+        "Automation / Control",
+        "Materials / Processes",
+        "Energy / Thermal",
         "Project Management"
       ],
-      "technical_score": 4,
+      "technical_score": 50,
       "technical_reasons": [
-        "Mission à pertinence mécanique limitée : You will be responsible for development of various application distribution transformer pre-order and tender designs in coordination with the Market and Sales Strategy to meet the market needs. 3."
+        "Mission technique mécanique : You will be coordinating production operations in accordance with material, labor, and equipment availability.",
+        "Mission à pertinence mécanique limitée : You will participate in the internal and external design concept reviews, DFMEA and design development procedure applied on special application products.",
+        "Mission à pertinence mécanique limitée : You will be responsible for development of various application distribution transformer pre-order and tender designs in coordination with the Market and Sales Strategy to meet the market needs."
       ],
       "mission_evidence": [
-        "You will be responsible for development of various application distribution transformer pre-order and tender designs in coordination with the Market and Sales Strategy to meet the market needs. 3."
+        "You will be responsible for development of various application distribution transformer pre-order and tender designs in coordination with the Market and Sales Strategy to meet the market needs.",
+        "You will participate in the internal and external design concept reviews, DFMEA and design development procedure applied on special application products.",
+        "You will be coordinating production operations in accordance with material, labor, and equipment availability.",
+        "You will document and handles technical risks by following mitigation guidelines and will escalate potential new risks to management.",
+        "You will be responsible for ensure compliance with applicable external and internal regulations, procedures, and guidelines.",
+        "Living Hitachi Energy’s core values of safety and integrity, which means taking responsibility for your own actions while caring for your colleagues and the business."
       ],
       "constraints": {
         "duration": {
@@ -45335,9 +45536,11 @@
         },
         "languages": {
           "status": "unknown",
-          "value": "",
-          "evidence": [],
-          "reason": "Information non précisée dans l'offre."
+          "value": "en",
+          "evidence": [
+            "Proficiency in business level in verbal and written English."
+          ],
+          "reason": "Langues exigées publiées ; compétences linguistiques du candidat inconnues."
         },
         "location": {
           "status": "unknown",
@@ -45363,8 +45566,8 @@
       "constraint_status": "unknown",
       "needs_human_review": true,
       "id": "ae701a80690e55997b",
-      "input_hash": "95f277c8d159fee50eb70daaeeea4959ea58c6ec167c921640f64be7ea6a5ea5",
-      "assessed_at": "2026-10-20T22:04:56.155796+00:00"
+      "input_hash": "c449ea3ec00df1df3c946049336144a2790cac05a90252f390b704377abdc9a5",
+      "assessed_at": "2026-11-15T14:55:50.017340+00:00"
     },
     "da4d9b933771884df8": {
       "rules_version": "missions-v1",
@@ -45372,10 +45575,8 @@
       "pdm_label": "Faible potentiel PDM",
       "pdm_explicit": false,
       "pdm_reason": "Les missions décrites relèvent surtout de l'exécution, du suivi ou du support, sans démarche de conception / investigation établie.",
-      "pdm_confidence": "low",
+      "pdm_confidence": "high",
       "missing_information": [
-        "Description complète non disponible ; classement fondé sur un texte partiel.",
-        "Durée : Durée structurée publiée ; comparaison à confirmer.",
         "Date de début : Information non précisée dans l'offre.",
         "Langues : Information non précisée dans l'offre.",
         "Localisation : Localisation ambiguë ou non reconnue.",
@@ -45383,25 +45584,34 @@
         "Éligibilité : Information non précisée dans l'offre."
       ],
       "technical_categories": [
-        "Other"
+        "Systems Integration",
+        "Automation / Control",
+        "Energy / Thermal",
+        "Project Management"
       ],
-      "technical_score": 8,
+      "technical_score": 18,
       "technical_reasons": [
-        "Mission à pertinence mécanique limitée : You will support Talent Partner for Long list and interview arrangement. 2.",
-        "Mission à pertinence mécanique limitée : You will support the brand school recruitment project ;Engineering Power Start Program;"
+        "Mission à pertinence mécanique limitée : You will support Talent Partner for Long list and interview arrangement.",
+        "Mission à pertinence mécanique limitée : You will support the brand school recruitment project ;Engineering Power Start Program;",
+        "Mission à pertinence mécanique limitée : You will be responsible for the organization and daily operations of the internship program."
       ],
       "mission_evidence": [
-        "You will support Talent Partner for Long list and interview arrangement. 2.",
-        "You will support the brand school recruitment project ;Engineering Power Start Program;"
+        "You will support Talent Partner for Long list and interview arrangement.",
+        "You will support the brand school recruitment project ;Engineering Power Start Program;",
+        "You will be responsible for the organization and daily operations of the internship program.",
+        "You will support employer brand promotion and building, participate in the planning and implementation of internal and external brand activities.",
+        "You will support the maintenance and cooperation of school-enterprise relations, keep abreast of school dynamics and resources, and enhance brand favorability.",
+        "You will be responsible for ensure compliance with applicable external and internal regulations, procedures, and guidelines.",
+        "Living Hitachi Energy’s core values safety and integrity, which means taking responsibility for your own actions while caring for your colleagues and the business."
       ],
       "constraints": {
         "duration": {
-          "status": "unknown",
-          "value": "Not specified",
+          "status": "compatible",
+          "value": "4 months",
           "evidence": [
-            "Not specified"
+            "Working at least 4 days per week and more than 4 months, also interesting in HR field."
           ],
-          "reason": "Durée structurée publiée ; comparaison à confirmer."
+          "reason": "Durée comparée à l'intervalle souhaité fourni dans le profil ; ce n'est pas une restriction administrative."
         },
         "start_date": {
           "status": "unknown",
@@ -45439,8 +45649,8 @@
       "constraint_status": "unknown",
       "needs_human_review": true,
       "id": "da4d9b933771884df8",
-      "input_hash": "f34588d33982e731e3a51f294ce04ceb2fdb3f3c1bee0cc2790aa23c7f435508",
-      "assessed_at": "2026-10-20T22:04:56.156928+00:00"
+      "input_hash": "754c0d6f2c2ea8f1c68fb32165999dd13614b4ab3ccac36d98c9919d45017842",
+      "assessed_at": "2026-11-15T14:55:50.022823+00:00"
     },
     "72b418650ac9d8b33d": {
       "rules_version": "missions-v1",
@@ -45448,10 +45658,8 @@
       "pdm_label": "Faible potentiel PDM",
       "pdm_explicit": false,
       "pdm_reason": "Les missions décrites relèvent surtout de l'exécution, du suivi ou du support, sans démarche de conception / investigation établie.",
-      "pdm_confidence": "low",
+      "pdm_confidence": "high",
       "missing_information": [
-        "Description complète non disponible ; classement fondé sur un texte partiel.",
-        "Durée : Durée structurée publiée ; comparaison à confirmer.",
         "Date de début : Information non précisée dans l'offre.",
         "Langues : Information non précisée dans l'offre.",
         "Localisation : Localisation ambiguë ou non reconnue.",
@@ -45459,23 +45667,28 @@
         "Éligibilité : Information non précisée dans l'offre."
       ],
       "technical_categories": [
-        "Other"
+        "Project Management"
       ],
-      "technical_score": 4,
+      "technical_score": 12,
       "technical_reasons": [
-        "Mission à pertinence mécanique limitée : 1. 支持招聘团队进行候选人简历收集、筛选、面试沟通及安排等 Support Talent Partner for Long list and interview arrangement. 2. 支持品牌校招项目——“全球培训生”全流程推进（如前期宣传、全国候选人简历筛选、沟通及面试等） Support the brand school recruitment project - \"Power+ Trainee\" for the whole process promotion. (Such as pre-publicity, candidate resumes screening, commu"
+        "Mission à pertinence mécanique limitée : Support Talent Partner for Long list and interview arrangement.",
+        "Mission à pertinence mécanique limitée : Support the brand school recruitment project - \"Power+ Trainee\" for the whole process promotion. (Such as pre-publicity, candidate resumes screening, communication and interview, etc.)",
+        "Mission à pertinence mécanique limitée : Support employer brand promotion and building, participate in the planning and implementation of internal and external brand activities."
       ],
       "mission_evidence": [
-        "1. 支持招聘团队进行候选人简历收集、筛选、面试沟通及安排等 Support Talent Partner for Long list and interview arrangement. 2. 支持品牌校招项目——“全球培训生”全流程推进（如前期宣传、全国候选人简历筛选、沟通及面试等） Support the brand school recruitment project - \"Power+ Trainee\" for the whole process promotion. (Such as pre-publicity, candidate resumes screening, commu"
+        "Support Talent Partner for Long list and interview arrangement.",
+        "Support the brand school recruitment project - \"Power+ Trainee\" for the whole process promotion. (Such as pre-publicity, candidate resumes screening, communication and interview, etc.)",
+        "Support employer brand promotion and building, participate in the planning and implementation of internal and external brand activities.",
+        "Support the maintenance and cooperation of school-enterprise relations, keep abreast of school dynamics and resources, and enhance brand favorability."
       ],
       "constraints": {
         "duration": {
-          "status": "unknown",
-          "value": "Not specified",
+          "status": "compatible",
+          "value": "4 months",
           "evidence": [
-            "Not specified"
+            "Working at least 4 days per week and more than 4 months."
           ],
-          "reason": "Durée structurée publiée ; comparaison à confirmer."
+          "reason": "Durée comparée à l'intervalle souhaité fourni dans le profil ; ce n'est pas une restriction administrative."
         },
         "start_date": {
           "status": "unknown",
@@ -45513,8 +45726,8 @@
       "constraint_status": "unknown",
       "needs_human_review": true,
       "id": "72b418650ac9d8b33d",
-      "input_hash": "51b9f72963d4a9744307625ba84f54a429054948eb15d0efb558c8121c895e49",
-      "assessed_at": "2026-10-20T22:04:56.162176+00:00"
+      "input_hash": "1bab1943f9869b4abc5556a2a868b2fac37f945e7d0bb14821b8dd2acd2d962e",
+      "assessed_at": "2026-11-15T14:55:50.027525+00:00"
     },
     "c72300686414c457ae": {
       "rules_version": "missions-v1",
@@ -45522,9 +45735,8 @@
       "pdm_label": "Faible potentiel PDM",
       "pdm_explicit": false,
       "pdm_reason": "Les missions décrites relèvent surtout de l'exécution, du suivi ou du support, sans démarche de conception / investigation établie.",
-      "pdm_confidence": "low",
+      "pdm_confidence": "high",
       "missing_information": [
-        "Description complète non disponible ; classement fondé sur un texte partiel.",
         "Durée : Durée structurée publiée ; comparaison à confirmer.",
         "Date de début : Information non précisée dans l'offre.",
         "Langues : Information non précisée dans l'offre.",
@@ -45533,18 +45745,25 @@
         "Éligibilité : Information non précisée dans l'offre."
       ],
       "technical_categories": [
-        "Other"
+        "Manufacturing / Production",
+        "Systems Integration",
+        "Automation / Control",
+        "Energy / Thermal"
       ],
-      "technical_score": 12,
+      "technical_score": 24,
       "technical_reasons": [
-        "Mission à pertinence mécanique limitée : You will build up and maintain database of equipment, tools and kits and be responsible for daily equipment maintenance support. 2.",
-        "Mission à pertinence mécanique limitée : You will responsible for sustainable development suggestions and implementation. 3.",
-        "Mission à pertinence mécanique limitée : You will support in the infrastructure maintenance and management and comply with"
+        "Mission à pertinence mécanique limitée : You will build up and maintain database of equipment, tools and kits and be responsible for daily equipment maintenance support.",
+        "Mission à pertinence mécanique limitée : You will responsible for sustainable development suggestions and implementation.",
+        "Mission à pertinence mécanique limitée : You will support in the infrastructure maintenance and management and comply with safety requirements also support departmental process documents management."
       ],
       "mission_evidence": [
-        "You will build up and maintain database of equipment, tools and kits and be responsible for daily equipment maintenance support. 2.",
-        "You will responsible for sustainable development suggestions and implementation. 3.",
-        "You will support in the infrastructure maintenance and management and comply with"
+        "You will build up and maintain database of equipment, tools and kits and be responsible for daily equipment maintenance support.",
+        "You will responsible for sustainable development suggestions and implementation.",
+        "You will support in the infrastructure maintenance and management and comply with safety requirements also support departmental process documents management.",
+        "You will handle equipment malfunctions to ensure normal production operation, carry out TPM tasks also do other tasks related to equipment maintenance arranged by the department manager.",
+        "You will be responsible for ensure compliance with applicable external and internal regulations, procedures, and guidelines.",
+        "Living Hitachi Energy’s core values safety and integrity, which means taking responsibility for your own actions while caring for your colleagues and the business.",
+        "Good communication and team player and willing to learn and improve."
       ],
       "constraints": {
         "duration": {
@@ -45591,36 +45810,47 @@
       "constraint_status": "unknown",
       "needs_human_review": true,
       "id": "c72300686414c457ae",
-      "input_hash": "07d0728b3433c3f3c83904072ce64b0fa159d70dc556b2fa13704ccc13db8221",
-      "assessed_at": "2026-10-20T22:04:56.163247+00:00"
+      "input_hash": "13e48e7b428d54dbe59fa7b0c331b205eb9e0c1d6f496ffcbeb2486eb0bea0ad",
+      "assessed_at": "2026-11-15T14:55:50.032903+00:00"
     },
     "316b513455965a6c6f": {
       "rules_version": "missions-v1",
-      "pdm_potential": "low",
-      "pdm_label": "Faible potentiel PDM",
+      "pdm_potential": "medium",
+      "pdm_label": "Potentiel PDM à préciser",
       "pdm_explicit": false,
-      "pdm_reason": "Les missions décrites relèvent surtout de l'exécution, du suivi ou du support, sans démarche de conception / investigation établie.",
-      "pdm_confidence": "low",
+      "pdm_reason": "Une mission technique de conception ou d'étude est identifiée ; autonomie, question de recherche et livrable académique restent à préciser.",
+      "pdm_confidence": "high",
       "missing_information": [
-        "Description complète non disponible ; classement fondé sur un texte partiel.",
+        "Accord académique EPFL et encadrement du PDM à confirmer.",
         "Durée : Durée structurée publiée ; comparaison à confirmer.",
         "Date de début : Information non précisée dans l'offre.",
         "Langues : Information non précisée dans l'offre.",
         "Localisation : Localisation ambiguë ou non reconnue.",
-        "Formation : Information non précisée dans l'offre.",
         "Éligibilité : Information non précisée dans l'offre."
       ],
       "technical_categories": [
-        "Other"
+        "Mechanical Design",
+        "R&D / Product Development",
+        "Systems Integration",
+        "Automation / Control",
+        "Materials / Processes",
+        "Energy / Thermal"
       ],
-      "technical_score": 8,
+      "technical_score": 100,
       "technical_reasons": [
-        "Mission à pertinence mécanique limitée : You will support internal clients with technical advice across international teams and multiple sites also contribute to the implementation of a global traction transformer design tool. 2.",
-        "Mission à pertinence mécanique limitée : You will work in a multicultural environment that fosters learning and development, collaborate with mechani"
+        "Mission technique mécanique : You will work in a multicultural environment that fosters learning and development, collaborate with mechanical on client-specific solutions.",
+        "Mission technique mécanique : You will engage with CAD tools to support design-related tasks and processes.",
+        "Mission technique mécanique : Basic understanding of mechanical engineering and 3D design."
       ],
       "mission_evidence": [
-        "You will support internal clients with technical advice across international teams and multiple sites also contribute to the implementation of a global traction transformer design tool. 2.",
-        "You will work in a multicultural environment that fosters learning and development, collaborate with mechani"
+        "You will support internal clients with technical advice across international teams and multiple sites also contribute to the implementation of a global traction transformer design tool.",
+        "You will work in a multicultural environment that fosters learning and development, collaborate with mechanical on client-specific solutions.",
+        "You will engage with CAD tools to support design-related tasks and processes.",
+        "You will develop and apply electrical design rules using Matlab and VBA, also enhance tool efficiency through programming and process optimization.",
+        "You will deliver well-documented implementations from initial contact to final solution.",
+        "You will be responsible to ensure compliance with applicable external and internal regulations, procedures, and guidelines.",
+        "Living Hitachi Energy’s core values of safety and integrity, which means taking responsibility for your own actions while caring for your colleagues and the business.",
+        "Basic understanding of mechanical engineering and 3D design."
       ],
       "constraints": {
         "duration": {
@@ -45652,10 +45882,12 @@
           "reason": "Localisation ambiguë ou non reconnue."
         },
         "education": {
-          "status": "unknown",
-          "value": "",
-          "evidence": [],
-          "reason": "Information non précisée dans l'offre."
+          "status": "compatible",
+          "value": "Master / ingénieur",
+          "evidence": [
+            "You can currently studying Mechanical Engineering in a bachelor's or master's degree program."
+          ],
+          "reason": "Niveau master / ingénieur compatible avec le master EPFL du profil."
         },
         "eligibility": {
           "status": "unknown",
@@ -45667,8 +45899,8 @@
       "constraint_status": "unknown",
       "needs_human_review": true,
       "id": "316b513455965a6c6f",
-      "input_hash": "1b1ee19733cff3809ce5b6d0a3d84f2606fad7fde47b3067ab5197621b6de3b2",
-      "assessed_at": "2026-10-20T22:04:56.164475+00:00"
+      "input_hash": "6b8b88083faa8be2c5c414bc5951a670c89b78441f0aa7c337962e09f341c8a0",
+      "assessed_at": "2026-11-15T14:55:50.038093+00:00"
     },
     "533ab70cf02e89b678": {
       "rules_version": "missions-v1",
@@ -141981,7 +142213,7 @@
         "Mission technique mécanique : Utilize supporting software for documentation, queue handling and metrics"
       ],
       "mission_evidence": [
-        "Job Title: Modeling Engineering Intern",
+        "Job Title:** **Modeling Engineering Intern**",
         "Skyworks is an innovator of high performance analog semiconductors whose solutions are powering the wireless networking revolution.",
         "At Skyworks, you will find a fast-paced environment with a strong focus on global collaboration, minimal layers of management and the freedom to make meaningful contributions in a setting that encourages creativity and out-of-the-box thinking.",
         "Skyworks' Internship Program is designed for college students currently enrolled in an accredited Bachelor’s, Master’s, or PhD program.",
@@ -142035,8 +142267,8 @@
       "constraint_status": "unknown",
       "needs_human_review": true,
       "id": "b349b8521da11bfb39",
-      "input_hash": "5b469c7a031bfe37558e19d8c5dba2d125e3495621667239be18364e54c746ac",
-      "assessed_at": "2026-10-31T13:47:24.017182+00:00"
+      "input_hash": "1f8c214dd6bf96a2c96c48585616e733b0749f6e95cc303497b16979c540605e",
+      "assessed_at": "2026-11-15T14:55:50.137005+00:00"
     },
     "9b79120de8e4d15a2f": {
       "rules_version": "missions-v1",
@@ -213655,6 +213887,525 @@
       "id": "d071cca4b703983993",
       "input_hash": "cbae15b4fa372467597348212b11e331f95de57e812556d5edd19898699a6dd9",
       "assessed_at": "2026-11-14T14:21:24.963486+00:00"
+    },
+    "fa3d30b573516cb852": {
+      "rules_version": "missions-v1",
+      "pdm_potential": "high",
+      "pdm_label": "Fort potentiel PDM",
+      "pdm_explicit": false,
+      "pdm_reason": "Les missions associent conception ou investigation à une démarche de modélisation, comparaison ou validation technique.",
+      "pdm_confidence": "high",
+      "missing_information": [
+        "Accord académique EPFL et encadrement du PDM à confirmer.",
+        "Date de début : Information non précisée dans l'offre.",
+        "Langues : Information non précisée dans l'offre.",
+        "Éligibilité : Information non précisée dans l'offre."
+      ],
+      "technical_categories": [
+        "Mechanical Design",
+        "R&D / Product Development",
+        "Testing / Validation",
+        "Systems Integration",
+        "Automation / Control",
+        "Energy / Thermal"
+      ],
+      "technical_score": 94,
+      "technical_reasons": [
+        "Mission technique mécanique : Contexte : Au sein de la direction de l’ingénierie, vous rejoignez une équipe pluridisciplinaire de 40 personnes (systèmes, mécanique, électronique, logiciel, IVVQ, Sureté de fonctionnement etc.) en charge de la conception et du développement d'équipements et systèmes embarqués (conversion d'énergie, systèmes de trajectographie, équipements de sécurité et de contrôle-commande) dans le domaine militaire naval et terrestre.",
+        "Mission technique mécanique : Objectif : Afin de pouvoir tester ces différents équipements, HEMERIA a développée un outillage de test générique permettant d'exécuter des séquences de tests automatiques sur les équipements.",
+        "Mission technique mécanique : Le logiciel de test de l'outillage intègre une API LUA permettant l'interprétation et l'exécution de séquences de test, au format LUA."
+      ],
+      "mission_evidence": [
+        "Contexte : Au sein de la direction de l’ingénierie, vous rejoignez une équipe pluridisciplinaire de 40 personnes (systèmes, mécanique, électronique, logiciel, IVVQ, Sureté de fonctionnement etc.) en charge de la conception et du développement d'équipements et systèmes embarqués (conversion d'énergie, systèmes de trajectographie, équipements de sécurité et de contrôle-commande) dans le domaine militaire naval et terrestre.",
+        "Objectif : Afin de pouvoir tester ces différents équipements, HEMERIA a développée un outillage de test générique permettant d'exécuter des séquences de tests automatiques sur les équipements.",
+        "Le logiciel de test de l'outillage intègre une API LUA permettant l'interprétation et l'exécution de séquences de test, au format LUA."
+      ],
+      "constraints": {
+        "duration": {
+          "status": "compatible",
+          "value": "6 mois",
+          "evidence": [
+            "Nous recherchons un stagiaire pour développer un outil de génération automatique de script LU/Fichier XML (F/H) pour une durée de 6 mois à partir du 1er trimestre 2027 au sein de la division Land & Sea sur le site de Toulouse."
+          ],
+          "reason": "Durée comparée à l'intervalle souhaité fourni dans le profil ; ce n'est pas une restriction administrative."
+        },
+        "start_date": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "languages": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "location": {
+          "status": "compatible",
+          "value": "Toulouse, Occitanie, France",
+          "evidence": [
+            "Toulouse, Occitanie, France"
+          ],
+          "reason": "Localisation en Europe."
+        },
+        "education": {
+          "status": "compatible",
+          "value": "Master / ingénieur",
+          "evidence": [
+            "L'objectif du stage est le développement d'un outil permettant la génération automatique des fichiers de configuration du logiciel de test et des scripts de test équipements aux format LUA Missions : Le stage s'articule au tour de 3 missions principales: Industrialisation de l'API LUA: Prise en main de l'API LUA, rédaction de la documentation associée, mise au point / validation de l'API- Outil de génération de fichiers XML / script LUA: Développement d'un outil (spécification, codage de l'outil, test/validation, documentation associée) permettant: A partir des procédures de test (au format Excel), de générer automatiquement les scripts LUA associées A partir des données de cablage équipement (fichiers Excel), de générer automatiquement les fichiers XML de configuration équipement pour import dans le logiciel de test Test validation des fichiers générés (scripts LUA, fichiers XML) dans le logiciels de gestion des test Profil: Stage fin d'etudes Master, ingénieur Durée du stage: 6 mois Étudiant en informatique, système linux / génie logiciel avec des compétences en : Python C / C++ Qt Connaissance du dev FPGA serait un plus"
+          ],
+          "reason": "Niveau master / ingénieur compatible avec le master EPFL du profil."
+        },
+        "eligibility": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        }
+      },
+      "constraint_status": "unknown",
+      "needs_human_review": true,
+      "id": "fa3d30b573516cb852",
+      "input_hash": "703ac6ac89e024674937c2eb4299fe9472a0702e70980d11ada6ebce5d7e834e",
+      "assessed_at": "2026-11-15T14:55:49.687656+00:00"
+    },
+    "4a796ce1ec39c4c868": {
+      "rules_version": "missions-v1",
+      "pdm_potential": "medium",
+      "pdm_label": "Potentiel PDM à préciser",
+      "pdm_explicit": false,
+      "pdm_reason": "Une mission technique de conception ou d'étude est identifiée ; autonomie, question de recherche et livrable académique restent à préciser.",
+      "pdm_confidence": "high",
+      "missing_information": [
+        "Accord académique EPFL et encadrement du PDM à confirmer.",
+        "Date de début : Information non précisée dans l'offre.",
+        "Langues : Information non précisée dans l'offre.",
+        "Éligibilité : Information non précisée dans l'offre."
+      ],
+      "technical_categories": [
+        "Mechanical Design",
+        "R&D / Product Development",
+        "Testing / Validation",
+        "Systems Integration",
+        "Automation / Control"
+      ],
+      "technical_score": 64,
+      "technical_reasons": [
+        "Mission technique mécanique : Une première expérience ou des notions de base constituent un atout, le stage reposant principalement sur la manipulation de composants propres à Qt (fichiers Qt Designer, Q_PROPERTY, classes et mécanismes du framework).",
+        "Mission à pertinence mécanique limitée : Missions : Nous développons un logiciel superviseur en C++/Qt permettant le contrôle à distance de différents équipements.",
+        "Mission à pertinence mécanique limitée : Dans le cadre de l'amélioration de notre environnement de développement, nous souhaitons automatiser et accélérer la création de nouvelles fonctionnalités."
+      ],
+      "mission_evidence": [
+        "Missions : Nous développons un logiciel superviseur en C++/Qt permettant le contrôle à distance de différents équipements.",
+        "Dans le cadre de l'amélioration de notre environnement de développement, nous souhaitons automatiser et accélérer la création de nouvelles fonctionnalités.",
+        "L'objectif du stage sera de concevoir et de développer un outil permettant de générer automatiquement du code à partir d'interfaces graphiques préalablement conçues avec Qt Designer .",
+        "Analyser les besoins et définir une solution adaptée à l'architecture logicielle.",
+        "Étudier le format des fichiers d'interface Qt Designer (.ui) afin d'en extraire les informations nécessaires à la génération de code.",
+        "Concevoir et développer un outil capable de générer automatiquement : Les classes associées à la partie graphique du logiciel superviseur.",
+        "Les classes d'implémentation de ces interfaces dans le cœur du logiciel.",
+        "Tester et valider la solution développée, puis évaluer son intégration dans l'environnement de développement existant."
+      ],
+      "constraints": {
+        "duration": {
+          "status": "compatible",
+          "value": "6 mois",
+          "evidence": [
+            "Nous recherchons un stagiaire développeur logciel (F/H) pour une durée de 6 mois à partir du 1er trimestre 2027 au sein de la division Land & Sea sur le site d’Angoulême."
+          ],
+          "reason": "Durée comparée à l'intervalle souhaité fourni dans le profil ; ce n'est pas une restriction administrative."
+        },
+        "start_date": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "languages": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "location": {
+          "status": "compatible",
+          "value": "16000 Angoulême, Nouvelle-Aquitaine, France",
+          "evidence": [
+            "16000 Angoulême, Nouvelle-Aquitaine, France"
+          ],
+          "reason": "Localisation en Europe."
+        },
+        "education": {
+          "status": "compatible",
+          "value": "Master / ingénieur",
+          "evidence": [
+            "Profil: Étudiant en dernière année d'école d'ingénieur ou de Master (Bac+5), à la recherche d'un stage de fin d'études."
+          ],
+          "reason": "Niveau master / ingénieur compatible avec le master EPFL du profil."
+        },
+        "eligibility": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        }
+      },
+      "constraint_status": "unknown",
+      "needs_human_review": true,
+      "id": "4a796ce1ec39c4c868",
+      "input_hash": "bbfe6a7d9433f49c71624828fcdcf85e89a40192f838cf49856a9f8fa196ccc6",
+      "assessed_at": "2026-11-15T14:55:49.814045+00:00"
+    },
+    "0ca4290b7075ba6ede": {
+      "rules_version": "missions-v1",
+      "pdm_potential": "medium",
+      "pdm_label": "Potentiel PDM à préciser",
+      "pdm_explicit": false,
+      "pdm_reason": "Une mission technique de conception ou d'étude est identifiée ; autonomie, question de recherche et livrable académique restent à préciser.",
+      "pdm_confidence": "high",
+      "missing_information": [
+        "Accord académique EPFL et encadrement du PDM à confirmer.",
+        "Date de début : Information non précisée dans l'offre.",
+        "Langues : Information non précisée dans l'offre.",
+        "Éligibilité : Information non précisée dans l'offre."
+      ],
+      "technical_categories": [
+        "R&D / Product Development",
+        "Testing / Validation",
+        "Systems Integration"
+      ],
+      "technical_score": 30,
+      "technical_reasons": [
+        "Mission à pertinence mécanique limitée : Assurer l'intégration des IPs au sein du sous-système Chrony de Linux (développement de la partie driver Linux).",
+        "Mission à pertinence mécanique limitée : Analyser la norme IRIG relative à l'encodage et à la transmission de l'horodatage.",
+        "Mission à pertinence mécanique limitée : Développer des IPs de décodage du protocole IRIG-B, prenant en charge l'ensemble des expressions codées : Détection des symboles (0, 1, espace) dans les signaux de datation."
+      ],
+      "mission_evidence": [
+        "Analyser la norme IRIG relative à l'encodage et à la transmission de l'horodatage.",
+        "Développer des IPs de décodage du protocole IRIG-B, prenant en charge l'ensemble des expressions codées : Détection des symboles (0, 1, espace) dans les signaux de datation.",
+        "Réaliser la validation fonctionnelle sur un SoC de type MPSoC Zynq UltraScale+ d'AMD, intégré sur une carte développée en interne.",
+        "Assurer l'intégration des IPs au sein du sous-système Chrony de Linux (développement de la partie driver Linux)."
+      ],
+      "constraints": {
+        "duration": {
+          "status": "compatible",
+          "value": "6 mois",
+          "evidence": [
+            "Nous recherchons un stagiaire en développement IPs de décodage IRIG (F/H) pour une durée de 6 mois à partir du 1er trimestre 2027 au sein de la division Land & Sea sur le site d’Angoulême."
+          ],
+          "reason": "Durée comparée à l'intervalle souhaité fourni dans le profil ; ce n'est pas une restriction administrative."
+        },
+        "start_date": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "languages": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "location": {
+          "status": "compatible",
+          "value": "16000 Angoulême, Nouvelle-Aquitaine, France",
+          "evidence": [
+            "16000 Angoulême, Nouvelle-Aquitaine, France"
+          ],
+          "reason": "Localisation en Europe."
+        },
+        "education": {
+          "status": "compatible",
+          "value": "Master / ingénieur",
+          "evidence": [
+            "recherché: Étudiant(e) en dernière année d'école d'ingénieurs ou de master (Bac+5), dans un domaine en lien avec l'électronique numérique, les systèmes embarqués ou l'informatique industrielle."
+          ],
+          "reason": "Niveau master / ingénieur compatible avec le master EPFL du profil."
+        },
+        "eligibility": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        }
+      },
+      "constraint_status": "unknown",
+      "needs_human_review": true,
+      "id": "0ca4290b7075ba6ede",
+      "input_hash": "bd373055eecef876e5dff184e286ebdf2531f3a9582711a1e7578e6697187f8a",
+      "assessed_at": "2026-11-15T14:55:49.878161+00:00"
+    },
+    "7778c1a01907684b71": {
+      "rules_version": "missions-v1",
+      "pdm_potential": "medium",
+      "pdm_label": "Potentiel PDM à préciser",
+      "pdm_explicit": false,
+      "pdm_reason": "Une mission technique de conception ou d'étude est identifiée ; autonomie, question de recherche et livrable académique restent à préciser.",
+      "pdm_confidence": "high",
+      "missing_information": [
+        "Accord académique EPFL et encadrement du PDM à confirmer.",
+        "Durée : Durée structurée publiée ; comparaison à confirmer.",
+        "Date de début : Information non précisée dans l'offre.",
+        "Langues : Information non précisée dans l'offre.",
+        "Localisation : Localisation ambiguë ou non reconnue.",
+        "Formation : Information non précisée dans l'offre.",
+        "Éligibilité : Information non précisée dans l'offre."
+      ],
+      "technical_categories": [
+        "R&D / Product Development",
+        "Manufacturing / Production",
+        "Systems Integration",
+        "Automation / Control",
+        "Materials / Processes",
+        "Energy / Thermal",
+        "Quality",
+        "Supply Chain / Logistics",
+        "Project Management"
+      ],
+      "technical_score": 78,
+      "technical_reasons": [
+        "Mission technique mécanique : Transformers are essential in all electricity-related fields and applications, including power generation, transmission and distribution, oil, chemical and gas, industrial manufacturing, semiconductor and data centers, as well as building and transportation sectors.",
+        "Mission technique mécanique : Hitachi Energy Transformer Business Unit in Greater China operates across 55 cities, employs over 1,900 staff, and manages 5 transformer manufacturing plants.",
+        "Mission technique mécanique : assist in creating and updating visual progress materials such as Gantt charts, milestone plans, and node lists;"
+      ],
+      "mission_evidence": [
+        "Hitachi Energy Transformer Business Unit in Greater China operates across 55 cities, employs over 1,900 staff, and manages 5 transformer manufacturing plants.",
+        "Transformers are essential in all electricity-related fields and applications, including power generation, transmission and distribution, oil, chemical and gas, industrial manufacturing, semiconductor and data centers, as well as building and transportation sectors.",
+        "Internally, we have targeted talent development programs for employees at different stages of their career development to build skills and competencies, foster training, support people to own career development, scale up organization for growth and execution.",
+        "You will support project planning and progress control for the new factory construction project: assist in collecting and organizing progress data and milestone information for design, procurement, construction, equipment installation, and other stages;",
+        "under the guidance of the project planning specialist/supervisor, maintain project schedules and update task completion status and plan versions;",
+        "assist in creating and updating visual progress materials such as Gantt charts, milestone plans, and node lists;",
+        "assist in making simple comparisons between plans and actual progress, and organize explanations of deviations.",
+        "You will deliver meetings and communication support: assist in preparing materials for weekly and monthly project meetings, including agendas, progress data, to-do lists, etc.;"
+      ],
+      "constraints": {
+        "duration": {
+          "status": "unknown",
+          "value": "Not specified",
+          "evidence": [
+            "Not specified"
+          ],
+          "reason": "Durée structurée publiée ; comparaison à confirmer."
+        },
+        "start_date": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "languages": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "location": {
+          "status": "unknown",
+          "value": "安徽省·合肥市",
+          "evidence": [
+            "安徽省·合肥市"
+          ],
+          "reason": "Localisation ambiguë ou non reconnue."
+        },
+        "education": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "eligibility": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        }
+      },
+      "constraint_status": "unknown",
+      "needs_human_review": true,
+      "id": "7778c1a01907684b71",
+      "input_hash": "6a5cfc8ed55543a2209982afd4115782c9f38ef909272a1479f4ce7fbbe7031c",
+      "assessed_at": "2026-11-15T14:55:49.916112+00:00"
+    },
+    "284c062cd682e3ff28": {
+      "rules_version": "missions-v1",
+      "pdm_potential": "high",
+      "pdm_label": "Fort potentiel PDM",
+      "pdm_explicit": false,
+      "pdm_reason": "Les missions associent conception ou investigation à une démarche de modélisation, comparaison ou validation technique.",
+      "pdm_confidence": "high",
+      "missing_information": [
+        "Accord académique EPFL et encadrement du PDM à confirmer.",
+        "Durée : Durée structurée publiée ; comparaison à confirmer.",
+        "Date de début : Information non précisée dans l'offre.",
+        "Langues : Information non précisée dans l'offre.",
+        "Localisation : Localisation ambiguë ou non reconnue.",
+        "Éligibilité : Information non précisée dans l'offre."
+      ],
+      "technical_categories": [
+        "R&D / Product Development",
+        "Testing / Validation",
+        "Manufacturing / Production",
+        "Systems Integration",
+        "Materials / Processes",
+        "Energy / Thermal",
+        "Quality",
+        "Supply Chain / Logistics",
+        "Project Management"
+      ],
+      "technical_score": 94,
+      "technical_reasons": [
+        "Mission technique mécanique : Transformers are essential in all electricity-related fields and applications, including power generation, transmission and distribution, oil, chemical and gas, industrial manufacturing, semiconductor and data centers, as well as building and transportation sectors.",
+        "Mission technique mécanique : You will evaluate material availability constraints and develop critical material forecasts, collaborating with category managers to align forecasts with sales contributions.",
+        "Mission technique mécanique : Hitachi Energy Transformer Business Unit in Greater China operates across 55 cities, employs over 1,900 staff, and manages 5 transformer manufacturing plants."
+      ],
+      "mission_evidence": [
+        "Hitachi Energy Transformer Business Unit in Greater China operates across 55 cities, employs over 1,900 staff, and manages 5 transformer manufacturing plants.",
+        "Transformers are essential in all electricity-related fields and applications, including power generation, transmission and distribution, oil, chemical and gas, industrial manufacturing, semiconductor and data centers, as well as building and transportation sectors.",
+        "Internally, we have targeted talent development programs for employees at different stages of their career development to build skills and competencies, foster training, support people to own career development, scale up organization for growth and execution.",
+        "You will maintain and validate material master data for effective material requirements planning runs, coordinating with operational purchasers and category managers to manage critical materials.",
+        "You will evaluate material availability constraints and develop critical material forecasts, collaborating with category managers to align forecasts with sales contributions.",
+        "You will collaborate with Category Managers and Operational Purchasers to enhance supplier performance in terms of on-time delivery, quality, and lead time.",
+        "You will support inventory validation and analysis to ensure optimal inventory health, developing action plans for improvement.",
+        "You will lead and contribute to cross-functional initiatives focused on inventory optimization, forecast accuracy, and supplier on-time delivery."
+      ],
+      "constraints": {
+        "duration": {
+          "status": "unknown",
+          "value": "Not specified",
+          "evidence": [
+            "Not specified"
+          ],
+          "reason": "Durée structurée publiée ; comparaison à confirmer."
+        },
+        "start_date": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "languages": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "location": {
+          "status": "unknown",
+          "value": "广东省·中山市",
+          "evidence": [
+            "广东省·中山市"
+          ],
+          "reason": "Localisation ambiguë ou non reconnue."
+        },
+        "education": {
+          "status": "compatible",
+          "value": "Master / ingénieur",
+          "evidence": [
+            "You will maintain and validate material master data for effective material requirements planning runs, coordinating with operational purchasers and category managers to manage critical materials."
+          ],
+          "reason": "Niveau master / ingénieur compatible avec le master EPFL du profil."
+        },
+        "eligibility": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        }
+      },
+      "constraint_status": "unknown",
+      "needs_human_review": true,
+      "id": "284c062cd682e3ff28",
+      "input_hash": "81393d4ee3ac49788949a6fdf3d8965c81ce78997425eccbc832afdd59d11ecb",
+      "assessed_at": "2026-11-15T14:55:49.978052+00:00"
+    },
+    "ff7c0d2b594e2dfa8f": {
+      "rules_version": "missions-v1",
+      "pdm_potential": "medium",
+      "pdm_label": "Potentiel PDM à préciser",
+      "pdm_explicit": false,
+      "pdm_reason": "Une mission technique de conception ou d'étude est identifiée ; autonomie, question de recherche et livrable académique restent à préciser.",
+      "pdm_confidence": "high",
+      "missing_information": [
+        "Accord académique EPFL et encadrement du PDM à confirmer.",
+        "Durée : Durée structurée publiée ; comparaison à confirmer.",
+        "Date de début : Information non précisée dans l'offre.",
+        "Langues : Information non précisée dans l'offre.",
+        "Localisation : Localisation ambiguë ou non reconnue.",
+        "Formation : Information non précisée dans l'offre.",
+        "Éligibilité : Information non précisée dans l'offre."
+      ],
+      "technical_categories": [
+        "R&D / Product Development",
+        "Manufacturing / Production",
+        "Systems Integration",
+        "Automation / Control",
+        "Energy / Thermal",
+        "Project Management"
+      ],
+      "technical_score": 78,
+      "technical_reasons": [
+        "Mission technique mécanique : Transformers are essential in all electricity-related fields and applications, including power generation, transmission and distribution, oil, chemical and gas, industrial manufacturing, semiconductor and data centers, as well as building and transportation sectors.",
+        "Mission technique mécanique : Hitachi Energy Transformer Business Unit in Greater China operates across 55 cities, employs over 1,900 staff, and manages 5 transformer manufacturing plants.",
+        "Mission à pertinence mécanique limitée : Proficiency in conducting risk assessments and developing effective control measures to mitigate hazards."
+      ],
+      "mission_evidence": [
+        "Hitachi Energy Transformer Business Unit in Greater China operates across 55 cities, employs over 1,900 staff, and manages 5 transformer manufacturing plants.",
+        "Transformers are essential in all electricity-related fields and applications, including power generation, transmission and distribution, oil, chemical and gas, industrial manufacturing, semiconductor and data centers, as well as building and transportation sectors.",
+        "Internally, we have targeted talent development programs for employees at different stages of their career development to build skills and competencies, foster training, support people to own career development, scale up organization for growth and execution.",
+        "You will ensure compliance with health, safety, and environmental regulations to maintain a safe workplace.",
+        "You will conduct comprehensive HSE risk assessments to identify and mitigate potential hazards effectively.",
+        "You will implement and maintain HSE policies and procedures, fostering a culture of safety and accountability.",
+        "You will develop and coordinate impactful HSE training sessions to enhance employee awareness and compliance.",
+        "You will lead investigations into workplace incidents and devise corrective actions to prevent recurrences."
+      ],
+      "constraints": {
+        "duration": {
+          "status": "unknown",
+          "value": "Not specified",
+          "evidence": [
+            "Not specified"
+          ],
+          "reason": "Durée structurée publiée ; comparaison à confirmer."
+        },
+        "start_date": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "languages": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "location": {
+          "status": "unknown",
+          "value": "广东省·中山市",
+          "evidence": [
+            "广东省·中山市"
+          ],
+          "reason": "Localisation ambiguë ou non reconnue."
+        },
+        "education": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        },
+        "eligibility": {
+          "status": "unknown",
+          "value": "",
+          "evidence": [],
+          "reason": "Information non précisée dans l'offre."
+        }
+      },
+      "constraint_status": "unknown",
+      "needs_human_review": true,
+      "id": "ff7c0d2b594e2dfa8f",
+      "input_hash": "0b08249e3bff2068b38a928832780b2e64705cf04bf4ad9a1d4f88cdc16f8f44",
+      "assessed_at": "2026-11-15T14:55:50.096795+00:00"
     }
   },
   "rules_version": "missions-v1",

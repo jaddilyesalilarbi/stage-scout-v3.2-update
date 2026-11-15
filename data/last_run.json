@@ -1,30 +1,31 @@
 {
-  "date": "2026-11-14",
-  "observed": 1053,
-  "matches": 113,
-  "new": 61,
-  "excluded_by_language": 501,
-  "excluded_by_summer": 23,
-  "excluded_outside_europe": 22,
-  "location_unknown_or_mixed": 120,
+  "date": "2026-11-15",
+  "observed": 4145,
+  "matches": 241,
+  "new": 6,
+  "excluded_by_language": 59,
+  "excluded_by_summer": 836,
+  "excluded_outside_europe": 1630,
+  "location_unknown_or_mixed": 282,
   "history_removed": {
     "language": 0,
     "summer": 0,
     "geography": 0
   },
   "source_counts": {
-    "ATS company watchlist": 12,
-    "ATS dataset / personio": 613,
-    "ATS dataset / softgarden": 162,
-    "ATS dataset / workable": 13,
+    "ATS company discovery": 10,
+    "ATS company watchlist": 561,
+    "ATS dataset / ashby": 1045,
+    "ATS dataset / greenhouse": 1200,
+    "ATS dataset / lever": 1200,
     "ATS direct": 116,
-    "JobSpy / indeed": 137
+    "JobSpy / indeed": 13
   },
   "source_health": {
     "attempted": 29,
-    "completed": 25,
-    "timed_out": 1,
-    "failed_or_error": 3,
+    "completed": 27,
+    "timed_out": 2,
+    "failed_or_error": 0,
     "skipped_budget": 0,
     "total_sources_planned": 29,
     "sources": [
@@ -33,151 +34,32 @@
         "name": "Planet Labs",
         "status": "completed",
         "count": 116,
-        "duration_seconds": 0.9
+        "duration_seconds": 1.7
       },
       {
         "stage": "watchlist",
-        "name": "Ganymed Robotics",
+        "name": "Hamilton",
         "status": "completed",
         "count": 0,
-        "duration_seconds": 1.2,
-        "scan_info": {
-          "outcome": "not_found",
-          "method": "directory",
-          "resolved_url": "",
-          "raw_postings": 0,
-          "candidate_urls": [],
-          "message": "Aucune URL ATS correspondant exactement \u00e0 cette entreprise dans l'annuaire"
-        }
-      },
-      {
-        "stage": "watchlist",
-        "name": "Garrett Motion",
-        "status": "completed",
-        "count": 0,
-        "duration_seconds": 1.1,
-        "scan_info": {
-          "outcome": "not_found",
-          "method": "directory",
-          "resolved_url": "",
-          "raw_postings": 0,
-          "candidate_urls": [],
-          "message": "Aucune URL ATS correspondant exactement \u00e0 cette entreprise dans l'annuaire"
-        }
-      },
-      {
-        "stage": "watchlist",
-        "name": "Genvia",
-        "status": "completed",
-        "count": 0,
-        "duration_seconds": 0.9,
-        "scan_info": {
-          "outcome": "not_found",
-          "method": "directory",
-          "resolved_url": "",
-          "raw_postings": 0,
-          "candidate_urls": [],
-          "message": "Aucune URL ATS correspondant exactement \u00e0 cette entreprise dans l'annuaire"
-        }
-      },
-      {
-        "stage": "watchlist",
-        "name": "Georg Fischer / GF",
-        "status": "completed",
-        "count": 0,
-        "duration_seconds": 0.9,
-        "scan_info": {
-          "outcome": "not_found",
-          "method": "directory",
-          "resolved_url": "",
-          "raw_postings": 0,
-          "candidate_urls": [],
-          "message": "Aucune URL ATS correspondant exactement \u00e0 cette entreprise dans l'annuaire"
-        }
-      },
-      {
-        "stage": "watchlist",
-        "name": "GF Machining Solutions",
-        "status": "completed",
-        "count": 0,
-        "duration_seconds": 0.9,
-        "scan_info": {
-          "outcome": "not_found",
-          "method": "directory",
-          "resolved_url": "",
-          "raw_postings": 0,
-          "candidate_urls": [],
-          "message": "Aucune URL ATS correspondant exactement \u00e0 cette entreprise dans l'annuaire"
-        }
-      },
-      {
-        "stage": "watchlist",
-        "name": "GF Piping Systems",
-        "status": "completed",
-        "count": 0,
-        "duration_seconds": 1.0,
-        "scan_info": {
-          "outcome": "not_found",
-          "method": "directory",
-          "resolved_url": "",
-          "raw_postings": 0,
-          "candidate_urls": [],
-          "message": "Aucune URL ATS correspondant exactement \u00e0 cette entreprise dans l'annuaire"
-        }
-      },
-      {
-        "stage": "watchlist",
-        "name": "Gourmey",
-        "status": "completed",
-        "count": 0,
-        "duration_seconds": 0.9,
-        "scan_info": {
-          "outcome": "not_found",
-          "method": "directory",
-          "resolved_url": "",
-          "raw_postings": 0,
-          "candidate_urls": [],
-          "message": "Aucune URL ATS correspondant exactement \u00e0 cette entreprise dans l'annuaire"
-        }
-      },
-      {
-        "stage": "watchlist",
-        "name": "GraphEnergyTech",
-        "status": "completed",
-        "count": 0,
-        "duration_seconds": 0.8,
-        "scan_info": {
-          "outcome": "not_found",
-          "method": "directory",
-          "resolved_url": "",
-          "raw_postings": 0,
-          "candidate_urls": [],
-          "message": "Aucune URL ATS correspondant exactement \u00e0 cette entreprise dans l'annuaire"
-        }
-      },
-      {
-        "stage": "watchlist",
-        "name": "Gravis Robotics",
-        "status": "completed",
-        "count": 12,
-        "duration_seconds": 1.3,
+        "duration_seconds": 2.4,
         "scan_info": {
           "outcome": "scanned",
-          "method": "user_url",
-          "resolved_url": "https://jobs.lever.co/gravisrobotics",
-          "raw_postings": 12,
+          "method": "directory",
+          "resolved_url": "https://hamilton.bamboohr.com/careers",
+          "raw_postings": 0,
           "candidate_urls": [
-            "https://jobs.lever.co/gravisrobotics"
+            "https://hamilton.bamboohr.com/careers",
+            "https://careers-hamilton.icims.com"
           ],
           "message": "Page ATS publique parcourue"
         }
       },
       {
         "stage": "watchlist",
-        "name": "H55",
+        "name": "Hamilton Bonaduz",
         "status": "completed",
         "count": 0,
-        "duration_seconds": 1.0,
+        "duration_seconds": 1.3,
         "scan_info": {
           "outcome": "not_found",
           "method": "directory",
@@ -188,138 +70,254 @@
         }
       },
       {
-        "stage": "jobspy",
-        "name": "aerospace engineering intern @ Bristol",
+        "stage": "watchlist",
+        "name": "Harmattan AI",
         "status": "completed",
-        "count": 20,
-        "duration_seconds": 0.7
+        "count": 168,
+        "duration_seconds": 1.0,
+        "scan_info": {
+          "outcome": "scanned",
+          "method": "user_url",
+          "resolved_url": "https://jobs.ashbyhq.com/harmattan-ai",
+          "raw_postings": 168,
+          "candidate_urls": [
+            "https://jobs.ashbyhq.com/harmattan-ai"
+          ],
+          "message": "Page ATS publique parcourue"
+        }
+      },
+      {
+        "stage": "watchlist",
+        "name": "Hemeria",
+        "status": "completed",
+        "count": 34,
+        "duration_seconds": 1.1,
+        "scan_info": {
+          "outcome": "scanned",
+          "method": "user_url",
+          "resolved_url": "https://hemeriagroup.recruitee.com",
+          "raw_postings": 34,
+          "candidate_urls": [
+            "https://hemeriagroup.recruitee.com"
+          ],
+          "message": "Page ATS publique parcourue"
+        }
+      },
+      {
+        "stage": "watchlist",
+        "name": "Herm\u00e8s Horloger / m\u00e9tiers techniques",
+        "status": "completed",
+        "count": 0,
+        "duration_seconds": 1.5,
+        "scan_info": {
+          "outcome": "not_found",
+          "method": "directory",
+          "resolved_url": "",
+          "raw_postings": 0,
+          "candidate_urls": [],
+          "message": "Aucune URL ATS correspondant exactement \u00e0 cette entreprise dans l'annuaire"
+        }
+      },
+      {
+        "stage": "watchlist",
+        "name": "Hexagon",
+        "status": "completed",
+        "count": 0,
+        "duration_seconds": 1.3,
+        "scan_info": {
+          "outcome": "not_found",
+          "method": "directory",
+          "resolved_url": "",
+          "raw_postings": 0,
+          "candidate_urls": [],
+          "message": "Aucune URL ATS correspondant exactement \u00e0 cette entreprise dans l'annuaire"
+        }
+      },
+      {
+        "stage": "watchlist",
+        "name": "Hexagon Manufacturing Intelligence",
+        "status": "completed",
+        "count": 0,
+        "duration_seconds": 1.3,
+        "scan_info": {
+          "outcome": "not_found",
+          "method": "directory",
+          "resolved_url": "",
+          "raw_postings": 0,
+          "candidate_urls": [],
+          "message": "Aucune URL ATS correspondant exactement \u00e0 cette entreprise dans l'annuaire"
+        }
+      },
+      {
+        "stage": "watchlist",
+        "name": "Hexagon Robotics",
+        "status": "completed",
+        "count": 0,
+        "duration_seconds": 1.3,
+        "scan_info": {
+          "outcome": "not_found",
+          "method": "directory",
+          "resolved_url": "",
+          "raw_postings": 0,
+          "candidate_urls": [],
+          "message": "Aucune URL ATS correspondant exactement \u00e0 cette entreprise dans l'annuaire"
+        }
+      },
+      {
+        "stage": "watchlist",
+        "name": "Hitachi",
+        "status": "timeout",
+        "count": 0,
+        "duration_seconds": 40.0
+      },
+      {
+        "stage": "watchlist",
+        "name": "Hitachi Energy",
+        "status": "completed",
+        "count": 359,
+        "duration_seconds": 3.1,
+        "scan_info": {
+          "outcome": "scanned",
+          "method": "user_url",
+          "resolved_url": "https://hitachienergy.zhiye.com",
+          "raw_postings": 359,
+          "candidate_urls": [
+            "https://hitachienergy.zhiye.com"
+          ],
+          "message": "Page ATS publique parcourue"
+        }
       },
       {
         "stage": "jobspy",
-        "name": "mechanical engineering internship @ Oxford",
+        "name": "mechanical engineering intern @ Vienna",
         "status": "completed",
-        "count": 18,
+        "count": 2,
+        "duration_seconds": 1.1
+      },
+      {
+        "stage": "jobspy",
+        "name": "mechanical engineering internship @ Milan",
+        "status": "completed",
+        "count": 2,
         "duration_seconds": 1.0
       },
       {
         "stage": "jobspy",
-        "name": "engineering internship @ Dublin",
+        "name": "mechanical design intern @ Turin",
         "status": "completed",
-        "count": 35,
+        "count": 0,
+        "duration_seconds": 0.9
+      },
+      {
+        "stage": "jobspy",
+        "name": "aerospace internship @ Rome",
+        "status": "completed",
+        "count": 0,
+        "duration_seconds": 0.9
+      },
+      {
+        "stage": "jobspy",
+        "name": "mechanical engineering internship @ Barcelona",
+        "status": "completed",
+        "count": 9,
+        "duration_seconds": 1.0
+      },
+      {
+        "stage": "jobspy",
+        "name": "mechanical intern @ Stockholm",
+        "status": "completed",
+        "count": 0,
+        "duration_seconds": 0.8
+      },
+      {
+        "stage": "discovery",
+        "name": "ClearSpace",
+        "status": "completed",
+        "count": 1,
+        "duration_seconds": 3.1
+      },
+      {
+        "stage": "discovery",
+        "name": "Hydromea",
+        "status": "completed",
+        "count": 0,
+        "duration_seconds": 1.5
+      },
+      {
+        "stage": "discovery",
+        "name": "Ecorobotix",
+        "status": "completed",
+        "count": 0,
         "duration_seconds": 1.2
       },
       {
-        "stage": "jobspy",
-        "name": "mechanical design intern @ Munich",
+        "stage": "discovery",
+        "name": "Bobst",
         "status": "completed",
-        "count": 19,
-        "duration_seconds": 0.7
-      },
-      {
-        "stage": "jobspy",
-        "name": "mechanical engineering internship english @ Berlin",
-        "status": "completed",
-        "count": 13,
-        "duration_seconds": 0.7
-      },
-      {
-        "stage": "jobspy",
-        "name": "master thesis mechanical english @ Germany",
-        "status": "completed",
-        "count": 32,
-        "duration_seconds": 0.8
+        "count": 0,
+        "duration_seconds": 1.3
       },
       {
         "stage": "discovery",
-        "name": "Airbus Defence and Space",
+        "name": "Swiss Solar Boat",
         "status": "completed",
         "count": 0,
-        "duration_seconds": 0.9
+        "duration_seconds": 1.3
       },
       {
         "stage": "discovery",
-        "name": "Safran",
+        "name": "Navier",
         "status": "completed",
         "count": 0,
-        "duration_seconds": 1.7
+        "duration_seconds": 1.3
       },
       {
         "stage": "discovery",
-        "name": "Safran Landing Systems",
+        "name": "Aerospec",
+        "status": "completed",
+        "count": 9,
+        "duration_seconds": 4.3
+      },
+      {
+        "stage": "discovery",
+        "name": "Alpion CryoSolutions",
         "status": "completed",
         "count": 0,
-        "duration_seconds": 0.9
-      },
-      {
-        "stage": "discovery",
-        "name": "CEA",
-        "status": "completed",
-        "count": 0,
-        "duration_seconds": 0.8
-      },
-      {
-        "stage": "discovery",
-        "name": "ABB",
-        "status": "error",
-        "count": 0,
-        "duration_seconds": 1.1
-      },
-      {
-        "stage": "discovery",
-        "name": "VAT Group",
-        "status": "error",
-        "count": 0,
-        "duration_seconds": 1.0
-      },
-      {
-        "stage": "discovery",
-        "name": "KeriMedical",
-        "status": "completed",
-        "count": 0,
-        "duration_seconds": 0.9
-      },
-      {
-        "stage": "discovery",
-        "name": "Dassault Aviation",
-        "status": "error",
-        "count": 0,
-        "duration_seconds": 1.1
+        "duration_seconds": 1.3
       },
       {
         "stage": "ats",
-        "name": "ATS provider: workable",
+        "name": "ATS provider: greenhouse",
         "status": "completed",
-        "count": 13,
-        "duration_seconds": 0.9
+        "count": 1200,
+        "duration_seconds": 22.3
       },
       {
         "stage": "ats",
-        "name": "ATS provider: personio",
-        "status": "completed",
-        "count": 613,
-        "duration_seconds": 2.2
-      },
-      {
-        "stage": "ats",
-        "name": "ATS provider: softgarden",
-        "status": "completed",
-        "count": 162,
-        "duration_seconds": 1.7
-      },
-      {
-        "stage": "ats",
-        "name": "ATS provider: eures",
+        "name": "ATS provider: workday",
         "status": "timeout",
         "count": 0,
-        "duration_seconds": 80.4
+        "duration_seconds": 80.7
+      },
+      {
+        "stage": "ats",
+        "name": "ATS provider: lever",
+        "status": "completed",
+        "count": 1200,
+        "duration_seconds": 9.7
+      },
+      {
+        "stage": "ats",
+        "name": "ATS provider: ashby",
+        "status": "completed",
+        "count": 1045,
+        "duration_seconds": 12.1
       }
     ]
   },
   "errors": [
-    "Company discovery ABB: ScraperError: Could not recognize an ATS from 'https://careers.abb'. Custom-domain careers sites can't be resolved from the URL alone \u2014 if you know the platform, use get_scraper(ats, slug), or look the company up with find_company().",
-    "Company discovery VAT Group: ScraperError: Could not recognize an ATS from 'https://careers.vatvalve.com'. Custom-domain careers sites can't be resolved from the URL alone \u2014 if you know the platform, use get_scraper(ats, slug), or look the company up with find_company().",
-    "Company discovery Dassault Aviation: ScraperError: Could not recognize an ATS from 'https://dassault-aviation-cand.talent-soft.com'. Custom-domain careers sites can't be resolved from the URL alone \u2014 if you know the platform, use get_scraper(ats, slug), or look the company up with find_company().",
-    "TIMEOUT ats / ATS provider: eures: exceeded 80s; other sources will continue"
+    "TIMEOUT watchlist / Hitachi: exceeded 40s; other sources will continue",
+    "TIMEOUT ats / ATS provider: workday: exceeded 80s; other sources will continue"
   ],
   "notes": "Third-party jobs must be rechecked on the official employer page."
 }
