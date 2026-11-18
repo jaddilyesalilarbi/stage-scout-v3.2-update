@@ -1,29 +1,30 @@
 {
-  "date": "2026-11-17",
-  "observed": 2963,
-  "matches": 237,
-  "new": 132,
-  "excluded_by_language": 1222,
-  "excluded_by_summer": 60,
-  "excluded_outside_europe": 678,
-  "location_unknown_or_mixed": 195,
+  "date": "2026-11-18",
+  "observed": 3917,
+  "matches": 390,
+  "new": 128,
+  "excluded_by_language": 77,
+  "excluded_by_summer": 879,
+  "excluded_outside_europe": 1614,
+  "location_unknown_or_mixed": 432,
   "history_removed": {
     "language": 0,
     "summer": 0,
     "geography": 0
   },
   "source_counts": {
-    "ATS dataset / personio": 1200,
-    "ATS dataset / softgarden": 300,
-    "ATS dataset / workable": 1200,
-    "ATS direct": 116,
-    "JobSpy / indeed": 147
+    "ATS company watchlist": 4,
+    "ATS dataset / ashby": 1200,
+    "ATS dataset / greenhouse": 1200,
+    "ATS dataset / lever": 1188,
+    "ATS direct": 115,
+    "JobSpy / indeed": 210
   },
   "source_health": {
     "attempted": 29,
-    "completed": 27,
+    "completed": 25,
     "timed_out": 1,
-    "failed_or_error": 1,
+    "failed_or_error": 3,
     "skipped_budget": 0,
     "total_sources_planned": 29,
     "sources": [
@@ -31,15 +32,15 @@
         "stage": "direct",
         "name": "Planet Labs",
         "status": "completed",
-        "count": 116,
-        "duration_seconds": 0.9
+        "count": 115,
+        "duration_seconds": 1.1
       },
       {
         "stage": "watchlist",
-        "name": "Jimmy Energy",
+        "name": "Lambda Health System",
         "status": "completed",
         "count": 0,
-        "duration_seconds": 1.8,
+        "duration_seconds": 2.1,
         "scan_info": {
           "outcome": "not_found",
           "method": "directory",
@@ -51,57 +52,45 @@
       },
       {
         "stage": "watchlist",
-        "name": "JJ Cooling Innovation",
+        "name": "Latitude",
         "status": "completed",
-        "count": 0,
-        "duration_seconds": 1.2,
-        "scan_info": {
-          "outcome": "not_found",
-          "method": "directory",
-          "resolved_url": "",
-          "raw_postings": 0,
-          "candidate_urls": [],
-          "message": "Aucune URL ATS correspondant exactement \u00e0 cette entreprise dans l'annuaire"
-        }
-      },
-      {
-        "stage": "watchlist",
-        "name": "Job Watch SA",
-        "status": "completed",
-        "count": 0,
-        "duration_seconds": 1.2,
-        "scan_info": {
-          "outcome": "not_found",
-          "method": "directory",
-          "resolved_url": "",
-          "raw_postings": 0,
-          "candidate_urls": [],
-          "message": "Aucune URL ATS correspondant exactement \u00e0 cette entreprise dans l'annuaire"
-        }
-      },
-      {
-        "stage": "watchlist",
-        "name": "Kandou",
-        "status": "completed",
-        "count": 0,
-        "duration_seconds": 1.1,
+        "count": 4,
+        "duration_seconds": 1.6,
         "scan_info": {
           "outcome": "scanned",
-          "method": "user_url",
-          "resolved_url": "https://kandou.bamboohr.com/careers",
-          "raw_postings": 0,
+          "method": "directory",
+          "resolved_url": "https://jobs.ashbyhq.com/latitude-global",
+          "raw_postings": 4,
           "candidate_urls": [
-            "https://kandou.bamboohr.com/careers"
+            "https://jobs.ashbyhq.com/latitude-global",
+            "https://jobs.lever.co/latitudeinc"
           ],
           "message": "Page ATS publique parcourue"
         }
       },
       {
         "stage": "watchlist",
-        "name": "Keolis engineering",
+        "name": "Lectra",
         "status": "completed",
         "count": 0,
-        "duration_seconds": 1.2,
+        "duration_seconds": 1.5,
+        "scan_info": {
+          "outcome": "unsupported_url",
+          "method": "directory",
+          "resolved_url": "",
+          "raw_postings": 0,
+          "candidate_urls": [
+            "https://careers.lectra.com"
+          ],
+          "message": "Connecteur ATS indisponible pour cette URL: Could not recognize an ATS from 'https://careers.lectra.com'. Custom-domain careers sites can't be resolved from the URL alone \u2014 if you know"
+        }
+      },
+      {
+        "stage": "watchlist",
+        "name": "Leica Geosystems / Hexagon",
+        "status": "completed",
+        "count": 0,
+        "duration_seconds": 1.6,
         "scan_info": {
           "outcome": "not_found",
           "method": "directory",
@@ -113,10 +102,10 @@
       },
       {
         "stage": "watchlist",
-        "name": "KeriMedical",
+        "name": "LEM",
         "status": "completed",
         "count": 0,
-        "duration_seconds": 1.2,
+        "duration_seconds": 1.5,
         "scan_info": {
           "outcome": "not_found",
           "method": "directory",
@@ -128,10 +117,10 @@
       },
       {
         "stage": "watchlist",
-        "name": "Kistler",
+        "name": "LEM Surgical AG",
         "status": "completed",
         "count": 0,
-        "duration_seconds": 1.3,
+        "duration_seconds": 1.5,
         "scan_info": {
           "outcome": "not_found",
           "method": "directory",
@@ -143,10 +132,10 @@
       },
       {
         "stage": "watchlist",
-        "name": "KNDS France / Nexter",
+        "name": "Lhyfe",
         "status": "completed",
         "count": 0,
-        "duration_seconds": 1.1,
+        "duration_seconds": 2.0,
         "scan_info": {
           "outcome": "not_found",
           "method": "directory",
@@ -158,10 +147,27 @@
       },
       {
         "stage": "watchlist",
-        "name": "Komp-ACT",
+        "name": "Liebherr",
         "status": "completed",
         "count": 0,
-        "duration_seconds": 1.2,
+        "duration_seconds": 1.4,
+        "scan_info": {
+          "outcome": "unsupported_url",
+          "method": "directory",
+          "resolved_url": "",
+          "raw_postings": 0,
+          "candidate_urls": [
+            "https://careers.liebherr.com"
+          ],
+          "message": "Connecteur ATS indisponible pour cette URL: Could not recognize an ATS from 'https://careers.liebherr.com'. Custom-domain careers sites can't be resolved from the URL alone \u2014 if you kn"
+        }
+      },
+      {
+        "stage": "watchlist",
+        "name": "Liebherr Machines Bulle SA",
+        "status": "completed",
+        "count": 0,
+        "duration_seconds": 1.7,
         "scan_info": {
           "outcome": "not_found",
           "method": "directory",
@@ -173,10 +179,10 @@
       },
       {
         "stage": "watchlist",
-        "name": "Kuhn Rikon",
+        "name": "LISI Aerospace",
         "status": "completed",
         "count": 0,
-        "duration_seconds": 1.2,
+        "duration_seconds": 1.6,
         "scan_info": {
           "outcome": "not_found",
           "method": "directory",
@@ -188,135 +194,137 @@
       },
       {
         "stage": "jobspy",
-        "name": "stage calcul de structures @ Toulouse",
+        "name": "stage ing\u00e9nieur production @ Lille",
         "status": "completed",
-        "count": 34,
+        "count": 35,
         "duration_seconds": 1.2
       },
       {
         "stage": "jobspy",
-        "name": "stage int\u00e9gration syst\u00e8mes @ Lyon",
+        "name": "stage m\u00e9canique robotique @ France",
         "status": "completed",
         "count": 35,
-        "duration_seconds": 0.9
+        "duration_seconds": 1.3
       },
       {
         "stage": "jobspy",
-        "name": "stage simulation \u00e9l\u00e9ments finis @ Grenoble",
-        "status": "completed",
-        "count": 5,
-        "duration_seconds": 0.8
-      },
-      {
-        "stage": "jobspy",
-        "name": "stage ing\u00e9nieur essais @ Nantes",
-        "status": "completed",
-        "count": 25,
-        "duration_seconds": 0.9
-      },
-      {
-        "stage": "jobspy",
-        "name": "stage R&D m\u00e9canique @ Bordeaux",
-        "status": "completed",
-        "count": 13,
-        "duration_seconds": 0.8
-      },
-      {
-        "stage": "jobspy",
-        "name": "stage mat\u00e9riaux composites @ France",
+        "name": "stage thermique CFD @ France",
         "status": "completed",
         "count": 35,
         "duration_seconds": 1.1
       },
       {
-        "stage": "discovery",
-        "name": "CaptuREE",
+        "stage": "jobspy",
+        "name": "stage ing\u00e9nieur a\u00e9ronautique @ Toulouse",
         "status": "completed",
-        "count": 0,
-        "duration_seconds": 1.2
-      },
-      {
-        "stage": "discovery",
-        "name": "Clean Horizon",
-        "status": "completed",
-        "count": 0,
-        "duration_seconds": 1.2
-      },
-      {
-        "stage": "discovery",
-        "name": "EMS Electro Medical Systems",
-        "status": "completed",
-        "count": 0,
-        "duration_seconds": 1.2
-      },
-      {
-        "stage": "discovery",
-        "name": "GraphEnergyTech",
-        "status": "completed",
-        "count": 0,
+        "count": 35,
         "duration_seconds": 1.1
       },
       {
-        "stage": "discovery",
-        "name": "Hexagon",
+        "stage": "jobspy",
+        "name": "stage conception m\u00e9canique @ Marseille",
         "status": "completed",
+        "count": 35,
+        "duration_seconds": 1.2
+      },
+      {
+        "stage": "jobspy",
+        "name": "stage ing\u00e9nieur industrialisation @ France",
+        "status": "completed",
+        "count": 35,
+        "duration_seconds": 1.3
+      },
+      {
+        "stage": "discovery",
+        "name": "Primeo Energie",
+        "status": "completed",
+        "count": 0,
+        "duration_seconds": 1.9
+      },
+      {
+        "stage": "discovery",
+        "name": "Rea Diagnostics",
+        "status": "completed",
+        "count": 0,
+        "duration_seconds": 1.4
+      },
+      {
+        "stage": "discovery",
+        "name": "Richemont",
+        "status": "error",
+        "count": 0,
+        "duration_seconds": 7.8
+      },
+      {
+        "stage": "discovery",
+        "name": "Rollomatic",
+        "status": "completed",
+        "count": 0,
+        "duration_seconds": 1.9
+      },
+      {
+        "stage": "discovery",
+        "name": "Romande Energie",
+        "status": "completed",
+        "count": 0,
+        "duration_seconds": 1.6
+      },
+      {
+        "stage": "discovery",
+        "name": "Saab",
+        "status": "error",
+        "count": 0,
+        "duration_seconds": 8.2
+      },
+      {
+        "stage": "discovery",
+        "name": "Rolls-Royce",
+        "status": "completed",
+        "count": 0,
+        "duration_seconds": 1.9
+      },
+      {
+        "stage": "discovery",
+        "name": "Schaeffler",
+        "status": "error",
         "count": 0,
         "duration_seconds": 1.5
       },
       {
-        "stage": "discovery",
-        "name": "Liebherr",
-        "status": "error",
-        "count": 0,
-        "duration_seconds": 1.1
-      },
-      {
-        "stage": "discovery",
-        "name": "Parker Meggitt",
-        "status": "completed",
-        "count": 0,
-        "duration_seconds": 1.0
-      },
-      {
-        "stage": "discovery",
-        "name": "Pilatus",
-        "status": "completed",
-        "count": 0,
-        "duration_seconds": 1.2
-      },
-      {
         "stage": "ats",
-        "name": "ATS provider: workable",
+        "name": "ATS provider: greenhouse",
         "status": "completed",
         "count": 1200,
-        "duration_seconds": 21.6
+        "duration_seconds": 79.8
       },
       {
         "stage": "ats",
-        "name": "ATS provider: personio",
-        "status": "completed",
-        "count": 1200,
-        "duration_seconds": 7.3
-      },
-      {
-        "stage": "ats",
-        "name": "ATS provider: softgarden",
-        "status": "completed",
-        "count": 300,
-        "duration_seconds": 5.6
-      },
-      {
-        "stage": "ats",
-        "name": "ATS provider: eures",
+        "name": "ATS provider: workday",
         "status": "timeout",
         "count": 0,
         "duration_seconds": 80.2
+      },
+      {
+        "stage": "ats",
+        "name": "ATS provider: lever",
+        "status": "completed",
+        "count": 1188,
+        "duration_seconds": 15.9
+      },
+      {
+        "stage": "ats",
+        "name": "ATS provider: ashby",
+        "status": "completed",
+        "count": 1200,
+        "duration_seconds": 21.7
       }
     ]
   },
   "errors": [
-    "Company discovery Liebherr: ScraperError: Could not recognize an ATS from 'https://careers.liebherr.com'. Custom-domain careers sites can't be resolved from the URL alone \u2014 if you know the platform, use get_scraper(ats, slug), or look the company up with find_company().",
-    "TIMEOUT ats / ATS provider: eures: exceeded 80s; other sources will continue"
+    "Company discovery Richemont: ScraperError: Workday gave up after 3 retries at offset=0: None",
+    "Company discovery Saab: ScraperError: Workday gave up after 3 retries at offset=160: None",
+    "Company discovery Schaeffler: ScraperError: Could not recognize an ATS from 'https://jobs.schaeffler.com'. Custom-domain careers sites can't be resolved from the URL alone \u2014 if you know the platform, use get_scraper(ats, slug), or look the company up with find_company().",
+    "TIMEOUT ats / ATS provider: workday: exceeded 80s; other sources will continue"
   ],
   "notes": "Third-party jobs must be rechecked on the official employer page."
 }
