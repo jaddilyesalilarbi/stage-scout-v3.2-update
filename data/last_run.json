@@ -1,31 +1,30 @@
 {
-  "date": "2026-11-20",
-  "observed": 2889,
-  "matches": 156,
-  "new": 18,
-  "excluded_by_language": 1230,
-  "excluded_by_summer": 73,
-  "excluded_outside_europe": 667,
-  "location_unknown_or_mixed": 111,
+  "date": "2026-11-21",
+  "observed": 3835,
+  "matches": 285,
+  "new": 22,
+  "excluded_by_language": 81,
+  "excluded_by_summer": 852,
+  "excluded_outside_europe": 1623,
+  "location_unknown_or_mixed": 280,
   "history_removed": {
     "language": 0,
     "summer": 0,
     "geography": 0
   },
   "source_counts": {
-    "ATS company discovery": 1,
-    "ATS company watchlist": 17,
-    "ATS dataset / personio": 1200,
-    "ATS dataset / softgarden": 296,
-    "ATS dataset / workable": 1200,
-    "ATS direct": 111,
-    "JobSpy / indeed": 64
+    "ATS company discovery": 28,
+    "ATS dataset / ashby": 1200,
+    "ATS dataset / greenhouse": 1200,
+    "ATS dataset / lever": 1177,
+    "ATS direct": 109,
+    "JobSpy / indeed": 121
   },
   "source_health": {
     "attempted": 29,
-    "completed": 24,
+    "completed": 28,
     "timed_out": 1,
-    "failed_or_error": 4,
+    "failed_or_error": 0,
     "skipped_budget": 0,
     "total_sources_planned": 29,
     "sources": [
@@ -33,299 +32,291 @@
         "stage": "direct",
         "name": "Planet Labs",
         "status": "completed",
-        "count": 111,
-        "duration_seconds": 1.1
-      },
-      {
-        "stage": "watchlist",
-        "name": "MCA Ing\u00e9nierie",
-        "status": "completed",
-        "count": 0,
-        "duration_seconds": 1.9,
-        "scan_info": {
-          "outcome": "not_found",
-          "method": "directory",
-          "resolved_url": "",
-          "raw_postings": 0,
-          "candidate_urls": [],
-          "message": "Aucune URL ATS correspondant exactement \u00e0 cette entreprise dans l'annuaire"
-        }
-      },
-      {
-        "stage": "watchlist",
-        "name": "McPhy",
-        "status": "completed",
-        "count": 0,
-        "duration_seconds": 1.4,
-        "scan_info": {
-          "outcome": "not_found",
-          "method": "directory",
-          "resolved_url": "",
-          "raw_postings": 0,
-          "candidate_urls": [],
-          "message": "Aucune URL ATS correspondant exactement \u00e0 cette entreprise dans l'annuaire"
-        }
-      },
-      {
-        "stage": "watchlist",
-        "name": "Mecachrome",
-        "status": "completed",
-        "count": 0,
-        "duration_seconds": 1.6,
-        "scan_info": {
-          "outcome": "not_found",
-          "method": "directory",
-          "resolved_url": "",
-          "raw_postings": 0,
-          "candidate_urls": [],
-          "message": "Aucune URL ATS correspondant exactement \u00e0 cette entreprise dans l'annuaire"
-        }
-      },
-      {
-        "stage": "watchlist",
-        "name": "METTLER TOLEDO",
-        "status": "completed",
-        "count": 11,
-        "duration_seconds": 24.8,
-        "scan_info": {
-          "outcome": "scanned",
-          "method": "user_url",
-          "resolved_url": "https://mt.avature.net",
-          "raw_postings": 11,
-          "candidate_urls": [
-            "https://mt.avature.net"
-          ],
-          "message": "Page ATS publique parcourue"
-        }
-      },
-      {
-        "stage": "watchlist",
-        "name": "Michelin",
-        "status": "error",
-        "count": 0,
-        "duration_seconds": 7.3,
-        "scan_info": {
-          "outcome": "error",
-          "method": "directory",
-          "resolved_url": "https://michelinhr.wd3.myworkdayjobs.com/michelin",
-          "raw_postings": 0,
-          "candidate_urls": [
-            "https://michelinhr.wd3.myworkdayjobs.com/michelin"
-          ],
-          "message": "ATS fetch error: ScraperError: Workday gave up after 3 retries at offset=0: None"
-        }
-      },
-      {
-        "stage": "watchlist",
-        "name": "Mikajaki",
-        "status": "completed",
-        "count": 0,
-        "duration_seconds": 1.4,
-        "scan_info": {
-          "outcome": "not_found",
-          "method": "directory",
-          "resolved_url": "",
-          "raw_postings": 0,
-          "candidate_urls": [],
-          "message": "Aucune URL ATS correspondant exactement \u00e0 cette entreprise dans l'annuaire"
-        }
-      },
-      {
-        "stage": "watchlist",
-        "name": "Mikron",
-        "status": "completed",
-        "count": 6,
-        "duration_seconds": 33.4,
-        "scan_info": {
-          "outcome": "scanned",
-          "method": "directory",
-          "resolved_url": "https://recruiting.paylocity.com/Recruiting/Jobs/All/bbccfd42-1e31-4028-9eae-6012cebdd33c",
-          "raw_postings": 6,
-          "candidate_urls": [
-            "https://recruiting.paylocity.com/Recruiting/Jobs/All/bbccfd42-1e31-4028-9eae-6012cebdd33c"
-          ],
-          "message": "Page ATS publique parcourue"
-        }
-      },
-      {
-        "stage": "watchlist",
-        "name": "MindMaze",
-        "status": "completed",
-        "count": 0,
-        "duration_seconds": 1.3,
-        "scan_info": {
-          "outcome": "not_found",
-          "method": "directory",
-          "resolved_url": "",
-          "raw_postings": 0,
-          "candidate_urls": [],
-          "message": "Aucune URL ATS correspondant exactement \u00e0 cette entreprise dans l'annuaire"
-        }
-      },
-      {
-        "stage": "watchlist",
-        "name": "MobyFly",
-        "status": "completed",
-        "count": 0,
-        "duration_seconds": 1.4,
-        "scan_info": {
-          "outcome": "not_found",
-          "method": "directory",
-          "resolved_url": "",
-          "raw_postings": 0,
-          "candidate_urls": [],
-          "message": "Aucune URL ATS correspondant exactement \u00e0 cette entreprise dans l'annuaire"
-        }
-      },
-      {
-        "stage": "watchlist",
-        "name": "Moon Surgical",
-        "status": "completed",
-        "count": 0,
-        "duration_seconds": 1.4,
-        "scan_info": {
-          "outcome": "not_found",
-          "method": "directory",
-          "resolved_url": "",
-          "raw_postings": 0,
-          "candidate_urls": [],
-          "message": "Aucune URL ATS correspondant exactement \u00e0 cette entreprise dans l'annuaire"
-        }
-      },
-      {
-        "stage": "jobspy",
-        "name": "mechatronics internship @ Neuchatel",
-        "status": "completed",
-        "count": 0,
+        "count": 109,
         "duration_seconds": 0.8
       },
       {
+        "stage": "watchlist",
+        "name": "NAAREA",
+        "status": "completed",
+        "count": 0,
+        "duration_seconds": 1.0,
+        "scan_info": {
+          "outcome": "not_found",
+          "method": "directory",
+          "resolved_url": "",
+          "raw_postings": 0,
+          "candidate_urls": [],
+          "message": "Aucune URL ATS correspondant exactement \u00e0 cette entreprise dans l'annuaire"
+        }
+      },
+      {
+        "stage": "watchlist",
+        "name": "Nanosurf",
+        "status": "completed",
+        "count": 0,
+        "duration_seconds": 0.9,
+        "scan_info": {
+          "outcome": "not_found",
+          "method": "directory",
+          "resolved_url": "",
+          "raw_postings": 0,
+          "candidate_urls": [],
+          "message": "Aucune URL ATS correspondant exactement \u00e0 cette entreprise dans l'annuaire"
+        }
+      },
+      {
+        "stage": "watchlist",
+        "name": "Naval Group",
+        "status": "completed",
+        "count": 0,
+        "duration_seconds": 0.9,
+        "scan_info": {
+          "outcome": "unsupported_url",
+          "method": "directory",
+          "resolved_url": "",
+          "raw_postings": 0,
+          "candidate_urls": [
+            "https://dcns-recrute.talent-soft.com"
+          ],
+          "message": "Connecteur ATS indisponible pour cette URL: Could not recognize an ATS from 'https://dcns-recrute.talent-soft.com'. Custom-domain careers sites can't be resolved from the URL alone \u2014 i"
+        }
+      },
+      {
+        "stage": "watchlist",
+        "name": "NEO2",
+        "status": "completed",
+        "count": 0,
+        "duration_seconds": 1.1,
+        "scan_info": {
+          "outcome": "not_found",
+          "method": "directory",
+          "resolved_url": "",
+          "raw_postings": 0,
+          "candidate_urls": [],
+          "message": "Aucune URL ATS correspondant exactement \u00e0 cette entreprise dans l'annuaire"
+        }
+      },
+      {
+        "stage": "watchlist",
+        "name": "Newcleo",
+        "status": "completed",
+        "count": 0,
+        "duration_seconds": 0.8,
+        "scan_info": {
+          "outcome": "not_found",
+          "method": "directory",
+          "resolved_url": "",
+          "raw_postings": 0,
+          "candidate_urls": [],
+          "message": "Aucune URL ATS correspondant exactement \u00e0 cette entreprise dans l'annuaire"
+        }
+      },
+      {
+        "stage": "watchlist",
+        "name": "Niryo",
+        "status": "completed",
+        "count": 0,
+        "duration_seconds": 0.9,
+        "scan_info": {
+          "outcome": "not_found",
+          "method": "directory",
+          "resolved_url": "",
+          "raw_postings": 0,
+          "candidate_urls": [],
+          "message": "Aucune URL ATS correspondant exactement \u00e0 cette entreprise dans l'annuaire"
+        }
+      },
+      {
+        "stage": "watchlist",
+        "name": "Novartis Engineering / Technical R&D",
+        "status": "completed",
+        "count": 0,
+        "duration_seconds": 0.9,
+        "scan_info": {
+          "outcome": "not_found",
+          "method": "directory",
+          "resolved_url": "",
+          "raw_postings": 0,
+          "candidate_urls": [],
+          "message": "Aucune URL ATS correspondant exactement \u00e0 cette entreprise dans l'annuaire"
+        }
+      },
+      {
+        "stage": "watchlist",
+        "name": "ONERA",
+        "status": "completed",
+        "count": 0,
+        "duration_seconds": 0.8,
+        "scan_info": {
+          "outcome": "not_found",
+          "method": "directory",
+          "resolved_url": "",
+          "raw_postings": 0,
+          "candidate_urls": [],
+          "message": "Aucune URL ATS correspondant exactement \u00e0 cette entreprise dans l'annuaire"
+        }
+      },
+      {
+        "stage": "watchlist",
+        "name": "OPmobility / Plastic Omnium",
+        "status": "completed",
+        "count": 0,
+        "duration_seconds": 1.1,
+        "scan_info": {
+          "outcome": "not_found",
+          "method": "directory",
+          "resolved_url": "",
+          "raw_postings": 0,
+          "candidate_urls": [],
+          "message": "Aucune URL ATS correspondant exactement \u00e0 cette entreprise dans l'annuaire"
+        }
+      },
+      {
+        "stage": "watchlist",
+        "name": "Orano",
+        "status": "completed",
+        "count": 0,
+        "duration_seconds": 0.9,
+        "scan_info": {
+          "outcome": "not_found",
+          "method": "directory",
+          "resolved_url": "",
+          "raw_postings": 0,
+          "candidate_urls": [],
+          "message": "Aucune URL ATS correspondant exactement \u00e0 cette entreprise dans l'annuaire"
+        }
+      },
+      {
         "stage": "jobspy",
-        "name": "engineering master thesis @ Switzerland",
+        "name": "mechatronics internship @ Netherlands",
         "status": "completed",
         "count": 27,
-        "duration_seconds": 1.0
+        "duration_seconds": 0.7
       },
       {
         "stage": "jobspy",
-        "name": "mechanical internship @ Bern",
+        "name": "mechanical intern @ Leuven",
         "status": "completed",
-        "count": 1,
-        "duration_seconds": 0.8
+        "count": 35,
+        "duration_seconds": 0.9
       },
       {
         "stage": "jobspy",
-        "name": "mechanical design internship @ Eindhoven",
+        "name": "mechanical engineering internship @ Brussels",
+        "status": "completed",
+        "count": 17,
+        "duration_seconds": 0.7
+      },
+      {
+        "stage": "jobspy",
+        "name": "industrial engineering intern @ Luxembourg",
+        "status": "completed",
+        "count": 2,
+        "duration_seconds": 0.6
+      },
+      {
+        "stage": "jobspy",
+        "name": "mechanical engineering intern @ London",
+        "status": "completed",
+        "count": 22,
+        "duration_seconds": 0.7
+      },
+      {
+        "stage": "jobspy",
+        "name": "aerospace engineering intern @ Bristol",
+        "status": "completed",
+        "count": 18,
+        "duration_seconds": 0.7
+      },
+      {
+        "stage": "discovery",
+        "name": "Bobst",
         "status": "completed",
         "count": 0,
         "duration_seconds": 0.8
       },
       {
-        "stage": "jobspy",
-        "name": "mechanical engineering internship @ Delft",
+        "stage": "discovery",
+        "name": "Swiss Solar Boat",
         "status": "completed",
-        "count": 35,
-        "duration_seconds": 1.0
+        "count": 0,
+        "duration_seconds": 0.8
       },
       {
-        "stage": "jobspy",
-        "name": "master thesis engineering @ Netherlands",
+        "stage": "discovery",
+        "name": "Navier",
         "status": "completed",
-        "count": 1,
+        "count": 0,
         "duration_seconds": 0.9
       },
       {
         "stage": "discovery",
-        "name": "CEA",
+        "name": "Aerospec",
+        "status": "completed",
+        "count": 11,
+        "duration_seconds": 3.1
+      },
+      {
+        "stage": "discovery",
+        "name": "Alpion CryoSolutions",
         "status": "completed",
         "count": 0,
-        "duration_seconds": 1.4
+        "duration_seconds": 0.9
       },
       {
         "stage": "discovery",
-        "name": "ABB",
-        "status": "error",
-        "count": 0,
-        "duration_seconds": 1.4
-      },
-      {
-        "stage": "discovery",
-        "name": "VAT Group",
-        "status": "error",
-        "count": 0,
-        "duration_seconds": 1.5
-      },
-      {
-        "stage": "discovery",
-        "name": "KeriMedical",
+        "name": "Anaconda Biomed",
         "status": "completed",
         "count": 0,
-        "duration_seconds": 1.4
+        "duration_seconds": 0.8
       },
       {
         "stage": "discovery",
-        "name": "Dassault Aviation",
-        "status": "error",
-        "count": 0,
-        "duration_seconds": 1.4
-      },
-      {
-        "stage": "discovery",
-        "name": "ClearSpace",
+        "name": "ANAVIA",
         "status": "completed",
-        "count": 1,
-        "duration_seconds": 2.5
+        "count": 13,
+        "duration_seconds": 2.7
       },
       {
         "stage": "discovery",
-        "name": "Hydromea",
+        "name": "APCO Technologies",
         "status": "completed",
-        "count": 0,
-        "duration_seconds": 1.4
-      },
-      {
-        "stage": "discovery",
-        "name": "Ecorobotix",
-        "status": "completed",
-        "count": 0,
+        "count": 4,
         "duration_seconds": 1.3
       },
       {
         "stage": "ats",
-        "name": "ATS provider: workable",
+        "name": "ATS provider: greenhouse",
         "status": "completed",
         "count": 1200,
-        "duration_seconds": 19.2
+        "duration_seconds": 24.8
       },
       {
         "stage": "ats",
-        "name": "ATS provider: personio",
-        "status": "completed",
-        "count": 1200,
-        "duration_seconds": 8.0
-      },
-      {
-        "stage": "ats",
-        "name": "ATS provider: softgarden",
-        "status": "completed",
-        "count": 296,
-        "duration_seconds": 7.1
-      },
-      {
-        "stage": "ats",
-        "name": "ATS provider: eures",
+        "name": "ATS provider: workday",
         "status": "timeout",
         "count": 0,
         "duration_seconds": 80.3
+      },
+      {
+        "stage": "ats",
+        "name": "ATS provider: lever",
+        "status": "completed",
+        "count": 1177,
+        "duration_seconds": 8.5
+      },
+      {
+        "stage": "ats",
+        "name": "ATS provider: ashby",
+        "status": "completed",
+        "count": 1200,
+        "duration_seconds": 21.6
       }
     ]
   },
   "errors": [
-    "Watchlist Michelin: ATS fetch error: ScraperError: Workday gave up after 3 retries at offset=0: None",
-    "Company discovery ABB: ScraperError: Could not recognize an ATS from 'https://careers.abb'. Custom-domain careers sites can't be resolved from the URL alone \u2014 if you know the platform, use get_scraper(ats, slug), or look the company up with find_company().",
-    "Company discovery VAT Group: ScraperError: Could not recognize an ATS from 'https://careers.vatvalve.com'. Custom-domain careers sites can't be resolved from the URL alone \u2014 if you know the platform, use get_scraper(ats, slug), or look the company up with find_company().",
-    "Company discovery Dassault Aviation: ScraperError: Could not recognize an ATS from 'https://dassault-aviation-cand.talent-soft.com'. Custom-domain careers sites can't be resolved from the URL alone \u2014 if you know the platform, use get_scraper(ats, slug), or look the company up with find_company().",
-    "TIMEOUT ats / ATS provider: eures: exceeded 80s; other sources will continue"
+    "TIMEOUT ats / ATS provider: workday: exceeded 80s; other sources will continue"
   ],
   "notes": "Third-party jobs must be rechecked on the official employer page."
 }
