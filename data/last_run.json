@@ -1,28 +1,30 @@
 {
-  "date": "2026-11-24",
-  "observed": 1413,
-  "matches": 113,
-  "new": 31,
-  "excluded_by_language": 16,
-  "excluded_by_summer": 374,
-  "excluded_outside_europe": 564,
-  "location_unknown_or_mixed": 128,
+  "date": "2026-11-25",
+  "observed": 2803,
+  "matches": 245,
+  "new": 38,
+  "excluded_by_language": 19,
+  "excluded_by_summer": 746,
+  "excluded_outside_europe": 1079,
+  "location_unknown_or_mixed": 196,
   "history_removed": {
     "language": 0,
     "summer": 0,
     "geography": 0
   },
   "source_counts": {
-    "ATS company discovery": 1,
-    "ATS dataset / greenhouse": 1200,
-    "ATS direct": 107,
-    "JobSpy / indeed": 105
+    "ATS company discovery": 34,
+    "ATS company watchlist": 117,
+    "ATS dataset / icims": 1200,
+    "ATS dataset / oracle": 1200,
+    "ATS direct": 106,
+    "JobSpy / indeed": 146
   },
   "source_health": {
     "attempted": 29,
-    "completed": 23,
-    "timed_out": 1,
-    "failed_or_error": 5,
+    "completed": 24,
+    "timed_out": 3,
+    "failed_or_error": 2,
     "skipped_budget": 0,
     "total_sources_planned": 29,
     "sources": [
@@ -30,92 +32,32 @@
         "stage": "direct",
         "name": "Planet Labs",
         "status": "completed",
-        "count": 107,
-        "duration_seconds": 0.8
+        "count": 106,
+        "duration_seconds": 1.2
       },
       {
         "stage": "watchlist",
-        "name": "Romande Energie SA",
+        "name": "Saft",
         "status": "completed",
-        "count": 0,
-        "duration_seconds": 1.4,
-        "scan_info": {
-          "outcome": "not_found",
-          "method": "directory",
-          "resolved_url": "",
-          "raw_postings": 0,
-          "candidate_urls": [],
-          "message": "Aucune URL ATS correspondant exactement \u00e0 cette entreprise dans l'annuaire"
-        }
-      },
-      {
-        "stage": "watchlist",
-        "name": "Rossignol",
-        "status": "completed",
-        "count": 0,
-        "duration_seconds": 1.9,
-        "scan_info": {
-          "outcome": "not_found",
-          "method": "directory",
-          "resolved_url": "",
-          "raw_postings": 0,
-          "candidate_urls": [],
-          "message": "Aucune URL ATS correspondant exactement \u00e0 cette entreprise dans l'annuaire"
-        }
-      },
-      {
-        "stage": "watchlist",
-        "name": "RUAG",
-        "status": "completed",
-        "count": 0,
-        "duration_seconds": 1.8,
-        "scan_info": {
-          "outcome": "not_found",
-          "method": "directory",
-          "resolved_url": "",
-          "raw_postings": 0,
-          "candidate_urls": [],
-          "message": "Aucune URL ATS correspondant exactement \u00e0 cette entreprise dans l'annuaire"
-        }
-      },
-      {
-        "stage": "watchlist",
-        "name": "Saab Bofors Dynamics Switzerland Ltd.",
-        "status": "completed",
-        "count": 0,
+        "count": 48,
         "duration_seconds": 2.0,
         "scan_info": {
-          "outcome": "not_found",
-          "method": "directory",
-          "resolved_url": "",
-          "raw_postings": 0,
-          "candidate_urls": [],
-          "message": "Aucune URL ATS correspondant exactement \u00e0 cette entreprise dans l'annuaire"
-        }
-      },
-      {
-        "stage": "watchlist",
-        "name": "Safran",
-        "status": "completed",
-        "count": 0,
-        "duration_seconds": 2.5,
-        "scan_info": {
           "outcome": "scanned",
-          "method": "directory",
-          "resolved_url": "https://safransed.bamboohr.com/careers",
-          "raw_postings": 0,
+          "method": "user_url",
+          "resolved_url": "https://careers-saft.icims.com",
+          "raw_postings": 48,
           "candidate_urls": [
-            "https://safransed.bamboohr.com/careers"
+            "https://careers-saft.icims.com"
           ],
           "message": "Page ATS publique parcourue"
         }
       },
       {
         "stage": "watchlist",
-        "name": "Safran Aircraft Engines",
+        "name": "Saint-Gobain Research",
         "status": "completed",
         "count": 0,
-        "duration_seconds": 1.9,
+        "duration_seconds": 2.6,
         "scan_info": {
           "outcome": "not_found",
           "method": "directory",
@@ -127,10 +69,27 @@
       },
       {
         "stage": "watchlist",
-        "name": "Safran Electronics & Defense",
+        "name": "Salomon",
+        "status": "completed",
+        "count": 68,
+        "duration_seconds": 4.9,
+        "scan_info": {
+          "outcome": "scanned",
+          "method": "user_url",
+          "resolved_url": "https://careers.smartrecruiters.com/Salomon",
+          "raw_postings": 68,
+          "candidate_urls": [
+            "https://careers.smartrecruiters.com/Salomon"
+          ],
+          "message": "Page ATS publique parcourue"
+        }
+      },
+      {
+        "stage": "watchlist",
+        "name": "SBB CFF FFS",
         "status": "completed",
         "count": 0,
-        "duration_seconds": 1.3,
+        "duration_seconds": 1.7,
         "scan_info": {
           "outcome": "not_found",
           "method": "directory",
@@ -142,10 +101,17 @@
       },
       {
         "stage": "watchlist",
-        "name": "Safran Landing Systems",
+        "name": "Scalian",
+        "status": "timeout",
+        "count": 0,
+        "duration_seconds": 40.0
+      },
+      {
+        "stage": "watchlist",
+        "name": "Scallog",
         "status": "completed",
         "count": 0,
-        "duration_seconds": 1.9,
+        "duration_seconds": 1.7,
         "scan_info": {
           "outcome": "not_found",
           "method": "directory",
@@ -157,10 +123,44 @@
       },
       {
         "stage": "watchlist",
-        "name": "Safran Nacelles",
+        "name": "Schaeffler",
         "status": "completed",
         "count": 0,
-        "duration_seconds": 1.9,
+        "duration_seconds": 1.4,
+        "scan_info": {
+          "outcome": "unsupported_url",
+          "method": "directory",
+          "resolved_url": "",
+          "raw_postings": 0,
+          "candidate_urls": [
+            "https://jobs.schaeffler.com"
+          ],
+          "message": "Connecteur ATS indisponible pour cette URL: Could not recognize an ATS from 'https://jobs.schaeffler.com'. Custom-domain careers sites can't be resolved from the URL alone \u2014 if you kno"
+        }
+      },
+      {
+        "stage": "watchlist",
+        "name": "Schindler",
+        "status": "completed",
+        "count": 0,
+        "duration_seconds": 1.5,
+        "scan_info": {
+          "outcome": "unsupported_url",
+          "method": "directory",
+          "resolved_url": "",
+          "raw_postings": 0,
+          "candidate_urls": [
+            "https://job.schindler.com"
+          ],
+          "message": "Connecteur ATS indisponible pour cette URL: Could not recognize an ATS from 'https://job.schindler.com'. Custom-domain careers sites can't be resolved from the URL alone \u2014 if you know "
+        }
+      },
+      {
+        "stage": "watchlist",
+        "name": "SEB Groupe",
+        "status": "completed",
+        "count": 0,
+        "duration_seconds": 1.5,
         "scan_info": {
           "outcome": "not_found",
           "method": "directory",
@@ -172,154 +172,155 @@
       },
       {
         "stage": "watchlist",
-        "name": "Safran Seats",
+        "name": "Segula Technologies",
         "status": "completed",
-        "count": 0,
-        "duration_seconds": 6.8,
+        "count": 1,
+        "duration_seconds": 1.7,
         "scan_info": {
-          "outcome": "not_found",
-          "method": "directory",
-          "resolved_url": "",
-          "raw_postings": 0,
-          "candidate_urls": [],
-          "message": "Aucune URL ATS correspondant exactement \u00e0 cette entreprise dans l'annuaire"
+          "outcome": "scanned",
+          "method": "user_url",
+          "resolved_url": "https://careers.smartrecruiters.com/segulatechnologies",
+          "raw_postings": 1,
+          "candidate_urls": [
+            "https://careers.smartrecruiters.com/segulatechnologies"
+          ],
+          "message": "Page ATS publique parcourue"
         }
       },
       {
         "stage": "jobspy",
-        "name": "robotics internship @ Copenhagen",
-        "status": "completed",
-        "count": 0,
-        "duration_seconds": 0.6
-      },
-      {
-        "stage": "jobspy",
-        "name": "mechanical engineering internship @ Oslo",
-        "status": "completed",
-        "count": 3,
-        "duration_seconds": 0.6
-      },
-      {
-        "stage": "jobspy",
-        "name": "mechanical engineering intern @ Helsinki",
-        "status": "completed",
-        "count": 2,
-        "duration_seconds": 0.6
-      },
-      {
-        "stage": "jobspy",
-        "name": "stage ing\u00e9nieur m\u00e9canique @ France",
+        "name": "stage int\u00e9gration syst\u00e8mes @ Lyon",
         "status": "completed",
         "count": 35,
-        "duration_seconds": 1.7
+        "duration_seconds": 1.3
       },
       {
         "stage": "jobspy",
-        "name": "stage conception m\u00e9canique @ Paris",
+        "name": "stage simulation \u00e9l\u00e9ments finis @ Grenoble",
         "status": "completed",
-        "count": 35,
+        "count": 5,
         "duration_seconds": 1.0
       },
       {
         "stage": "jobspy",
-        "name": "stage calcul de structures @ Toulouse",
+        "name": "stage ing\u00e9nieur essais @ Nantes",
         "status": "completed",
-        "count": 30,
-        "duration_seconds": 0.8
+        "count": 22,
+        "duration_seconds": 1.1
+      },
+      {
+        "stage": "jobspy",
+        "name": "stage R&D m\u00e9canique @ Bordeaux",
+        "status": "completed",
+        "count": 14,
+        "duration_seconds": 1.1
+      },
+      {
+        "stage": "jobspy",
+        "name": "stage mat\u00e9riaux composites @ France",
+        "status": "completed",
+        "count": 35,
+        "duration_seconds": 1.4
+      },
+      {
+        "stage": "jobspy",
+        "name": "stage ing\u00e9nieur production @ Lille",
+        "status": "completed",
+        "count": 35,
+        "duration_seconds": 1.1
       },
       {
         "stage": "discovery",
-        "name": "ABB",
+        "name": "Rollomatic",
+        "status": "completed",
+        "count": 0,
+        "duration_seconds": 1.5
+      },
+      {
+        "stage": "discovery",
+        "name": "Romande Energie",
+        "status": "completed",
+        "count": 0,
+        "duration_seconds": 1.4
+      },
+      {
+        "stage": "discovery",
+        "name": "Saab",
         "status": "error",
         "count": 0,
+        "duration_seconds": 8.3
+      },
+      {
+        "stage": "discovery",
+        "name": "Rolls-Royce",
+        "status": "completed",
+        "count": 0,
+        "duration_seconds": 1.4
+      },
+      {
+        "stage": "discovery",
+        "name": "Bosch",
+        "status": "completed",
+        "count": 4,
         "duration_seconds": 2.2
       },
       {
         "stage": "discovery",
-        "name": "VAT Group",
+        "name": "Dornier",
+        "status": "completed",
+        "count": 30,
+        "duration_seconds": 4.1
+      },
+      {
+        "stage": "discovery",
+        "name": "OHB",
         "status": "error",
         "count": 0,
-        "duration_seconds": 2.0
+        "duration_seconds": 1.5
       },
       {
         "stage": "discovery",
-        "name": "KeriMedical",
+        "name": "Beyond Gravity",
         "status": "completed",
         "count": 0,
-        "duration_seconds": 1.9
-      },
-      {
-        "stage": "discovery",
-        "name": "Dassault Aviation",
-        "status": "error",
-        "count": 0,
-        "duration_seconds": 1.9
-      },
-      {
-        "stage": "discovery",
-        "name": "ClearSpace",
-        "status": "completed",
-        "count": 1,
-        "duration_seconds": 2.9
-      },
-      {
-        "stage": "discovery",
-        "name": "Hydromea",
-        "status": "completed",
-        "count": 0,
-        "duration_seconds": 1.9
-      },
-      {
-        "stage": "discovery",
-        "name": "Ecorobotix",
-        "status": "completed",
-        "count": 0,
-        "duration_seconds": 1.8
-      },
-      {
-        "stage": "discovery",
-        "name": "Bobst",
-        "status": "completed",
-        "count": 0,
-        "duration_seconds": 1.9
+        "duration_seconds": 1.4
       },
       {
         "stage": "ats",
-        "name": "ATS provider: greenhouse",
-        "status": "completed",
-        "count": 1200,
-        "duration_seconds": 41.6
-      },
-      {
-        "stage": "ats",
-        "name": "ATS provider: workday",
+        "name": "ATS provider: smartrecruiters",
         "status": "timeout",
         "count": 0,
         "duration_seconds": 80.2
       },
       {
         "stage": "ats",
-        "name": "ATS provider: lever",
-        "status": "error",
+        "name": "ATS provider: successfactors",
+        "status": "timeout",
         "count": 0,
-        "duration_seconds": 3.8
+        "duration_seconds": 80.3
       },
       {
         "stage": "ats",
-        "name": "ATS provider: ashby",
-        "status": "error",
-        "count": 0,
-        "duration_seconds": 0.8
+        "name": "ATS provider: oracle",
+        "status": "completed",
+        "count": 1200,
+        "duration_seconds": 69.1
+      },
+      {
+        "stage": "ats",
+        "name": "ATS provider: icims",
+        "status": "completed",
+        "count": 1200,
+        "duration_seconds": 23.7
       }
     ]
   },
   "errors": [
-    "Company discovery ABB: ScraperError: Could not recognize an ATS from 'https://careers.abb'. Custom-domain careers sites can't be resolved from the URL alone \u2014 if you know the platform, use get_scraper(ats, slug), or look the company up with find_company().",
-    "Company discovery VAT Group: ScraperError: Could not recognize an ATS from 'https://careers.vatvalve.com'. Custom-domain careers sites can't be resolved from the URL alone \u2014 if you know the platform, use get_scraper(ats, slug), or look the company up with find_company().",
-    "Company discovery Dassault Aviation: ScraperError: Could not recognize an ATS from 'https://dassault-aviation-cand.talent-soft.com'. Custom-domain careers sites can't be resolved from the URL alone \u2014 if you know the platform, use get_scraper(ats, slug), or look the company up with find_company().",
-    "TIMEOUT ats / ATS provider: workday: exceeded 80s; other sources will continue",
-    "ATS source sweep lever: StorageError: Failed to download https://storage.stapply.ai/jobs/v1/lever/jobs.csv: peer closed connection without sending complete message body (received 123994112 bytes, expected 357077032)",
-    "ATS source sweep ashby: StorageError: Failed to download https://storage.stapply.ai/jobs/v1/ashby/jobs.csv: Server disconnected without sending a response."
+    "TIMEOUT watchlist / Scalian: exceeded 40s; other sources will continue",
+    "Company discovery Saab: ScraperError: Workday gave up after 3 retries at offset=240: None",
+    "Company discovery OHB: ScraperError: Could not recognize an ATS from 'https://career-ohb.csod.com/ux/ats/careersite/1/home?c=career-ohb'. Custom-domain careers sites can't be resolved from the URL alone \u2014 if you know the platform, use get_scraper(ats, slug), or look the company up with find_company().",
+    "TIMEOUT ats / ATS provider: smartrecruiters: exceeded 80s; other sources will continue",
+    "TIMEOUT ats / ATS provider: successfactors: exceeded 80s; other sources will continue"
   ],
   "notes": "Third-party jobs must be rechecked on the official employer page."
 }
