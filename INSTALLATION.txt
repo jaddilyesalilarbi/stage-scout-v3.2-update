@@ -1,0 +1,24 @@
+Stage Scout - publier le dashboard sur GitHub Pages
+
+1. Dans GitHub Desktop, selectionner le depot stage-scout-v3.2-update et la branche main.
+2. Faire Fetch origin, puis Pull origin si propose.
+3. Copier le dossier .github contenu dans cette archive a la racine du depot en fusionnant les dossiers.
+   Ne pas remplacer ou supprimer les autres workflows.
+4. Dans GitHub (navigateur), ouvrir Settings > Pages > Build and deployment.
+   Choisir Source = GitHub Actions.
+5. Dans GitHub Desktop, verifier que .github/workflows/publish-dashboard.yml est ajoute.
+   Faire Commit to main puis Push origin.
+6. Dans GitHub, ouvrir Actions > Publish Stage Scout Dashboard > Run workflow (branche main).
+7. Une fois le workflow termine (vert), dans Settings > Pages cliquer Visit site.
+   URL attendue pour un site de projet public standard :
+   https://jaddilyesalilarbi.github.io/stage-scout-v3.2-update/
+
+Le workflow regenere le dashboard depuis data/jobs.csv et ne publie QUE le dossier dashboard.
+Il se relance apres un push sur main ou apres un workflow Daily stage scout,
+Build dashboard only ou Scan all companies now termine avec succes sur main.
+
+ATTENTION : GitHub Pages est public pour les comptes personnels, meme si le depot
+source est prive (lorsque le plan permet Pages pour un depot prive).
+Les favoris, notes et statuts du dashboard actuel sont stockes dans le navigateur,
+ils ne seront pas synchronises entre ordinateur et telephone.
+Exportez le suivi JSON pour le restaurer ailleurs.

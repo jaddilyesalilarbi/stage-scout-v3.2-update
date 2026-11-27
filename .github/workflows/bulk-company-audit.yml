@@ -86,7 +86,7 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add companies.csv data/company-url-audit.csv data/bulk-audit-summary.json data/coverage.json dashboard/index.html
+          git add companies.csv data/company-url-audit.csv data/bulk-audit-summary.json data/coverage.json data/job_assessments.json dashboard/index.html
           git add -A data/jobs.csv data/latest.md data/last_run.json 2>/dev/null || true
           if ! git diff --cached --quiet; then
             git commit -m 'Run full employer ATS audit and refresh opportunities'

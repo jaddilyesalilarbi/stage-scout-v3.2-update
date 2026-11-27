@@ -13,6 +13,9 @@ from pathlib import Path
 from coverage_report import load_coverage, merge_coverage
 import re
 from job_content import safe_url
+from enrichment_state import overlay, input_signature
+from assessment_cache import update_assessments
+from company_watchlist import company_key
 
 ROOT = Path(__file__).resolve().parent
 DATA = ROOT / 'data' / 'jobs.csv'
@@ -78,6 +81,15 @@ def load_jobs(path: Path) -> list[dict]:
         raise FileNotFoundError(f'Cannot find {path}. Run the scout first to generate data/jobs.csv.')
     with path.open('r', encoding='utf-8-sig', newline='') as stream:
         records = list(csv.DictReader(stream))
+    results = {}
+    sidecar = path.with_name('job-enrichment-state.json')
+    if sidecar.exists():
+        try:
+            state = json.loads(sidecar.read_text(encoding='utf-8'))
+            if isinstance(state, dict) and state.get('version') == 1 and isinstance(state.get('results'), dict):
+                results = state['results']
+        except (OSError, ValueError):
+            pass
     jobs = []
     seen = set()
     for row in records:
@@ -88,6 +100,13 @@ def load_jobs(path: Path) -> list[dict]:
         if job_id in seen:
             continue
         seen.add(job_id)
+        result = results.get(job_id)
+        structured = {}
+        if isinstance(result, dict):
+            if (result.get('input_signature') == input_signature(row)
+                    and result.get('confidence') == 'high'):
+                structured = result.get('structured') or {}
+            row = overlay(row, result)
         url = safe_url(row.get('url'))
         try:
             score = max(0, min(100, int(float(row.get('score') or 0))))
@@ -98,6 +117,8 @@ def load_jobs(path: Path) -> list[dict]:
             'company': row.get('company') or '',
             'title': row.get('title') or '',
             'location': row.get('location') or '',
+            'language': row.get('language') or '',
+            'structured': structured,
             'country': infer_country(row.get('location') or ''),
             'kind': row.get('kind') or '',
             'duration': row.get('duration') or '',
@@ -110,16 +131,31 @@ def load_jobs(path: Path) -> list[dict]:
             'status': row.get('status') or 'To review',
             'url': url,
             'description_url': safe_url(row.get('description_url')),
+            'detail_url': safe_url(row.get('detail_url') or row.get('description_url')),
             'apply_url': safe_url(row.get('apply_url')),
             'description': row.get('description') or '',
             'description_source': row.get('description_source') or '',
             'description_status': row.get('description_status') or 'legacy_excerpt',
+            'enrichment_outcome': row.get('enrichment_outcome') or '',
+            'availability': row.get('availability') or 'unknown',
+            'enrichment_checked_at': row.get('enrichment_checked_at') or '',
+            'enrichment_error': row.get('enrichment_error') or '',
+            'enrichment_confidence': row.get('enrichment_confidence') or '',
             'why': row.get('why') or '',
             'warnings': row.get('warnings') or '',
             'description_excerpt': row.get('description_excerpt') or '',
         })
     jobs.sort(key=lambda j: (-j['score'], j['company'].casefold(), j['title'].casefold()))
     return jobs
+
+
+def assessment_profile(config):
+    """Known profile preferences; unknown language skills/nationality stay absent."""
+    profile = {'education': 'master', 'duration_months': [5, 6], 'geography': 'europe',
+               'excluded_languages': config.get('excluded_languages', ['de']),
+               'exclude_required_german': config.get('exclude_required_german', True)}
+    profile.update(config.get('assessment_profile') or {})
+    return profile
 
 
 def build(root: Path = ROOT) -> Path:
@@ -140,6 +176,14 @@ def build(root: Path = ROOT) -> Path:
     # company directory lookups; CSV edits appear after a dashboard-only build.
     config_path = root / 'config.json'
     config = json.loads(config_path.read_text(encoding='utf-8')) if config_path.exists() else {}
+    assessments, assessment_meta = update_assessments(jobs, root / 'data' / 'job_assessments.json',
+                                                     profile=assessment_profile(config))
+    priority = {company_key(name) for name in config.get('priority_companies', [])}
+    for job in jobs:
+        job['assessment'] = assessments[job['id']]
+        key = company_key(job['company'])
+        job['priority_company'] = bool(key and any(key == name or key.startswith(name + ' ')
+            or name.startswith(key + ' ') or key == name + 'group' for name in priority))
     previous = load_coverage(root)
     # One-time bootstrap from the previous 3.x run; it includes direct scans
     # but must not label empty directory lookups as completed board scans.
@@ -155,7 +199,8 @@ def build(root: Path = ROOT) -> Path:
     coverage = merge_coverage(config, root / 'companies.csv', previous,
                               source_statuses=bootstrap, today=stamp)
     meta['company_targets'] = len(coverage['companies'])
-    payload = json.dumps({'meta': meta, 'jobs': jobs, 'coverage': coverage['companies']}, ensure_ascii=False, separators=(',', ':'))
+    payload = json.dumps({'meta': meta, 'jobs': jobs, 'coverage': coverage['companies'],
+                          'assessment_meta': assessment_meta}, ensure_ascii=False, separators=(',', ':'))
     payload = payload.replace('</', '<\\/').replace('<!--', '<\\!--')
     output = template.replace('/*__CSS__*/', style).replace('/*__JS__*/', script).replace('__JOB_DATA_JSON__', payload)
     dest = root / 'dashboard' / 'index.html'

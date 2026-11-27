@@ -1,0 +1,55 @@
+name: Reclassify jobs
+
+on:
+  workflow_dispatch:
+    inputs:
+      force:
+        description: Recompute automatic assessments, preserving manual corrections
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-stage-scout
+  cancel-in-progress: false
+
+jobs:
+  classify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout latest main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Classify saved descriptions offline
+        env:
+          FORCE_ASSESSMENTS: ${{ inputs.force }}
+        run: |
+          args=()
+          if [ "$FORCE_ASSESSMENTS" = "true" ]; then args+=(--force); fi
+          python assess_jobs.py "${args[@]}"
+      - name: Publish assessments from latest history
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/job_assessments.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Reclassify saved internship missions"
+          fi
+          git fetch origin main
+          # Conflicts fail before push. Never overwrite a concurrent history.
+          git merge --no-edit origin/main
+          python build_dashboard.py
+          git add data/job_assessments.json dashboard/index.html
+          if ! git diff --cached --quiet; then
+            git commit -m "Refresh preselection from latest history"
+          fi
+          git push origin HEAD:main
